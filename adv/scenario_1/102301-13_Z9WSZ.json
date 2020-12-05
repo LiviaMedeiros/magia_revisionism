@@ -2,7 +2,7 @@
     "story": {
         "group_1": [
             {
-                "autoTurnLast": 0.2,
+                "autoTurnLast": 0.3,
                 "bg": "bg_adv_19022.jpg",
                 "chara": [
                     {
@@ -20,7 +20,8 @@
                     {
                         "effect": "ef_adv_01",
                         "id": 100501,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-1"
                     }
                 ],
                 "nameCenter": "フェリシア",
@@ -33,8 +34,8 @@
                 "autoTurnLast": 0.2,
                 "chara": [
                     {
-                        "effect": "fadeout",
-                        "id": 100501
+                        "id": 100501,
+                        "pos": 2
                     }
                 ],
                 "textClear": 1
@@ -46,7 +47,8 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 100101,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-2"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -59,7 +61,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 100501,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-3"
                     }
                 ],
                 "nameRight": "フェリシア",
@@ -71,7 +74,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 100101,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-4"
                     }
                 ],
                 "surround": "stop",
@@ -84,7 +88,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_021.exp.json",
                         "id": 100101,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-5"
                     }
                 ],
                 "surround": "7202_telepathy",
@@ -95,7 +100,8 @@
                 "chara": [
                     {
                         "id": 100501,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-6"
                     }
                 ],
                 "textRight": "んでだよ！@近くにアイツらがいるぞ！"
@@ -103,7 +109,8 @@
             {
                 "chara": [
                     {
-                        "id": 100501
+                        "id": 100501,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-7"
                     }
                 ],
                 "textRight": "プロとかミストとか、@なんか言うやつら！"
@@ -112,7 +119,8 @@
                 "chara": [
                     {
                         "id": 100101,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-8"
                     }
                 ],
                 "textLeft": "大丈夫だよ！@私たちも気付いてたから！"
@@ -121,7 +129,8 @@
                 "chara": [
                     {
                         "id": 100501,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-9"
                     }
                 ],
                 "textRight": "んじゃ、@なんで戦わねーんだよ！"
@@ -129,7 +138,8 @@
             {
                 "chara": [
                     {
-                        "id": 100501
+                        "id": 100501,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-10"
                     }
                 ],
                 "textRight": "集めたスタンプ取られたら@どーすんだよ！"
@@ -140,7 +150,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 100101,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-11"
                     }
                 ],
                 "textLeft": "えと、そっちには@興味ないと思うけど…"
@@ -150,7 +161,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_021.exp.json",
-                        "id": 100101
+                        "id": 100101,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-12"
                     }
                 ],
                 "textLeft": "でもね、あえて気付いてない@フリをしてたんだよ"
@@ -161,7 +173,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 100501,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-13"
                     }
                 ],
                 "textRight": "んんん??"
@@ -170,7 +183,8 @@
                 "chara": [
                     {
                         "id": 100101,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-14"
                     }
                 ],
                 "textLeft": "大丈夫だから信じて…@このままゴールすればいいから…"
@@ -181,7 +195,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 100501,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-15"
                     }
                 ],
                 "textRight": "むぅ…"
@@ -192,7 +207,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 100501,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-16"
                     }
                 ],
                 "textRight": "それでアイツらを@ズガンってできるんだよな？"
@@ -203,7 +219,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 100101,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-17"
                     }
                 ],
                 "textLeft": "そのチャンスは作れるはずだよ"
@@ -212,7 +229,8 @@
                 "chara": [
                     {
                         "id": 100501,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-18"
                     }
                 ],
                 "textRight": "ふんす、わかった！"
@@ -221,7 +239,8 @@
                 "chara": [
                     {
                         "id": 100501,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-19"
                     }
                 ],
                 "textRight": "んじゃハチャメチャマックスで@気付いてない演技をしてやる！"
@@ -232,7 +251,8 @@
                         "cheek": 2,
                         "face": "mtn_ex_021.exp.json",
                         "id": 100501,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-20"
                     },
                     {
                         "cheek": 0,
@@ -248,7 +268,8 @@
             {
                 "chara": [
                     {
-                        "id": 100501
+                        "id": 100501,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-21"
                     }
                 ],
                 "textRight": "ラストだもんナ！うン！"
@@ -260,7 +281,8 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 100401,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-22"
                     }
                 ],
                 "nameLeft": "さな",
@@ -271,7 +293,9 @@
                     {
                         "effect": "shake",
                         "eyeClose": 1,
-                        "id": 100501
+                        "id": 100501,
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-23"
                     }
                 ],
                 "textRight": "フシュー…フシュー…"
@@ -283,7 +307,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 101601,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-24"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -292,7 +317,8 @@
             {
                 "chara": [
                     {
-                        "id": 101601
+                        "id": 101601,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-25"
                     }
                 ],
                 "textRight": "とりあえず気付いたのが@最後だったのが救いか…"
@@ -304,7 +330,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 100101,
                         "motion": 301,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-26"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -316,7 +343,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_000.exp.json",
                         "id": 101601,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-27"
                     }
                 ],
                 "textRight": "では、自分はバイトだから@付き合えるのはここまでだ"
@@ -324,7 +352,8 @@
             {
                 "chara": [
                     {
-                        "id": 101601
+                        "id": 101601,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-28"
                     }
                 ],
                 "textRight": "健闘を祈っている"
@@ -335,7 +364,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_021.exp.json",
                         "id": 100101,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-29"
                     }
                 ],
                 "textLeft": "ありがとうございます…"
@@ -362,7 +392,8 @@
                         "id": 102001,
                         "motion": 0,
                         "pos": 2,
-                        "soulGem": 0
+                        "soulGem": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-30"
                     },
                     {
                         "cheek": 1,
@@ -381,7 +412,9 @@
                     {
                         "effect": "shake",
                         "eyeClose": 1,
-                        "id": 100501
+                        "id": 100501,
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-31"
                     }
                 ],
                 "nameLeft": "フェリシア",
@@ -394,7 +427,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 100101,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-32"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -404,7 +438,8 @@
                 "chara": [
                     {
                         "id": 102001,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-33"
                     }
                 ],
                 "textRight": "ですよね…"
@@ -435,7 +470,8 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 102301,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-34"
                     },
                     {
                         "cheek": 0,
@@ -451,7 +487,8 @@
             {
                 "chara": [
                     {
-                        "id": 102201
+                        "id": 102201,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-35"
                     }
                 ],
                 "nameLeft": "ひかる",
@@ -462,7 +499,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
-                        "id": 102201
+                        "id": 102201,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-36"
                     }
                 ],
                 "textLeft": "妙にぎこちなくなったような@気がするっす…"
@@ -473,7 +511,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 102301,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-37"
                     }
                 ],
                 "textRight": "…姉さまに連絡しておこう"
@@ -504,7 +543,8 @@
                         "face": "mtn_ex_021.exp.json",
                         "id": 100101,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-38"
                     },
                     {
                         "cheek": 0,
@@ -520,7 +560,8 @@
             {
                 "chara": [
                     {
-                        "id": 100401
+                        "id": 100401,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-39"
                     }
                 ],
                 "nameRight": "さな",
@@ -530,7 +571,8 @@
                 "chara": [
                     {
                         "id": 100101,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-40"
                     }
                 ],
                 "textLeft": "やちよさんに連絡しておくね"
@@ -538,7 +580,8 @@
             {
                 "chara": [
                     {
-                        "id": 100101
+                        "id": 100101,
+                        "voiceFullAuto": "fullvoice/section_102301/vo_full_102301-13-41"
                     }
                 ],
                 "textLeft": "今から@モーモーファームに行くって"

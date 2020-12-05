@@ -23,28 +23,36 @@
                 "narrationHAlignment": "left",
                 "narrationPosX": 150,
                 "progressNarration": "[textBlack:魔法少女が戦う時に伝わってくる]@[textBlack:パンッと弾けるような魔力の反応。]",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-1"
             },
             {
-                "progressNarration": "[textBlack:それを追って]@[textBlack:さなさんたちが居る場所に向かったけど]@[textBlack:私が着いた時には落ち着いた様子だった。]"
+                "progressNarration": "[textBlack:それを追って]@[textBlack:さなさんたちが居る場所に向かったけど]@[textBlack:私が着いた時には落ち着いた様子だった。]",
+                "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-2"
             },
             {
-                "progressNarration": "[textBlack:だけど、代わりの問題が目の前にふたつ。]"
+                "progressNarration": "[textBlack:だけど、代わりの問題が目の前にふたつ。]",
+                "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-3"
             },
             {
-                "progressNarration": "[textBlack:ヘトヘトに疲れ切った魔法少女と、]@[textBlack:グッタリと眠る魔法少女を連れて、]@[textBlack:さなさんたちはビルから降りて来たから…。]"
+                "progressNarration": "[textBlack:ヘトヘトに疲れ切った魔法少女と、]@[textBlack:グッタリと眠る魔法少女を連れて、]@[textBlack:さなさんたちはビルから降りて来たから…。]",
+                "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-4"
             },
             {
-                "progressNarration": "[textBlack:ここに居る誰も知らない]@[textBlack:神浜で初めて見るふたりの魔法少女。]"
+                "progressNarration": "[textBlack:ここに居る誰も知らない]@[textBlack:神浜で初めて見るふたりの魔法少女。]",
+                "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-5"
             },
             {
-                "progressNarration": "[textBlack:クルクルクルクルクルクルと、]@[textBlack:神浜にいる魔法少女たちだけでなく、]@[textBlack:自分たちも含めて翻弄され続けた魔法少女が、]@[textBlack:私の目の前にいた。]"
+                "progressNarration": "[textBlack:クルクルクルクルクルクルと、]@[textBlack:神浜にいる魔法少女たちだけでなく、]@[textBlack:自分たちも含めて翻弄され続けた魔法少女が、]@[textBlack:私の目の前にいた。]",
+                "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-6"
             },
             {
-                "progressNarration": "[textBlack:ふたりを調整屋に案内している時、]@[textBlack:私はまだ気付いていなかった。]"
+                "progressNarration": "[textBlack:ふたりを調整屋に案内している時、]@[textBlack:私はまだ気付いていなかった。]",
+                "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-7"
             },
             {
-                "progressNarration": "[textBlack:彼女たちが私にとって少しだけでも]@[textBlack:希望になるような人たちだということを。]"
+                "progressNarration": "[textBlack:彼女たちが私にとって少しだけでも]@[textBlack:希望になるような人たちだということを。]",
+                "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-8"
             },
             {
                 "autoTurnLast": 2,
@@ -97,7 +105,8 @@
                 "chara": [
                     {
                         "id": 100401,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-9"
                     }
                 ],
                 "nameCenter": "さな",
@@ -135,7 +144,8 @@
                         "face": "mtn_ex_010.exp.json",
                         "id": 101700,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-10"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -144,7 +154,8 @@
             {
                 "chara": [
                     {
-                        "id": 101700
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-11"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -260,7 +271,7 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 102601,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 1
                     },
                     {
                         "cheek": 0,
@@ -268,6 +279,13 @@
                         "id": 102501,
                         "motion": 100,
                         "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 102001,
+                        "motion": 0,
+                        "pos": 2
                     }
                 ]
             },
@@ -281,6 +299,10 @@
                     {
                         "effect": "fadeout",
                         "id": 102501
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 102001
                     }
                 ],
                 "textClear": 1
@@ -292,7 +314,8 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 102701,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-12"
                     },
                     {
                         "cheek": 0,
@@ -308,7 +331,8 @@
             {
                 "chara": [
                     {
-                        "id": 100401
+                        "id": 100401,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-13"
                     }
                 ],
                 "nameLeft": "さな",
@@ -321,7 +345,8 @@
                         "face": "mtn_ex_000.exp.json",
                         "id": 101601,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-14"
                     }
                 ],
                 "nameLeft": "十七夜",
@@ -334,7 +359,8 @@
                         "face": "mtn_ex_010.exp.json",
                         "id": 101700,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-15"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -347,7 +373,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 103701,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-16"
                     }
                 ],
                 "nameRight": "那由他",
@@ -360,7 +387,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 102701,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-17"
                     }
                 ],
                 "nameRight": "すなお",
@@ -369,7 +397,8 @@
             {
                 "chara": [
                     {
-                        "id": 101700
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-18"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -395,8 +424,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_052.exp.json",
                         "id": 101700,
-                        "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-19"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -405,7 +434,8 @@
             {
                 "chara": [
                     {
-                        "id": 101700
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-20"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -415,14 +445,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_050.exp.json",
                         "id": 101601,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-21"
                     }
                 ],
                 "nameRight": "十七夜",
-                "textRight": "八雲、これは…@妹も魔法少女だったのか…？"
+                "textRight": "八雲、これは…@みかげも魔法少女だったのか…？"
             },
             {
                 "chara": [
@@ -431,7 +462,8 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_032.exp.json",
                         "id": 101700,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-22"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -444,7 +476,8 @@
                         "eyeClose": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 101700,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-23"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -457,7 +490,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 103701,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-24"
                     }
                 ],
                 "nameRight": "那由他",
@@ -466,7 +500,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-25"
                     }
                 ],
                 "nameRight": "那由他",
@@ -476,7 +511,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-26"
                     }
                 ],
                 "nameRight": "那由他",
@@ -485,7 +521,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-27"
                     }
                 ],
                 "nameRight": "那由他",
@@ -495,7 +532,8 @@
                 "chara": [
                     {
                         "id": 101700,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-28"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -505,7 +543,8 @@
                 "chara": [
                     {
                         "id": 103801,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-29"
                     }
                 ],
                 "nameCenter": "みかげ",
@@ -518,7 +557,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 101601,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-30"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -530,7 +570,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_032.exp.json",
                         "id": 101700,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-31"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -543,7 +584,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 100901,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-32"
                     }
                 ],
                 "nameRight": "レナ",
@@ -552,7 +594,8 @@
             {
                 "chara": [
                     {
-                        "id": 100901
+                        "id": 100901,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-33"
                     }
                 ],
                 "nameRight": "レナ",
@@ -562,7 +605,8 @@
                 "chara": [
                     {
                         "id": 100901,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-34"
                     }
                 ],
                 "nameRight": "レナ",
@@ -572,7 +616,8 @@
                 "chara": [
                     {
                         "id": 103801,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-35"
                     }
                 ],
                 "nameCenter": "みかげ",
@@ -582,7 +627,8 @@
                 "chara": [
                     {
                         "id": 101700,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-36"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -592,7 +638,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 101700
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-37"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -605,7 +652,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 100101,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-38"
                     }
                 ],
                 "nameRight": "いろは",
@@ -614,7 +662,8 @@
             {
                 "chara": [
                     {
-                        "id": 100101
+                        "id": 100101,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-39"
                     }
                 ],
                 "nameRight": "いろは",
@@ -627,7 +676,8 @@
                         "eyeClose": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 101700,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-40"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -651,7 +701,8 @@
                 "chara": [
                     {
                         "id": 101700,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-41"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -660,7 +711,8 @@
             {
                 "chara": [
                     {
-                        "id": 101700
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-42"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -670,7 +722,8 @@
                 "chara": [
                     {
                         "id": 100101,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-43"
                     }
                 ],
                 "nameRight": "いろは",
@@ -697,7 +750,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 103701,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-44"
                     }
                 ],
                 "nameRight": "那由他",
@@ -707,7 +761,8 @@
                 "chara": [
                     {
                         "id": 100101,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-45"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -720,7 +775,8 @@
                         "face": "mtn_ex_010.exp.json",
                         "id": 100201,
                         "motion": 301,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-46"
                     }
                 ],
                 "nameRight": "やちよ",
@@ -733,7 +789,8 @@
                         "face": "mtn_ex_010.exp.json",
                         "id": 101001,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-47"
                     }
                 ],
                 "nameLeft": "ももこ",
@@ -746,7 +803,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 103701,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-48"
                     }
                 ],
                 "nameRight": "那由他",
@@ -756,7 +814,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-49"
                     }
                 ],
                 "nameRight": "那由他",
@@ -765,7 +824,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-50"
                     }
                 ],
                 "nameRight": "那由他",
@@ -777,7 +837,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 101001,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-51"
                     }
                 ],
                 "nameLeft": "ももこ",
@@ -787,7 +848,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-52"
                     }
                 ],
                 "nameRight": "那由他",
@@ -800,7 +862,8 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 101101,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-53"
                     }
                 ],
                 "nameLeft": "かえで",
@@ -809,7 +872,8 @@
             {
                 "chara": [
                     {
-                        "id": 101101
+                        "id": 101101,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-54"
                     }
                 ],
                 "nameLeft": "かえで",
@@ -819,7 +883,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-55"
                     }
                 ],
                 "nameRight": "那由他",
@@ -828,7 +893,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-56"
                     }
                 ],
                 "nameRight": "那由他",
@@ -837,7 +903,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-57"
                     }
                 ],
                 "nameRight": "那由他",
@@ -850,7 +917,8 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 100101,
                         "motion": 301,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-58"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -863,7 +931,8 @@
                         "face": "mtn_ex_001.exp.json",
                         "id": 102501,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-59"
                     }
                 ],
                 "nameLeft": "静香",
@@ -875,7 +944,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 103701,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-60"
                     }
                 ],
                 "nameRight": "那由他",
@@ -886,7 +956,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-61"
                     }
                 ],
                 "nameRight": "那由他",
@@ -898,7 +969,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 102501,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-62"
                     }
                 ],
                 "nameLeft": "静香",
@@ -908,7 +980,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-63"
                     }
                 ],
                 "nameRight": "那由他",
@@ -917,7 +990,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-64"
                     }
                 ],
                 "nameRight": "那由他",
@@ -944,7 +1018,8 @@
                         "face": "mtn_ex_051.exp.json",
                         "id": 100201,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-65_yachiyo"
                     },
                     {
                         "cheek": 0,
@@ -952,7 +1027,8 @@
                         "id": 102001,
                         "motion": 400,
                         "pos": 2,
-                        "soulGem": 0
+                        "soulGem": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-65_kagome"
                     }
                 ],
                 "nameCenter": "やちよ＆かごめ",
@@ -967,7 +1043,8 @@
                         "face": "mtn_ex_021.exp.json",
                         "id": 100201,
                         "lipSynch": 0,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-66"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -980,7 +1057,8 @@
                         "eyeClose": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 100201,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-67"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -993,7 +1071,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 103701,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-68"
                     }
                 ],
                 "nameRight": "那由他",
@@ -1006,7 +1085,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 100901,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-69"
                     }
                 ],
                 "nameLeft": "レナ",
@@ -1016,7 +1096,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-70"
                     }
                 ],
                 "nameRight": "那由他",
@@ -1027,7 +1108,8 @@
                     {
                         "eyeClose": 0,
                         "id": 103701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-71"
                     }
                 ],
                 "nameRight": "那由他",
@@ -1036,7 +1118,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-72"
                     }
                 ],
                 "nameRight": "那由他",
@@ -1049,7 +1132,8 @@
                         "face": "mtn_ex_051.exp.json",
                         "id": 100201,
                         "motion": 301,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-73"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -1061,7 +1145,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 103701,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-74"
                     }
                 ],
                 "nameRight": "那由他",
@@ -1071,8 +1156,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 100201
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-75"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -1085,7 +1172,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 103701,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-76"
                     }
                 ],
                 "nameRight": "那由他",
@@ -1094,10 +1182,9 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
                         "id": 100201,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-77"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -1107,7 +1194,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-78"
                     }
                 ],
                 "nameRight": "那由他",
@@ -1116,7 +1204,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-79"
                     }
                 ],
                 "nameRight": "那由他",
@@ -1126,7 +1215,8 @@
                 "chara": [
                     {
                         "id": 100201,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-80"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -1136,7 +1226,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 100201
+                        "id": 100201,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-81"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -1147,7 +1238,8 @@
                     {
                         "eyeClose": 0,
                         "id": 100201,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-82"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -1157,7 +1249,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-83"
                     }
                 ],
                 "nameRight": "那由他",
@@ -1169,11 +1262,12 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 100201,
-                        "motion": 301
+                        "motion": 301,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-17-84"
                     }
                 ],
                 "nameLeft": "やちよ",
-                "textLeft": "ごめんなさい…@会ったのはそれっきりなの…"
+                "textLeft": "ごめんなさい…@会ったのはそれっきりよ…"
             },
             {
                 "autoTurnLast": 2,

@@ -31,7 +31,7 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "lipSynch": 0
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-1"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -44,7 +44,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 100701,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-2"
                     }
                 ],
                 "nameRight": "灯花",
@@ -55,7 +56,8 @@
                     {
                         "eyeClose": 1,
                         "id": 103701,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-3"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -65,7 +67,8 @@
                 "chara": [
                     {
                         "id": 100701,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-4"
                     }
                 ],
                 "nameRight": "灯花",
@@ -74,7 +77,8 @@
             {
                 "chara": [
                     {
-                        "id": 100701
+                        "id": 100701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-5"
                     }
                 ],
                 "nameRight": "灯花",
@@ -85,7 +89,8 @@
                     {
                         "id": 103701,
                         "lipSynch": 0,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-6"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -97,7 +102,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 100701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-7"
                     }
                 ],
                 "nameRight": "灯花",
@@ -110,7 +116,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 100101,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-8"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -121,7 +128,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp.json",
-                        "id": 100701
+                        "id": 100701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-9"
                     }
                 ],
                 "nameRight": "灯花",
@@ -133,7 +141,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 100701,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-10"
                     }
                 ],
                 "nameRight": "灯花",
@@ -146,7 +155,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 103701,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-11"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -157,7 +167,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp.json",
-                        "id": 100701
+                        "id": 100701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-12"
                     }
                 ],
                 "nameRight": "灯花",
@@ -170,17 +181,32 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 0.7,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_060.exp.json",
                         "id": 100701,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFull": "fullvoice/section_102304/vo_full_102304-19-14"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "灯花",
-                "narrationEffect": "out",
-                "textRight": "イタッ！@[chara:100701:lipSynch_0][wait:0.8][chara:100701:cheek_0][chara:100701:face_mtn_ex_030.exp.json][chara:100701:lipSynch_1]手…なんで…？"
+                "textRight": "イタッ！@手…なんで…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701
+                    }
+                ]
             },
             {
                 "chara": [
@@ -189,9 +215,12 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 100101,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-15",
+                        "voiceFullStop": "fullvoice/section_102304/vo_full_102304-19-14"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "いろは",
                 "textLeft": "灯花ちゃん…！"
             },
@@ -202,17 +231,33 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 103701,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-16"
                     }
                 ],
                 "nameLeft": "那由他",
                 "textLeft": "その顔すら見るのも@私はイヤだったというのに…"
             },
             {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 103700,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textClear": 1
+            },
+            {
                 "autoTurnLast": 0.2,
                 "chara": [
                     {
-                        "id": 103701,
+                        "id": 103700,
                         "pos": 2
                     }
                 ],
@@ -225,7 +270,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 101700,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-17"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -235,8 +281,9 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 103701,
-                        "lipSynch": 0
+                        "id": 103700,
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-18"
                     }
                 ],
                 "nameRight": "那由他",
@@ -246,12 +293,16 @@
                 "chara": [
                     {
                         "cheek": 0,
+                        "effect": "ef_adv_05",
                         "face": "mtn_ex_030.exp.json",
                         "id": 103701,
-                        "motion": 1
+                        "motion": 1,
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-19"
                     }
                 ],
                 "nameRight": "那由他",
+                "se": "7205_magic_girl",
                 "textRight": "申し訳ないですの…"
             },
             {
@@ -275,7 +326,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 100201,
                         "motion": 301,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-20"
                     },
                     {
                         "cheek": 0,
@@ -299,7 +351,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 101601,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-21"
                     }
                 ],
                 "nameLeft": "十七夜",
@@ -309,7 +362,8 @@
                 "chara": [
                     {
                         "id": 100701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-22"
                     }
                 ],
                 "nameRight": "灯花",
@@ -318,7 +372,8 @@
             {
                 "chara": [
                     {
-                        "id": 100701
+                        "id": 100701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-23"
                     }
                 ],
                 "nameRight": "灯花",
@@ -345,7 +400,8 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 102601,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-24"
                     },
                     {
                         "cheek": 0,
@@ -364,7 +420,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_001.exp.json",
                         "id": 102501,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-25"
                     }
                 ],
                 "nameLeft": "静香",
@@ -374,7 +431,8 @@
                 "chara": [
                     {
                         "id": 102601,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-26"
                     }
                 ],
                 "nameRight": "ちはる",
@@ -387,7 +445,8 @@
                         "face": "mtn_ex_042.exp.json",
                         "id": 100201,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-27"
                     }
                 ],
                 "nameRight": "やちよ",
@@ -404,7 +463,8 @@
                             "value": 1
                         },
                         "motion": 201,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-28"
                     }
                 ],
                 "nameRight": "灯花",
@@ -413,7 +473,8 @@
             {
                 "chara": [
                     {
-                        "id": 100701
+                        "id": 100701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-29"
                     }
                 ],
                 "nameRight": "灯花",
@@ -423,7 +484,8 @@
                 "chara": [
                     {
                         "id": 100701,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-30"
                     }
                 ],
                 "nameRight": "灯花",
@@ -436,7 +498,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 103701,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-31"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -445,7 +508,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-32"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -457,7 +521,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 100701,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-33"
                     }
                 ],
                 "nameRight": "灯花",
@@ -467,7 +532,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-34"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -476,7 +542,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-35"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -486,7 +553,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-36"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -496,7 +564,8 @@
                 "chara": [
                     {
                         "id": 100701,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-37"
                     }
                 ],
                 "nameRight": "灯花",
@@ -505,7 +574,8 @@
             {
                 "chara": [
                     {
-                        "id": 100701
+                        "id": 100701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-38"
                     }
                 ],
                 "nameRight": "灯花",
@@ -515,7 +585,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-39"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -526,7 +597,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-40"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -536,7 +608,8 @@
                 "chara": [
                     {
                         "id": 100701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-41"
                     }
                 ],
                 "nameRight": "灯花",
@@ -548,7 +621,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_052.exp.json",
                         "id": 100701,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-42"
                     }
                 ],
                 "nameRight": "灯花",
@@ -561,7 +635,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 100101,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-43"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -573,7 +648,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_031.exp.json",
                         "id": 100701,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-44"
                     }
                 ],
                 "nameRight": "灯花",
@@ -582,7 +658,8 @@
             {
                 "chara": [
                     {
-                        "id": 100701
+                        "id": 100701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-45"
                     }
                 ],
                 "nameRight": "灯花",
@@ -592,7 +669,8 @@
                 "chara": [
                     {
                         "id": 100701,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-46"
                     }
                 ],
                 "nameRight": "灯花",
@@ -605,7 +683,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 103701,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-47"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -614,7 +693,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-48"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -640,7 +720,8 @@
                 "chara": [
                     {
                         "id": 100702,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-49"
                     }
                 ],
                 "nameNarration": "灯花",
@@ -654,7 +735,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
-                        "id": 100702
+                        "id": 100702,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-50"
                     }
                 ],
                 "narration": "「お医者様のパパ様は@いーっぱい人を助けられるし@わたくしも天才だから@いーっぱい人を助けられるけど」"
@@ -663,10 +745,23 @@
                 "chara": [
                     {
                         "id": 100702,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-51"
                     }
                 ],
                 "narration": "「叔父様は民俗学っていう@意味のないことばっかりなのって@恥ずかしいことじゃないかにゃー？」"
+            },
+            {
+                "autoTurnLast": 4.2,
+                "chara": [
+                    {
+                        "id": 100702,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102304/vo_full_102304-19-52"
+                    }
+                ],
+                "enableSkipAutoTurn": 1,
+                "narration": "「わたくしだって別に@パパ様の言葉を信じてたわけじゃないけど@これを見たらプーッ！って思っちゃった」"
             },
             {
                 "chara": [
@@ -676,8 +771,7 @@
                         "id": 100702,
                         "motion": 400
                     }
-                ],
-                "narration": "「わたくしだって別に@パパ様の言葉を信じてたわけじゃないけど@これを見たらプーッ！って思っちゃった」"
+                ]
             },
             {
                 "chara": [
@@ -685,9 +779,12 @@
                         "cheek": 0,
                         "face": "mtn_ex_001.exp.json",
                         "id": 100702,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-53",
+                        "voiceFullStop": "fullvoice/section_102304/vo_full_102304-19-52"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "narration": "「魔法少女　その希望と絶望」"
             },
             {
@@ -696,7 +793,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_011.exp.json",
                         "id": 100702,
-                        "motion": 201
+                        "motion": 201,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-54"
                     }
                 ],
                 "narration": "「民俗学をする人って@マンガを見過ぎてる人のことー？」"
@@ -728,7 +826,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-55"
                     }
                 ],
                 "nameRight": "那由他",
@@ -739,7 +838,8 @@
                 "chara": [
                     {
                         "id": 100101,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-56"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -756,39 +856,54 @@
                             "value": 1
                         },
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-57"
                     }
                 ],
                 "nameRight": "灯花",
                 "textRight": "ち、違うのお姉さま！"
             },
             {
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 100701
+                        "id": 100701,
+                        "voiceFull": "fullvoice/section_102304/vo_full_102304-19-58"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "灯花",
                 "textRight": "違わないけど…@でも本当に反省してるよ！"
             },
             {
                 "chara": [
                     {
-                        "cheek": 0,
                         "eyeClose": 0,
+                        "id": 100701
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 100701,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-59",
+                        "voiceFullStop": "fullvoice/section_102304/vo_full_102304-19-58"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "灯花",
                 "textRight": "だって、あの本に救われたのも@影響されたのもわたくしだし…"
             },
             {
                 "chara": [
                     {
-                        "id": 100701
+                        "id": 100701,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-60"
                     }
                 ],
                 "nameRight": "灯花",
@@ -800,7 +915,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 100701,
-                        "motion": 201
+                        "motion": 201,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-61"
                     }
                 ],
                 "nameRight": "灯花",
@@ -812,7 +928,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 100701,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-62"
                     }
                 ],
                 "nameRight": "灯花",
@@ -826,7 +943,8 @@
                         "id": 103701,
                         "lipSynch": 0,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102304/vo_full_102304-19-63"
                     }
                 ],
                 "nameLeft": "那由他",

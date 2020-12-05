@@ -11,7 +11,7 @@
                 "narrationCoverOpacity": 110,
                 "narrationEffect": "in",
                 "narrationFontSize": 30,
-                "narrationLineMargin": 35,
+                "narrationLineMargin": 10,
                 "narrationLineSpace": 20,
                 "turnChangeIn": "fadeIn",
                 "turnChangeOut": "fadeOut",
@@ -119,19 +119,25 @@
                 "textCenter": "見つけただけで十分だなんて@勝手に投げ捨てないでよ"
             },
             {
+                "autoTurnLast": 0.2,
                 "chara": [
                     {
                         "id": 100200,
-                        "pos": 0
-                    },
+                        "pos": 0,
+                        "voiceFullStop": "fullvoice/section_101604/vo_full_101604-5-8"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
                     {
                         "cheek": 1,
                         "face": "mtn_ex_030.exp.json",
                         "id": 100600,
                         "motion": 0,
                         "pos": 2,
-                        "voiceFull": "fullvoice/section_101604/vo_full_101604-5-9",
-                        "voiceFullStop": "fullvoice/section_101604/vo_full_101604-5-8"
+                        "voiceFull": "fullvoice/section_101604/vo_full_101604-5-9"
                     }
                 ],
                 "nameLeft": "やちよ",

@@ -27,7 +27,8 @@
                 "chara": [
                     {
                         "id": 102901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102302/vo_full_102302-6-1"
                     }
                 ],
                 "nameLeft": "時雨",
@@ -39,7 +40,8 @@
                     {
                         "id": 102901,
                         "lipSynch": 0,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102302/vo_full_102302-6-2"
                     }
                 ],
                 "nameLeft": "時雨",
@@ -52,7 +54,8 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_030.exp.json",
                         "id": 102901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102302/vo_full_102302-6-3"
                     }
                 ],
                 "nameLeft": "時雨",
@@ -65,24 +68,36 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 102401,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102302/vo_full_102302-6-4"
                     }
                 ],
                 "nameRight": "樹里",
                 "textRight": "なーに、ひとりで勝手に@緊張してんだよ…"
             },
             {
+                "autoTurnLast": 1.5,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 102401,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102302/vo_full_102302-6-5"
                     }
                 ],
                 "nameRight": "樹里",
                 "textRight": "アメでも食うか？@落ち着くぞ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 102401
+                    }
+                ]
             },
             {
                 "autoTurnLast": 2,

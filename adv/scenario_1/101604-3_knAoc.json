@@ -36,6 +36,7 @@
             },
             {
                 "autoTurnLast": 0.01,
+                "bg": "bg_adv_47112.jpg",
                 "chara": [
                     {
                         "cheek": 0,
@@ -56,19 +57,23 @@
                 "voiceFullStop": "fullvoice/section_101604/vo_full_101604-3-3"
             },
             {
-                "bg": "bg_adv_46104.jpg",
+                "autoTurnLast": 0.5,
                 "bgm": "bgm01_anime15",
                 "chara": [
                     {
-                        "id": 6104,
+                        "id": 6112,
                         "name": "sprite_0",
                         "pos": 0
                     }
                 ],
                 "nameLeft": "",
                 "nameRight": "いろは",
-                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeLarge]…！！！！",
                 "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.7,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashWhite2"
             },
             {
                 "chara": [
@@ -221,16 +226,29 @@
                 "textRight": "はいっ！"
             },
             {
+                "autoTurnLast": 0.2,
                 "chara": [
                     {
-                        "id": 7104,
+                        "effect": "fadeout",
+                        "id": 100600
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_101604/vo_full_101604-3-15"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 7112,
                         "name": "sprite_0",
                         "pos": 0
                     }
-                ],
-                "nameLeft": "",
-                "textLeft": "菫ｗｐ＊斬翫Лｑ!!",
-                "voiceFullStop": "fullvoice/section_101604/vo_full_101604-3-15"
+                ]
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeSmall"
             },
             {
                 "chara": [

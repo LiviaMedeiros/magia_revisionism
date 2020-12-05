@@ -39,12 +39,18 @@
                 "textCenter": "この辺りですね"
             },
             {
-                "bgm": "bgm03_story02",
+                "autoTurnLast": 0.2,
                 "chara": [
                     {
                         "id": 100100,
                         "pos": 0
-                    },
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
@@ -354,19 +360,27 @@
                 "textLeft": "魔女、この辺りです！"
             },
             {
+                "autoTurnLast": 0.2,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_021.exp.json",
                         "id": 100200,
-                        "motion": 201,
-                        "mouthOpen": 0,
+                        "motion": 0,
                         "pos": 0,
-                        "voiceFull": "fullvoice/section_101604/vo_full_101604-2-23",
                         "voiceFullStop": "fullvoice/section_101604/vo_full_101604-2-22"
                     }
                 ],
-                "flashEffect": "flashWhite2",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 201,
+                        "voiceFull": "fullvoice/section_101604/vo_full_101604-2-23"
+                    }
+                ],
                 "nameLeft": "やちよ",
                 "textLeft": "[flashEffect:flashWhite2][se:4050_landing_jump]はぁっ！"
             },
@@ -374,7 +388,7 @@
                 "autoTurnLast": 0.2,
                 "item": [
                     {
-                        "path": "resource/scenario/img/6104_rebecca_emblem.png",
+                        "path": "resource/scenario/img/6112_Oshiti_emblem.png",
                         "posX": 0,
                         "posY": 120,
                         "visible": "appear"

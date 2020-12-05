@@ -2,6 +2,16 @@
     "story": {
         "group_1": [
             {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 3,
+                        "filePath": "resource/image_native/effect/story/general/3003_act_stage.ExportJson",
+                        "zOrder": "messageBack"
+                    }
+                ],
                 "autoTurnLast": 0.2,
                 "bg": "bg_adv_11064.jpg",
                 "chara": [
@@ -490,6 +500,9 @@
                 "autoTurnLast": 1.2,
                 "bg": "black",
                 "bgm": "stop",
+                "deleteArmatureList": [
+                    3
+                ],
                 "turnChangeIn": "fadeIn",
                 "turnEffect": "stop"
             },

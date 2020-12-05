@@ -1,0 +1,817 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_50011.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm23_tokime01",
+                "chara": [
+                    {
+                        "id": 800600
+                    }
+                ],
+                "nameLeft": "ちはるの母",
+                "textLeft": "また時女集落へのお越しを@お待ちしております",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801000,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "静香の母",
+                "textLeft": "道中お気を付けて"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800900
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 801000,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ちはるの母",
+                "textLeft": "これで今日の@チェックアウトは終わり"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801000
+                    }
+                ],
+                "nameRight": "静香の母",
+                "textRight": "次の宿泊客が来るのは、@また少し先ね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800600
+                    }
+                ],
+                "textLeft": "あら、今日は来るじゃないですか@私たちの娘がね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801000
+                    }
+                ],
+                "textRight": "そういえば、そうだったわ"
+            },
+            {
+                "nameCenter": "ちはるの声",
+                "textBg": "shout",
+                "textCenter": "おかーーーさーーん！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800600
+                    }
+                ],
+                "textLeft": "ふふっ、噂をすれば"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 801000
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "slideInRightFast",
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 102601,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ちはる",
+                "textRight": "ただいまっ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800600
+                    }
+                ],
+                "textLeft": "そんな久しぶりじゃないのに@大げさなんだから"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102601,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "ちはる",
+                "textRight": "だって、実家には帰るけど@集落で会うのは久しぶりでしょ？"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 102601,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "ちはる",
+                "textRight": "ん～、それにしても、@悪意がないから気が楽だよぅ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102701,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "すなお",
+                "textLeft": "感知しないように@力を制御しなくて良いですからね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 102601,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ちはる",
+                "textRight": "それっ！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102601
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 102701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102501,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801000,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "母様、戻りました"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 801000
+                    }
+                ],
+                "nameLeft": "静香の母",
+                "textLeft": "対して静香は学校もないんだし@もう少し帰ってきたらどう？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 102501,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "[chara:102501:effect_emotion_surprise_0][se:7226_shock]いきなり説教!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801000
+                    }
+                ],
+                "textLeft": "顔を見せて@安心させろってことよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102501,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "でも…色々と自分の決意とかが@ブレそうな気がして…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801000
+                    }
+                ],
+                "textLeft": "それで、思い悩んでたら@仕方ないでしょ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801000
+                    }
+                ],
+                "textLeft": "…少し、やつれてるわよ"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 102501
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "ごめんなさい…@[chara:102501:lipSynch_0][wait:0.8][chara:102501:cheek_0][chara:102501:face_mtn_ex_050.exp.json:eyeClose_0:motion_0][chara:102501:lipSynch_1]って、どうして悩んでること…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801000
+                    }
+                ],
+                "textLeft": "すなおちゃんから聞いたの"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102701,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "すなお",
+                "textLeft": "私たちが言っても@集落に戻らないと思ったんです"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102701
+                    }
+                ],
+                "nameLeft": "すなお",
+                "textLeft": "静香って、@けっこう頑固じゃないですか"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102501,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "そうかもしれないけど…@じゃあ、ちゃるも？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 102601,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ちはる",
+                "textLeft": "ふふん、グルだよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102501,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "私が悪意を嗅ぎ取れたら@気付けたはず…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102601,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ちはる",
+                "textLeft": "悪意じゃなくて善意だよぅ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 801000,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "静香の母",
+                "textLeft": "そうそう、心配してくれたのに@失礼なこと言わないの"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102501,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "はい…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102501
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 801000
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 102701,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "すなお",
+                "textRight": "なんだか留守にしてる間に、@集落も少しだけ変わりましたね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102701
+                    }
+                ],
+                "nameRight": "すなお",
+                "textRight": "長だった神子柴が亡くなって@集落の収入もなくなって"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102701
+                    }
+                ],
+                "nameRight": "すなお",
+                "textRight": "あれから私たちも@色々と協力しましたけど…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ちはるの母",
+                "textLeft": "今は名産のだいだいっこを使った@商品も作ったりしてるし"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800600
+                    }
+                ],
+                "nameLeft": "ちはるの母",
+                "textLeft": "古い空き家を@宿にもしてるの"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "静香の母",
+                "textRight": "それに温泉への獣道も@ちゃんと整備してるところよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800600
+                    }
+                ],
+                "textLeft": "集落への道路すら@通ってないのに"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801000
+                    }
+                ],
+                "textRight": "ほんと、ふふっ"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 801000,
+                        "pos": 0
+                    }
+                ],
+                "surround": "7001_birdsong",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102501,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "少しだけ変わったけど、@でも前と雰囲気は同じまま…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 102501,
+                        "lipSynch": 0,
+                        "tear": 1
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "…………"
+            },
+            {
+                "bgm": "bgm23_tokime02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801000
+                    }
+                ],
+                "nameLeft": "静香の母",
+                "surround": "stop",
+                "textLeft": "ちょっとらしくないわね@何、泣いてるの？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102501,
+                        "motion": 400,
+                        "tear": 1
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "わからないけど、@ホッとしちゃったのよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801000
+                    }
+                ],
+                "textLeft": "本家の巫とは言っても@まだまだ子どもなんだから"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102701,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "id": 102501,
+                        "motion": 0,
+                        "tear": 0
+                    }
+                ],
+                "nameLeft": "すなお",
+                "textLeft": "それに、分家の方々に@涙なんて見せてられませんよ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ちはるの母",
+                "textLeft": "そういえば、他にも何人か@来てるって言ってたわね"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 102501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 770301,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 770201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 770202,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "少しの間、@よろしくお願いします！"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 770202
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 770301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 770201
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 103401,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "旭",
+                "textCenter": "我も少しの間、@お世話になるであります"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103401
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102601,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "ちはる",
+                "textRight": "お部屋の用意が必要だし、@お母さん、わたし手伝うよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800600
+                    }
+                ],
+                "nameLeft": "ちはるの母",
+                "textLeft": "ありがとう、ちゃる"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 102601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102501,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "静香の母",
+                "textLeft": "あなたの話はその後ね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102501,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801000
+                    }
+                ],
+                "textLeft": "頑張ってると思うよ@私の娘はさ"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

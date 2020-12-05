@@ -1,0 +1,554 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_19022.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "ef_adv_01",
+                        "id": 100501,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "フェリシア",
+                "se": "7201_detect_magic",
+                "surround": "7007_evening_townbuzz",
+                "textCenter": "んは!?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "フェ、フェリシアちゃん…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100501,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "フェリシア",
+                "textRight": "いろは！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0
+                    }
+                ],
+                "surround": "stop",
+                "textLeft": "（気付いちゃった!?）"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "motion": 400
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "textLeft": "フェリシアちゃん！@しーーー！",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "んでだよ！@近くにアイツらがいるぞ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501
+                    }
+                ],
+                "textRight": "プロとかミストとか、@なんか言うやつら！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "大丈夫だよ！@私たちも気付いてたから！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "んじゃ、@なんで戦わねーんだよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501
+                    }
+                ],
+                "textRight": "集めたスタンプ取られたら@どーすんだよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "えと、そっちには@興味ないと思うけど…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101
+                    }
+                ],
+                "textLeft": "でもね、あえて気付いてない@フリをしてたんだよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "んんん??"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "大丈夫だから信じて…@このままゴールすればいいから…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100501,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "むぅ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "それでアイツらを@ズガンってできるんだよな？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "そのチャンスは作れるはずだよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "ふんす、わかった！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "んじゃハチャメチャマックスで@気付いてない演技をしてやる！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100501,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "surround": "stop",
+                "textRight": "ヨ、ヨし…イロハ…@ツギだ…！ツギにイクゾ…！",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501
+                    }
+                ],
+                "textRight": "ラストだもんナ！うン！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100401,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "さな",
+                "textLeft": "急に固いです…！"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "eyeClose": 1,
+                        "id": 100501
+                    }
+                ],
+                "textRight": "フシュー…フシュー…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101601,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "十七夜",
+                "textRight": "叩きのめしたい衝動を@必死に押さえ込んでいるな…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601
+                    }
+                ],
+                "textRight": "とりあえず気付いたのが@最後だったのが救いか…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "傷は浅くて済みそうです…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101601,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "では、自分はバイトだから@付き合えるのはここまでだ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601
+                    }
+                ],
+                "textRight": "健闘を祈っている"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "ありがとうございます…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102001,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "あの…@大丈夫なんですか…？"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "eyeClose": 1,
+                        "id": 100501
+                    }
+                ],
+                "nameLeft": "フェリシア",
+                "textLeft": "フシュー…フシュー…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "急に状況を理解して@緊張してるんだと思う…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102001,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "ですよね…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102001
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_19022.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 102301,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 102201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "何か様子が変わった…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102201
+                    }
+                ],
+                "nameLeft": "ひかる",
+                "textLeft": "っすよね…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102201
+                    }
+                ],
+                "textLeft": "妙にぎこちなくなったような@気がするっす…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102301,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "…姉さまに連絡しておこう"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 102201
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_19022.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "さなちゃん"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "はい…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "やちよさんに連絡しておくね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textLeft": "今から@モーモーファームに行くって"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

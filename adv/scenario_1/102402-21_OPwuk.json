@@ -1,0 +1,878 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.1,
+                "bg": "black",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_13083.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102300,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102400,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "rollInLogo_Union"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 102300,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "…………",
+                "turnChangeOut": "rollOutLogo_PB"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 102300,
+                        "lipSynch": 1
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "姉ちゃん…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 102400,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "ん？"
+            },
+            {
+                "bgm": "bgm24_story02",
+                "chara": [
+                    {
+                        "id": 102300,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "この[textYellow:キモチ]はわたしにやらせて"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102400,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "どんな心境の変化だよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102300,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "誰かに支えられてでも、@ネオマギの子が少し歩き始めた…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 102300
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "姉ちゃんの言う通り、@わたしも怖がってられない"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 102300,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "覚悟を決めに行ってくる"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102400,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "イージーゲーム？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102300,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "ハードモードの@ハードゲームだよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102400,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "んじゃ、らんかと@もう何人か連れて行け"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 102300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304400,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "ネトゲ以外で@タッグを組むのは初めてじゃん"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304400
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "よろしく頼むよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102300
+                    }
+                ],
+                "nameLeft": "アオ",
+                "textLeft": "ありがとね、らんか"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 304400,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "いいって"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 304400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_13083.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6016,
+                        "name": "sprite_0",
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "",
+                "textBg": "shout",
+                "textCenter": "∵ッ―ワッァア＿ッ!!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 6016,
+                        "name": "sprite_0"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_13083.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102300,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "アオ",
+                "textLeft": "来るっ…！"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304400,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "んじゃ、アタシはサポート役に@徹してあげるわ"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_13083.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101600,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "十七夜",
+                "textLeft": "完全に脇役にされると@いささか腹立たしいな"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300300,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "都 ひなの",
+                "textRight": "こっちも人数はいる@遅れを取るわけにはいかないぞ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 304600,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "観鳥 令",
+                "textRight": "ただ、虎の子の天音姉妹が、@もうかなり辛そうだよ"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 304600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 305300,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101800,
+                        "motion": 0,
+                        "pos": 1,
+                        "posX": 40
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101900,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "牧野 郁美",
+                "textLeft": "大丈夫…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101800,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "月夜",
+                "textCenter": "ちょっと、いえ、かなり@消耗が激しいでございます…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101900
+                    }
+                ],
+                "nameRight": "月咲",
+                "textRight": "だいぶ連続で使ったからね…@[chara:101900:lipSynch_0][wait:1.0][chara:101900:cheek_0][chara:101900:face_mtn_ex_020.exp.json:motion_200][chara:101900:lipSynch_1]でも、まだ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101600,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "十七夜",
+                "textLeft": "いや、無理をしても、@この流れは変えられないだろう"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101600
+                    }
+                ],
+                "nameLeft": "十七夜",
+                "textLeft": "引き際だな…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101900
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102400,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "eyeClose": 0,
+                        "id": 101600,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "それに、妹の邪魔をするなら、@姉の樹里サマが全力で止める"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102400
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "[textYellow:キモチ]にとどめを刺すために@溜めてきた魔力だが"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 102400,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "お前たちをベリーウェルダンに@仕上げるために使ってもいいぞ"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102400
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_13083.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6016,
+                        "name": "sprite_0",
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "",
+                "textBg": "shout",
+                "textCenter": "∵ヒィイィ―イ＿ッ!!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 6016,
+                        "name": "sprite_0"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304400,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2.5,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 304400
+                    }
+                ],
+                "flashEffect": "flashWhiteSlow2",
+                "se": "7211_souljem_02"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304400
+                    }
+                ],
+                "nameCenter": "智珠 らんか",
+                "textCenter": "…ふん、攻略方法発見"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304400,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "三女、後ろの翼の付け根を狙って@たぶん体勢を崩すわよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102300,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "アオ",
+                "textCenter": "おっけ～"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102300,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "アオ",
+                "textCenter": "[flashEffect:flashWhiteSlow2]思いっきり魔力を込めて…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 102300,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "[flashEffect:flashWhite2][surround:1023A03]これがわたしの投擲スキルだー！"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 6016,
+                        "name": "sprite_0",
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6016,
+                        "name": "sprite_0"
+                    }
+                ],
+                "nameCenter": "",
+                "textBg": "shout",
+                "textCenter": "[flashEffect:flashRed2][surround:1023A04][bgEffect:shakeLarge][name:sprite_0:effect_shake]∵キィヤァッ―ァア￣ッ＿!?",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 6000,
+                        "name": "sprite_0"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102300,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "アオ",
+                "textCenter": "よし、落ちた…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102300,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "アオ",
+                "textCenter": "らんか、みんな…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102300
+                    }
+                ],
+                "nameCenter": "アオ",
+                "textCenter": "[textYellow:キモチ]は@地べたで暴れてるだけだし"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102300,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "アオ",
+                "textCenter": "このまま力を合わせて全力で!!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_13083.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304400,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "智珠 らんか",
+                "textCenter": "聞こえたわね！@みんな、行くよ！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 770001,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 770101,
+                        "motion": 200,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 770002,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "はいっ！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 770002
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 770001
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 770101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_13083.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "アオ",
+                "textCenter": "これでひとつ成長する…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102300,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "アオ",
+                "textCenter": "わたしは自分の覚悟を@固め直すんだ…！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 102300,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter3/102402_kimochi_pearl.png",
+                        "posX": -300,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "nameLeft": "",
+                "textBg": "shout",
+                "textLeft": "∵ヒィィッ!!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 102300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "まだ、動く、@[chara:102300:lipSynch_0][wait:1.0][chara:102300:cheek_0][chara:102300:face_mtn_ex_000.exp.json][chara:102300:lipSynch_1]何かわたしに仕掛けてくる…？"
+            },
+            {
+                "nameLeft": "",
+                "textBg": "shout",
+                "textLeft": "[flasEffect:flashWhite2][bgEffect:shakeSmall]∵キィ――ィ＿＿!!",
+                "turnEffect": "blackPromist"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_052.exp.json",
+                        "id": 102300,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "（あっ…危ない…@[wait:0.8][chara:102300:cheek_0][chara:102300:face_mtn_ex_030.exp.json]一瞬で心が折れそうになった…）"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter3/102402_kimochi_pearl.png",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ]
+    },
+    "version": 3
+}

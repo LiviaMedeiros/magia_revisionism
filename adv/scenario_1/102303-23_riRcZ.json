@@ -1,0 +1,1006 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21592.jpg",
+                "bgm": "bgm05_event08",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "鶴乃",
+                "textRight": "神浜の魔法少女以外も狙うなんて@これじゃあ見境なしだよ！",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "私たちが動きを見せないから@出てきたんでしょうか…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "さぁ、業を煮やした仲間を@コントロールできないなんて"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "あの三姉妹だと@考えられないんだけど…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "お待たせ、うい！"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 100100,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "…………[wait:1.0][chara:100100:motion_000][chara:100100:cheek_0][chara:100100:face_mtn_ex_050.exp.json][chara:100100:lipSynch_1]うい…？"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter2/102303_kidnapped_ui.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "時雨",
+                "narration": "―時雨―@…………",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "surround": "7003_wind",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "はぐむ",
+                "narration": "―はぐむ―@…………"
+            },
+            {
+                "nameNarration": "いろは",
+                "narration": "―いろは―@時雨ちゃん…@はぐむちゃん…？"
+            },
+            {
+                "narration": "―いろは―@あの子はどこに行ったの？"
+            },
+            {
+                "nameNarration": "鶴乃",
+                "narration": "―鶴乃―@まさか…うそだよね…"
+            },
+            {
+                "nameNarration": "やちよ",
+                "narration": "―やちよ―@宮尾さん、安積さん@ウソを吐かないで教えて！"
+            },
+            {
+                "nameNarration": "やちよ",
+                "narration": "―やちよ―@ういちゃんは…！"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21592.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 103000,
+                        "motion": 0,
+                        "pos": 2,
+                        "tear": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102900,
+                        "motion": 0,
+                        "pos": 0,
+                        "tear": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter2/102303_kidnapped_ui.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103000,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "ッ…@ごめんなさい…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103000
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "守れなかった…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 103000,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "あの子は、襲われてる@フリをしてただけなんです…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "じゃあ、もしかして…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103000,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "はい…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "鶴乃",
+                "textLeft": "プロミストブラッドのひとり…@[chara:100300:lipSynch_0][wait:1.0][chara:100300:motion_200][chara:100300:lipSynch_1]さらわれたっていうこと…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "そんな…"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "surround": "stop",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21173.jpg",
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 1.4
+            },
+            {
+                "autoTurnLast": 1.5,
+                "turnChangeOut": "fadeOut",
+                "turnChangeOutTime": 1.4
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21393.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102901,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 103001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm23_magus05",
+                "chara": [
+                    {
+                        "id": 102901,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "無理だ無理だ無理だ無理だ…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "もう、ぼく、環いろはにも@誰にも合わせる顔がない…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "私も一緒だよ…@ユニオンと一緒には居られない…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "取り返しが付かないこと@しちゃった…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "id": 102901,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "でも…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "仕方ないじゃない…"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21592.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 103600,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 101501,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103600,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "？？？",
+                "textLeft": "こうして糸で@ぐるぐる巻いちゃって",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 103600,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "？？？",
+                "textLeft": "ヨーヨーでピンと止めれば、@人質のできあがりなんよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 101501,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "うい",
+                "textRight": "むぅ…むぅ…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 102900,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "ういちゃん…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103000,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "その子はだめ！@離して！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 103600,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "？？？",
+                "textLeft": "[chara:103000:effect_7000_attack01][se:3001_chara_damage]騒ぐのは良くないんよ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 103000,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "[chara:103000:effect_7002_damage01][se:3001_chara_damage][bgEffect:shakeSmall]った！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_03.exp.json",
+                        "id": 103600,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "？？？",
+                "textLeft": "長女さんと次女さんに@オシオキされるんよ…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103600
+                    }
+                ],
+                "nameLeft": "？？？",
+                "textLeft": "邪魔をするなって@言われたはずなんよね？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103000,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "[chara:103000:effect_emotion_surprise_0][se:7226_shock]――っ!?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21393.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103001,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102901,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "あの時、樹里さんがメッセージで@釘を刺してきたのは",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "みかづき荘に@呼ばれたことじゃなくて"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "ういちゃんを、@さらうことだった…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "何もしなかった…@ぼくたち何もできなかった…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "id": 102901,
+                        "pos": 0,
+                        "tear": 1
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "うっ…うぅ…"
+            },
+            {
+                "bgm": "stop",
+                "nameCenter": "？？？",
+                "textCenter": "あなたたちがネオマギウス？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 102901,
+                        "lipSynch": 0,
+                        "motion": 400
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103001,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "[chara:102901:effect_emotion_surprise_0][se:7226_shock]――っ!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "だれ…"
+            },
+            {
+                "bgm": "bgm23_magus01",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "？？？",
+                "textRight": "魔法少女至上主義とか@言ってるから"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102800,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "？？？",
+                "textRight": "どんなとんがった人かと@思ったけど～"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 102800,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "？？？",
+                "textRight": "ちょーダサいじゃん@キャハッ★"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103001,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102901,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "ほっといて…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "？？？",
+                "textRight": "ねぇねぇ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 102800,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "？？？",
+                "textRight": "私チャンが天辺に@連れてってあげよっか？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 102901,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "え…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102800,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "？？？",
+                "textRight": "とりあえず自己紹介"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102800
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "私チャンの名前は@[textRed:藍家ひめな]（あいか　ひめな）"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 102800,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "とりま、よろ～★"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103001,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "な、なんなの…？"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgm": "stop",
+                "surround": "stop",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "black",
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "white",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "[textBlack:―取材記録―@由比　鶴乃]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 0.2
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40
+                    }
+                ],
+                "item": [
+                    {
+                        "iPhoneXScale": 1,
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "bgm": "bgm20_song10",
+                "chara": [
+                    {
+                        "id": 100301
+                    }
+                ],
+                "nameNarration": "鶴乃",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 80,
+                "progressNarration": "[textBlack:「わたしが望んでいること…」]",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 1
+                    }
+                ],
+                "progressNarration": "[textBlack:「うーーーん…？」]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "motion": 101
+                    }
+                ],
+                "progressNarration": "[textBlack:「最強の魔法少女！]@[textBlack:それにやっぱり色んな偉業を成し遂げて]@[textBlack:由比家を再興させることだよね！」]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301
+                    }
+                ],
+                "progressNarration": "[textBlack:「っていうのは今でもあるんだけど」]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 1
+                    }
+                ],
+                "progressNarration": "[textBlack:「本当に望んでるのは出会った人の幸せかなぁ]@[textBlack:やっぱりわたしと知り合った人にはね]@[textBlack:幸せになって欲しいんだよ！」]"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ],
+                "progressNarration": "[textBlack:「そして！その幸せにする行動の果てに]@[textBlack:わたしの偉業が何かしら生まれる！」]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 101
+                    }
+                ],
+                "progressNarration": "[textBlack:「つまり、わたしが望むのはみんなの幸せで]@[textBlack:幸せにするのはわたし！]@[textBlack:わたしが幸せにすれば偉業が生まれて！」]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "motion": 201
+                    }
+                ],
+                "progressNarration": "[textBlack:「最強の由比鶴乃が完成するのだーーーー！」]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 0
+                    }
+                ],
+                "progressNarration": "[textBlack:「たぶん、その幸せって]@[textBlack:大金持ちになったりとかは関係なくて]@[textBlack:その辺に転がってる平穏な日常だと思う」]"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 100
+                    }
+                ],
+                "progressNarration": "[textBlack:「わたしにとってはお父さんとフェリシアと]@[textBlack:一緒に万々歳を切り盛りして]@[textBlack:みかづき荘に遊びにいったりすることだよね」]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "id": 100301,
+                        "motion": 300
+                    }
+                ],
+                "progressNarration": "[textBlack:「みんなにもきっと]@[textBlack:そういう大切な幸せな日常があると思うし]@[textBlack:もっと最強な未来の日常があるかもしれない」]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100301,
+                        "motion": 201
+                    }
+                ],
+                "progressNarration": "[textBlack:「それを邪魔するヤツが現れたら]@[textBlack:その時こそ、最強の魔法少女である由比鶴乃が]@[textBlack:偉業を成し遂げる時！」]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ],
+                "progressNarration": "[textBlack:「この身を賭して]@[textBlack:みんなの幸せを守っちゃうよ！」]"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

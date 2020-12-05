@@ -1,0 +1,649 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.1,
+                "bg": "black",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_16133.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102201,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInLogo_Union"
+            },
+            {
+                "bgm": "bgm23_promised03",
+                "chara": [
+                    {
+                        "id": 102201,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "ひかる",
+                "textCenter": "神浜の連中に動きがないのに、@残されるなんて不安すよ！",
+                "turnChangeOut": "rollOutLogo_PB"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102201
+                    }
+                ],
+                "textCenter": "なんでまた@二木に戻るんすか！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102201
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 102301,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102401,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "珍しくひかるが@駄々っ子になってる～"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "姉さんが仲間に呼ばれたって、@聞いた瞬間からこれだっつーの"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102401
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 102301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102201,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "いやっす！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102101,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "仕方ないじゃなぃ…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102101
+                    }
+                ],
+                "textLeft": "私も樹里も@呼び出されてしまったんだもの…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102201,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "なら、ひかるも@結菜さんと帰るっす！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102401,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "あーもう…@無理だって言ってるだろ駄馬！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102201,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "暴言す！@樹里さんが暴言吐いたっす！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102201
+                    }
+                ],
+                "textRight": "ひかるは結菜さんの@優しさに触れないともう…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102101,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "ひかるぅ…"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 102201,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "くぅん…だってぇ…"
+            },
+            {
+                "bgm": "bgm23_promised02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102101
+                    }
+                ],
+                "textLeft": "安心しなさぃ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102101
+                    }
+                ],
+                "textLeft": "仲間を迎えに行くだけで@すぐに戻ってくるわぁ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 102101,
+                        "motion": 200
+                    },
+                    {
+                        "id": 102201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "それに、今は石を集める局面で@命をすり減らす時じゃない…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102101,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "地理の理解が追いつかない神浜で@私たちはただでさえ不利なのに"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102101
+                    }
+                ],
+                "textLeft": "衝突が減って、情報も@入らなくなるのは痛手なのよぉ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 102201,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "むぅ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 102101,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "放っておけば、神浜の連中は@間違いなく動きを見せるはず…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102101
+                    }
+                ],
+                "textLeft": "ここで差をつけられないためにも@情報は掴んでおきたいわぁ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102101,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "だからお願い"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102101
+                    }
+                ],
+                "textLeft": "アオと一緒に神浜の連中を@見ておいてちょうだぃ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 102301,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "そうだね、チラッと@気になることも言ってたし…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_19152.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102200,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "うい",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "うい",
+                "textRight": "な、なに…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "ういは誰よりも早く、@不思議な魔力に気付いたよね？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "うん…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500
+                    }
+                ],
+                "textRight": "どうしてかはわからないけど、@見つけられたよ…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_16133.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102101,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102301,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "クスッ",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102201,
+                        "motion": 300,
+                        "pos": 2,
+                        "tear": 1
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "わかったっす"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 102201,
+                        "tear": 1
+                    }
+                ],
+                "textRight": "結菜さんがひかるを必要として、@神浜に残すのであれば"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102201,
+                        "motion": 100,
+                        "tear": 0
+                    }
+                ],
+                "textRight": "この煌里ひかる"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102201
+                    }
+                ],
+                "textRight": "アオさんと一緒に@役目を立派にやり遂げるっす！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102101,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "わかってくれて良かったわぁ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 102201,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "樹里さん！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102201
+                    }
+                ],
+                "textRight": "もう、駄馬とは@言わせないっすからね！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102401,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "馬はいいのかよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102201,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "アオさん！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102301,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "アオ",
+                "textLeft": "ん～？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 102201
+                    }
+                ],
+                "textRight": "アオさんのことは、@ひかるがしっかり守るっすよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102301
+                    }
+                ],
+                "textLeft": "今さら説得力ないよ～"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102301,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "ま、何か隠してることがあるなら@わたしたちで暴いてやろう"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102201,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "っす！"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgm": "stop",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_21073.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 102001,
+                        "motion": 0,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "turnChangeIn": "rollInLogo_PB"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "turnChangeOut": "rollOut"
+            },
+            {
+                "nameNarration": "",
+                "narration": "[se:7106_telmail]ピロン♪",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 102001,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "かごめ",
+                "narrationEffect": "out",
+                "textCenter": "あれ、メッセージ？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102001,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "アルちゃん",
+                "textCenter": "＜やちよさんからだね＞"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102001,
+                        "lipSynch": 1
+                    }
+                ],
+                "nameCenter": "かごめ",
+                "textCenter": "うん、なんだろう"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

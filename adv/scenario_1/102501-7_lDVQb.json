@@ -1,0 +1,115 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_11023.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100202,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102400,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm22_battle09",
+                "chara": [
+                    {
+                        "id": 100202,
+                        "motion": 201
+                    }
+                ],
+                "nameRight": "やちよ",
+                "textRight": "あなた、人の家に土足で…！@っていうか窓ガラス!!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 102400,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "警告をするには@インパクトが肝心だろ？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100202
+                    }
+                ],
+                "nameRight": "やちよ",
+                "textRight": "そんなくだらない理由で…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100202,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "やちよ",
+                "textRight": "周りには他にも家があるのに、@信じられないわ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 102400,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "そりゃあ、魔法少女として@一般人に迷惑はかけたくねーけど"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102400
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "それはお前らの@返答次第ってところだな"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 102400,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "id": 100202,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "最悪、思い出ごと@燃やしてやるよ"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

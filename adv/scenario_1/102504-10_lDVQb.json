@@ -1,0 +1,49 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_24031.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300700,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm21_system03",
+                "chara": [
+                    {
+                        "id": 300700,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "保澄 雫",
+                "textRight": "良く見たら魔女の結界とは@少しだけ違う…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300700
+                    }
+                ],
+                "nameRight": "保澄 雫",
+                "textRight": "さっき感じたのは@魔法少女の魔力だったような…"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

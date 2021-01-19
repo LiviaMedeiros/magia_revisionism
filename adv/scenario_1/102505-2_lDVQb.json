@@ -1,0 +1,966 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_21011.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103801,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "はぁ…@何とか運んで来られたんですの",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103801
+                    }
+                ],
+                "nameRight": "みかげ",
+                "textRight": "ミィ、疲れちゃったぁ…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 103801,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "おふたりとも@本当にありがとうございます"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "バスを使うとは言っても@結構な量でしたので助かりました"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 103801,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みかげ",
+                "textLeft": "３人とも両手@いっぱいだったもんね、クスッ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "ただ、他のお客様には@迷惑をかけてしまったんですの…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100802,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "サンキュー"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "あ、この間の…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100802,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "買い忘れたものとかないヨネ？"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "motion": 0,
+                        "pos": 1,
+                        "posX": -30
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameCenter": "月咲",
+                "textCenter": "はい、ないと思いますけど…@[chara:101901:lipSynch_0][wait:0.8][chara:101901:cheek_0][chara:101901:face_mtn_ex_020.exp.json:motion_200][chara:101901:lipSynch_1]じゃなくてっ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "nameCenter": "月咲",
+                "textCenter": "ウチらはアリナさん監視役で@小間使いじゃないんだからね？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101801,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "月夜",
+                "textLeft": "ねーっ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100802,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "じゃあリジェクションして@買いに行かなければいいワケ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901
+                    }
+                ],
+                "nameLeft": "月夜",
+                "textLeft": "むぅぅ…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100802,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 103801,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "っていうか、アリナの@知らない顔があるんですケド？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100802
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "ん、前に会ったことある…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 103801,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みかげ",
+                "textLeft": "この間、ミィ@絵のモデルさんしたよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100802,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "あーオーケー"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100802,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "そしてアナタは確か、@ラビリンスで迷ってた人だヨネ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "一応、そうですの…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100802,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "先に言っておくけど、@アリナが言えることはないカラ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "[chara:103701:effect_emotion_surprise_0][se:7226_shock]――っ!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100802
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "アリナも無駄な地図を作ってる@余裕はないワケ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100802,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "あ、みふゆたちと一緒に@マテリアルを運んでくれる？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "えっ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100601,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "ごめんなさい@また、巻き込んでしまって…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "いえ…"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bgm": "stop",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_11022.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100601,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 103701,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 1.2
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "id": 100601,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "ほんと、アリナのワガママに@付き合わせてしまって…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100601
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "申し訳ございませんでした…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100601,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "確かお父様を@捜されている途中でしたよね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "そうですの"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "病院の院長が父の兄でして、@話を伺いに来たこともありますし"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "ここには色々と@縁があるんですの"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "月咲",
+                "textRight": "じゃあ、月夜ちゃん"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "月夜",
+                "textLeft": "そうでございますね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801
+                    }
+                ],
+                "nameLeft": "月夜",
+                "textLeft": "やちよさんたちが言ってた方で@ございますよ"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    },
+                    {
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 1,
+                        "posX": 30
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "あっ、皆さん@話を聞いてたんですね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101901,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "月咲",
+                "textRight": "うん"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "nameRight": "月咲",
+                "textRight": "灯花さんの従姉妹の@里見那由他ちゃんと"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "月夜",
+                "textCenter": "みたまさんの妹の@八雲みかげちゃんでございます"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 103801,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みかげ",
+                "textLeft": "うんっ、ミィみかげだよっ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "（灯花さん…？）",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 100
+                    },
+                    {
+                        "id": 101901,
+                        "motion": 1
+                    }
+                ],
+                "nameCenter": "月夜",
+                "textCenter": "それにお父様が民俗学者だとも@伺っているでございます",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "nameRight": "月咲",
+                "textRight": "みふゆさんのことも@取材してたんだよね？"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100601,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "ええ、やっちゃんと一緒に"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100601,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "[chara:103701:effect_emotion_surprise_0][se:7226_shock]えっ、では、@あなたが梓みふゆさん!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103801,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みかげ",
+                "textLeft": "なゆたんパパのこと知ってる!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "えっと、@落ち着いてください…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "ワタシもやっちゃんと同じで@会ったのは取材の時だけですから"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100601
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "これといってお父様の話は@存じ上げないんです…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "そうですの…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103801,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "みかげ",
+                "textRight": "今は防犯カメラの映像に@頼るしかないのかな？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "解析して他に何か映ってないか@探るしかなさそうですの…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "月咲",
+                "textRight": "あんまり@順調じゃなさそうだね…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "そうなんですの…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 103701,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "それに、調べていると@父の動きに不自然な点もあって"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "捜して欲しくない@可能性もあるんですの…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "月咲",
+                "textRight": "捜して欲しくない…か…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "そうですの…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "nameRight": "月咲",
+                "textRight": "自分で居なくなったなら、@たしかにそれはありそうだけど"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101801,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "月夜",
+                "textRight": "これといった理由は@わからないでございますか？"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "そうですね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103801,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "みかげ",
+                "textRight": "ミィは、@ちょっとだけわかるかも"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 103701,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "なんですか？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103801
+                    }
+                ],
+                "nameRight": "みかげ",
+                "textRight": "姉ちゃがミィに魔法少女の話を@しなかったのと同じかなーって"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "同じ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "知られたくなかった…@いえ、巻き込みたくなかった…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103801,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "みかげ",
+                "textRight": "うん"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100601,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "避けることが親心…@なのかもしれませんね…"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

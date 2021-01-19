@@ -1,0 +1,863 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_21171.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_13031.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_21221.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300701,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300701
+                    }
+                ],
+                "nameCenter": "保澄 雫",
+                "surround": "7006_cafe",
+                "textCenter": "お待たせしました",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "保澄 雫",
+                "narration": "「ブレンドがおふたつ」",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100201
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narration": "「カフェラテがひとつ」"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "narration": "「ミックスジュースがおひとつに」"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100301
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102201,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "live2dParam": [],
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "narration": "「クリームソーダがおふたつと」"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102201
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narration": "「アメリカンがおひとつですね」"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302101
+                    }
+                ],
+                "narrationEffect": "out"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300701,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "保澄 雫",
+                "textCenter": "以上で全部お揃いでしょうか？"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 300701,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "うん、ありがとう@雫ちゃん"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300701,
+                        "motion": 101,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "保澄 雫",
+                "textRight": "ううん、@ゆっくりしていってね"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    }
+                ],
+                "surround": "stop"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "ひかる",
+                "textLeft": "話合いをするのに、@仲間の店を選ぶだなんて"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102201,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "ひかる",
+                "textLeft": "警戒されたもんすね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302101,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "鈴鹿 さくや",
+                "textRight": "当然と言えば当然だけど、@あまり気分は良くないよね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "ごめんなさい@そんなに深い意味はないの"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "良く知ってる喫茶店って、@ここぐらいしかなくて"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "それに事情がわかる相手だから@周りの目が気にならないでしょ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302101,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "鈴鹿 さくや",
+                "textRight": "それはそうかもね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "ういからコンテナターミナルに@着いたって連絡が来たんですけど"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "そっちでも@確認は取れましたか？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102201,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "長女さんから連絡が来たっす"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102201,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "深月フェリシアと二葉さなが@一緒みたいっすけど"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102201
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "ひとりだと逆に不審だから@問題ないということっす"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "よかった"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "鈴鹿 さくや",
+                "textRight": "じゃあ、さっそくだけど@始めようか"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "はい"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302101,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "鈴鹿 さくや",
+                "textRight": "まず、単刀直入に聞くけどさ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302101
+                    }
+                ],
+                "nameRight": "鈴鹿 さくや",
+                "textRight": "この冷え切った状況の中で@どう手を取り合うつもりなの？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102201,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "お人良し過ぎる環さんが@突飛なことを言うのはわかるっす"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102201
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "けど、二木の恨みは@簡単に消えるもんじゃないんすよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "だよね…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100101
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "だから私も色々と考えてみて、@ひとつだけ答えは出したつもり"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "でも、それを伝える前に、@私がふたりにできる約束で"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "納得をしてもらえないかなって…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "鈴鹿 さくや",
+                "textRight": "約束…？"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "うん、二木の人たちをみんな、@魔法少女の宿命から解放するって"
+            },
+            {
+                "bgm": "bgm03_story07",
+                "chara": [
+                    {
+                        "id": 302101,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "鈴鹿 さくや",
+                "textRight": "なっ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_042.exp.json",
+                        "id": 102201,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "それで納得しろって@言ってるんすか？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100301,
+                        "motion": 101,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "鶴乃",
+                "textLeft": "わたしたちの目的は、@世界中の魔法少女を救うこと"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "鶴乃",
+                "textLeft": "それは二木の人も分け隔てなく@平等に救うことなんだよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 102201,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "そう、だから自動浄化システムを@復讐のために奪うつもりなら"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "その復讐の刃を収めて、みんなを@救う方に向けられないかしら…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302101,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "鈴鹿 さくや",
+                "textRight": "ユニオンは難しい話をするね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302101
+                    }
+                ],
+                "nameRight": "鈴鹿 さくや",
+                "textRight": "ただ、こっちに我慢しろって@言ってるようなもんだよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102201,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "どうして、その約束で@納得できると思えたんすか…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "私たちに向ける刃が鋭利なほど、@紅晴さんは優しいって思えたから"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 102201,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "[chara:102201:effect_emotion_surprise_0][se:7226_shock]――っ!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "きっと紅晴さんは凄く優しい…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100101
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "じゃないと仲間のために、@あそこまで怒れないと思う…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "だから、もしかしたら、@最後に気持ちが変わるかもって"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102201,
+                        "lipSynch": 1,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "無理っす"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102201
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "ひかるの恨みも@さくやさんの嘆きも"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102201
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "みんなの悲しみも@結菜さんの怒りも"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102201,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "ただの言葉じゃ収まらないし、@不信感も消えないんすよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102201,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひかる",
+                "textRight": "特に結菜さんは優し過ぎるから@鬼のようになったんすよ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "やっぱり交渉である以上は、@私たちが提示できるものが必要ね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302101,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "鈴鹿 さくや",
+                "textRight": "当然だと思うよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302101,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "鈴鹿 さくや",
+                "textRight": "ユニオンは争いを止める代わりに@どうやって私たちを止めるのか"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302101
+                    }
+                ],
+                "nameRight": "鈴鹿 さくや",
+                "textRight": "どうやって私たちを癒やすのか@我慢を強いる以上は必要だね"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100201
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "live2dParam": [],
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101403,
+                        "live2dParam": [],
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "灯花＆ねむ",
+                "textCenter": "…………"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

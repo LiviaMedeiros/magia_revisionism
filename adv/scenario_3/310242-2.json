@@ -23,7 +23,7 @@
                 "turnChangeIn": "fadeIn"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 1,
                 "bgm": "bgm05_event09",
                 "chara": [
                     {
@@ -34,11 +34,22 @@
                 ],
                 "nameLeft": "樹里",
                 "textBg": "shout",
-                "textLeft": "[flashEffect:explosion]っ、らぁああッ!![surround:1024A04][chara:770081:effect_7000_attack01]",
+                "textLeft": "[flashEffect:explosion]っ、らぁああッ!!",
                 "turnChangeOut": "fadeOut"
             },
             {
-                "autoTurnLast": 0.8,
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "7000_attack01",
+                        "id": 770081
+                    }
+                ],
+                "surround": "1024A04",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
                 "bgEffect": "shakeSmall",
                 "chara": [
                     {
@@ -48,8 +59,7 @@
                         "id": 770081
                     }
                 ],
-                "surround": "1024A05",
-                "textClear": 1
+                "surround": "1024A05"
             },
             {
                 "chara": [

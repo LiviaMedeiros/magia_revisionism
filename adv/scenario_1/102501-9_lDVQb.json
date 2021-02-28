@@ -147,7 +147,10 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 100701,
-                        "live2dParam": [],
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
                         "motion": 1,
                         "pos": 0
                     }
@@ -835,7 +838,10 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_020.exp.json",
                         "id": 100701,
-                        "live2dParam": [],
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
                         "motion": 0,
                         "pos": 0
                     },
@@ -844,7 +850,10 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_020.exp.json",
                         "id": 101403,
-                        "live2dParam": [],
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
                         "motion": 0,
                         "pos": 2
                     }

@@ -1,0 +1,992 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21181.jpg",
+                "bgm": "bgm01_anime08",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100800,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800
+                    }
+                ],
+                "nameCenter": "アリナ",
+                "textCenter": "アリナは自分のメモリーが@かかってるカラ",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "アリナ",
+                "textCenter": "早く教えて欲しいんですケド！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_21181.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 304600,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "7000_attack01",
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 304600,
+                        "motion": 400
+                    }
+                ],
+                "surround": "1008A02",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeSmall",
+                "chara": [
+                    {
+                        "effect": "7002_damage01",
+                        "id": 304600
+                    }
+                ],
+                "surround": "1008A03",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 304600,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "観鳥 令？",
+                "textCenter": "っ…ふぅ…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 304600
+                    }
+                ],
+                "nameCenter": "観鳥 令？",
+                "textCenter": "あんまり頑なだから、@教える気がなくなってきたなぁ"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 304600,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100800,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashWhite2][surround:1008A02]ヴァァアアッ!!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304600,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "観鳥 令？",
+                "textLeft": "[flashEffect:flashRed2][surround:1008A03][chara:302300:effect_shake][bgEffect:shakeLarge]がぁッ！"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304600
+                    }
+                ],
+                "se": "3102_enemy_dead",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "ウップス、倒しちゃった…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100800,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100600,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "…すみませんアリナ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100800
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "謝る必要はないんだケド"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100800,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "むしろヒントがなくなって@バッドムードだヨネ…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100600,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100600,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "（これからどう戦いが転ぶのか@それはわかりませんけど…）"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100600,
+                        "lipSynch": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "（時が経つほど、この場所は@残酷かもしれませんね…）"
+            },
+            {
+                "nameCenter": "みかげの声",
+                "textCenter": "もしかしたら、こっちかも！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100800,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "ワッツ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 103800,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "みかげ",
+                "textRight": "さっきのコピー、@この壁をチラチラ見てたよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100600,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "何かあるんでしょうか…？"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 103800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103900,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "月出里",
+                "textCenter": "ふむむふんむむ…"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "flashEffect": "flashWhite1",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103900,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "月出里",
+                "textBg": "shout",
+                "textCenter": "[chara:103900:effect_emotion_surprise_0][se:7226_shock]ふむﾞーーー!?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 103900,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103800,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みかげ",
+                "textLeft": "すーたんの手が@壁をすり抜けてるよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100600,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "隠し部屋…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100800,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "アリナ",
+                "textCenter": "それなら中に入って@チェックすればいいヨネ"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100600,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "ちょっと！@罠かもって話してた矢先に!!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_21184.jpg",
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 3,
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100600,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100800,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "ここは…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "色んな鏡の@ターミナルみたいだヨネ"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103800,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103900,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "みかげ",
+                "textLeft": "なんか、変な感じ…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103900,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "月出里",
+                "textRight": "ふむぅ…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 103800,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103800,
+                        "motion": 200
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100600,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "みかげ",
+                "textRight": "みふゆさんはゾワゾワしない…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100600,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "イヤな感じはしています…@何かひどい混ざりもののような…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100600,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100800,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100800,
+                        "lipSynch": 0
+                    }
+                ],
+                "flashEffect": "flashWhiteSlow2",
+                "nameLeft": "アリナ",
+                "se": "7211_souljem_02",
+                "textLeft": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100800,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "みふゆの言う通りだヨネ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "色んなバリエーションの魔力が@扉から漏れてるっぽいケド"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100600,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "色んな魔力…無数の扉…@まさか…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103900,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103800,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "月出里",
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103900,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "月出里",
+                "surround": "7202_telepathy",
+                "textRight": "これ、リヴィアさんが言ってた、@ワープの原因かも…",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103800,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みかげ",
+                "textLeft": "あ、この間言ってたやつだよね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 103900,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "月出里",
+                "textRight": "うん…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 103900
+                    }
+                ],
+                "surround": "stop",
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100600,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100800,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "今、こうして見つけた以上、@壊して帰るのが賢明そうですね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "アリナ的にはマップがあってたし@どうなってもいいケド"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "flashEffect": "flashWhite2",
+                "textClear": 1,
+                "turnEffect": "blackPromist"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100800,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100600,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "[chara:100800:effect_emotion_surprise_0][se:7226_shock]――っ!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "なにこれ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 100800,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textBg": "shout",
+                "textLeft": "アハッアッハハハハ!!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "サイッコウにゾクゾク来る@魔力反応なんですケド!!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103800,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "みかげ",
+                "textRight": "何かくるよっ!!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_21184.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "id": 6400,
+                        "name": "sprite_0",
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "",
+                "turnEffect": "blackPromist"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "black",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter5/102604_mirrors_terminal.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm05_event09",
+                "nameNarration": "みかげ",
+                "narration": "―みかげ―@な、なに…この魔女…",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "月出里",
+                "narration": "―月出里―@…………"
+            },
+            {
+                "nameNarration": "みかげ",
+                "narration": "―みかげ―@すーたんしっかりして…！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_21184.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100600,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 100800,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter5/102604_mirrors_terminal.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100600,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "…扉の数だけ株分けの魔女の@結界に繋がってるとしたら…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100600
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "魔女を集めていた時の神浜と@同じ現象が起きてるのかも…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "メイビー…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "無数の魔女の穢れが満ちた@シークレットルームは"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "魔女にベストコンディションと@ポテンシャルを与えるヨネ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100600,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "みふゆ",
+                "textRight": "つまり、このターミナルでは@最大限まで魔女が強くなる…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "あのコピーの狙い通り@良いトラップってわけだヨネ"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6400,
+                        "name": "sprite_0",
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "",
+                "textBg": "shout",
+                "textCenter": "――――!!",
+                "turnEffect": "blackPromist"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

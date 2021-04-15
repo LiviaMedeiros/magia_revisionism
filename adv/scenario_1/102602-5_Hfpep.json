@@ -1,0 +1,1233 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21151.jpg",
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "この路地裏の先に@灯花たちが居る家がある…？",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_21083.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 103801,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "nameNarration": "",
+                "narration": "[se:7106_telmail]ピロン♪",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 103801,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "那由他",
+                "narrationEffect": "out",
+                "textLeft": "ん、あ、灯花ですの…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "…え、うそ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 103301,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "どうなさいましたか？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "私のパパの力が必要だって…"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21151.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "冗談で私の助力を求めるなんて@ありえませんの…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_11143.jpg",
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 1
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "action": {
+                            "moveTo": {
+                                "duration": 0.2,
+                                "posY": 0
+                            }
+                        },
+                        "path": "resource/scenario/img/adv_roll_fade.png",
+                        "posX": 0,
+                        "posY": -1000,
+                        "scale": 6,
+                        "setVisible": 1,
+                        "zOrder": "messageFront"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_11131.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "action": {
+                            "moveTo": {
+                                "duration": 0.3,
+                                "posY": 1500
+                            }
+                        },
+                        "path": "resource/scenario/img/adv_roll_fade.png"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/adv_roll_fade.png",
+                        "setVisible": 0
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "それでパパの力を借りたいって@何が目的ですの…？"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 102001,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "ねむ",
+                "textCenter": "君達と同じだよ里見那由他@僕達も世間に拡散したいんだ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "nameCenter": "ねむ",
+                "textCenter": "人知れず戦う@魔法少女達の話をね"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 102001
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "それは聞きましたの@ですが、どうやるんですの？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 103701,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "魔法少女の話を信じてもらうのは@簡単ではないですの"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "くふっ、ばかなのー？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "だから力を借りようと思って@那由他に連絡したんだよー"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 102001,
+                        "motion": 400,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "ば、ばかって…@灯花ちゃん…!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 103701,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "っ、そっちこそバカですの!?@それがものを頼む態度ですの!?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102001,
+                        "motion": 300,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "nameCenter": "かごめ",
+                "textCenter": "はわわわぁ…@どうしようアルちゃん…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102001,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "アルちゃん",
+                "textCenter": "＜聞かれても困るよー！＞"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102001
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 300,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "ねむ",
+                "textRight": "はぁ…灯花…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "nameRight": "ねむ",
+                "textRight": "協力者にしたい相手を煽って@得だと思ってるのかい？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101403,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ねむ",
+                "textRight": "損得勘定をしてのことなら、@脳の洗浄を勧めるよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "…ごみーん"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ねむ",
+                "textRight": "全く素直じゃないね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "でも、那由他が心配してた@世間に広げる方法は考えてあるし"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "叔父様へのお願いも@めーかくにしてあるよー"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 103701,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "じゃあ、私を煽るより@先に説明をしてくださらない？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "id": 103701,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "それじゃあ、@ちゃーんと聞いてね？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 0
+                    }
+                ],
+                "nameNarration": "灯花",
+                "narration": "「まずわたくしたちがしようとしてるのは@SＮSでの情報拡散なんだけど@それにはいくつかの要素が必要なんだよね」",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 201
+                    }
+                ],
+                "narration": "「１、パッと見てインパクトのある画像の力@２、説明を付けて補足してくれる文字の力@３、それらを出して行く見せ方@４、真実だと認められる説得力」"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "narration": "「その中でも“真実だと認められる説得力”を@叔父様から欲しいんだよにゃー」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "lipSynch": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "那由他",
+                "narrationEffect": "out",
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "でも、パパはいないですの…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "だから、@早く見つけて欲しいんだよね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 103701,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "でも、パパはッ！@[chara:103701:lipSynch_0][wait:1.0][chara:103701:motion_000][chara:103701:cheek_0][chara:103701:face_mtn_ex_030.exp.json][chara:103701:lipSynch_1]…いえそれより前に伺いますの"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "まず、絵と文字と見せ方は@どうなってるんですの？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 102001,
+                        "motion": 400,
+                        "pos": 0,
+                        "soulGem": 0
+                    }
+                ],
+                "nameLeft": "かごめ",
+                "textLeft": "あ、えとっ…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 102001,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "アルちゃん",
+                "textLeft": "＜情報収集と文章は@かごめちゃんの担当だよね！＞"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102001
+                    }
+                ],
+                "nameLeft": "かごめ",
+                "textLeft": "うん、うんっ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ねむ",
+                "textLeft": "彼女には風の伝道師のウワサが@ついているからね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "nameLeft": "ねむ",
+                "textLeft": "身体能力を除けば僕達以上に@安全に情報を収集できる"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "ねむ",
+                "textLeft": "僕は、その佐鳥かごめの文章を@調整する役割を担ってるんだ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "では、画像は…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "令が死んじゃったからにゃー…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102001,
+                        "motion": 1,
+                        "pos": 0,
+                        "soulGem": 0
+                    }
+                ],
+                "nameLeft": "かごめ",
+                "textLeft": "だから、本当なら担当できる@腕前じゃないと思うけど"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102001,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "かごめ",
+                "textLeft": "私が令さんの遺志を継いで@頑張りたいと思ってます…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "神浜の魔法少女が亡くなったのは@うかがっていましたが…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 102001
+                    }
+                ],
+                "nameLeft": "かごめ",
+                "textLeft": "はい…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "id": 103701,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "でも適任だと思うよ@ウワサの効果もあるからね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "で、最後に残ってる見せ方だけど"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "わたくしもプロじゃないし@あんまり自信はないんだよにゃー"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 0
+                    }
+                ],
+                "nameNarration": "灯花",
+                "narration": "「普通に魔法少女について投稿しても@“これが真実でーす”って言ったところで@みんなスルーしちゃうのは見え見えだから」",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "narration": "「とりあえず最初は撮ったものを@“個人のクリエイティブ”として@発信しようと思ってるんだよね」"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "narration": "「CGかどうかもわからない@圧倒的なクオリティを@ひとりのクリエイターが作り出してるとか@そういう“天才”ってみんな大好きでしょ？」"
+            },
+            {
+                "narration": "「だから、それで話題作りをして@上手くみんなに浸透したところで@サプライズをするんだよ」"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 201
+                    }
+                ],
+                "narration": "「実は現実で起きてることなんだよーって」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 200
+                    }
+                ],
+                "narration": "「それはマイナスでもプラスでもいいから@みんなをドカンと燃えさせる起爆剤になればOK！@信じるにしても信じないにしても@真実を知りたい人は神浜においでーって@観客をいーっぱい集めればいいから、くふふっ」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "narration": "「あとは本物を見せたときのお楽しみだよねー@あっ、パパ様の伝手を使って@メディアの人を呼んじゃうのもいいかもー」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "那由他",
+                "narrationEffect": "out",
+                "textRight": "それ、本当に成功するんですの？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "言ったでしょー？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 201
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "わたくしはプロじゃないし@わかんにゃいって"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "そんな適当なっ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "でも、ワクワクして@ドーパミンが溢れてる人も"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "イライラして@グルタミン酸でいっぱいの人も"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "たーくさん集まりそうじゃない？@くふふっ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "そう言われても…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 102001,
+                        "motion": 200,
+                        "pos": 0,
+                        "soulGem": 0
+                    }
+                ],
+                "nameLeft": "かごめ",
+                "textLeft": "あの、こんな状況だからこそ、@無理でもやりたいんです…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 102001,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "かごめ",
+                "textLeft": "みんなを救うために…@無駄かもしれないけれど…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102001,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "かごめ",
+                "textLeft": "それで、あとは必要なんです…@あなたのお父様の力が…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "lipSynch": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ねむ",
+                "textLeft": "あなたも魔法少女を@救おうとしてる"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "何をためらってるか@わたくしにはわからないけど"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "那由他に興味がないなら@わたくしは引き下がるしかないし"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "興味があるなら一緒に魔法少女を@救えたらいいなーって思うよ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "私は…"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "nameNarration": "",
+                "narration": "那由他、パパはもう諦めることにした。@魔法少女を救う手立てはどこにもない。",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_11131.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 103701,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 103701,
+                        "lipSynch": 0,
+                        "pos": 2,
+                        "tear": 1
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "っ…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "灯花",
+                "textLeft": "え、那由他…!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "（あの手紙は信じたくない…！）"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "那由他",
+                "textRight": "この計画を手助けしてみますの…@必ず、パパを見つけて…"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

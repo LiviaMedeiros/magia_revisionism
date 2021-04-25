@@ -13,6 +13,7 @@
                         "visible": "appear"
                     }
                 ],
+                "surround": "7022_earthquake",
                 "turnChangeIn": "fadeIn"
             },
             {
@@ -89,7 +90,6 @@
                         "path": "resource/scenario/img/part2_chapter5/102603_double_fire.jpg"
                     }
                 ],
-                "surround": "7022_earthquake",
                 "turnChangeOut": "fadeOut"
             },
             {
@@ -1032,7 +1032,7 @@
                 "chara": [
                     {
                         "cheek": -1,
-                        "effect": "7005_kimochiaura02",
+                        "effect": "kimochiaura",
                         "face": "mtn_ex_120.exp.json",
                         "id": 102300,
                         "motion": 0,
@@ -1045,7 +1045,6 @@
             {
                 "chara": [
                     {
-                        "effect": "7004_kimochiaura01",
                         "id": 102300
                     }
                 ],
@@ -1154,11 +1153,10 @@
                 "autoTurnLast": 0.2,
                 "chara": [
                     {
-                        "cheek": 0,
-                        "effect": "7005_kimochiaura02",
+                        "cheek": -1,
+                        "effect": "kimochiaura",
                         "face": "mtn_ex_160.exp.json",
                         "id": 102300,
-                        "lipSynch": 0,
                         "motion": 0,
                         "pos": 1
                     }
@@ -1168,9 +1166,9 @@
             {
                 "chara": [
                     {
-                        "effect": "7004_kimochiaura01",
                         "id": 102300,
-                        "motion": 200
+                        "motion": 200,
+                        "mouthOpen": 1
                     }
                 ],
                 "nameCenter": "アオ",

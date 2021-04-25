@@ -387,7 +387,7 @@
             },
             {
                 "nameNarration": "アオ",
-                "narration": "[textBlack:誰からも搾り取られない平和な世界で生きたい]@[textBlack:ひかるも姉さまも、一緒に戦ってくれるけど]@[textBlack:私も強くならなくちゃいけなくて]@[textBlack:それは、わたしが誰かを傷付けるっていうこと…]",
+                "narration": "[textBlack:誰からも搾り取られない平和な世界で生きたい]@[textBlack:ひかるも姉さまも、一緒に戦ってくれるけど]@[textBlack:わたしも強くならなくちゃいけなくて]@[textBlack:それは、わたしが誰かを傷付けるっていうこと…]",
                 "narrationBg": "white",
                 "narrationCoverOpacity": 0,
                 "narrationEffect": "in",
@@ -723,7 +723,7 @@
                     },
                     {
                         "cheek": -1,
-                        "effect": "7005_kimochiaura02",
+                        "effect": "kimochiaura",
                         "face": "mtn_ex_100.exp.json",
                         "id": 102300,
                         "lipSynch": 0,
@@ -739,10 +739,6 @@
                     {
                         "id": 305300,
                         "motion": 400
-                    },
-                    {
-                        "effect": "7004_kimochiaura01",
-                        "id": 102300
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -772,8 +768,7 @@
                         "id": 102300
                     }
                 ],
-                "textClear": 1,
-                "turnEffect": "stop"
+                "textClear": 1
             },
             {
                 "autoTurnLast": 0.1,
@@ -877,11 +872,10 @@
                 "autoTurnLast": 0.2,
                 "chara": [
                     {
-                        "cheek": 0,
-                        "effect": "7005_kimochiaura02",
+                        "cheek": -1,
+                        "effect": "kimochiaura",
                         "face": "mtn_ex_120.exp.json",
                         "id": 102300,
-                        "lipSynch": 0,
                         "motion": 0,
                         "pos": 1
                     }
@@ -891,9 +885,9 @@
             {
                 "chara": [
                     {
-                        "effect": "7004_kimochiaura01",
                         "id": 102300,
-                        "motion": 400
+                        "motion": 400,
+                        "mouthOpen": 1
                     }
                 ],
                 "nameCenter": "アオ",
@@ -904,7 +898,8 @@
             {
                 "chara": [
                     {
-                        "id": 102300
+                        "id": 102300,
+                        "mouthOpen": 0
                     }
                 ],
                 "nameCenter": "アオ",
@@ -915,7 +910,8 @@
                 "chara": [
                     {
                         "id": 102300,
-                        "motion": 200
+                        "motion": 200,
+                        "mouthOpen": 1
                     }
                 ],
                 "nameCenter": "アオ",

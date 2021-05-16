@@ -23,14 +23,18 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "id": 103301,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-2"
                     }
                 ],
                 "nameCenter": "ラビ",
-                "narrationEffect": "out",
                 "textCenter": "…………"
             },
             {
@@ -49,14 +53,18 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "id": 103701,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-4"
                     }
                 ],
                 "nameCenter": "那由他",
-                "narrationEffect": "out",
                 "textCenter": "…………"
             },
             {
@@ -77,7 +85,8 @@
                         "face": "mtn_ex_000.exp.json",
                         "id": 103301,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-5"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -88,7 +97,8 @@
                     {
                         "id": 103701,
                         "lipSynch": 1,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-6"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -97,7 +107,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-7"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -110,7 +121,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 103301,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-8"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -120,7 +132,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-9"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -129,7 +142,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-10"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -139,7 +153,8 @@
                 "chara": [
                     {
                         "id": 103301,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-11"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -148,24 +163,36 @@
             {
                 "chara": [
                     {
-                        "id": 103301
+                        "id": 103301,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-12"
                     }
                 ],
                 "nameRight": "ラビ",
                 "textRight": "たんかを切ってきた相手の@手伝いをするんですから"
             },
             {
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 103701,
-                        "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102405/vo_full_102405-5-13"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameLeft": "那由他",
-                "textLeft": "たんかって…@[chara:103701:lipSynch_0][wait:1.0][chara:103701:eyeClose_1][chara:103701:lipSynch_1]まぁ、正直賭けでしたけど"
+                "textLeft": "たんかって…@まぁ、正直賭けでしたけど"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 103701,
+                        "motion": 300
+                    }
+                ]
             },
             {
                 "chara": [
@@ -174,9 +201,12 @@
                         "face": "mtn_ex_010.exp.json",
                         "id": 103301,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-14",
+                        "voiceFullStop": "fullvoice/section_102405/vo_full_102405-5-13"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "ラビ",
                 "textRight": "だと思います"
             },
@@ -185,7 +215,8 @@
                     {
                         "eyeClose": 0,
                         "id": 103701,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-15"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -198,7 +229,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 103301,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-16"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -211,7 +243,8 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 103701,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-17"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -223,7 +256,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_000.exp.json",
                         "id": 103301,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-18"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -236,7 +270,8 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_030.exp.json",
                         "id": 103701,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-19"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -246,7 +281,8 @@
                 "chara": [
                     {
                         "id": 103301,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-20"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -255,8 +291,11 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
                         "eyeClose": 0,
-                        "id": 103701
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-21"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -268,7 +307,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_051.exp.json",
                         "id": 103301,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-22"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -281,7 +321,8 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 103701,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-23"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -291,7 +332,8 @@
                 "chara": [
                     {
                         "id": 103301,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-24"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -301,7 +343,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-25"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -314,7 +357,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 103301,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-26"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -331,7 +375,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_011.exp.json",
                         "id": 103701,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-27"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -344,7 +389,8 @@
                         "face": "mtn_ex_051.exp.json",
                         "id": 103301,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-28"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -358,7 +404,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 103701,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-29"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -368,7 +415,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-30"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -381,7 +429,8 @@
                         "face": "mtn_ex_000.exp.json",
                         "id": 103301,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-31"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -393,7 +442,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-32"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -403,7 +453,8 @@
                 "chara": [
                     {
                         "id": 103301,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-33"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -416,7 +467,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 103701,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-34"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -426,7 +478,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-35"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -439,7 +492,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 103301,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-36"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -450,7 +504,8 @@
                     {
                         "eyeClose": 0,
                         "id": 103701,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-37"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -480,7 +535,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-38"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -490,7 +546,8 @@
             },
             {
                 "nameCenter": "らんかの声",
-                "textCenter": "そりゃアタシらの名前をかたれば@タダじゃ済まないって"
+                "textCenter": "そりゃアタシらの名前をかたれば@タダじゃ済まないって",
+                "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-39"
             },
             {
                 "chara": [
@@ -498,8 +555,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 103701,
-                        "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-40"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -526,7 +583,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 304400,
                         "motion": 1,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-41"
                     },
                     {
                         "cheek": 0,
@@ -571,7 +629,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-42"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -582,7 +641,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-43"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -595,7 +655,8 @@
                         "face": "mtn_ex_000.exp.json",
                         "id": 103301,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-44"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -606,7 +667,8 @@
                     {
                         "eyeClose": 0,
                         "id": 103701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-45"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -616,7 +678,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-46"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -630,7 +693,8 @@
                         "eyeClose": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 103701,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-47"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -641,7 +705,8 @@
                 "chara": [
                     {
                         "id": 103301,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-48"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -650,7 +715,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-49"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -660,7 +726,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-50"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -669,7 +736,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-51"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -681,8 +749,10 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 103301,
+                        "lipSynch": 0,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-52"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -691,7 +761,9 @@
             {
                 "chara": [
                     {
-                        "id": 103301
+                        "id": 103301,
+                        "lipSynch": 1,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-53"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -714,7 +786,8 @@
                 ],
                 "nameCenter": "みかげの声",
                 "textBg": "shout",
-                "textCenter": "なーーーゆーーーたーーーん！@ラーーービーーーたーーーん！"
+                "textCenter": "なーーーゆーーーたーーーん！@ラーーービーーーたーーーん！",
+                "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-54"
             },
             {
                 "chara": [
@@ -723,7 +796,8 @@
                         "face": "mtn_ex_010.exp.json",
                         "id": 103301,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-5-55"
                     }
                 ],
                 "nameRight": "ラビ",

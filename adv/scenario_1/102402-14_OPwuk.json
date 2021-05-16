@@ -27,7 +27,8 @@
                 "chara": [
                     {
                         "id": 770000,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-1"
                     },
                     {
                         "id": 770001,
@@ -60,7 +61,8 @@
                         "face": "mtn_ex_021.exp.json",
                         "id": 100100,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-2"
                     }
                 ],
                 "nameCenter": "いろは",
@@ -73,7 +75,8 @@
                         "face": "mtn_ex_042.exp.json",
                         "id": 102200,
                         "motion": 300,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-3"
                     }
                 ],
                 "nameCenter": "ひかる",
@@ -85,7 +88,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 102200,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-4"
                     }
                 ],
                 "textCenter": "虎屋町の馬は、@簡単には折れないっすよ"
@@ -93,7 +97,8 @@
             {
                 "chara": [
                     {
-                        "id": 102200
+                        "id": 102200,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-5"
                     }
                 ],
                 "textCenter": "結菜さんのためなら"
@@ -102,7 +107,8 @@
                 "chara": [
                     {
                         "id": 102200,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-6"
                     }
                 ],
                 "textCenter": "１滴でも多くの血を@流させてやるっす…！"
@@ -125,25 +131,42 @@
                         "id": 100100,
                         "lipSynch": 0,
                         "motion": 401,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-7"
                     }
                 ],
                 "nameLeft": "いろは",
                 "textLeft": "――っ!?"
             },
             {
-                "autoTurnLast": 0.8,
+                "autoTurnLast": 0.3,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 102200,
-                        "motion": 400,
-                        "pos": 2
+                        "motion": 0,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102402/vo_full_102402-14-8"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "ひかる",
-                "textRight": "[surround:1022A01][chara:100100:effect_7000_attack01]ふっ…やぁっ！"
+                "textRight": "ふっ…やぁっ！"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "id": 102200,
+                        "motion": 400
+                    },
+                    {
+                        "effect": "7000_attack01",
+                        "id": 100100
+                    }
+                ],
+                "surround": "1022A01"
             },
             {
                 "autoTurnLast": 0.5,
@@ -163,9 +186,12 @@
             {
                 "chara": [
                     {
-                        "id": 100100
+                        "id": 100100,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-9",
+                        "voiceFullStop": "fullvoice/section_102402/vo_full_102402-14-8"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "いろは",
                 "textLeft": "すごい…軽くて素早い…"
             },
@@ -173,7 +199,8 @@
                 "chara": [
                     {
                         "id": 102200,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-10"
                     }
                 ],
                 "nameRight": "ひかる",
@@ -186,7 +213,8 @@
                         "face": "mtn_ex_021.exp.json",
                         "id": 100100,
                         "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-11"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -206,7 +234,8 @@
                 "chara": [
                     {
                         "id": 102200,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-12"
                     }
                 ],
                 "nameRight": "ひかる",
@@ -263,7 +292,8 @@
                         "face": "mtn_ex_021.exp.json",
                         "id": 100100,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-13"
                     },
                     {
                         "cheek": 0,
@@ -292,7 +322,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_042.exp.json",
                         "id": 102200,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-14"
                     }
                 ],
                 "nameRight": "ひかる",
@@ -304,7 +335,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 102200,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-15"
                     }
                 ],
                 "nameRight": "ひかる",
@@ -318,7 +350,8 @@
                         "id": 100100,
                         "lipSynch": 0,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-16"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -342,18 +375,20 @@
                 "chara": [
                     {
                         "id": 302101,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-17"
                     }
                 ],
                 "nameCenter": "鈴鹿 さくや",
-                "textCenter": "私も二木では親友を失ってるから@結菜の気持ちは痛い程わかるんだ",
+                "textCenter": "私も二木では親友を失ってるから@結菜の気持ちはわかるんだ",
                 "turnChangeOut": "fadeOut",
                 "turnEffect": "blackFrame"
             },
             {
                 "chara": [
                     {
-                        "id": 302101
+                        "id": 302101,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-17a"
                     }
                 ],
                 "textCenter": "仲間を殺した悔いも@その道筋を作った神浜への怒りも"
@@ -364,7 +399,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 302101,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-18"
                     }
                 ],
                 "textCenter": "だから言えるけど、結菜はまだ@妹を殺すことはないと思うよ"
@@ -372,7 +408,8 @@
             {
                 "chara": [
                     {
-                        "id": 302101
+                        "id": 302101,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-19"
                     }
                 ],
                 "textCenter": "もしも殺そうとするなら、@私が止めると思う"
@@ -406,7 +443,8 @@
                         "eyeClose": 1,
                         "id": 100100,
                         "lipSynch": 0,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-20"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -420,7 +458,8 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_021.exp.json",
                         "id": 100100,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-21"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -432,7 +471,8 @@
                         "eyeClose": 0,
                         "id": 100100,
                         "lipSynch": 1,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-22"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -468,7 +508,8 @@
                 "bgm": "bgm23_promised06",
                 "chara": [
                     {
-                        "id": 102101
+                        "id": 102101,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-23"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -478,7 +519,8 @@
             {
                 "chara": [
                     {
-                        "id": 302101
+                        "id": 302101,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-24"
                     }
                 ],
                 "nameRight": "鈴鹿 さくや",
@@ -488,7 +530,8 @@
                 "chara": [
                     {
                         "id": 302101,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-25"
                     }
                 ],
                 "nameRight": "鈴鹿 さくや",
@@ -501,7 +544,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 102101,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-26"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -511,7 +555,8 @@
                 "chara": [
                     {
                         "id": 302101,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-27"
                     }
                 ],
                 "nameRight": "鈴鹿 さくや",
@@ -524,7 +569,8 @@
                         "face": "mtn_ex_000.exp.json",
                         "id": 102101,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-28"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -533,7 +579,8 @@
             {
                 "chara": [
                     {
-                        "id": 102101
+                        "id": 102101,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-29"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -543,7 +590,8 @@
                 "chara": [
                     {
                         "id": 302101,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-30"
                     }
                 ],
                 "nameRight": "鈴鹿 さくや",
@@ -553,7 +601,8 @@
                 "chara": [
                     {
                         "id": 102101,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-31"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -565,7 +614,8 @@
                         "cheek": 0,
                         "eyeClose": 1,
                         "face": "mtn_ex_030.exp.json",
-                        "id": 302101
+                        "id": 302101,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-32"
                     }
                 ],
                 "nameRight": "鈴鹿 さくや",
@@ -578,7 +628,8 @@
                         "eyeClose": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 302101,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-33"
                     }
                 ],
                 "nameRight": "鈴鹿 さくや",
@@ -607,7 +658,8 @@
             {
                 "chara": [
                     {
-                        "id": 100201
+                        "id": 100201,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-34"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -618,7 +670,8 @@
                 "chara": [
                     {
                         "id": 100301,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-35"
                     }
                 ],
                 "nameRight": "鶴乃",
@@ -631,7 +684,8 @@
                         "face": "mtn_ex_011.exp.json",
                         "id": 100301,
                         "motion": 101,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-36"
                     }
                 ],
                 "nameRight": "鶴乃",
@@ -642,7 +696,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
-                        "id": 100301
+                        "id": 100301,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-37"
                     }
                 ],
                 "nameRight": "鶴乃",
@@ -655,7 +710,8 @@
                         "face": "mtn_ex_051.exp.json",
                         "id": 100201,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-38"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -665,20 +721,34 @@
                 "chara": [
                     {
                         "id": 100301,
-                        "motion": 201
+                        "motion": 201,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-39"
                     }
                 ],
                 "nameRight": "鶴乃",
                 "textRight": "しばらく歌ってるように@見せかけて"
             },
             {
+                "autoTurnLast": 0.7,
                 "chara": [
                     {
-                        "id": 100301
+                        "id": 100301,
+                        "voiceFull": "fullvoice/section_102402/vo_full_102402-14-40"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "鶴乃",
-                "textRight": "脱出できちゃうんだよ！@[chara:100301:lipSynch_0][wait:1.0][chara:100301:cheek_0][chara:100301:face_mtn_ex_011.exp.json:motion_200][chara:100301:lipSynch_1]ふんふん！"
+                "textRight": "脱出できちゃうんだよ！@ふんふん！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ]
             },
             {
                 "chara": [
@@ -687,9 +757,12 @@
                         "face": "mtn_ex_011.exp.json",
                         "id": 100501,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-41",
+                        "voiceFullStop": "fullvoice/section_102402/vo_full_102402-14-40"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "フェリシア",
                 "textLeft": "おーーーすげーじゃん！"
             },
@@ -700,7 +773,8 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 100401,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-42"
                     }
                 ],
                 "nameLeft": "さな",
@@ -710,7 +784,8 @@
                 "chara": [
                     {
                         "id": 100301,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-43"
                     }
                 ],
                 "nameRight": "鶴乃",
@@ -719,7 +794,8 @@
             {
                 "chara": [
                     {
-                        "id": 100301
+                        "id": 100301,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-44"
                     }
                 ],
                 "nameRight": "鶴乃",
@@ -732,7 +808,8 @@
                         "face": "mtn_ex_010.exp.json",
                         "id": 100201,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-45"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -745,7 +822,8 @@
                         "face": "mtn_ex_010.exp.json",
                         "id": 100301,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-46"
                     }
                 ],
                 "nameRight": "鶴乃",
@@ -757,7 +835,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 100301,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-47"
                     }
                 ],
                 "nameRight": "鶴乃",
@@ -770,7 +849,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 100301,
                         "lipSynch": 1,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-48"
                     }
                 ],
                 "nameRight": "鶴乃",
@@ -783,7 +863,8 @@
                         "face": "mtn_ex_040.exp.json",
                         "id": 100401,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-49"
                     }
                 ],
                 "nameLeft": "さな",
@@ -792,7 +873,8 @@
             {
                 "chara": [
                     {
-                        "id": 100401
+                        "id": 100401,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-50"
                     }
                 ],
                 "nameLeft": "さな",
@@ -805,7 +887,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 100201,
                         "motion": 301,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-51"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -815,7 +898,8 @@
                 "chara": [
                     {
                         "id": 100301,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-52"
                     }
                 ],
                 "nameRight": "鶴乃",
@@ -828,7 +912,8 @@
                         "face": "mtn_ex_010.exp.json",
                         "id": 100501,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-53"
                     }
                 ],
                 "nameLeft": "フェリシア",
@@ -858,7 +943,8 @@
             {
                 "chara": [
                     {
-                        "id": 770101
+                        "id": 770101,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-54"
                     }
                 ],
                 "nameRight": "",
@@ -869,7 +955,8 @@
                 "chara": [
                     {
                         "id": 302101,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-55"
                     }
                 ],
                 "nameLeft": "鈴鹿 さくや",
@@ -878,7 +965,8 @@
             {
                 "chara": [
                     {
-                        "id": 302101
+                        "id": 302101,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-56"
                     }
                 ],
                 "nameLeft": "鈴鹿 さくや",
@@ -891,7 +979,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 770101,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-57"
                     }
                 ],
                 "nameRight": "",
@@ -903,7 +992,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 302101,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-58"
                     }
                 ],
                 "nameLeft": "鈴鹿 さくや",
@@ -912,7 +1002,10 @@
             {
                 "chara": [
                     {
-                        "id": 302101
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302101,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-59"
                     }
                 ],
                 "nameLeft": "鈴鹿 さくや",
@@ -924,7 +1017,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 302101,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-60"
                     }
                 ],
                 "nameLeft": "鈴鹿 さくや",
@@ -937,7 +1031,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 770101,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-61"
                     }
                 ],
                 "nameRight": "",
@@ -950,7 +1045,8 @@
                         "face": "mtn_ex_010.exp.json",
                         "id": 302101,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-14-62"
                     }
                 ],
                 "nameLeft": "鈴鹿 さくや",

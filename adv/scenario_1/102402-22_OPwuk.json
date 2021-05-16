@@ -28,7 +28,8 @@
                 "chara": [
                     {
                         "id": 102300,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-22-1"
                     }
                 ],
                 "nameRight": "アオ",
@@ -41,7 +42,8 @@
                         "cheek": 0,
                         "eyeClose": 1,
                         "face": "mtn_ex_020.exp.json",
-                        "id": 102300
+                        "id": 102300,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-22-2"
                     }
                 ],
                 "nameRight": "アオ",
@@ -52,7 +54,8 @@
                     {
                         "eyeClose": 0,
                         "id": 102300,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-22-3"
                     }
                 ],
                 "nameRight": "アオ",
@@ -62,7 +65,8 @@
                 "chara": [
                     {
                         "id": 102300,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-22-4"
                     }
                 ],
                 "nameRight": "アオ",
@@ -71,7 +75,8 @@
             {
                 "chara": [
                     {
-                        "id": 102300
+                        "id": 102300,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-22-5"
                     }
                 ],
                 "nameRight": "アオ",
@@ -83,7 +88,8 @@
                         "cheek": 0,
                         "eyeClose": 1,
                         "face": "mtn_ex_030.exp.json",
-                        "id": 102300
+                        "id": 102300,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-22-6"
                     }
                 ],
                 "nameRight": "アオ",
@@ -96,7 +102,8 @@
                         "eyeClose": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 102300,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102402/vo_full_102402-22-7"
                     }
                 ],
                 "nameRight": "アオ",
@@ -108,14 +115,23 @@
                 "textLeft": "∵ワッ＿ァア―ッ!!"
             },
             {
+                "autoTurnLast": 1.4,
+                "chara": [
+                    {
+                        "id": 102300,
+                        "voiceFull": "fullvoice/section_102402/vo_full_102402-22-9"
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "あなたが驚くぐらい、@ここでレベルアップするから!!"
+            },
+            {
                 "chara": [
                     {
                         "id": 102300,
                         "motion": 200
                     }
-                ],
-                "nameRight": "アオ",
-                "textRight": "あなたが驚くぐらい、@ここでレベルアップするから!!"
+                ]
             },
             {
                 "autoTurnLast": 2,
@@ -126,7 +142,8 @@
                         "visible": "hide"
                     }
                 ],
-                "turnChangeIn": "fadeIn"
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102402/vo_full_102402-22-9"
             }
         ]
     },

@@ -4,13 +4,60 @@
             {
                 "autoTurnLast": 0.2,
                 "bg": "bg_adv_15091.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "那由他",
+                "narration": "あの時出会ったプロミストブラッドの方は@みかげさんによると@栄総合学園という学校の生徒らしいですの",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-1"
+            },
+            {
+                "narration": "なので正門であの方を待ち受けているのですが@空振りが続くこと３日目@本当に通っているのでしょうか…",
+                "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-2"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304401,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "narration": "灯花から連絡がないのも@少しだけ気になりますの…",
+                "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-3"
+            },
+            {
+                "autoTurnLast": 0.1
+            },
+            {
+                "autoTurnLast": 1.5,
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304401
+                    }
+                ]
+            },
+            {
+                "bgm": "bgm03_story10",
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 103701,
-                        "motion": 0,
-                        "pos": 2
+                        "lipSynch": 0,
+                        "motion": 200,
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-4"
                     },
                     {
                         "cheek": 0,
@@ -20,32 +67,7 @@
                         "pos": 0
                     }
                 ],
-                "turnChangeIn": "fadeIn"
-            },
-            {
-                "nameNarration": "那由他",
-                "narration": "あの時出会ったプロミストブラッドの方は@みかげさんによると@栄総合学園という学校の生徒らしいですの",
-                "narrationBg": "black",
-                "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
-            },
-            {
-                "narration": "なので正門であの方を待ち受けているのですが@空振りが続くこと３日目@本当に通っているのでしょうか…"
-            },
-            {
-                "narration": "灯花から連絡がないのも@少しだけ気になりますの…"
-            },
-            {
-                "bgm": "bgm03_story10",
-                "chara": [
-                    {
-                        "id": 103701,
-                        "lipSynch": 0,
-                        "motion": 200
-                    }
-                ],
                 "nameRight": "那由他",
-                "narrationEffect": "out",
                 "textRight": "（と、考えていたらビンゴ…！）",
                 "turnEffect": "thinking"
             },
@@ -55,7 +77,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 103801,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-5"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -69,7 +92,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 103701,
                         "lipSynch": 1,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-6"
                     }
                 ],
                 "nameRight": "那由他",
@@ -101,7 +125,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 103701,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-7"
                     },
                     {
                         "cheek": 0,
@@ -119,7 +144,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
-                        "id": 304401
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-8"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -129,7 +155,8 @@
                 "chara": [
                     {
                         "id": 304401,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-9"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -142,7 +169,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 103701,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-10"
                     }
                 ],
                 "nameRight": "那由他",
@@ -151,7 +179,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-11"
                     }
                 ],
                 "nameRight": "那由他",
@@ -163,7 +192,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 304401,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-12"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -173,7 +203,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 304401
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-13"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -184,7 +215,8 @@
                     {
                         "eyeClose": 0,
                         "id": 304401,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-14"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -194,7 +226,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-15"
                     }
                 ],
                 "nameRight": "那由他",
@@ -206,7 +239,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 103701,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-16"
                     }
                 ],
                 "nameRight": "那由他",
@@ -221,7 +255,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 304401,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-17"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -236,7 +271,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 103701,
                         "lipSynch": 1,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-18"
                     }
                 ],
                 "nameRight": "那由他",
@@ -245,7 +281,8 @@
             {
                 "chara": [
                     {
-                        "id": 304401
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-19"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -256,7 +293,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-20"
                     }
                 ],
                 "nameRight": "那由他",
@@ -266,7 +304,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-21"
                     }
                 ],
                 "nameRight": "那由他",
@@ -275,7 +314,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-22"
                     }
                 ],
                 "nameRight": "那由他",
@@ -285,7 +325,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-23"
                     }
                 ],
                 "nameRight": "那由他",
@@ -298,7 +339,8 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 304401,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-24"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -307,7 +349,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-25"
                     }
                 ],
                 "nameRight": "那由他",
@@ -320,7 +363,8 @@
                         "face": "mtn_ex_011.exp.json",
                         "id": 304401,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-26"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -333,7 +377,8 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 103701,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-27"
                     }
                 ],
                 "nameRight": "那由他",
@@ -346,7 +391,8 @@
                         "face": "mtn_ex_010.exp.json",
                         "id": 304401,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-28"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -355,7 +401,8 @@
             {
                 "chara": [
                     {
-                        "id": 304401
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-29"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -368,7 +415,8 @@
                         "face": "mtn_ex_010.exp.json",
                         "id": 304401,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-30"
                     },
                     {
                         "id": 103701,
@@ -382,7 +430,8 @@
                 "chara": [
                     {
                         "id": 304401,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-31"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -391,7 +440,8 @@
             {
                 "chara": [
                     {
-                        "id": 304401
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-32"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -404,7 +454,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 103701,
                         "lipSynch": 0,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-33"
                     }
                 ],
                 "nameRight": "那由他",
@@ -417,7 +468,8 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 103801,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-34"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -430,7 +482,8 @@
                         "face": "mtn_ex_010.exp.json",
                         "id": 304401,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-35"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -443,7 +496,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 103701,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-36"
                     }
                 ],
                 "nameRight": "那由他",
@@ -452,7 +506,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-37"
                     }
                 ],
                 "nameRight": "那由他",
@@ -465,7 +520,8 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 304401,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-38"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -478,7 +534,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 103701,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-39"
                     }
                 ],
                 "nameRight": "那由他",
@@ -488,22 +545,36 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-40"
                     }
                 ],
                 "nameRight": "那由他",
                 "textRight": "ただ、同時にですけど、@あまりの状況に驚いてましたの"
             },
             {
+                "autoTurnLast": 3.4,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
-                        "id": 304401
+                        "id": 304401,
+                        "voiceFull": "fullvoice/section_102405/vo_full_102405-6-41"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameLeft": "智珠 らんか",
-                "textLeft": "なるほど、恐怖と驚きね@[chara:304401:lipSynch_0][wait:1.0][chara:304401:cheek_0][chara:304401:face_mtn_ex_010.exp.json:motion_100][chara:304401:lipSynch_1]あとで樹里に教えてあげよ"
+                "textLeft": "なるほど、恐怖と驚きね@あとで樹里に教えてあげよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304401,
+                        "motion": 100
+                    }
+                ]
             },
             {
                 "chara": [
@@ -512,9 +583,12 @@
                         "face": "mtn_ex_011.exp.json",
                         "id": 103801,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-42",
+                        "voiceFullStop": "fullvoice/section_102405/vo_full_102405-6-41"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "みかげ",
                 "textRight": "これで教えてもらえるね@パパのこと！"
             },
@@ -525,7 +599,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 304401,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-43"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -538,7 +613,8 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 103801,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-44"
                     }
                 ],
                 "nameRight": "みかげ",
@@ -549,7 +625,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
-                        "id": 304401
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-45"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -560,7 +637,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
-                        "id": 304401
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-46"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -570,7 +648,8 @@
                 "chara": [
                     {
                         "id": 304401,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-47"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -579,9 +658,8 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 304401
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102405/vo_full_102405-6-48"
                     }
                 ],
                 "nameLeft": "智珠 らんか",

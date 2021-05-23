@@ -156,7 +156,7 @@
             },
             {
                 "autoTurnLast": 0.5,
-                "bg": "bg_adv_17201.jpg",
+                "bg": "bg_adv_17202.jpg",
                 "chara": [
                     {
                         "cheek": 0,
@@ -256,7 +256,7 @@
             },
             {
                 "autoTurnLast": 0.5,
-                "bg": "bg_adv_17201.jpg",
+                "bg": "bg_adv_17202.jpg",
                 "chara": [
                     {
                         "cheek": 0,
@@ -323,7 +323,7 @@
             },
             {
                 "autoTurnLast": 0.2,
-                "bg": "bg_adv_17201.jpg",
+                "bg": "bg_adv_17202.jpg",
                 "chara": [
                     {
                         "cheek": 0,
@@ -397,8 +397,21 @@
                 "textCenter": "でも、答え出てるよね…@茨の道だってわかっていても…"
             },
             {
-                "autoTurnLast": 0.01,
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
                 "bg": "bg_adv_17202.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
@@ -408,17 +421,8 @@
                         "pos": 1
                     }
                 ],
-                "turnChangeIn": "fadeIn"
-            },
-            {
-                "chara": [
-                    {
-                        "id": 102800
-                    }
-                ],
                 "nameCenter": "ひめな",
-                "textCenter": "んじゃ、ここでワンチャン@みんなの考えを統一しちゃおっ",
-                "turnChangeOut": "fadeOut"
+                "textCenter": "んじゃ、ここでワンチャン@みんなの考えを統一しちゃおっ"
             },
             {
                 "autoTurnLast": 0.2,

@@ -198,21 +198,26 @@
                 "bg": "bg_adv_20073.jpg",
                 "chara": [
                     {
+                        "id": 6601,
+                        "name": "sprite_0",
+                        "pos": 0
+                    },
+                    {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 402501,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 2
                     }
                 ],
-                "nameCenter": "コルボー",
                 "surround": "7004_rain",
                 "turnChangeIn": "fadeIn",
                 "turnEffect": "sepiaFrame"
             },
             {
-                "bgm": "bgm03_story17",
-                "textCenter": "…お母さま…？",
+                "bgm": "bgm01_anime15",
+                "nameRight": "コルボー",
+                "textRight": "…お母さま…？",
                 "turnChangeOut": "fadeOut"
             },
             {
@@ -224,7 +229,7 @@
                         "motion": 400
                     }
                 ],
-                "textCenter": "[chara:402501:effect_7002_damage01][se:3001_chara_damage][bgEffect:shakeSmall]うっ…！"
+                "textRight": "[chara:402501:effect_7002_damage01][se:3001_chara_damage][bgEffect:shakeSmall]うっ…！"
             },
             {
                 "chara": [
@@ -234,7 +239,7 @@
                         "motion": 0
                     }
                 ],
-                "textCenter": "なんてことだ…"
+                "textRight": "なんてことだ…"
             },
             {
                 "chara": [
@@ -243,7 +248,7 @@
                         "motion": 300
                     }
                 ],
-                "textCenter": "あれは…@もうダメだ…"
+                "textRight": "あれは…@もうダメだ…"
             },
             {
                 "autoTurnLast": 0.2,

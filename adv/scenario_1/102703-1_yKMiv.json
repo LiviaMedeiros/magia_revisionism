@@ -1,0 +1,508 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "white",
+                "bgm": "bgm20_song10",
+                "item": [
+                    {
+                        "iPhoneXScale": 1,
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "かごめ",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 150,
+                "progressNarration": "[textBlack:神浜マギアユニオンとプロミストブラッド。]@[textBlack:市長選で浮かぶ疑惑の調査が進む中で、]@[textBlack:両者も衝突までのカウントを刻んでいた。]",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "progressNarration": "[textBlack:だけどその狭間で、]@[textBlack:フェリシアさんはもがき苦しんでいた。]@[textBlack:彼女の過去と起きた出来事を合わせて知った時、]@[textBlack:私は息が詰りそうになって、]@[textBlack:胸が張り裂けるような気持ちになった。]"
+            },
+            {
+                "progressNarration": "[textBlack:ユニオンとプロミストブラッドの争いにも関わる]@[textBlack:エピソードのひとつだけど、それ以上に]@[textBlack:魔法少女が叶えた願いの形のひとつとして]@[textBlack:ここに改めて記しておこうと思う。]"
+            },
+            {
+                "progressNarration": "[textBlack:彼女の願いと、]@[textBlack:この時に起きた出来事について…。]"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "[se:7106_telmail]ピロン♪",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "フェリシア",
+                "narration": "かこ、オレの願いのこと知ってたのか…？",
+                "narrationHAlignment": "left",
+                "narrationPosX": 180
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21075.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "id": 301101,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "夏目 かこ",
+                "textCenter": "えっえっ…！",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101
+                    }
+                ],
+                "nameCenter": "夏目 かこ",
+                "textCenter": "なんで知ってるの…@何となく…思ってるだけ…？"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter6/102703_smartphone.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "フェリシア",
+                "narration": "―フェリシア―@父ちゃんと母ちゃんのこと@やっぱりオレが殺したんだろ…？",
+                "narrationAnchor": "bottom",
+                "narrationBg": "narration",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 10,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "―フェリシア―@オレはずっと魔女だって思って@はんにんの魔女…さがしてたのにさ…"
+            },
+            {
+                "nameNarration": "夏目 かこ",
+                "narration": "―かこ―@どうして、そんなはずないよ…!?@フェリシアちゃんは絶対に悪くないよ…！"
+            },
+            {
+                "nameNarration": "フェリシア",
+                "narration": "―フェリシア―@うそつくなよ"
+            },
+            {
+                "nameNarration": "夏目 かこ",
+                "narration": "―かこ―@本当にフェリシアちゃんは信じるの…？@それが真実だって…"
+            },
+            {
+                "nameNarration": "フェリシア",
+                "narration": "―フェリシア―@わかんねーけど…@でもそうとしか思えないし…"
+            },
+            {
+                "narration": "―フェリシア―@もしもそうだとしたらさ@オレ、もういろはたちと一緒に暮らせねえよ"
+            },
+            {
+                "narration": "―フェリシア―@かこともあやめとも@遊んでいいようなやつじゃない"
+            },
+            {
+                "nameNarration": "夏目 かこ",
+                "narration": "―かこ―@落ち着いてよフェリシアちゃん"
+            },
+            {
+                "nameNarration": "フェリシア",
+                "narration": "―フェリシア―@かこも知ってただろ!!"
+            },
+            {
+                "nameNarration": "夏目 かこ",
+                "narration": "―かこ―@１回ちゃんと話そう！"
+            },
+            {
+                "nameNarration": "",
+                "narration": "…………"
+            },
+            {
+                "narration": "…………"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21075.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301101,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter6/102703_smartphone.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "夏目 かこ",
+                "textCenter": "…………",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "夏目 かこ",
+                "textCenter": "（既読が…つかない…）"
+            },
+            {
+                "nameNarration": "",
+                "narration": "[surround:7105_telphone]～～♪～～♪",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301101,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "夏目 かこ",
+                "narrationEffect": "out",
+                "textCenter": "――っ!?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302801,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "夏目 かこ",
+                "textLeft": "あ、あやめちゃん!?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "三栗 あやめ",
+                "textRight": "かこ、今のメッセージなんだよ@フェリシアどうしたのさぁ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301101
+                    }
+                ],
+                "nameLeft": "夏目 かこ",
+                "textLeft": "あの、夢の話@信じちゃったみたいで…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "三栗 あやめ",
+                "textRight": "っていうか、かこ@やっぱなんか知ってるんだろ!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801
+                    }
+                ],
+                "nameRight": "三栗 あやめ",
+                "textRight": "グループチャットに書いてるから@あちし全部見てるんだからな！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "夏目 かこ",
+                "textLeft": "えーっと…あの…でも…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "三栗 あやめ",
+                "textRight": "あちしら親友じゃん！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 301101,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "夏目 かこ",
+                "textLeft": "そんなこと言うの卑怯だよ…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "三栗 あやめ",
+                "textRight": "フェリシアは友だちじゃねーけど@心配なんだよ、あちしだって…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301101,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "夏目 かこ",
+                "textLeft": "…それは私だって同じ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 301101
+                    }
+                ],
+                "nameLeft": "夏目 かこ",
+                "textLeft": "あやめちゃん、@フェリシアちゃんの所に行こう"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "夏目 かこ",
+                "textLeft": "話はそれからしよう！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "三栗 あやめ",
+                "textRight": "…わかった！絶対だからな！"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_11023.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302801,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 301101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801
+                    }
+                ],
+                "nameLeft": "三栗 あやめ",
+                "textLeft": "かこ！",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101
+                    }
+                ],
+                "nameRight": "夏目 かこ",
+                "textRight": "あやめちゃん！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "三栗 あやめ",
+                "textLeft": "フェリシアが住んでるのって@この辺りだったよね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "夏目 かこ",
+                "textRight": "うんっ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101
+                    }
+                ],
+                "nameRight": "夏目 かこ",
+                "textRight": "今はクレセントハウスっていう@避難場所に居るって…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301101,
+                        "lipSynch": 0,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302801,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "夏目 かこ",
+                "textRight": "[chara:301101:effect_ef_adv_01][chara:302801:effect_ef_adv_01][se:7201_detect_magic]この反応、フェリシアちゃん…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302801,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "三栗 あやめ",
+                "textLeft": "確かにアイツの魔力だけどさ@なんか変だ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301101,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "夏目 かこ",
+                "textRight": "…穢れを溜め込んでるのかも"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

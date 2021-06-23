@@ -1,0 +1,449 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "white",
+                "bgm": "stop",
+                "item": [
+                    {
+                        "iPhoneXScale": 1,
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm20_song10",
+                "nameNarration": "かごめ",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 150,
+                "progressNarration": "[textBlack:那由他さんが神浜に来て時が経ち、]@[textBlack:お父さんの行方を探っても]@[textBlack:空を掴むような状況がずっと続いていた。]",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "progressNarration": "[textBlack:だけど、お母さんから教えて貰った情報を元に]@[textBlack:那由他さんはようやく]@[textBlack:お父さんとの再会を果たそうとしていた。]"
+            },
+            {
+                "progressNarration": "[textBlack:突然いなくなった理由も、]@[textBlack:魔法少女の救いを諦めた理由も、]@[textBlack:手紙を送ってきた理由も、]@[textBlack:湯国に通って何をしていたのかということも、]@[textBlack:那由他さんには謎ばかりだった。]"
+            },
+            {
+                "progressNarration": "[textBlack:それでも“魔法少女　その希望と絶望”という]@[textBlack:１冊の本を書き上げるために]@[textBlack:お父さんが動いていることに違いはない。]"
+            },
+            {
+                "progressNarration": "[textBlack:数日後に迫る再会に向けて]@[textBlack:那由他さんは胸を躍らせているようだったけど、]@[textBlack:綺麗に繋がった糸は]@[textBlack:また複雑に絡むことになった。]"
+            },
+            {
+                "progressNarration": "[textBlack:そして、一方の神浜では、]@[textBlack:神浜市長選の投開票を終えて結果が出たあとも]@[textBlack:不穏な空気は漂ったままだった。]"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_11061.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "id": 100100,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "[flashEffect:flashWhiteSlow2]…………",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "ふぅ、これでどうですか？@まだどこか痛む所はあります？"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101601
+                    }
+                ],
+                "nameRight": "十七夜",
+                "textRight": "ふむ…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "十七夜",
+                "textRight": "特に腹回りが不安だったが…@[chara:101601:lipSynch_0][wait:0.8][chara:101601:motion_100][chara:101601:cheek_0][chara:101601:face_mtn_ex_010.exp.json][chara:101601:lipSynch_1]うん、問題ない"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601
+                    }
+                ],
+                "nameRight": "十七夜",
+                "textRight": "これなら牧野君のイベントで@給仕役ぐらいはできそうだ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "十七夜",
+                "textRight": "八雲も無理をさせたな"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101700,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "ううん"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "郁美さんにとって最後のイベント@精一杯盛り上げてきてね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101601,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "十七夜",
+                "textRight": "ふっ、@主役はあくまでご主人たち"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601
+                    }
+                ],
+                "nameRight": "十七夜",
+                "textRight": "自分はできる限りのことを@サポートするだけだ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 102001,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    },
+                    {
+                        "id": 101700,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "みたまさんは、@イベントに行かないんですか…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "そういえば…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "私たちはみんな、十七夜さんに@招待されていたと思いますけど"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101700,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "…遠慮しておくわ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "いいんですか…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "調整をすると@相手の内側が見えちゃうでしょ？"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101700
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "きっと、郁美さんの想いや希望が@フラッシュバックして"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "見ていられないと思うのよ…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101700,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "それで周りを白けさせるなら、@わたしは別のことをしてるわ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103801,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "みかげ",
+                "textRight": "この間の市長選のこと…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "ええ、このまま放置していたら@東への偏見がヒドくなるもの…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101601,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "十七夜",
+                "textRight": "それなら八雲@事務所で再度話を聞いて欲しい"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 101700
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "わたしもそのつもり"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "それに@事務所から呼ばれてるのよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101700
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "誰かわからないとはいっても"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "わたしたちの話が@テレビで流れたでしょ…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "その件で謝罪したいって"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "十七夜",
+                "textRight": "それならちょうど良いな"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601
+                    }
+                ],
+                "nameRight": "十七夜",
+                "textRight": "みかげはどうする@自分と牧野君の方に行くか？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 103801,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みかげ",
+                "textLeft": "ううん、ミィは姉ちゃと一緒に@事務所の方に行くよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "十七夜",
+                "textRight": "そうか、わかった"
+            },
+            {
+                "nameNarration": "",
+                "narration": "「投開票が終わった今も@神浜市長選の騒動は収まりそうにありませんが@これはあくまで反社会的集団による犯罪です@東西の問題も一緒に語られる中で、@住民への影響がないことを祈るばかりです」",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101601
+                    }
+                ],
+                "nameRight": "十七夜",
+                "narrationEffect": "out",
+                "textRight": "気休めだな"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 2
+            }
+        ]
+    },
+    "version": 3
+}

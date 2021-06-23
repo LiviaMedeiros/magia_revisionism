@@ -1,0 +1,492 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21011.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 103301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm01_anime02",
+                "nameNarration": "那由多の父",
+                "narration": "今日、兄さんに会ってくるから@ロビーで待っていてくれるかな？",
+                "narrationBg": "bg_adv_21011.jpg",
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 180,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "実は改めて那由他たち魔法少女の話を@伝えようと思ってるんだ@灯花も魔法少女になっている以上は@兄さんも当事者のひとりだからね"
+            },
+            {
+                "narration": "ここで兄さんに伝える話は@あとで那由他にも伝える@だから少しだけ覚悟をしておいて欲しい"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "那由他",
+                "narrationEffect": "out",
+                "textLeft": "覚悟…@急に重い気持ちになりますの…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103301,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "そうですね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103301,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103701
+                    },
+                    {
+                        "id": 103301,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "ラビ",
+                "narration": "那由他はどんな反応をするだろうか@意固地になって認めないか@それとも私たちと一緒に来てくれるか…",
+                "narrationBg": "bg_adv_21011.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "それでも、私は那由他をだまして@一緒に暮らしていたようなもの"
+            },
+            {
+                "narration": "娘に知られたくないという教授のエゴには@否定的だったから@彼女の父親捜しを潰す気はなかったけど"
+            },
+            {
+                "narration": "首を突っ込まないように@核心に迫られないようにしたのは私で@教授の居場所も教えなかったのも私"
+            },
+            {
+                "narration": "恨まれてもおかしくない…"
+            },
+            {
+                "narration": "長く一緒に居たせいか@恨まれると思うとショックが大きい…@けど、那由他はきっと@私なんかより大きなショックを受ける…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 103301
+                    }
+                ],
+                "nameCenter": "ラビ",
+                "narrationEffect": "out",
+                "textCenter": "ふぅ…"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103301
+                    }
+                ],
+                "nameNarration": "ラビ",
+                "narration": "この世にあるものは全て分け隔てがないもの@私は私であり、私ではなく@１が全であり、全が１である@言葉による境も全て綺麗に失って意味をなくせば@どんな苦も楽もなく無でいられる",
+                "narrationBg": "bg_adv_21011.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "ショックも無いようなもの"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "narrationEffect": "out",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "black",
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 2
+            },
+            {
+                "nameNarration": "",
+                "narration": "……………………",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "…………"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21375.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 103701,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 103301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOutTime": 2
+            },
+            {
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "id": 103701,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "遅すぎますの！",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 103301,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "[chara:103301:effect_emotion_surprise_0][se:7226_shock]――っ!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103301,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "確かに予定の時刻を@大幅に過ぎていますね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103301,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "私も挨拶だけはしようと@思ったのですが"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "もう、待てませんの@ちょっと行ってきますの！"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 103301,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "ラビ",
+                "textCenter": "那由他様！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103301
+                    }
+                ],
+                "nameCenter": "ラビ",
+                "textCenter": "アポなしで突撃すれば、@追い返されるだけですよ…"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21801.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 103701,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "こんな何時間もかかるなんて、@おかしいですの",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "そもそも伯父様自身が@そんな時間を取れないはずですの"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_21801.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 103701,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "あった、院長室"
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "灯花の父",
+                "narration": "―――",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701
+                    }
+                ],
+                "nameCenter": "那由他",
+                "narrationEffect": "out",
+                "textCenter": "電話をしてる…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "パパはもう用事を終わらせて@出ていった…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "どこに…!?"
+            },
+            {
+                "bgm": "bgm05_event07",
+                "nameNarration": "灯花の父",
+                "narration": "「それで、弟のことですが…」",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "那由他",
+                "narrationEffect": "out",
+                "textCenter": "[chara:103701:effect_emotion_surprise_0][se:7226_shock]――っ!?"
+            },
+            {
+                "nameNarration": "灯花の父",
+                "narration": "「ええ、私も娘が関わっているので@彼の空想物語に耳を傾けもしましたが@本当におかしな話ですよ…」",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "「とりあえず、これ以上周りを振り回して@恥をさらして欲しくないので@今は頭を冷やしてもらっています@また雲隠れされたんじゃ困りますからね」"
+            },
+            {
+                "narration": "「監禁だなんて人聞きが悪い@私の仕事が終わるのを待ってもらってるんです@もう少し説得を続けたいのでね」"
+            },
+            {
+                "narration": "「それに、世間を混乱させる恐れがある以上は@科学的な見地から説明するためにも@いずれ私から世間に出ていく必要があります」"
+            },
+            {
+                "narration": "「はい、詳しい話は後ほど会食の席で」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "那由他",
+                "narrationEffect": "out",
+                "textCenter": "（伯父様がパパを監禁…？）"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "（どうして、またパパの話を@否定するために…？）"
+            },
+            {
+                "nameRight": "看護師の声",
+                "textBg": "shout",
+                "textRight": "ちょっと、そこの子、@何をしてるんですか!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "あっ…！"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "看護師",
+                "textCenter": "待ちなさい!!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

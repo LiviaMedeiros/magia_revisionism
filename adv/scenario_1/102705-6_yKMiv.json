@@ -1,0 +1,709 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21221.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 103301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "ごめんなさい@お待たせしましたの",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103301,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "サーシャとお茶を飲んで@待っていましたので気になさらず"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 103501,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アレクサンドラ",
+                "textRight": "はい♪"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 103501
+                    }
+                ],
+                "nameRight": "アレクサンドラ",
+                "textRight": "それよりも、お父さんの居場所は@何か掴めそうでしたか？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 103701,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "そうですの！@ビッグニュースですの！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "なんと、パパがよく泊まる宿を@教えてくれたんですの！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103501,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "アレクサンドラ",
+                "textRight": "それって、@駅周辺のホテルとか？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "なぜか、少し離れた所なんですの"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "昨日ラビさんが言っていた@山の方だったはずですの"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 103301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "…その宿の名前は？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "“大地のゆりかご”っていう@少し不思議な名前ですの"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103301,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103301
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "山に近い温泉宿が多い場所@それで、その名前…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103301,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "ひとまず電話しますか？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 103701,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "そうしますの"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "えっと、電話番号は…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 103701,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "…………"
+            },
+            {
+                "nameNarration": "",
+                "narration": "プルルルルル…@プルルルルル…",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "カチャッ…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "那由他",
+                "narrationEffect": "out",
+                "textCenter": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "あ、少々お尋ねしたいことが@あるんですけど"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "今夜、そちらに３名@宿泊することは可能ですの？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 103701,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "はい、ありがとうございます！@良かったですの！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 103701
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "…はい、名前は@里見那由他と申しますの"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "…はい、表示されてる@仰って頂いた番号で正しいですの"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 103701,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "…………[chara:103601:lipSynch_0][wait:0.8][chara:103701:cheek_0][chara:103701:face_mtn_ex_050.exp.json][chara:103701:motion_0][chara:103701:lipSynch_1]え？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "そうですの！@私は太助の娘の那由他ですの！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 103301,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "ラビ",
+                "textCenter": "…………"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 103301,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "id": 103301,
+                        "motion": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103501,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "surround": "7202_telepathy",
+                "textLeft": "運が那由他に傾いてる@ちょうど良い機会だった",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103501
+                    }
+                ],
+                "nameRight": "アレクサンドラ",
+                "textRight": "ただ、少し心配ですね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103501
+                    }
+                ],
+                "nameRight": "アレクサンドラ",
+                "textRight": "教授と会って“可能性”について@知ることになったら…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103501,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "アレクサンドラ",
+                "textRight": "那由他ちゃんは@平気でいられるでしょうか…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103301,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "苦しむとは思うけど@向き合うなら今の方が良い"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103501,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "アレクサンドラ",
+                "textRight": "あとで@傷付いて戸惑うぐらいなら"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103501
+                    }
+                ],
+                "nameRight": "アレクサンドラ",
+                "textRight": "今、可能性を知って傷付いた方が@幸せっていうこと？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 103301,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "そう、それに…"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 103501
+                    }
+                ],
+                "surround": "stop",
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 103701,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "本当ですの？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "明日、パパは@宿泊を予定してますの!?"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 103301,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "surround": "7202_telepathy",
+                "textLeft": "那由他は@私にとっても可愛い人",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103301,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "教授の極力伝えたくないという@エゴに付き合わされて"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103301
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "もがき続ける那由他を見るのは@私にも少々辛かった"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 103501,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アレクサンドラ",
+                "textRight": "…優しいね、ラビちゃんは"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103501
+                    }
+                ],
+                "nameRight": "アレクサンドラ",
+                "textRight": "でも、大地のゆりかごで@話を聞いちゃうと…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 103301,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "神浜で話ができるように@手はずは整えた"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 103501
+                    }
+                ],
+                "surround": "stop",
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 103701,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "３名分の予約もとれたし、@明日にはパパと会えますの！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 103701
+                    }
+                ],
+                "nameCenter": "那由他",
+                "textCenter": "ふたりとも協力してくれて@ありがとうですの！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 103701,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 103501,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アレクサンドラ",
+                "textRight": "ううん、構いませんよ♪"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 103701,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "久しぶりに会うし@お土産を買っていきますの"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "だから湯国で湯国のお土産を@もらうのは変ですよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 103701,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "そうでしたの…"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "black",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "ラビ",
+                "narration": "那由他は理解してくれるだろうか",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "魔法少女を救うということを…@今の私たちが“答え合わせ”をしている@“可能性”を…"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

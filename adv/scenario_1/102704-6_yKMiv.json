@@ -1,0 +1,603 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21181.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "[flashEffect:flashWhite2][surround:1008A02]消えてヨネ！",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101200,
+                        "motion": 300,
+                        "tear": 1
+                    }
+                ],
+                "nameLeft": "御園 かりん？",
+                "textLeft": "[flashEffect:flashRed2][surround:1008A03][chara:101200:effect_shake][bgEffect:shakeLarge]うぅ、これで絶版なの…"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101200
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101200,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "御園 かりん",
+                "textCenter": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101200,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "御園 かりん",
+                "textCenter": "コピーでも、消されると@なんだか複雑な気分になるの…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101200
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm05_event08",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100600,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "床の破壊は無理でしたね…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301200,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "純 美雨",
+                "textRight": "無駄に魔力を消費しただけヨ@少し反省ネ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100600,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "それで、皆さん@ケガはありませんか？"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100800,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "アリナ",
+                "textCenter": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "アリナ",
+                "textCenter": "（アリナの中にいるヤツも@カミングって言うなら）"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100800,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "アリナ",
+                "textCenter": "（こういう時こそ@サポートして欲しいんですケド）"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "black",
+                "bgChangeEffect": "fade"
+            },
+            {
+                "nameNarration": "アリナ",
+                "narration": "ねぇ…",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "アリナにもっと奧に来て欲しいなら@アナタもするべき事があるヨネ？"
+            },
+            {
+                "narration": "アリナはミラーズに深くダイブするほど@自分の深いところに辿り着いて@デリートされたメモリーに@近付いてると思ってるワケ"
+            },
+            {
+                "narration": "だからアリナの中にいるアナタに@言われた通りのことをしてるんだケド…"
+            },
+            {
+                "narration": "そっちがサポートを面倒臭がるなら@アリナ的にもギブアップ@いっそメモリーをリスタートさせて@新しいアリナとして生きるつもりだカラ"
+            },
+            {
+                "narration": "その時はアナタともバイバイだケド@それでいいワケ？"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21181.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100600,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100600,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "さ、特に問題は無さそうですし@先に進みましょうか",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "…ウェイト"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100600
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "ん？"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101800,
+                        "motion": 1,
+                        "pos": 1,
+                        "posX": 50
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101900,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "月夜",
+                "textCenter": "もしかしてアリナさん@また中にいる人との話を…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100600,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "ええ、恐らく…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101900
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100800,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100800,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "オッケー、少しだけ@アリナの口を貸してアゲル…"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100600,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "えっ…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "ふぅ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 100800,
+                        "motion": 2
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "―●―★―■＿￣■―＊"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100600,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "なんですかこの声…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300100,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "矢宵 かのこ",
+                "textLeft": "人の声じゃないみたい@すごく不気味よ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "…………"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101900,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101800,
+                        "motion": 0,
+                        "pos": 1,
+                        "posX": 50
+                    }
+                ],
+                "nameRight": "月咲",
+                "textRight": "止まった…？"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101900
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 100800,
+                        "motion": 2,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "アリナ",
+                "textCenter": "…オープン"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101900,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101800,
+                        "motion": 400,
+                        "pos": 1,
+                        "posX": 50
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100600,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameCenter": "月咲",
+                "textCenter": "へ？"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "black",
+                "bgChangeEffect": "enterWitchSpace",
+                "bgm": "stop",
+                "se": "7208_wander_into",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "action": {
+                            "moveTo": {
+                                "duration": 0.4,
+                                "posY": 0
+                            }
+                        },
+                        "path": "resource/scenario/img/adv_roll_fade.png",
+                        "posX": 0,
+                        "posY": -2000,
+                        "scale": 6,
+                        "setVisible": 1,
+                        "zOrder": "messageFront"
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101900
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "action": {
+                            "moveTo": {
+                                "duration": 0.4,
+                                "posY": 1000
+                            }
+                        },
+                        "path": "resource/scenario/img/adv_roll_fade.png"
+                    }
+                ]
+            },
+            {
+                "nameNarration": "みんな",
+                "narration": "「きゃあああああッ!!」",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

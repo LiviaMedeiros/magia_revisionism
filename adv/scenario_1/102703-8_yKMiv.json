@@ -1,0 +1,653 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_14033.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "id": 100300,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "鶴乃",
+                "textRight": "やっぱり向かった方向はあってる@フェリシアの反応があるよ！",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "ええ、少し時間は経ってるけど@魔力反応に間違いはないわね"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100200,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "なんだか悔しいです…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "やちよ",
+                "textRight": "いろは…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "私からみかづき荘においでって@誘ったのに何も気付けなくて"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "それに、苦しんでる姿を見ても@何もできそうにない…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "かけたい言葉はたくさんあるし@前を向いて欲しいけど"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "私、フェリシアちゃんを救える@イメージができないんです…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "さなちゃんの言う通りだよ"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_11142.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 301,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100401,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100401,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "私、フェリシアさんの心を@救える気がしません…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "…それは"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100401,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "私は家族から逃げるために@みかづき荘に来たけど…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100401
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "フェリシアさんは違う…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100401,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "お父さんもお母さんも@大好きなんです…"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_14033.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100400,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "はい…@私は今も同じ気持ちです…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100400
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "助けたい気持ちの強さだけ@虚しさが胸に広がります…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "（たったひとりの仲間を…@家族を救えないで…）"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "（私は他のグループの人も@みんな救いたいって考えてた…）"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100100,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "（本当に私は浅はかで@あまりに自分が見えてない…）"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "（自分の理想を持て余してる…）"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "やちよ",
+                "textRight": "いろは、何をする時も@自分だけで抱え込まないで"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100200,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "やちよ",
+                "textRight": "ひとりで戦う私を救ったのは@他でもない、いろはなんだから"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "やちよさん…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 201
+                    }
+                ],
+                "nameRight": "やちよ",
+                "textRight": "私たちにはみんながいる"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "nameRight": "やちよ",
+                "textRight": "それは、こうしてフェリシアを@救おうとしている今も同じよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100300,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "鶴乃",
+                "textRight": "そうそう！@わたしたちみんなで助けよう！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300
+                    }
+                ],
+                "nameRight": "鶴乃",
+                "textRight": "今はフェリシアにとって@ういちゃんって妹分もできたし"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100300,
+                        "motion": 101
+                    }
+                ],
+                "nameRight": "鶴乃",
+                "textRight": "みかづき荘のパワーは@前よりも強靱になってるよ!!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "鶴乃",
+                "textRight": "ふんふん！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "…うん、そうだね@今は５人の力があるんだよね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101500,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "うい",
+                "textRight": "大丈夫だよお姉ちゃん！@さなさんも！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100400,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "さな",
+                "textLeft": "うん、そうだね@ういちゃん…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100400
+                    }
+                ],
+                "nameLeft": "さな",
+                "textLeft": "私たちにできることを@まずは全力でやらないとね…！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100400
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "（私にできること…@私が知るフェリシアちゃん…）"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "いろは",
+                "narration": "どうすれば@自分を許せるんだろう…",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "その前に落ち着いてくれる@何かがあれば…"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_14033.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "surround": "7003_wind",
+                "textLeft": "あれなら…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100400
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "いろはさん、私も同じことを@考えたかもしれません…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100400,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "一度、家に戻りますよね…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "うん…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100400,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "それなら私が行きます@先に行っててください…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "そんな、私も！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100400,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "フェリシアさんを@みかづき荘に誘ったのは"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100400
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "いろはさんですよね…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "うん…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100400,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "一番初めに優しさをあげた人が@居た方が嬉しいと思います…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "…わかった@ありがとう、さなちゃん"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100400,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "はい…@私もすぐに追いかけます…！"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

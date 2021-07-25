@@ -139,7 +139,8 @@
                         "pos": 2
                     }
                 ],
-                "turnChangeIn": "fadeIn"
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 2
             },
             {
                 "bgm": "bgm03_story21",
@@ -1168,7 +1169,7 @@
                 "textCenter": "[chara:102551:effect_emotion_surprise_0][se:7226_shock]はっ…！"
             },
             {
-                "autoTurnLast": 0.2,
+                "autoTurnLast": 0.5,
                 "chara": [
                     {
                         "effect": "fadeout",
@@ -1416,7 +1417,7 @@
                 "textLeft": "そんなっ…！@ふたり同時にやられるなんて…"
             },
             {
-                "autoTurnLast": 0.2,
+                "autoTurnLast": 0.5,
                 "bgm": "stop",
                 "chara": [
                     {
@@ -1529,6 +1530,10 @@
                 ],
                 "nameCenter": "すなお",
                 "textCenter": "ふふふふ…"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
             }
         ]
     },

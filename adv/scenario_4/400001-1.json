@@ -38,7 +38,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 100100,
                         "motion": 400,
                         "mouthOpen": 1,
@@ -576,8 +576,10 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 100100,
+                        "live2dName": "live2d_0",
                         "motion": 400,
-                        "mouthOpen": 1
+                        "mouthOpen": 1,
+                        "pos": 2
                     }
                 ],
                 "flashEffect": "explosion",
@@ -608,6 +610,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_060.exp.json",
                         "id": 100100,
+                        "live2dName": "live2d_0",
                         "motion": 300,
                         "mouthOpen": 1
                     }
@@ -635,7 +638,8 @@
                     },
                     {
                         "effect": "fadeout",
-                        "id": 100100
+                        "id": 100100,
+                        "live2dName": "live2d_0"
                     }
                 ],
                 "item": [
@@ -665,6 +669,16 @@
                 "narration": "…それで…急に…@…急に…"
             },
             {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "live2dName": "live2d_0",
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
                 "narration": "…何かが!?"
             },
             {
@@ -672,9 +686,8 @@
                 "bgChangeEffect": "fade",
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
                         "id": 100100,
+                        "live2dName": "live2d_0",
                         "motion": 300,
                         "pos": 2
                     }
@@ -689,6 +702,7 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 100100,
                         "lipSynch": 0,
+                        "live2dName": "live2d_0",
                         "motion": 1
                     }
                 ],
@@ -698,7 +712,8 @@
                 "chara": [
                     {
                         "id": 100100,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "live2dName": "live2d_0"
                     }
                 ],
                 "textRight": "[chara:100100:lipSynch_0]（…突然現れたのは…@…あれは手下…？）"
@@ -710,6 +725,7 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 100100,
                         "lipSynch": 0,
+                        "live2dName": "live2d_0",
                         "motion": 1
                     }
                 ],
@@ -719,10 +735,11 @@
                 "chara": [
                     {
                         "id": 100100,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "live2dName": "live2d_0"
                     }
                 ],
-                "textRight": "[chara:100100:lipSynch_0]（…ということ…？）"
+                "textRight": "（…ということ…？）"
             },
             {
                 "nameLeft": "？？？",
@@ -738,6 +755,7 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 100100,
                         "lipSynch": 1,
+                        "live2dName": "live2d_0",
                         "motion": 0
                     }
                 ],
@@ -750,7 +768,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp.json",
-                        "id": 100191,
+                        "id": 100100,
+                        "live2dName": "live2d_1",
                         "motion": 301,
                         "pos": 0
                     },
@@ -758,6 +777,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 100100,
+                        "live2dName": "live2d_0",
                         "motion": 401
                     }
                 ],
@@ -769,7 +789,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
-                        "id": 100100
+                        "id": 100100,
+                        "live2dName": "live2d_0"
                     }
                 ],
                 "textRight": "…嘘でしょ…"
@@ -781,6 +802,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 100100,
+                        "live2dName": "live2d_0",
                         "motion": 400,
                         "mouthOpen": 1
                     }
@@ -796,12 +818,14 @@
                         "effect": "shake",
                         "face": "mtn_ex_060.exp.json",
                         "id": 100100,
+                        "live2dName": "live2d_0",
                         "motion": 400
                     },
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp.json",
-                        "id": 100191,
+                        "id": 100100,
+                        "live2dName": "live2d_1",
                         "motion": 100,
                         "mouthOpen": 1
                     }
@@ -818,21 +842,29 @@
                 "chara": [
                     {
                         "id": 100100,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "live2dName": "live2d_0"
                     }
                 ],
-                "textRight": "[chara:100100:lipSynch_0]（こ、攻撃してきた…@一体どうなってるの…！）"
+                "textRight": "（こ、攻撃してきた…@一体どうなってるの…！）"
             },
             {
                 "chara": [
                     {
                         "id": 100100,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "live2dName": "live2d_0"
                     }
                 ],
-                "textRight": "[chara:100100:lipSynch_0]（それに、他にも人影…？）@　"
+                "textRight": "（それに、他にも人影…？）　"
             },
             {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "live2dName": "live2d_1"
+                    }
+                ],
                 "nameLeft": "いろは？",
                 "textLeft": "ふふ！"
             },
@@ -843,6 +875,7 @@
                         "face": "mtn_ex_060.exp.json",
                         "id": 100100,
                         "lipSynch": 1,
+                        "live2dName": "live2d_0",
                         "motion": 301
                     }
                 ],
@@ -852,19 +885,21 @@
                 "chara": [
                     {
                         "id": 100100,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "live2dName": "live2d_0"
                     }
                 ],
-                "textRight": "[chara:100100:lipSynch_0]（攻撃の手応えはある…@…だから…これは現実…！）"
+                "textRight": "（攻撃の手応えはある…@…だから…これは現実…！）"
             },
             {
                 "chara": [
                     {
                         "id": 100100,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "live2dName": "live2d_0"
                     }
                 ],
-                "textRight": "[chara:100100:lipSynch_0]（…きっと、幻覚で自分の姿に@見えるとか…そういう…）"
+                "textRight": "（…きっと、幻覚で自分の姿に@見えるとか…そういう…）"
             },
             {
                 "chara": [
@@ -873,23 +908,26 @@
                         "face": "mtn_ex_021.exp.json",
                         "id": 100100,
                         "lipSynch": 0,
+                        "live2dName": "live2d_0",
                         "motion": 401
                     },
                     {
                         "face": "mtn_ex_011.exp.json",
-                        "id": 100191
+                        "id": 100100,
+                        "live2dName": "live2d_1"
                     }
                 ],
-                "textRight": "[chara:100100:lipSynch_0]（…ううん…理屈はいい！@とにかく、戦わないと…）"
+                "textRight": "（…ううん…理屈はいい！@とにかく、戦わないと…）"
             },
             {
                 "chara": [
                     {
                         "id": 100100,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "live2dName": "live2d_0"
                     }
                 ],
-                "textRight": "[chara:100100:lipSynch_0]（このままじゃ、やられる…！）"
+                "textRight": "（このままじゃ、やられる…！）"
             },
             {
                 "autoTurnLast": 2,

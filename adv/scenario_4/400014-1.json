@@ -17,6 +17,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 1,
                         "pos": 1
                     }
@@ -30,17 +31,19 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
-                        "id": 300600
+                        "id": 300600,
+                        "live2dName": "live2d_0"
                     }
                 ],
-                "textCenter": "リスザルみたいな感じ？@[chara:300600:lipSynch_0][wait:0.8][chara:300600:motion_200][chara:300600:cheek_0][chara:300600:face_mtn_ex_011.exp.json][chara:300600:lipSynch_1]かわいーんだよね～！"
+                "textCenter": "リスザルみたいな感じ？@[live2dName:live2d_0:lipSynch_0][wait:0.8][live2dName:live2d_0:motion_200][live2dName:live2d_0:cheek_0][live2dName:live2d_0:face_mtn_ex_011.exp.json][live2dName:live2d_0:lipSynch_1]かわいーんだよね～！"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
-                        "id": 300600
+                        "id": 300600,
+                        "live2dName": "live2d_0"
                     }
                 ],
                 "textCenter": "んで、りかっぺは清楚系ね！@あーしはいつもこう言ってるの…"
@@ -51,6 +54,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 100
                     }
                 ],
@@ -81,6 +85,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 0,
                         "pos": 0
                     }
@@ -94,7 +99,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp.json",
-                        "id": 300690,
+                        "id": 300600,
+                        "live2dName": "live2d_1",
                         "motion": 0,
                         "pos": 2
                     }
@@ -107,7 +113,7 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
-                        "id": 300699,
+                        "id": 300600,
                         "motion": 1,
                         "pos": 2
                     }
@@ -120,7 +126,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
-                        "id": 300690,
+                        "id": 300600,
+                        "live2dName": "live2d_1",
                         "motion": 100,
                         "pos": 2
                     }
@@ -134,11 +141,13 @@
                         "cheek": 0,
                         "face": "mtn_ex_011.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 100
                     },
                     {
                         "effect": "fadeout",
-                        "id": 300690
+                        "id": 300600,
+                        "live2dName": "live2d_1"
                     }
                 ],
                 "textLeft": "うい！@じゃねー！"
@@ -159,6 +168,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 0,
                         "pos": 0
                     },
@@ -180,7 +190,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
-                        "id": 300600
+                        "id": 300600,
+                        "live2dName": "live2d_0"
                     }
                 ],
                 "textLeft": "そんな離れてないと@思うんだけどねー"
@@ -201,7 +212,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
-                        "id": 300600
+                        "id": 300600,
+                        "live2dName": "live2d_0"
                     }
                 ],
                 "textLeft": "…なんとなく？"
@@ -223,6 +235,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_011.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 200,
                         "mouthOpen": 1
                     }
@@ -235,6 +248,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 0,
                         "pos": 0
                     },
@@ -276,7 +290,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
-                        "id": 300600
+                        "id": 300600,
+                        "live2dName": "live2d_0"
                     }
                 ],
                 "textLeft": "…どしたの？@あーしの顔そんなに見て"
@@ -298,10 +313,11 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
-                        "id": 300600
+                        "id": 300600,
+                        "live2dName": "live2d_0"
                     }
                 ],
-                "textLeft": "[chara:300600:effect_emotion_angry_0][se:7219_strain]…もしかして…！"
+                "textLeft": "[live2dName:live2d_0:effect_emotion_angry_0][se:7219_strain]…もしかして…！"
             },
             {
                 "chara": [
@@ -322,6 +338,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 400
                     }
                 ],
@@ -344,6 +361,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 0
                     }
                 ],
@@ -386,10 +404,11 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
-                        "id": 300600
+                        "id": 300600,
+                        "live2dName": "live2d_0"
                     }
                 ],
-                "textLeft": "[chara:300600:effect_emotion_surprise_0][se:7226_shock]マジで!?@[chara:300600:lipSynch_0][wait:1.0][chara:300600:motion_200][chara:300600:cheek_0][chara:300600:face_mtn_ex_011.exp.json][chara:300600:lipSynch_1]っしゃー！"
+                "textLeft": "[live2dName:live2d_0:effect_emotion_surprise_0][se:7226_shock]マジで!?@[live2dName:live2d_0:lipSynch_0][wait:1.0][live2dName:live2d_0:motion_200][live2dName:live2d_0:cheek_0][live2dName:live2d_0:face_mtn_ex_011.exp.json][live2dName:live2d_0:lipSynch_1]っしゃー！"
             },
             {
                 "chara": [
@@ -397,6 +416,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 0,
                         "pos": 0
                     },
@@ -438,6 +458,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 400
                     }
                 ],
@@ -460,6 +481,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 200
                     }
                 ],
@@ -470,7 +492,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp.json",
-                        "id": 300600
+                        "id": 300600,
+                        "live2dName": "live2d_0"
                     }
                 ],
                 "textLeft": "みゃーこ先輩だ！"
@@ -494,10 +517,11 @@
                     {
                         "cheek": 0,
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 0
                     }
                 ],
-                "textLeft": "[chara:300600:effect_emotion_joy_0][se:7222_happy]みゃーこせんぱーい！"
+                "textLeft": "[live2dName:live2d_0:effect_emotion_joy_0][se:7222_happy]みゃーこせんぱーい！"
             },
             {
                 "chara": [
@@ -505,6 +529,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 200
                     }
                 ],
@@ -528,10 +553,11 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 300600,
                         "lipSynch": 0,
+                        "live2dName": "live2d_0",
                         "motion": 0
                     }
                 ],
-                "textLeft": "…………？@[chara:300600:lipSynch_0][wait:1.0][chara:300600:lipSynch_1]…あー、うん…"
+                "textLeft": "…………？@[live2dName:live2d_0:lipSynch_0][wait:1.0][live2dName:live2d_0:lipSynch_1]…あー、うん…"
             },
             {
                 "chara": [
@@ -550,6 +576,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 1
                     }
                 ],
@@ -574,6 +601,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 100,
                         "pos": 0
                     }
@@ -612,6 +640,7 @@
                         "face": "mtn_ex_020.exp.json",
                         "id": 300600,
                         "lipSynch": 0,
+                        "live2dName": "live2d_0",
                         "motion": 0,
                         "pos": 0
                     }
@@ -672,13 +701,14 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 400,
                         "mouthOpen": 1,
                         "pos": 0
                     }
                 ],
                 "nameLeft": "木崎 衣美里",
-                "textLeft": "あ！[chara:300600:effect_emotion_surprise_0][se:7226_shock]ヤバ…！"
+                "textLeft": "あ！[live2dName:live2d_0:effect_emotion_surprise_0][se:7226_shock]ヤバ…！"
             },
             {
                 "chara": [
@@ -698,10 +728,11 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 0
                     }
                 ],
-                "textLeft": "[chara:300600:effect_emotion_angry_0][se:7219_strain]…むむっ！"
+                "textLeft": "[live2dName:live2d_0:effect_emotion_angry_0][se:7219_strain]…むむっ！"
             },
             {
                 "chara": [
@@ -709,7 +740,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 300600,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "live2dName": "live2d_0"
                     }
                 ],
                 "textLeft": "…………"
@@ -720,7 +752,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
-                        "id": 300600
+                        "id": 300600,
+                        "live2dName": "live2d_0"
                     }
                 ],
                 "textLeft": "あのさ…"
@@ -742,6 +775,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 200
                     }
                 ],
@@ -780,6 +814,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
                         "id": 300600,
+                        "live2dName": "live2d_0",
                         "motion": 0
                     }
                 ],
@@ -790,7 +825,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp.json",
-                        "id": 300600
+                        "id": 300600,
+                        "live2dName": "live2d_0"
                     }
                 ],
                 "textLeft": "みゃーこ先輩のコピーじゃん"

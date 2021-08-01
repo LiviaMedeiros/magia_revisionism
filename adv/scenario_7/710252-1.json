@@ -24,7 +24,7 @@
                     }
                 ],
                 "nameCenter": "静香",
-                "textCenter": "ね、ねぇ…@本当にみんなあんな姿で泳ぐの？",
+                "textCenter": "ね、ねぇ…本当にみんな@あんな格好で泳ぐの？",
                 "turnChangeOut": "fadeOut"
             },
             {
@@ -214,7 +214,7 @@
                     }
                 ],
                 "nameLeft": "静香",
-                "textLeft": "私が水着を着るの…？@人前で…あんな露出の多い…"
+                "textLeft": "私があんな水着を着るの…？@人前で…あんな露出の多い…"
             },
             {
                 "chara": [
@@ -226,7 +226,7 @@
                     }
                 ],
                 "nameRight": "ちはる",
-                "textRight": "別に普通だよ"
+                "textRight": "別に普通だよ@わたしは着たことあるし"
             },
             {
                 "chara": [
@@ -235,7 +235,7 @@
                     }
                 ],
                 "nameRight": "ちはる",
-                "textRight": "わたしも持ってるし@すなおちゃんも持ってるよね？"
+                "textRight": "すなおちゃんもそうだよね？"
             },
             {
                 "chara": [
@@ -248,7 +248,7 @@
                     }
                 ],
                 "nameRight": "すなお",
-                "textRight": "もちろん"
+                "textRight": "もちろん@着たことがありますよ"
             },
             {
                 "chara": [
@@ -477,7 +477,7 @@
                     }
                 ],
                 "nameRight": "すなお",
-                "textRight": "きっと褒めてくれますよ"
+                "textRight": "その方が慣れると思いますし、@きっと褒めてくれますよ"
             },
             {
                 "chara": [
@@ -487,7 +487,7 @@
                     }
                 ],
                 "nameLeft": "ちはる",
-                "textLeft": "そうしたら、@恥ずかしくなくなるんじゃない？"
+                "textLeft": "自信がつけば@恥ずかしくなくなりそうだよね！"
             },
             {
                 "autoTurnLast": 0.2,
@@ -748,7 +748,7 @@
                     }
                 ],
                 "nameLeft": "ちはる",
-                "textLeft": "水着を着たことないっていうから@買ってきたんだよぅっ"
+                "textLeft": "水着を着たことないっていうから@買ってきたんだよっ"
             },
             {
                 "chara": [
@@ -774,7 +774,7 @@
                     }
                 ],
                 "nameRight": "すなお",
-                "textRight": "人前で水着姿になるのは@恥ずかしいと言うので"
+                "textRight": "静香が人前で水着姿になるのは@恥ずかしいと言うので"
             },
             {
                 "chara": [
@@ -783,7 +783,7 @@
                     }
                 ],
                 "nameRight": "すなお",
-                "textRight": "まずは、人の目に@慣れてもらおうと思いまして…"
+                "textRight": "まずは、よく知った人を相手に@慣れてもらおうと思いまして…"
             },
             {
                 "chara": [
@@ -987,57 +987,21 @@
                     }
                 ],
                 "nameLeft": "ちはる",
-                "textLeft": "わたしも新しいの買ったから@みんなにお披露目したいっ！"
+                "textLeft": "わたしたちも新しいの買ったから@みんなにお披露目したかったんだ"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 0.2,
                 "chara": [
-                    {
-                        "effect": "fadeout",
-                        "id": 305801
-                    },
                     {
                         "effect": "fadeout",
                         "id": 102650
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 305801
                     }
                 ],
                 "textClear": 1
-            },
-            {
-                "autoTurnLast": 1,
-                "chara": [
-                    {
-                        "cheek": 1,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 102551,
-                        "motion": 100,
-                        "pos": 1
-                    }
-                ],
-                "textClear": 1
-            },
-            {
-                "nameRight": "ちかの声",
-                "textRight": "では、撮りますね"
-            },
-            {
-                "nameNarration": "",
-                "narration": "パシャ[flashEffect:flashWhite1][surround:7023_camera]",
-                "narrationBg": "",
-                "narrationEffect": "in"
-            },
-            {
-                "chara": [
-                    {
-                        "cheek": 1,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 102551,
-                        "motion": 0
-                    }
-                ],
-                "nameCenter": "静香",
-                "narrationEffect": "out",
-                "textCenter": "ありがとう"
             },
             {
                 "chara": [
@@ -1045,24 +1009,9 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
                         "id": 102551,
-                        "motion": 1
-                    }
-                ],
-                "nameCenter": "静香",
-                "textCenter": "水着の写真を送ったら@母様、びっくりするかしら？"
-            },
-            {
-                "autoTurnLast": 0.2,
-                "chara": [
-                    {
-                        "id": 102551,
+                        "motion": 1,
                         "pos": 0
-                    }
-                ],
-                "textClear": 1
-            },
-            {
-                "chara": [
+                    },
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp.json",
@@ -1071,8 +1020,27 @@
                         "pos": 2
                     }
                 ],
+                "nameLeft": "静香",
+                "textLeft": "これで水着の写真を送ったら@母様、びっくりするかしら？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304701
+                    }
+                ],
                 "nameRight": "青葉 ちか",
                 "textRight": "集落にないものなら@驚くかもしれませんね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102551,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "静香",
+                "textLeft": "ちょっと手伝ってくれる？@写真を撮ってほしいの"
             },
             {
                 "autoTurnLast": 0.2,
@@ -1106,7 +1074,7 @@
                     }
                 ],
                 "nameLeft": "ちはる",
-                "textLeft": "静香ちゃん、@すっかり水着に慣れたみたいだね"
+                "textLeft": "それにしても静香ちゃん、@すっかり水着に慣れたみたいだね"
             },
             {
                 "chara": [
@@ -1117,7 +1085,7 @@
                     }
                 ],
                 "nameRight": "すなお",
-                "textRight": "ふふっ…これで@水辺でも思い出が作れますね"
+                "textRight": "ふふっ…これから@海でも川でも思い出が作れますね"
             },
             {
                 "chara": [

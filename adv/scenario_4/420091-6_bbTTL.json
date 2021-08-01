@@ -919,17 +919,18 @@
                 "textRight": "朝刊の一面を飾る気か…？"
             },
             {
+                "autoTurnLast": 0.2,
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
-                        "id": 104100,
-                        "motion": 100,
-                        "pos": 0
+                        "effect": "fadeout",
+                        "id": 200400
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200600
                     }
                 ],
-                "nameLeft": "リヴィア",
-                "textLeft": "アンタら魔法少女か！@助かったわ！"
+                "textClear": 1
             },
             {
                 "chara": [
@@ -938,14 +939,9 @@
                         "face": "mtn_ex_050.exp.json",
                         "id": 104100,
                         "lipSynch": 0,
+                        "motion": 100,
                         "pos": 0
-                    }
-                ],
-                "nameLeft": "リヴィア",
-                "textLeft": "（せやけどこの子ら@神浜の子とちゃうみたいやな）"
-            },
-            {
-                "chara": [
+                    },
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp.json",
@@ -955,8 +951,8 @@
                         "pos": 2
                     }
                 ],
-                "nameRight": "マミ",
-                "textRight": "（見たことのない人たちね…@マギウスの翼でもないはず…）"
+                "nameLeft": "リヴィア",
+                "textLeft": "（この子らは…！）"
             },
             {
                 "chara": [

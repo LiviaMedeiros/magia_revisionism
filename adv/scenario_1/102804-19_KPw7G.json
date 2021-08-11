@@ -1,0 +1,1092 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "black",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter7/102804_yuna_history.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm21_system03",
+                "nameNarration": "いろは",
+                "narration": "深いところまで[textYellow:キモチ]の浸食を受けているせいか@フェリシアちゃんのときとはまるで違う",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "紅晴さんを形作るいくつもの記憶が@バラバラに分解されていくように見える"
+            },
+            {
+                "narration": "紅晴さんとひとつになった私も@例外じゃないみたい…@少しずつ自分の胸の奥に@知らない何かが浸食してくるのを感じる"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 301,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "いろは",
+                "narrationEffect": "out",
+                "textCenter": "それでも助けるからね紅晴さん"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "必ず見つけて[textYellow:キモチ]から解放して@元の姿に戻すから…"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "nameNarration": "いろは",
+                "narration": "だからごめんね@見つけるためだとは言っても@過去を覗いてしまうと思う",
+                "narrationBg": "black",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bgm": "stop"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20033.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102102,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1.2,
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "bgm": "bgm23_promised05",
+                "chara": [
+                    {
+                        "id": 102400,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "ハッ、テメエが@新しいアイツの腰巾着か",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.2
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp3.json",
+                        "id": 102400
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "私にとっちゃ、新しいオモチャが@来てくれたもんだな"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102102,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "噂通りの戦闘狂のようねぇ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102102,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "あなたの報復を恐れて@活動できない魔法少女もいるわぁ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102102
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "ただでさえ危険に身を置く以上、@魔法少女は手を取り合うべきよぉ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102400,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "ぁあ？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102400
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "むしろ気に入らねえヤツや@強いヤツをぶん殴れる社会だろ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp3.json",
+                        "id": 102400,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "そんな最高の舞台を@自ら放棄するわけないっつーの"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_21503.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 0,
+                        "posX": -50
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102102,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "nameLeft": "キュゥべえ",
+                "textLeft": "ボクがどれだけ説明をしても@理解は得られないようだね",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textLeft": "できれば攻撃は@やめてもらいたいんだけど"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102102
+                    }
+                ],
+                "nameRight": "結菜",
+                "textRight": "個体数に限りがあるのは@あなたの都合で論点が違うわぁ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102102,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "結菜",
+                "textRight": "私たちが求めてるのは@あなたの魔法少女勧誘停止よぉ"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20522.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 770083,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102400,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102400,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "あぁ…@今日で竜ケ崎は虎屋町から離れる",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp3.json",
+                        "id": 102400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "テメエら！@この“樹里サマ”に付いて来い！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102102,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "結菜",
+                "textRight": "恨むわよ…樹里…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102400,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "いいぜ、姉さん"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 102400,
+                        "pos": 0
+                    },
+                    {
+                        "id": 102102,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "“樹里サマ”は@今、テメエに楔を打った"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp3.json",
+                        "id": 102400,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "それをブチ壊してくれ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "そして次こそは私の@ビョーキを受け止めてくれよ"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21133.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 770184,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 770083,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 770084,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 770184
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "隙を見せたな…@[chara:770184:lipSynch_0][wait:1.0][chara:770184:cheek_0][chara:770184:face_mtn_ex_020.exp3.json][chara:770184:lipSynch_1]みんなやれ！今だ！",
+                "turnChangeOut": "rollOutFast",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102102,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 770180,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102102,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "結菜",
+                "textBg": "shout",
+                "textCenter": "危ない!!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 770180,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "っ…[wait:0.8][chara:770180:lipSynch_1]まにあわな…"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_21133.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 770083,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 770084,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 770085,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 770083,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "id": 770084,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "id": 770085,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameCenter": "",
+                "textBg": "shout",
+                "textCenter": "[flashEffect:flashWhite2]くらぇえええ!!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 770083
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 770084
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 770085
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 770180,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_052.exp3.json",
+                        "id": 102102,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "[flashEffect:flashRed2][se:3001_chara_damage][chara:770180:effect_shake][bgEffect:shakeLarge]グッ…ウ…@[chara:770180:lipSynch_0][wait:0.8][chara:770180:lipSynch_1]すみま…せん…"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 770180
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 102102,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 770184,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "残りは…紅晴結菜…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_20464.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "いろは",
+                "narration": "戦い…戦い…戦い…@数え切れない仲間たちの死を見届ける日々@平穏な魔法少女としての生活なんて@ほとんど経験していない…",
+                "narrationEffect": "in",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "narration": "これが魔法少女としての紅晴さんだから@心の中も凄惨な光景が広がっている…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp3.json",
+                        "id": 100100,
+                        "motion": 300
+                    }
+                ],
+                "narration": "奧に進もうとする度に…@１歩進もうとする度にぐにゃりと@誰かの肉の感触が足の裏から伝わってくるのも@風が鳴るように苦しむ声が聞こえてくるのも@全てが紅晴さんの心の姿なんだ…"
+            },
+            {
+                "nameNarration": "",
+                "narration": "「キャアアアアッ!!」"
+            },
+            {
+                "narration": "「グッ…ア…ぅ」"
+            },
+            {
+                "narration": "「やだ…いや…だぁ…」"
+            },
+            {
+                "narration": "「助けて…あげ…て」"
+            },
+            {
+                "narration": "「結菜さん…!!」"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21141.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 715001,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "アイツらは解放のために@各地から魔女を集めてた！",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 715001
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 102102,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 302100,
+                        "motion": 400,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 102300,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "――っ!?"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102102
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 102300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 715001,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "他の地域の魔法少女が@どうなるかなんて考えず"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "ただ自分たちのために@魔女を集めていたのよ！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 715001,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 102300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "アオ",
+                "textLeft": "…それで他の魔法少女は@納得してたの…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 715001,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "真実は最後まで伏せられていたし@集まってたのは弱い子たちばかり"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001
+                    }
+                ],
+                "textRight": "救われたいという気持ちが@先行してたと思う…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "それに、解放が成功すれば@魔女化を回避する力は広がる"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001
+                    }
+                ],
+                "textRight": "自分たちが町に帰っても@問題はなかったはずだから…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102200,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ひかる",
+                "textLeft": "じゃあ、今はどうなんすか…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102200
+                    }
+                ],
+                "textLeft": "この町も、二木市でも@今は魔女化しなくなったんすか…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 715001,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "何十万人もの犠牲を払うことと@凶悪な魔女が生まれるリスク"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001
+                    }
+                ],
+                "textRight": "それを知った他の魔法少女に@完全な解放は阻止されたわ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 302100,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "鈴鹿 さくや",
+                "textLeft": "そんなに犠牲を…@それじゃ虐殺だよ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102200,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ひかる",
+                "textLeft": "仕方ないんすかね…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001
+                    }
+                ],
+                "textRight": "でも、今も魔女化を避ける@システムは、神浜にある"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001,
+                        "motion": 400
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "外で犠牲を払った私たちには@なんの恩恵もない！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "町を壊して、人を犠牲にして@魔法少女を犠牲にして！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "得をしたのはアイツらだけよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102102,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textRight": "結菜…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001
+                    }
+                ],
+                "textRight": "私はやるせない…@あまりにもやるせない…!!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_07",
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102102,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 715001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackPromist"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "――っ!?",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 302100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "鈴鹿 さくや",
+                "textRight": "ちょっと、どうしたの…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 102102,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "これが殺意なのねぇ…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_20464.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "結菜",
+                "narration": "「私は許せなかった」",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100100,
+                        "motion": 401
+                    }
+                ],
+                "nameCenter": "いろは",
+                "narrationEffect": "out",
+                "textCenter": "紅晴さん…!?"
+            },
+            {
+                "nameNarration": "結菜",
+                "narration": "「なんとか均衡を保っていたのに@それを壊して戦わざるを得ない状況を作って@殺し合いをさせたマギウスが許せなかった@何も気付かずに恩恵を受けて笑って過ごしている@神浜の魔法少女たちが許せなかった」",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100100,
+                        "lipSynch": 0,
+                        "motion": 301
+                    }
+                ],
+                "nameCenter": "いろは",
+                "narrationEffect": "out",
+                "textCenter": "っ…………"
+            },
+            {
+                "nameNarration": "結菜",
+                "narration": "「けど本当は、それまでに何も成せなかった自分に@一番腹を立てているのかもしれない…」",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "lipSynch": 1,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "いろは",
+                "narrationEffect": "out",
+                "textCenter": "そんなことない…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "紅晴さんは自分にできることは@精一杯やってた…！"
+            },
+            {
+                "nameNarration": "結菜",
+                "narration": "「私が誰かの幸せを望んだところで@能力が及ばない時点でおこがましいのよぉ…」",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 401
+                    }
+                ],
+                "nameCenter": "いろは",
+                "narrationEffect": "out",
+                "textCenter": "ちがうよ、誰だって@人の幸せを望んでいいんだよ…"
+            },
+            {
+                "autoTurnLast": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "flashEffect": "flashWhiteSlow2",
+                "se": "7211_souljem_02",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100100,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "（紅晴さんの反応がある…）"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

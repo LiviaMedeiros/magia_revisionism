@@ -1,0 +1,764 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "black",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter7/102802_futatugimap_tactics5.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 3,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 102300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm23_promised05",
+                "chara": [
+                    {
+                        "id": 102300
+                    }
+                ],
+                "nameNarration": "アオ",
+                "narration": "[textYellow:キモチ]の石を手に入れて@この町に残っている蛇の宮の子たちを助けて@誰にも搾取されない平穏な日々を過ごす",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 102300,
+                        "motion": 300
+                    }
+                ],
+                "narration": "そうすれば、わたしはもう@嫌なことをしなくても良くなる@誰かを傷付けたり、殺さなくてもよくなる"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102300
+                    }
+                ],
+                "narration": "だけど、それは本当なのかな…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102300,
+                        "motion": 0
+                    }
+                ],
+                "narration": "この争いが終わって救われるっていうのは@イージー過ぎるんじゃないかな…？"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_16123.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102301,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102301
+                    }
+                ],
+                "nameCenter": "アオ",
+                "textCenter": "本当に自分の理想を叶えるには@わたし自身が…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102301,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "アオ",
+                "textCenter": "（きっとこれは@考えちゃいけないことだ…）"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102300,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "アオ",
+                "narration": "あのとき、わたしの頭に浮かんだのは@ひかると姉さまと姉ちゃんの姿",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102300
+                    }
+                ],
+                "narration": "本当は考えたくなかったけど@わたしやらんかが誰かに搾取されたのは@あの人たちが繰り返し争ってきて@その結果、二木から魔女がいなくなったから…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102300,
+                        "motion": 100
+                    }
+                ],
+                "narration": "つまり、本当の平穏を手に入れようとすると@あの３人を倒すっていう@ハードモードのハードゲームをクリアする@必要があるっていうことなんだよね…@"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20521.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102300,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 770183,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "7000_attack01",
+                        "id": 102300
+                    }
+                ],
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 102300,
+                        "motion": 300,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameRight": "アオ",
+                "textBg": "shout",
+                "textRight": "[chara:102300:effect_7002_damage01][se:3001_chara_damage][bgEffect:shakeSmall]カハッ…！"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102300
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 770183
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "ほら、グリーフシードを@早くこっちに渡しなさい"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 102300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "やだ、これは@わたしが手に入れたのに…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 770183
+                    }
+                ],
+                "textLeft": "そう、だから渡すのよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 770183
+                    }
+                ],
+                "textLeft": "[chara:102300:effect_7001_attack02]いつも守ってあげている@私たちにねっ！"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "アオ",
+                "narration": "じゃないと、あの頃に戻ってしまう@弱い魔法少女たちが@搾取される時代に戻ってしまう",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 102300,
+                        "motion": 200
+                    }
+                ],
+                "narration": "それを避けようと思うとわたしは…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 102300
+                    }
+                ],
+                "narration": "そっか、全ての上に立たないと@安心できなくなっちゃうんだ…"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20033.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2.5,
+                "bgm": "bgm03_story10",
+                "flashEffect": "flashWhiteSlow2",
+                "se": "7211_souljem_02"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100200,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "やちよ",
+                "textCenter": "（さっきと比べると@みんなを近くに感じる…）"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "やちよ",
+                "textCenter": "（プロミストブラッドは、@私たちを切り離すのが目的…）"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "やちよ",
+                "textCenter": "（そう思えば、@なんとか抗えているようね…）"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "lipSynch": 1,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "やちよ",
+                "textCenter": "こっちは…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_20033.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 770101,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 770000,
+                        "motion": 300,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 770002,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "ぅ…くそぉ…"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 770101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 770000
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 770002
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_20033.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "やちよ",
+                "textCenter": "落ち着いてきたことだし、@みんなと合流した方がよさそうね"
+            },
+            {
+                "autoTurnLast": 2.5,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100200
+                    }
+                ],
+                "flashEffect": "flashWhiteSlow2",
+                "se": "7211_souljem_02",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100200,
+                        "lipSynch": 0,
+                        "motion": 201
+                    }
+                ],
+                "nameCenter": "やちよ",
+                "textCenter": "（うん、レナも動いたみたい）"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_01",
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 100200
+                    }
+                ],
+                "se": "7201_detect_magic",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100200,
+                        "lipSynch": 1,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "やちよ",
+                "textCenter": "こんなときに新手…！"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "flashEffect": "flashWhite2",
+                "surround": "1023A01",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100200,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm22_battle08",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 100200,
+                        "motion": 200
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "ふん、不意を突いたつもりでも@気配は隠れてなかったわよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102300,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "ユニオンの支柱のひとり@ここでゲームオーバーにするよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "確実に各個撃破を狙うなら@ひとりだと手に余るんじゃない？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102300,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "でも、あなたを倒せば、@わたしは上に近付けるはず"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100200,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "上って何の話…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102300,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "姉さまたちを超えるための@糧になってもらうから！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100200
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "…何を言ってるの？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 301
+                    },
+                    {
+                        "id": 102300,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "敵の私が言うことじゃないけど@あなたの目的は[textYellow:キモチ]の石"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "それもあわよくば@私たちから総取りするつもりよね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "目的と言動が一致しないわ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102300,
+                        "motion": 1
+                    },
+                    {
+                        "id": 100200,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "[textYellow:キモチ]の石を集めたあとは@私が上にのぼって"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102300
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "蛇の宮やみんなのための@安心できる世界を作るんだから"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102300,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "アオ",
+                "textRight": "何も間違ってない@この戦いも目的の入口だからね！"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_032.exp3.json",
+                        "id": 100200
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "[flashEffect:flashWhiteSlow1]な…"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 102300,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameRight": "アオ",
+                "textBg": "shout",
+                "textRight": "[surround:1023A01][chara:100200:effect_7000_attack01]くらぇえええッ!!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "7001_attack02",
+                        "id": 100200
+                    }
+                ],
+                "surround": "1023A01"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "flashEffect": "explosion",
+                "surround": "1023A01"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100200,
+                        "motion": 201
+                    },
+                    {
+                        "id": 102300,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "[flashEffect:flashWhite1][se:4050_landing_jump]くっ、[chara:100200:lipSynch_0][wait:0.2][flashEffect:flashWhite1][se:4050_landing_jump][chara:100200:lipSynch_1]ふっ、[chara:100200:lipSynch_0][wait:0.2][chara:100200:cheek_0:motion_400][flashEffect:flashWhite1][se:4050_landing_jump][chara:100200:lipSynch_1]やぁあっ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 100200,
+                        "motion": 301
+                    },
+                    {
+                        "id": 102300,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "はぁ…はぁ…@ほんと、まるで別人みたいね…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "なんのためらいもなく@ソウルジェムを狙うなんて…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100200,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "あなた本当に笠音さん…？"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

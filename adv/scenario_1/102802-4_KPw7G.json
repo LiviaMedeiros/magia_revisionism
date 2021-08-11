@@ -1,0 +1,151 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_21593.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "ef_adv_01",
+                        "id": 100100
+                    },
+                    {
+                        "effect": "ef_adv_01",
+                        "id": 100300
+                    }
+                ],
+                "se": "7201_detect_magic",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "bgm22_battle09",
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 401
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "これ、プロミストブラッドの@魔力反応!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "鶴乃",
+                "textRight": "ひとり…ふたり…@[chara:100300:lipSynch_0][wait:0.8][chara:100300:cheek_0][chara:100300:face_mtn_ex_020.exp3.json:motion_200][chara:100300:lipSynch_1]たくさんこっちに迫ってるよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102600,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ちはる",
+                "textRight": "四方から来てる…@こっちの動きが漏れてた…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102100,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "保険をかけておいて正解ねぇ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102100,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "（ただ、完全に囲まれないような@位置取りをしてるわねぇ…）"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102100,
+                        "lipSynch": 1,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "結菜",
+                "surround": "7202_telepathy",
+                "textLeft": "みんな聞いて",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102100
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "今のユニオンと時女一族を@まとめて囲むことはできないわぁ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102100,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "まずは担当する相手を決めて、@分断を図るわよぉ"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,925 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_16042.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bgm": "bgm22_battle13",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "slideInRightFast",
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 102900,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102900
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "[chara:102900:effect_shake]うっ、ゲホッ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 103000,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "時雨ちゃん！"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102400,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "樹里",
+                "textCenter": "[surround:1024A04][chara:103000:effect_7001_attack02]オラ、邪魔だっつーの！"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 103000
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "[chara:103000:effect_7003_damage02][surround:1024A05][bgEffect:shakeSmall]アゥッ…！"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103000
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp3.json",
+                        "id": 102400,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "樹里",
+                "textCenter": "さてと、これでジ・エンド@この世からサヨナラだな"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 102900,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "tear": 1
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "あ…"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 102400
+                    },
+                    {
+                        "id": 102900,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameCenter": "樹里",
+                "surround": "7003_wind",
+                "textCenter": "なーんつってな"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102900,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "……………………"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102900,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102900,
+                        "lipSynch": 1
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "へ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102400,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "樹里",
+                "textCenter": "なぁ、ファミレスいこーぜ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102900,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "ぼく、殺されかけて…え…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp3.json",
+                        "id": 103000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "どういうこと…？@思考も感情も追いつかないよ…"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_21221.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 102401,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102901,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "rollIn"
+            },
+            {
+                "bgm": "bgm23_promised02",
+                "chara": [
+                    {
+                        "id": 102401,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "ティラミスとプリンアラモード@これだけでいいのか？",
+                "turnChangeOut": "rollOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "樹里サマのおごりだし、@もっと頼んで良かったんだぞ？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "え、うん…@もう、わけがわかんなくて…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103001,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "私も、あれだけ痛めつけられて@殺されるって思ったのに"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "こうして一緒にファミレスにいる@状況に理解が追いつかなくて…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102401,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "あー、そういうことか"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "オマエらとは@もう一度戦うつもりだったし"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "前に樹里サマを手伝ったとき@ファミレスの約束もしてただろ？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "だから両方とも今日中に@終わらせようと思ったんだよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102901,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "なんだか、誠実なのか雑なのか@よくわからない…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103001,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "うん…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102401,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "ま、いいから食えって@[chara:102401:lipSynch_0][wait:1.0][chara:102401:cheek_0][chara:102401:face_mtn_ex_011.exp3.json][chara:102401:lipSynch_1]ニヒッ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "おごってもらうのに@嬉しくないこともあるんだね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102401,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "おい…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 103001,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "時雨ちゃん…!!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102401,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103001,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "なんか会話もなく@黙々と食われるのもしんどいな",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "ごめんなさい、@緊張しちゃって…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102901,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "ぼくも、何を話せば良いか@わからないし…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "質問ぐらいなら、あるけど…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102401,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "ん、聞いてみろ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "なんで約束を@全部片付けてるのかなって…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 102401,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "うーーん…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "まぁ、強いて言うなら@験担ぎみたいなもんか？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 102901,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "げんかつぎ？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "そ、樹里サマたちが８つ石を@手に入れられるようにっつーな"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "…………？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 103001,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "今のプロミストブラッドの@状況って良くないですよね…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "もう、終わらせるんですか…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 102401,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "お、察しがいいな"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "まぁそんなわけで@気合を入れてるっつーことだ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "…プロミストブラッドとユニオン@どっちに勝って欲しい？"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 103001,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102901,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103001,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "時雨＆はぐむ",
+                "textCenter": "ユニオン…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "だって、じゃないと神浜から@自動浄化システムがなくなるし…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001
+                    }
+                ],
+                "nameRight": "はぐむ",
+                "textRight": "うん…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102401,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "ま、そうだよなー"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "motion": 0
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "[se:7106_telmail]ピロン♪",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102401,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "樹里",
+                "narrationEffect": "out",
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "そろそろ二木に戻るか…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102401,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "つーわけで金は置いてくから@あとはふたりで楽しみな"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 103001,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "えっ、あ…@ごちそうさまです…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102901,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "ありがとう…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 102401,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "あっはは！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "ボコられたのに@礼を言うなんて変だな"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "他になんて言えばいいか@わからないだけで…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102401,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "はは、あーあ"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "…笑わせてもらったし@いいことを教えてやるよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "な、なに…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "失敗や不幸があったときは@自分のせいにしとけよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "樹里サマも自分のやることを@ビョーキのせいにするけどな"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "根っ子では自分のせいだって@思うようにしてる"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "ネオマギウスの新しい仲間が@どんなヤツかは知らねーけどな"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "自分にとって優しいヤツは危険だ@気付いたときには食われてるぞ"
+            },
+            {
+                "autoTurnLast": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 103001,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 102901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp3.json",
+                        "id": 102401,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "いい目してんじゃねーか@その瞳の奧にある疑念を信じろ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103001,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "なんのことか私には…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102901,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "ぼくも…@オカルトか何か…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102401,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "好きに受け取ってくれ"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "つーわけで、じゃーな@時雨、はぐむ"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

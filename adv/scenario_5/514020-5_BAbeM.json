@@ -4,7 +4,7 @@
             {
                 "autoTurnLast": 0.01,
                 "bg": "bg_adv_20311.jpg",
-                "bgm": "bgm04_movie08",
+                "bgm": "stop",
                 "chara": [
                     {
                         "cheek": 0,
@@ -21,17 +21,25 @@
                         "pos": 2
                     }
                 ],
+                "nameNarration": "",
+                "narrationBg": "bg_adv_20311.jpg",
+                "narrationEffect": "in",
                 "turnChangeIn": "fadeIn"
             },
             {
+                "narration": "＜再び現在…＞",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "bgm04_movie08",
                 "chara": [
                     {
                         "id": 240100
                     }
                 ],
                 "nameLeft": "さやか",
-                "textLeft": "それじゃ、いくよ…",
-                "turnChangeOut": "fadeOut"
+                "narrationEffect": "out",
+                "textLeft": "それじゃ、いくよ…"
             },
             {
                 "chara": [

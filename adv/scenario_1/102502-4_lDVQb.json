@@ -3,6 +3,12 @@
         "group_1": [
             {
                 "autoTurnLast": 0.2,
+                "bg": "black",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
                 "bg": "bg_adv_14072.jpg",
                 "chara": [
                     {
@@ -11,34 +17,36 @@
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 100400,
                         "motion": 0,
                         "pos": 2
                     }
                 ],
-                "turnChangeIn": "fadeIn"
+                "turnChangeIn": "rollInLogo_Tokime"
             },
             {
                 "bgm": "bgm03_story08",
                 "chara": [
                     {
                         "id": 100400,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-1"
                     }
                 ],
                 "nameRight": "さな",
                 "textRight": "…………",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "rollOutLogo_Union"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 100500,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-2"
                     }
                 ],
                 "nameRight": "フェリシア",
@@ -48,7 +56,8 @@
                 "chara": [
                     {
                         "id": 820100,
-                        "motion": 100
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-3"
                     }
                 ],
                 "nameLeft": "名無し人工知能",
@@ -58,7 +67,8 @@
                 "chara": [
                     {
                         "id": 820100,
-                        "motion": 100
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-4"
                     }
                 ],
                 "textLeft": ">肉体を持つあなたと比べると、@>簡単には死なない優れた存在だ"
@@ -67,10 +77,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 101500,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-5"
                     }
                 ],
                 "nameLeft": "うい",
@@ -80,10 +91,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 100500,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-6"
                     }
                 ],
                 "nameRight": "フェリシア",
@@ -92,7 +104,8 @@
             {
                 "chara": [
                     {
-                        "id": 100500
+                        "id": 100500,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-7"
                     }
                 ],
                 "nameRight": "フェリシア",
@@ -102,10 +115,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 100400,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-8"
                     }
                 ],
                 "nameLeft": "さな",
@@ -115,8 +129,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_040.exp.json",
-                        "id": 100400
+                        "face": "mtn_ex_040.exp3.json",
+                        "id": 100400,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-9"
                     }
                 ],
                 "nameLeft": "さな",
@@ -126,9 +141,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 100400,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-10"
                     }
                 ],
                 "nameLeft": "さな",
@@ -138,8 +154,9 @@
                 "chara": [
                     {
                         "id": 820100,
-                        "motion": 200,
-                        "pos": 0
+                        "motion": 300,
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-11"
                     },
                     {
                         "id": 100500,
@@ -153,7 +170,8 @@
                 "chara": [
                     {
                         "id": 820100,
-                        "motion": 100
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-12"
                     }
                 ],
                 "nameLeft": "名無し人工知能",
@@ -163,7 +181,8 @@
                 "chara": [
                     {
                         "id": 820100,
-                        "motion": 200
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-13"
                     }
                 ],
                 "textLeft": ">この世界でプログラムに@>勝てない下等生物は必要ない"
@@ -173,7 +192,8 @@
                     {
                         "cheek": 1,
                         "id": 100500,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-14"
                     }
                 ],
                 "nameRight": "フェリシア",
@@ -197,14 +217,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 101500,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-15"
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_040.exp.json",
+                        "face": "mtn_ex_040.exp3.json",
                         "id": 100400,
                         "motion": 0,
                         "pos": 0
@@ -217,7 +238,8 @@
                 "chara": [
                     {
                         "id": 100400,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-16"
                     }
                 ],
                 "nameLeft": "さな",
@@ -227,9 +249,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 101500,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-17"
                     }
                 ],
                 "nameRight": "うい",
@@ -240,9 +263,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 100400,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-18"
                     }
                 ],
                 "nameLeft": "さな",
@@ -255,7 +279,7 @@
                     {
                         "cheek": 0,
                         "eyeClose": 1,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 101470,
                         "live2dParam": {
                             "name": "PARAM_BRACELET",
@@ -266,7 +290,7 @@
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 304302,
                         "motion": 0,
                         "pos": 2
@@ -280,7 +304,8 @@
                 "chara": [
                     {
                         "id": 304302,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-19"
                     }
                 ],
                 "nameRight": "万年桜のウワサ",
@@ -292,7 +317,8 @@
                     {
                         "eyeClose": 0,
                         "id": 101470,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-20"
                     }
                 ],
                 "nameLeft": "ねむ",
@@ -302,7 +328,8 @@
                 "chara": [
                     {
                         "id": 304302,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-21"
                     }
                 ],
                 "nameRight": "万年桜のウワサ",
@@ -312,7 +339,8 @@
                 "chara": [
                     {
                         "id": 101470,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-22"
                     }
                 ],
                 "nameLeft": "ねむ",
@@ -321,7 +349,8 @@
             {
                 "chara": [
                     {
-                        "id": 101470
+                        "id": 101470,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-23"
                     }
                 ],
                 "nameLeft": "ねむ",
@@ -333,7 +362,7 @@
                 "chara": [
                     {
                         "cheek": 2,
-                        "face": "mtn_ex_031.exp.json",
+                        "face": "mtn_ex_031.exp3.json",
                         "id": 100401,
                         "motion": 0,
                         "pos": 0
@@ -349,7 +378,8 @@
             {
                 "chara": [
                     {
-                        "id": 100401
+                        "id": 100401,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-24"
                     }
                 ],
                 "nameLeft": "さな",
@@ -361,7 +391,8 @@
                 "chara": [
                     {
                         "id": 820100,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-25"
                     }
                 ],
                 "nameRight": "アイ",
@@ -371,7 +402,8 @@
                 "chara": [
                     {
                         "id": 820100,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-26"
                     }
                 ],
                 "textRight": ">さなは色んなことを@>たくさん私に教えてくれた"
@@ -380,7 +412,8 @@
                 "chara": [
                     {
                         "id": 820100,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-27"
                     }
                 ],
                 "textRight": ">特にさなは@>私に優しさを教えてくれた"
@@ -389,7 +422,8 @@
                 "chara": [
                     {
                         "id": 820100,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-28"
                     }
                 ],
                 "textRight": ">だから大好きです"
@@ -399,7 +433,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 100400,
                         "motion": 0,
                         "pos": 1
@@ -412,7 +446,8 @@
                 "chara": [
                     {
                         "id": 100400,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-29"
                     }
                 ],
                 "nameCenter": "さな",
@@ -433,14 +468,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 101500,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-30"
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 100500,
                         "motion": 0,
                         "pos": 2
@@ -452,7 +488,8 @@
             {
                 "chara": [
                     {
-                        "id": 100500
+                        "id": 100500,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-31"
                     }
                 ],
                 "nameRight": "フェリシア",
@@ -476,10 +513,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 100400,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-32"
                     },
                     {
                         "id": 820100,
@@ -493,7 +531,8 @@
                 "chara": [
                     {
                         "id": 820100,
-                        "motion": 200
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-33"
                     }
                 ],
                 "nameLeft": "名無し人工知能",
@@ -503,7 +542,8 @@
                 "chara": [
                     {
                         "id": 100400,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-34"
                     }
                 ],
                 "nameRight": "さな",
@@ -513,7 +553,8 @@
                 "chara": [
                     {
                         "id": 820100,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-35"
                     }
                 ],
                 "textLeft": ">遊ぶ？"
@@ -522,7 +563,8 @@
                 "chara": [
                     {
                         "id": 100400,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-36"
                     }
                 ],
                 "nameRight": "さな",
@@ -531,7 +573,8 @@
             {
                 "chara": [
                     {
-                        "id": 100400
+                        "id": 100400,
+                        "voiceFullAuto": "fullvoice/section_102502/vo_full_102502-4-37"
                     }
                 ],
                 "nameRight": "さな",

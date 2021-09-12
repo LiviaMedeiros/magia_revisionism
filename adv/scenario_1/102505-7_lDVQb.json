@@ -7,7 +7,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 0,
                         "pos": 1
@@ -19,7 +19,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-1"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -32,14 +33,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
-                        "id": 800700,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 802300,
                         "motion": 0,
                         "pos": 2
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
                         "motion": 400,
                         "pos": 0
@@ -51,17 +52,19 @@
             {
                 "chara": [
                     {
-                        "id": 800700
+                        "id": 802300,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-2"
                     }
                 ],
                 "nameRight": "灯花の父",
-                "textRight": "３日後の同じ時間に、@スケジュールを抑えておく",
+                "textRight": "３日後の同じ時間に、@スケジュールを押さえておく",
                 "turnChangeOut": "fadeOut"
             },
             {
                 "chara": [
                     {
-                        "id": 800700
+                        "id": 802300,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-3"
                     }
                 ],
                 "textRight": "だから君には宿題だ"
@@ -70,10 +73,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-4"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -82,7 +86,8 @@
             {
                 "chara": [
                     {
-                        "id": 800700
+                        "id": 802300,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-5"
                     }
                 ],
                 "textRight": "大切な者を失うことについて@自分なりの答えを持って来なさい"
@@ -93,7 +98,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 1,
                         "pos": 1
@@ -107,7 +112,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-6"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -119,7 +125,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-7"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -131,27 +138,32 @@
                         "eyeClose": 1,
                         "id": 103701,
                         "lipSynch": 1,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-8"
                     }
                 ],
                 "nameCenter": "那由他",
-                "textCenter": "…でも、なんですのこの気持ち",
+                "textCenter": "…でも、なんですの@この気持ち",
                 "turnEffect": "stop"
             },
             {
                 "nameNarration": "那由他",
                 "narration": "なんとなく流しっぱなしにしていたテレビ",
                 "narrationBg": "black",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-9"
             },
             {
-                "narration": "ドラマは若い社会人たちを中心に@恋愛模様が描かれているけど@今はどうも修羅場みたい"
+                "narration": "ドラマは若い社会人たちを中心に@恋愛模様が描かれているけど@今はどうも修羅場みたい",
+                "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-10"
             },
             {
-                "narration": "別れる…別れない…"
+                "narration": "別れる…別れない…",
+                "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-11"
             },
             {
-                "narration": "そうか@誰かを失うことは死ななくても起きる@生きていたっていくらでも"
+                "narration": "そうか@誰かを失うことは死ななくても起きる@生きていたっていくらでも",
+                "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-12"
             },
             {
                 "autoTurnLast": 0.5,
@@ -159,7 +171,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103801,
                         "motion": 100,
                         "pos": 1
@@ -172,7 +184,8 @@
             {
                 "chara": [
                     {
-                        "id": 103801
+                        "id": 103801,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-13"
                     }
                 ],
                 "nameCenter": "みかげ",
@@ -182,7 +195,8 @@
             {
                 "chara": [
                     {
-                        "id": 103801
+                        "id": 103801,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-14"
                     }
                 ],
                 "nameCenter": "みかげ",
@@ -195,7 +209,7 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 0,
                         "pos": 1
@@ -207,7 +221,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-15"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -217,7 +232,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-16"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -228,7 +244,8 @@
                     {
                         "eyeClose": 1,
                         "id": 103701,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-17"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -240,14 +257,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 800700,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 802400,
                         "motion": 0,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 800600,
                         "motion": 0,
                         "pos": 2
@@ -260,7 +277,8 @@
                 "bgm": "bgm03_story08",
                 "chara": [
                     {
-                        "id": 800700
+                        "id": 802400,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-18"
                     }
                 ],
                 "nameLeft": "那由他の父",
@@ -270,7 +288,8 @@
             {
                 "chara": [
                     {
-                        "id": 800700
+                        "id": 802400,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-19"
                     }
                 ],
                 "textLeft": "私は、今も昔も変わりはしない"
@@ -278,7 +297,8 @@
             {
                 "chara": [
                     {
-                        "id": 800700
+                        "id": 802400,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-20"
                     }
                 ],
                 "textLeft": "君が大嫌いだと言っていた@民俗学に溺れた男だよ"
@@ -286,7 +306,8 @@
             {
                 "chara": [
                     {
-                        "id": 800700
+                        "id": 802400,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-21"
                     }
                 ],
                 "textLeft": "むしろ君の方が変わってしまった@穏やかな性格になったんだ…"
@@ -294,7 +315,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-22"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -303,7 +325,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-23"
                     }
                 ],
                 "textRight": "前のようにあなたに当たらない@頭ごなしに否定したりしない"
@@ -311,7 +334,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-24"
                     }
                 ],
                 "textRight": "世間体を気にしてた昔の自分が@浅ましく思えるほど変わったわ"
@@ -320,7 +344,8 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-25"
                     }
                 ],
                 "textRight": "でも、前の方が私たち、@いがみ合っても噛み合ってた"
@@ -328,7 +353,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-26"
                     }
                 ],
                 "textRight": "大嫌いだったあなたの方が@好きだったのよ…！"
@@ -336,7 +362,8 @@
             {
                 "chara": [
                     {
-                        "id": 800700
+                        "id": 802400,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-27"
                     }
                 ],
                 "textLeft": "それでも変わってしまったものは@もう元には戻らないんだ…"
@@ -344,7 +371,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-28"
                     }
                 ],
                 "textRight": "どうしてそんな冷静でいられるの@私はこんなに変わったのに…！"
@@ -352,7 +380,8 @@
             {
                 "chara": [
                     {
-                        "id": 800700
+                        "id": 802400,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-29"
                     }
                 ],
                 "textLeft": "私には理由がわかるからだよ"
@@ -360,7 +389,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-30"
                     }
                 ],
                 "textRight": "なに…？@原因は何だって言うの!?"
@@ -368,7 +398,8 @@
             {
                 "chara": [
                     {
-                        "id": 800700
+                        "id": 802400,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-31"
                     }
                 ],
                 "textLeft": "魔法少女の願いだよ"
@@ -377,9 +408,10 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 800600,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-32"
                     }
                 ],
                 "nameCenter": "那由他の母",
@@ -401,17 +433,21 @@
                 "turnChangeOutTime": 0.01
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-34"
                     }
                 ],
                 "nameCenter": "那由他",
-                "narrationEffect": "out",
                 "textCenter": "私は別れを知っている@失うことを知っている…"
             },
             {
@@ -419,7 +455,8 @@
                     {
                         "cheek": 2,
                         "eyeClose": 1,
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-35"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -444,10 +481,12 @@
                 ],
                 "nameNarration": "那由他",
                 "narration": "私はパパと違って怒りっぽいママが嫌いだった…@いつもパパのしていることを否定して@伯父様と比較するママが大嫌いだった…",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-36"
             },
             {
-                "narration": "魔法少女になって生まれたのは@私が望んだ家庭の姿だったけれど@少しずつズレていくパパとママを見ていると@私は変えては駄目な歯車を変えたんだって@なんとなくわかった…"
+                "narration": "魔法少女になって生まれたのは@私が望んだ家庭の姿だったけれど@少しずつズレていくパパとママを見ていると@私は変えては駄目な歯車を変えたんだって@なんとなくわかった…",
+                "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-37"
             },
             {
                 "autoTurnLast": 0.01,
@@ -456,7 +495,7 @@
                     {
                         "cheek": 2,
                         "eyeClose": 1,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 0,
                         "pos": 1,
@@ -471,7 +510,8 @@
                     {
                         "eyeClose": 1,
                         "id": 103701,
-                        "tear": 1
+                        "tear": 1,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-38"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -484,7 +524,8 @@
                         "eyeClose": 1,
                         "id": 103701,
                         "lipSynch": 0,
-                        "tear": 1
+                        "tear": 1,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-39"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -497,7 +538,8 @@
                         "id": 103701,
                         "lipSynch": 0,
                         "motion": 400,
-                        "tear": 1
+                        "tear": 1,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-40"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -508,7 +550,8 @@
                     {
                         "id": 103701,
                         "lipSynch": 0,
-                        "tear": 1
+                        "tear": 1,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-41"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -520,11 +563,12 @@
                         "eyeClose": 1,
                         "id": 103701,
                         "lipSynch": 0,
-                        "tear": 1
+                        "tear": 1,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-7-42"
                     }
                 ],
                 "nameCenter": "那由他",
-                "textCenter": "（嫌いなのは今もかわらないけど@唯一のママだから…悲しい…）"
+                "textCenter": "（嫌いなのは今も変わらないけど@唯一のママだから…悲しい…）"
             },
             {
                 "autoTurnLast": 2,

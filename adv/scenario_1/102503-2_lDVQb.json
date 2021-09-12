@@ -7,14 +7,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 300301,
                         "motion": 0,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 304301,
                         "motion": 1,
                         "pos": 2
@@ -34,7 +34,8 @@
                 "chara": [
                     {
                         "id": 300301,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-2"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -44,7 +45,8 @@
             {
                 "chara": [
                     {
-                        "id": 304301
+                        "id": 304301,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-3"
                     }
                 ],
                 "nameRight": "万年桜のウワサ",
@@ -54,7 +56,8 @@
                 "chara": [
                     {
                         "id": 300301,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-4"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -63,7 +66,8 @@
             {
                 "chara": [
                     {
-                        "id": 300301
+                        "id": 300301,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-5"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -73,7 +77,8 @@
                 "chara": [
                     {
                         "id": 304301,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-6"
                     }
                 ],
                 "nameRight": "万年桜のウワサ",
@@ -82,7 +87,8 @@
             {
                 "chara": [
                     {
-                        "id": 304301
+                        "id": 304301,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-7"
                     }
                 ],
                 "nameRight": "万年桜のウワサ",
@@ -92,10 +98,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 300301,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-8"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -105,10 +112,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 304301,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-9"
                     }
                 ],
                 "nameRight": "万年桜のウワサ",
@@ -118,30 +126,47 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 300301,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-10"
                     }
                 ],
                 "nameLeft": "都 ひなの",
                 "textLeft": "ははは、そうそう"
             },
             {
+                "autoTurnLast": 1.5,
                 "chara": [
                     {
-                        "id": 300301
+                        "id": 300301,
+                        "voiceFull": "fullvoice/section_102503/vo_full_102503-2-11"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameLeft": "都 ひなの",
-                "textLeft": "子どもたちに早く大きくなれよ～@[chara:300301:lipSynch_0][wait:1.0][chara:300301:cheek_0][chara:300301:face_mtn_ex_020.exp.json:motion_200][chara:300301:lipSynch_1]って、違うわ！"
+                "textLeft": "子どもたちに早く大きくなれよ～@って、違うわ！"
             },
             {
                 "chara": [
                     {
-                        "id": 300301
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 300301,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300301,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-12",
+                        "voiceFullStop": "fullvoice/section_102503/vo_full_102503-2-11"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "都 ひなの",
                 "textLeft": "そもそも@ダンボールでできるかっ！"
             },
@@ -149,10 +174,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 304301,
                         "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-13"
                     }
                 ],
                 "nameRight": "万年桜のウワサ",
@@ -162,10 +188,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 304301,
                         "lipSynch": 1,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-14"
                     }
                 ],
                 "nameRight": "万年桜のウワサ",
@@ -175,10 +202,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 300301,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-15"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -188,7 +216,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 300301
+                        "id": 300301,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-16"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -199,9 +228,10 @@
                     {
                         "cheek": 0,
                         "eyeClose": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 300301,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-17"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -211,10 +241,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 304301,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-18"
                     }
                 ],
                 "nameRight": "万年桜のウワサ",
@@ -224,9 +255,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 300301,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-19"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -235,7 +267,8 @@
             {
                 "chara": [
                     {
-                        "id": 304301
+                        "id": 304301,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-20"
                     }
                 ],
                 "nameRight": "万年桜のウワサ",
@@ -245,7 +278,8 @@
                 "chara": [
                     {
                         "id": 304301,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-21"
                     }
                 ],
                 "nameRight": "万年桜のウワサ",
@@ -255,10 +289,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 300301,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-22"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -270,14 +305,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 300301,
                         "motion": 300,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 304601,
                         "motion": 0,
                         "pos": 2
@@ -291,7 +326,8 @@
                     {
                         "eyeClose": 1,
                         "id": 304601,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-23"
                     }
                 ],
                 "nameRight": "観鳥 令",
@@ -302,9 +338,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 300301,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-24"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -315,10 +352,11 @@
                     {
                         "cheek": 0,
                         "eyeClose": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 304601,
                         "lipSynch": 1,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-25"
                     }
                 ],
                 "nameRight": "観鳥 令",
@@ -330,14 +368,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 300301,
                         "motion": 0,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 304301,
                         "motion": 1,
                         "pos": 2
@@ -349,7 +387,8 @@
             {
                 "chara": [
                     {
-                        "id": 300301
+                        "id": 300301,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-26"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -362,7 +401,8 @@
                         "eyeClose": 1,
                         "id": 300301,
                         "lipSynch": 0,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-27"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -374,7 +414,8 @@
                     {
                         "eyeClose": 1,
                         "id": 300301,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-28"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -386,7 +427,8 @@
                         "eyeClose": 0,
                         "id": 300301,
                         "lipSynch": 1,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-29"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -397,9 +439,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 300301,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-30"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -409,7 +452,8 @@
                 "chara": [
                     {
                         "id": 304301,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-31"
                     }
                 ],
                 "nameRight": "万年桜のウワサ",
@@ -418,7 +462,8 @@
             {
                 "chara": [
                     {
-                        "id": 300301
+                        "id": 300301,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-32"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -428,10 +473,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 300301,
                         "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102503/vo_full_102503-2-33"
                     }
                 ],
                 "nameLeft": "都 ひなの",

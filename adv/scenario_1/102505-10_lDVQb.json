@@ -7,7 +7,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 0,
                         "pos": 0
@@ -23,17 +23,21 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 800600,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-2"
                     }
                 ],
                 "nameRight": "那由他の母",
-                "narrationEffect": "out",
                 "textRight": "あっ…"
             },
             {
@@ -44,12 +48,14 @@
                     }
                 ],
                 "nameLeft": "那由他",
-                "textLeft": "…………[wait:1.0][chara:103701:cheek_0][chara:103701:motion_300][chara:103701:lipSynch_1]えと、@お久しぶり…ですの…"
+                "textLeft": "…………[wait:1.0][chara:103701:lipSynch_1][chara:103701:voiceFull_fullvoice/section_102505/vo_full_102505-10-3][chara:103701:cheek_0][chara:103701:motion_300]えと、@お久しぶり…ですの…"
             },
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-4",
+                        "voiceFullStop": "fullvoice/section_102505/vo_full_102505-10-3"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -59,9 +65,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103701,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-5"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -70,7 +77,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-6"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -80,9 +88,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-7"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -94,7 +103,8 @@
                     {
                         "id": 103701,
                         "lipSynch": 1,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-8"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -103,7 +113,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-9"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -112,7 +123,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-10"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -121,7 +133,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-11"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -133,7 +146,8 @@
                         "cheek": 1,
                         "eyeClose": 1,
                         "id": 103701,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-12"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -142,7 +156,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-13"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -153,7 +168,8 @@
                     {
                         "eyeClose": 0,
                         "id": 103701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-14"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -162,7 +178,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-15"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -172,8 +189,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 800600
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-16"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -183,8 +201,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 800600
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-17"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -194,7 +213,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-18"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -203,7 +223,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-19"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -213,7 +234,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-20"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -222,7 +244,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-21"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -232,8 +255,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 800600
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-22"
                     },
                     {
                         "id": 103701,
@@ -246,7 +270,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-23"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -256,8 +281,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 800600
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-24"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -267,7 +293,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-25"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -276,7 +303,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-26"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -286,7 +314,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-27"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -296,8 +325,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 800600
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-28"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -306,7 +336,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-29"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -316,7 +347,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-30"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -325,7 +357,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-31"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -335,7 +368,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-32"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -345,7 +379,8 @@
                 "chara": [
                     {
                         "cheek": 2,
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-33"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -356,7 +391,8 @@
                     {
                         "eyeClose": 1,
                         "id": 103701,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-34"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -367,8 +403,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 800600
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-35"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -378,7 +415,8 @@
                 "bgm": "bgm03_story05",
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-36"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -389,7 +427,8 @@
                     {
                         "eyeClose": 0,
                         "id": 103701,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-37"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -399,7 +438,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-38"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -408,7 +448,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-39"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -417,7 +458,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-40"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -427,8 +469,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 800600
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-41"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -438,8 +481,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 800600
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-42"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -449,7 +493,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-43"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -459,8 +504,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 800600
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-44"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -470,7 +516,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-45"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -480,8 +527,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 800600
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-46"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -492,10 +540,10 @@
                     {
                         "cheek": 0,
                         "eyeClose": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
-                        "lipSynch": 0,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-47"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -504,7 +552,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-48"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -514,9 +563,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
-                        "lipSynch": 1
+                        "lipSynch": 1,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-49"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -525,7 +575,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-50"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -535,10 +586,11 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103701,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-51"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -548,8 +600,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 800600
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-52"
                     }
                 ],
                 "nameRight": "那由他の母",
@@ -559,8 +612,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 103701
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-53"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -571,12 +625,13 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 800600
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-54"
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
                         "motion": 0
                     }
@@ -588,8 +643,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 800600
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_102505/vo_full_102505-10-55"
                     }
                 ],
                 "nameRight": "那由他の母",

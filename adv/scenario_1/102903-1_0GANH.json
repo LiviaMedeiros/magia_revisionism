@@ -1,0 +1,512 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "black",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "かごめ",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 150,
+                "progressNarration": "これは、@私自身が二木市の魔法少女たちから聞いた話。",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "progressNarration": "最初の４編のひとつで、@プロミストブラッドの話。"
+            },
+            {
+                "progressNarration": "この時は誰もが@自分たちに訪れる未来を知る由もなかった。"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "bg": "black",
+                "item": [
+                    {
+                        "iPhoneXScale": 1,
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "bgm": "bgm20_song10",
+                "nameNarration": "かごめ",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 150,
+                "progressNarration": "[textBlack:二木市の病院で入院していた私のところには]@[textBlack:プロミストブラッドの人たちが、]@[textBlack:お見舞いついでに様子を色々と教えてくれた。]",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "progressNarration": "[textBlack:先の戦いでいろはさんを信じて、]@[textBlack:ユニオンとの戦いをやめると宣言した紅晴さん。]@[textBlack:だけど、大庭さんが率いる竜ケ崎の人たちから]@[textBlack:反対の声が強くあがってるみたいだった。]"
+            },
+            {
+                "progressNarration": "[textBlack:私も簡単にはいかないと思っていたけど、]@[textBlack:紅晴さんに戦いをやめさせた鈴鹿さんの死は]@[textBlack:間違いなく他の二木市の魔法少女たちに]@[textBlack:火を点けている。]"
+            },
+            {
+                "progressNarration": "[textBlack:いろはさんたちユニオンだけじゃなく]@[textBlack:時女一族も恨み始めたプロミストブラッドは、]@[textBlack:３つのグループで手を取り合う方向には]@[textBlack:動けていない様子だった。]"
+            },
+            {
+                "progressNarration": "[textBlack:本当はこういうときこそ竜ケ崎の大庭さんが]@[textBlack:前に出るべきなのかもしれないけど、]@[textBlack:ユニオンとの戦いが一区切りついたばかりで、]@[textBlack:いつもの炎が消えかかっているみたいだった。]"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "bg": "bg_adv_21381.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102401,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm23_promised03",
+                "chara": [
+                    {
+                        "id": 102401,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "樹里",
+                "textCenter": "…………",
+                "turnChangeOut": "fadeOutLogo_PB"
+            },
+            {
+                "nameNarration": "",
+                "narration": "「激闘の末に手を取り合った@ガリ勉ボウズのキヨマロと愚連隊のシュウスケ@インテリヤクザのゴウタロウとの知恵比べが@今始まる…!!」",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "「第１部完」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 102401,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameCenter": "樹里",
+                "narrationEffect": "out",
+                "textBg": "shout",
+                "textCenter": "おおおおぃいいい!!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "[bgEffect:shakeSmall]ガンッ！",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102401,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "樹里",
+                "narrationEffect": "out",
+                "textCenter": "あぁ、マジかぁ…@クッソ不完全燃焼すぎるだろ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_032.exp3.json",
+                        "id": 102401
+                    }
+                ],
+                "nameCenter": "樹里",
+                "textCenter": "…いやぁ、そうだよ@不完全燃焼にもほどがあるっての"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102401,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "樹里",
+                "textCenter": "別に姉さんの言うことだから@構わねえし"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401
+                    }
+                ],
+                "nameCenter": "樹里",
+                "textCenter": "二木市のヤツらが納得すんなら@樹里サマだって文句はねーよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "樹里",
+                "textCenter": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102401
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "[se:3002_chara_dead]ドサッ",
+                "narrationEffect": "in"
+            },
+            {
+                "nameCenter": "樹里の声",
+                "narrationEffect": "out",
+                "textCenter": "生きてる気がしねー…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 304401,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "じゃあ、誰かぶっ飛ばして@発散でもしてきたらいいじゃん"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "もちろんアタシ以外で"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102401,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "んだ、らんかか@なんか用か？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "別に"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "ユニオンと手を組む話になって@ヒマしてんだろーなーって"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "“ガリ勉ボウズ・キヨマロ伝説”@打ち切りになったしな"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 304401,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "なにそれ…名前がキモイ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102401,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "おい悪口言うなよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "公家出身のキヨマロが@ガリ勉で得た知識で戦うんだけど"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "あんま意味がないから@結局先祖の偉光に頼るっていう"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102401
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "わりかしぶっ飛んだ設定が@気に入ってたんだよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 304401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "確かにちょっと気になる@読まないけど"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102401,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "…っつーか、キヨマロは@どうだっていいんだよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 304401,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "ほんとにね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "マンガ読んでるぐらいだったら@竜ケ崎のヤツらをまとめなよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "アイツらまだ納得できないって@虎屋町のヤツと一触即発だよ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102401,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "これで内乱になったら、@なんの意味もねーからな"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "わかってんじゃん"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 102401
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "でも、やる気がでねーんだよ"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 102401,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "別に[textYellow:キモチ]と戦えるわけでもない@ユニオンのヤツらとも戦えねー"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 102401
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "燃えない…@ぜんっぜん…マジで…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 102401,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "…いや待てよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 304401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "ん？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "なるほど…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp3.json",
+                        "id": 102401,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "虎屋町と竜ケ崎の衝突なら@案外楽しめるかもしんねーな"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 304401,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "うわ、悪い顔…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 102401
+                    }
+                ],
+                "nameLeft": "樹里",
+                "textLeft": "いいこと思い付いただけだよ"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

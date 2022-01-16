@@ -9,14 +9,14 @@
                     {
                         "cheek": 0,
                         "eyeClose": 1,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 102500,
                         "motion": 0,
                         "pos": 2
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103100,
                         "motion": 0,
                         "pos": 0
@@ -27,7 +27,8 @@
             {
                 "chara": [
                     {
-                        "id": 102500
+                        "id": 102500,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-1"
                     }
                 ],
                 "nameRight": "静香",
@@ -41,35 +42,52 @@
                 "textClear": 1
             },
             {
+                "autoTurnLast": 2.8,
                 "chara": [
                     {
                         "cheek": 0,
                         "eyeClose": 0,
                         "id": 102500,
-                        "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102604/vo_full_102604-10-2"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "静香",
-                "textRight": "[flashEffect:flashWhite2][surround:1025A04]時女一心流@三尺蹴詰ノ首落し!!"
+                "textRight": "時女一心流@三尺蹴詰ノ首落し!!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "id": 102500,
+                        "motion": 400
+                    }
+                ],
+                "flashEffect": "flashWhite2",
+                "surround": "1025A04"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
                         "eyeClose": 1,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103100,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-3",
+                        "voiceFullStop": "fullvoice/section_102604/vo_full_102604-10-2"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "燦",
                 "textLeft": "[flashEffect:flashRed2][surround:1025A06][bgEffect:shakeLarge][chara:103100:effect_shake]ガッ！くぅっ…"
             },
             {
                 "chara": [
                     {
-                        "id": 103100
+                        "id": 103100,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-4"
                     }
                 ],
                 "nameLeft": "燦",
@@ -105,14 +123,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 102600,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-5"
                     },
                     {
                         "cheek": -1,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 103200,
                         "motion": 0,
                         "pos": 0
@@ -122,31 +141,27 @@
                 "textRight": "わたしも…いくよ!!"
             },
             {
-                "autoTurnLast": 2,
-                "flashEffect": "flashWhiteSlow2",
-                "se": "7211_souljem_02",
-                "textClear": 1
-            },
-            {
                 "chara": [
                     {
                         "id": 102600,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-6"
                     }
                 ],
                 "nameRight": "ちはる",
-                "textRight": "ちはる捕物帖・神速の巻!!"
+                "textRight": "[flashEffect:flashWhiteSlow2]ちはる捕物帖・神速の巻!!"
             },
             {
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "id": 103200,
-                        "lipSynch": 0,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-7"
                     }
                 ],
                 "nameLeft": "ミユリ",
-                "textLeft": "[chara:103200:effect_emotion_surprise_0][se:7226_shock]――っ!?"
+                "textLeft": "[chara:103200:effect_shake]――っ!?"
             },
             {
                 "autoTurnLast": 0.5,
@@ -164,7 +179,8 @@
                     {
                         "id": 102600,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-8"
                     }
                 ],
                 "nameRight": "ちはる",
@@ -189,14 +205,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 102600,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-9"
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_001.exp.json",
+                        "face": "mtn_ex_001.exp3.json",
                         "id": 102500,
                         "motion": 0,
                         "pos": 0
@@ -209,7 +226,8 @@
                 "chara": [
                     {
                         "id": 102500,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-10"
                     }
                 ],
                 "nameLeft": "静香",
@@ -218,7 +236,8 @@
             {
                 "chara": [
                     {
-                        "id": 102500
+                        "id": 102500,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-11"
                     }
                 ],
                 "nameLeft": "静香",
@@ -228,10 +247,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_012.exp.json",
+                        "face": "mtn_ex_012.exp3.json",
                         "id": 305800,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-12"
                     }
                 ],
                 "nameRight": "南津 涼子",
@@ -241,9 +261,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 102500,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-13"
                     }
                 ],
                 "nameLeft": "静香",
@@ -278,14 +299,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103400,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-14"
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103000,
                         "motion": 0,
                         "pos": 0
@@ -308,10 +330,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_060.exp.json",
+                        "face": "mtn_ex_060.exp3.json",
                         "id": 103000,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-15"
                     }
                 ],
                 "nameLeft": "はぐむ",
@@ -321,10 +344,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 305800,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-16"
                     }
                 ],
                 "nameRight": "南津 涼子",
@@ -334,10 +358,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_012.exp.json",
+                        "face": "mtn_ex_012.exp3.json",
                         "id": 305800,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-17"
                     }
                 ],
                 "nameRight": "南津 涼子",
@@ -347,10 +372,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103100,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-18"
                     }
                 ],
                 "nameLeft": "燦",
@@ -360,10 +386,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 305800,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-19"
                     }
                 ],
                 "nameRight": "南津 涼子",
@@ -373,7 +400,8 @@
                 "chara": [
                     {
                         "id": 103100,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-20"
                     }
                 ],
                 "nameLeft": "燦",
@@ -383,10 +411,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103200,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-21"
                     }
                 ],
                 "nameRight": "ミユリ",
@@ -396,7 +425,8 @@
                 "chara": [
                     {
                         "id": 103100,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-22"
                     }
                 ],
                 "nameLeft": "燦",
@@ -406,7 +436,8 @@
                 "chara": [
                     {
                         "id": 103200,
-                        "motion": 1
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-23"
                     }
                 ],
                 "nameRight": "ミユリ",
@@ -416,22 +447,26 @@
                 "chara": [
                     {
                         "id": 103100,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-24"
                     }
                 ],
                 "nameLeft": "燦",
                 "textLeft": "ええ、姫様に@言われた通りにしたからね"
             },
             {
+                "autoTurnLast": 1.6,
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 305800,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102604/vo_full_102604-10-25"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "南津 涼子",
                 "textRight": "わざと通した…？@てめぇ、まさかっ!!"
             },
@@ -439,12 +474,25 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 305800,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 103100,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-26",
+                        "voiceFullStop": "fullvoice/section_102604/vo_full_102604-10-25"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "燦",
                 "textLeft": "さてさて、私の憶測だけど@やるつもりじゃない？"
             },
@@ -452,7 +500,7 @@
                 "chara": [
                     {
                         "id": 305800,
-                        "motion": 200
+                        "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-10-27"
                     }
                 ],
                 "nameRight": "南津 涼子",

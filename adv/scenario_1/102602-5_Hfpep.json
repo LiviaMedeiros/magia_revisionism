@@ -8,7 +8,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 1,
                         "pos": 1
@@ -19,7 +19,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-1"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -32,14 +33,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 103801,
                         "motion": 400,
                         "pos": 2
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 200,
                         "pos": 0
@@ -55,33 +56,38 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-3"
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103801,
                         "motion": 0,
                         "pos": 2
                     }
                 ],
                 "nameLeft": "那由他",
-                "narrationEffect": "out",
                 "textLeft": "ん、あ、灯花ですの…"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-4"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -91,8 +97,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 103701
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-5"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -102,10 +109,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 103301,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-6"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -115,7 +123,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-7"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -127,7 +136,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 0,
                         "pos": 1
@@ -140,7 +149,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-8"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -187,7 +197,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
                         "motion": 0,
                         "pos": 1
@@ -211,7 +221,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-9"
                     }
                 ],
                 "item": [
@@ -238,7 +249,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 100770,
                         "live2dParam": {
                             "name": "PARAM_BRACELET",
@@ -249,7 +260,7 @@
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 101471,
                         "live2dParam": {
                             "name": "PARAM_BRACELET",
@@ -260,7 +271,7 @@
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_001.exp.json",
+                        "face": "mtn_ex_001.exp3.json",
                         "id": 102001,
                         "motion": 0,
                         "pos": 2,
@@ -273,7 +284,8 @@
                 "chara": [
                     {
                         "id": 101471,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-10"
                     }
                 ],
                 "nameCenter": "ねむ",
@@ -282,7 +294,8 @@
             {
                 "chara": [
                     {
-                        "id": 101471
+                        "id": 101471,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-11"
                     }
                 ],
                 "nameCenter": "ねむ",
@@ -310,14 +323,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-12"
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 101471,
                         "live2dParam": {
                             "name": "PARAM_BRACELET",
@@ -334,9 +348,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103701,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-13"
                     }
                 ],
                 "nameRight": "那由他",
@@ -346,14 +361,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 100770,
                         "live2dParam": {
                             "name": "PARAM_BRACELET",
                             "value": 1
                         },
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-14"
                     }
                 ],
                 "nameLeft": "灯花",
@@ -362,7 +378,14 @@
             {
                 "chara": [
                     {
-                        "id": 100770
+                        "id": 100770,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-15"
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 103701,
+                        "motion": 0
                     }
                 ],
                 "nameLeft": "灯花",
@@ -372,11 +395,12 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 102001,
                         "motion": 400,
                         "pos": 2,
-                        "soulGem": 0
+                        "soulGem": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-16"
                     }
                 ],
                 "nameRight": "かごめ",
@@ -386,10 +410,11 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103701,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-17"
                     }
                 ],
                 "nameRight": "那由他",
@@ -413,11 +438,12 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 102001,
                         "motion": 300,
                         "pos": 1,
-                        "soulGem": 0
+                        "soulGem": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-18"
                     }
                 ],
                 "nameCenter": "かごめ",
@@ -427,7 +453,8 @@
                 "chara": [
                     {
                         "id": 102001,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-19"
                     }
                 ],
                 "nameCenter": "アルちゃん",
@@ -447,18 +474,19 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 101471,
                         "live2dParam": {
                             "name": "PARAM_BRACELET",
                             "value": 1
                         },
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-20"
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 100770,
                         "live2dParam": {
                             "name": "PARAM_BRACELET",
@@ -474,7 +502,8 @@
             {
                 "chara": [
                     {
-                        "id": 101471
+                        "id": 101471,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-21"
                     }
                 ],
                 "nameRight": "ねむ",
@@ -484,10 +513,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 101471,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-22"
                     }
                 ],
                 "nameRight": "ねむ",
@@ -497,10 +527,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 100770,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-23"
                     }
                 ],
                 "nameLeft": "灯花",
@@ -510,10 +541,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 101471,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-24"
                     }
                 ],
                 "nameRight": "ねむ",
@@ -523,10 +555,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 100770,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-25"
                     }
                 ],
                 "nameLeft": "灯花",
@@ -536,7 +569,8 @@
                 "chara": [
                     {
                         "id": 100770,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-26"
                     }
                 ],
                 "nameLeft": "灯花",
@@ -546,10 +580,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103701,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-27"
                     }
                 ],
                 "nameRight": "那由他",
@@ -559,10 +594,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 100770,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-28"
                     },
                     {
                         "id": 103701,
@@ -576,9 +612,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 100770,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-29"
                     }
                 ],
                 "nameNarration": "灯花",
@@ -590,7 +627,8 @@
                 "chara": [
                     {
                         "id": 100770,
-                        "motion": 201
+                        "motion": 201,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-30"
                     }
                 ],
                 "narration": "「１、パッと見てインパクトのある画像の力@２、説明を付けて補足してくれる文字の力@３、それらを出して行く見せ方@４、真実だと認められる説得力」"
@@ -599,33 +637,39 @@
                 "chara": [
                     {
                         "id": 100770,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-31"
                     }
                 ],
                 "narration": "「その中でも“真実だと認められる説得力”を@叔父様から欲しいんだよにゃー」"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
                         "lipSynch": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-32"
                     }
                 ],
                 "nameRight": "那由他",
-                "narrationEffect": "out",
                 "textRight": "…………"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-33"
                     }
                 ],
                 "nameRight": "那由他",
@@ -635,34 +679,53 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 100770,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-34"
                     }
                 ],
                 "nameLeft": "灯花",
                 "textLeft": "だから、@早く見つけて欲しいんだよね"
             },
             {
+                "autoTurnLast": 2,
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103701,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102602/vo_full_102602-5-35"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "那由他",
-                "textRight": "でも、パパはッ！@[chara:103701:lipSynch_0][wait:1.0][chara:103701:motion_000][chara:103701:cheek_0][chara:103701:face_mtn_ex_030.exp.json][chara:103701:lipSynch_1]…いえそれより前に伺いますの"
+                "textRight": "でも、パパはッ！@…いえそれより前に伺いますの"
             },
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103701,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-36",
+                        "voiceFullStop": "fullvoice/section_102602/vo_full_102602-5-35"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "那由他",
                 "textRight": "まず、絵と文字と見せ方は@どうなってるんですの？"
             },
@@ -670,11 +733,12 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 102001,
                         "motion": 400,
                         "pos": 0,
-                        "soulGem": 0
+                        "soulGem": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-37"
                     }
                 ],
                 "nameLeft": "かごめ",
@@ -687,7 +751,8 @@
                         "id": 102001,
                         "lipSynch": 0,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-38"
                     }
                 ],
                 "nameLeft": "アルちゃん",
@@ -696,7 +761,8 @@
             {
                 "chara": [
                     {
-                        "id": 102001
+                        "id": 102001,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-39"
                     }
                 ],
                 "nameLeft": "かごめ",
@@ -706,14 +772,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 101471,
                         "live2dParam": {
                             "name": "PARAM_BRACELET",
                             "value": 1
                         },
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-40"
                     }
                 ],
                 "nameLeft": "ねむ",
@@ -722,7 +789,8 @@
             {
                 "chara": [
                     {
-                        "id": 101471
+                        "id": 101471,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-41"
                     }
                 ],
                 "nameLeft": "ねむ",
@@ -732,7 +800,8 @@
                 "chara": [
                     {
                         "id": 101471,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-42"
                     }
                 ],
                 "nameLeft": "ねむ",
@@ -742,10 +811,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-43"
                     }
                 ],
                 "nameRight": "那由他",
@@ -755,14 +825,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 100770,
                         "live2dParam": {
                             "name": "PARAM_BRACELET",
                             "value": 1
                         },
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-44"
                     }
                 ],
                 "nameLeft": "灯花",
@@ -772,11 +843,12 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 102001,
                         "motion": 1,
                         "pos": 0,
-                        "soulGem": 0
+                        "soulGem": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-45"
                     }
                 ],
                 "nameLeft": "かごめ",
@@ -786,7 +858,8 @@
                 "chara": [
                     {
                         "id": 102001,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-46"
                     }
                 ],
                 "nameLeft": "かごめ",
@@ -796,10 +869,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-47"
                     }
                 ],
                 "nameRight": "那由他",
@@ -809,7 +883,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 102001
+                        "id": 102001,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-48"
                     }
                 ],
                 "nameLeft": "かごめ",
@@ -819,14 +894,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 100770,
                         "live2dParam": {
                             "name": "PARAM_BRACELET",
                             "value": 1
                         },
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-49"
                     },
                     {
                         "id": 103701,
@@ -840,7 +916,8 @@
                 "chara": [
                     {
                         "id": 100770,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-50"
                     }
                 ],
                 "nameLeft": "灯花",
@@ -850,10 +927,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 100770,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-51"
                     }
                 ],
                 "nameLeft": "灯花",
@@ -863,7 +941,8 @@
                 "chara": [
                     {
                         "id": 100770,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-52"
                     }
                 ],
                 "nameNarration": "灯花",
@@ -875,9 +954,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 100770,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-53"
                     }
                 ],
                 "narration": "「とりあえず最初は撮ったものを@“個人のクリエイティブ”として@発信しようと思ってるんだよね」"
@@ -886,66 +966,94 @@
                 "chara": [
                     {
                         "id": 100770,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-54"
                     }
                 ],
                 "narration": "「CGかどうかもわからない@圧倒的なクオリティを@ひとりのクリエイターが作り出してるとか@そういう“天才”ってみんな大好きでしょ？」"
             },
             {
+                "chara": [
+                    {
+                        "id": 100770,
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-55"
+                    }
+                ],
                 "narration": "「だから、それで話題作りをして@上手くみんなに浸透したところで@サプライズをするんだよ」"
             },
             {
                 "chara": [
                     {
                         "id": 100770,
-                        "motion": 201
+                        "motion": 201,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-56"
                     }
                 ],
                 "narration": "「実は現実で起きてることなんだよーって」"
             },
             {
+                "autoTurnLast": 13.2,
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
                         "id": 100770,
-                        "motion": 200
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102602/vo_full_102602-5-57"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "narration": "「それはマイナスでもプラスでもいいから@みんなをドカンと燃えさせる起爆剤になればOK！@信じるにしても信じないにしても@真実を知りたい人は神浜においでーって@観客をいーっぱい集めればいいから、くふふっ」"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 100770,
-                        "motion": 100
+                        "motion": 400
                     }
-                ],
-                "narration": "「あとは本物を見せたときのお楽しみだよねー@あっ、パパ様の伝手を使って@メディアの人を呼んじゃうのもいいかもー」"
+                ]
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 100770,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-58",
+                        "voiceFullStop": "fullvoice/section_102602/vo_full_102602-5-57"
+                    }
+                ],
+                "enableSkipAutoTurn": 0,
+                "narration": "「あとは本物を見せたときのお楽しみだよねー@あっ、パパ様の伝手を使って@メディアの人を呼んじゃうのもいいかもー」"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-59"
                     }
                 ],
                 "nameRight": "那由他",
-                "narrationEffect": "out",
                 "textRight": "それ、本当に成功するんですの？"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 100770,
-                        "pos": 0
+                        "motion": 0,
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-60"
                     }
                 ],
                 "nameLeft": "灯花",
@@ -955,7 +1063,8 @@
                 "chara": [
                     {
                         "id": 100770,
-                        "motion": 201
+                        "motion": 201,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-61"
                     }
                 ],
                 "nameLeft": "灯花",
@@ -965,10 +1074,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-62"
                     }
                 ],
                 "nameRight": "那由他",
@@ -978,10 +1088,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 100770,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-63"
                     }
                 ],
                 "nameLeft": "灯花",
@@ -990,22 +1101,24 @@
             {
                 "chara": [
                     {
-                        "id": 100770
+                        "id": 100770,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-64"
                     }
                 ],
                 "nameLeft": "灯花",
                 "textLeft": "イライラして@グルタミン酸でいっぱいの人も"
             },
             {
+                "autoTurnLast": 1.7,
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
                         "id": 100770,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102602/vo_full_102602-5-65"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameLeft": "灯花",
                 "textLeft": "たーくさん集まりそうじゃない？@くふふっ"
             },
@@ -1013,12 +1126,24 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 100770
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-66",
+                        "voiceFullStop": "fullvoice/section_102602/vo_full_102602-5-65"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "那由他",
                 "textRight": "そう言われても…"
             },
@@ -1026,11 +1151,12 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 102001,
                         "motion": 200,
                         "pos": 0,
-                        "soulGem": 0
+                        "soulGem": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-67"
                     }
                 ],
                 "nameLeft": "かごめ",
@@ -1040,9 +1166,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 102001,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-68"
                     }
                 ],
                 "nameLeft": "かごめ",
@@ -1052,7 +1179,8 @@
                 "chara": [
                     {
                         "id": 102001,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-69"
                     }
                 ],
                 "nameLeft": "かごめ",
@@ -1062,10 +1190,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
                         "lipSynch": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-70"
                     }
                 ],
                 "nameRight": "那由他",
@@ -1075,14 +1204,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 101471,
                         "live2dParam": {
                             "name": "PARAM_BRACELET",
                             "value": 1
                         },
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-71"
                     }
                 ],
                 "nameLeft": "ねむ",
@@ -1092,14 +1222,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 100770,
                         "live2dParam": {
                             "name": "PARAM_BRACELET",
                             "value": 1
                         },
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-72"
                     }
                 ],
                 "nameLeft": "灯花",
@@ -1108,7 +1239,8 @@
             {
                 "chara": [
                     {
-                        "id": 100770
+                        "id": 100770,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-73"
                     }
                 ],
                 "nameLeft": "灯花",
@@ -1118,10 +1250,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 100770,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-74"
                     }
                 ],
                 "nameLeft": "灯花",
@@ -1131,10 +1264,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-75"
                     }
                 ],
                 "nameRight": "那由他",
@@ -1159,14 +1293,14 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103701,
                         "motion": 0,
                         "pos": 2
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 100770,
                         "live2dParam": {
                             "name": "PARAM_BRACELET",
@@ -1187,7 +1321,8 @@
                         "id": 103701,
                         "lipSynch": 0,
                         "pos": 2,
-                        "tear": 1
+                        "tear": 1,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-77"
                     }
                 ],
                 "nameRight": "那由他",
@@ -1198,10 +1333,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 100770,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-78"
                     }
                 ],
                 "nameLeft": "灯花",
@@ -1211,7 +1347,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-79"
                     }
                 ],
                 "nameRight": "那由他",
@@ -1221,7 +1358,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-5-80"
                     }
                 ],
                 "nameRight": "那由他",

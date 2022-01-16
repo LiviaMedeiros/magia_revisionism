@@ -8,14 +8,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103901,
                         "motion": 0,
                         "pos": 2
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103801,
                         "motion": 0,
                         "pos": 0
@@ -27,7 +27,8 @@
                 "chara": [
                     {
                         "id": 103901,
-                        "motion": 200
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-1"
                     }
                 ],
                 "nameNarration": "月出里",
@@ -39,28 +40,33 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 103901,
                         "lipSynch": 0,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-2"
                     }
                 ],
                 "nameRight": "月出里",
-                "narrationEffect": "out",
                 "textRight": "ふむっむ！"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103801,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-3"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -69,7 +75,8 @@
             {
                 "chara": [
                     {
-                        "id": 103801
+                        "id": 103801,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-4"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -78,7 +85,8 @@
             {
                 "chara": [
                     {
-                        "id": 103801
+                        "id": 103801,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-5"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -88,10 +96,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103901,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-6"
                     },
                     {
                         "id": 103801,
@@ -106,7 +115,8 @@
             {
                 "chara": [
                     {
-                        "id": 103901
+                        "id": 103901,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-7"
                     }
                 ],
                 "nameRight": "月出里",
@@ -116,20 +126,22 @@
                 "chara": [
                     {
                         "id": 103901,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-8"
                     }
                 ],
                 "nameRight": "月出里",
-                "textRight": "ほら、この間みかげちゃんに@教えてもらった100均のやつ"
+                "textRight": "ほら、この間ミィちゃんに@教えてもらった100均のやつ"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103801,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-9"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -139,9 +151,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103801,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-10"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -151,9 +164,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_040.exp.json",
+                        "face": "mtn_ex_040.exp3.json",
                         "id": 103901,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-11"
                     }
                 ],
                 "nameRight": "月出里",
@@ -163,10 +177,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103901,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-12"
                     }
                 ],
                 "nameRight": "月出里",
@@ -176,10 +191,12 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103801,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-13"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -189,10 +206,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103901,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-14"
                     }
                 ],
                 "nameRight": "月出里",
@@ -202,8 +220,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 103901
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103901,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-15"
                     }
                 ],
                 "nameRight": "月出里",
@@ -212,8 +231,10 @@
             {
                 "chara": [
                     {
+                        "eyeClose": 0,
                         "id": 103801,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-16"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -222,7 +243,8 @@
             {
                 "chara": [
                     {
-                        "id": 103801
+                        "id": 103801,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-17"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -232,7 +254,8 @@
                 "chara": [
                     {
                         "id": 103901,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-18"
                     }
                 ],
                 "nameRight": "月出里",
@@ -243,7 +266,8 @@
                     {
                         "eyeClose": 1,
                         "id": 103801,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-19"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -253,7 +277,8 @@
                 "chara": [
                     {
                         "id": 103901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-20"
                     }
                 ],
                 "nameRight": "月出里",
@@ -264,7 +289,8 @@
                     {
                         "eyeClose": 0,
                         "id": 103801,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-21"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -274,10 +300,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103801,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-22"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -287,10 +314,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103901,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-23"
                     },
                     {
                         "id": 103801,
@@ -303,7 +331,8 @@
             {
                 "chara": [
                     {
-                        "id": 103901
+                        "id": 103901,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-24"
                     }
                 ],
                 "nameRight": "月出里",
@@ -313,10 +342,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103901,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-25"
                     }
                 ],
                 "nameRight": "月出里",
@@ -326,11 +356,12 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103901,
                         "lipSynch": 0,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-26"
                     }
                 ],
                 "nameRight": "月出里",
@@ -342,10 +373,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103801,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-27"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -355,11 +387,12 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103901,
                         "lipSynch": 0,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-28"
                     }
                 ],
                 "nameRight": "月出里",
@@ -372,7 +405,8 @@
                         "id": 103901,
                         "lipSynch": 0,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-29"
                     }
                 ],
                 "nameRight": "月出里",
@@ -382,7 +416,8 @@
                 "chara": [
                     {
                         "id": 103801,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-30"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -392,10 +427,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 103901,
                         "lipSynch": 0,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-31"
                     }
                 ],
                 "nameRight": "月出里",
@@ -404,7 +440,8 @@
             {
                 "chara": [
                     {
-                        "id": 103801
+                        "id": 103801,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-32"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -414,10 +451,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 103801,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-33"
                     }
                 ],
                 "nameLeft": "みかげ",
@@ -427,10 +465,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103901,
                         "lipSynch": 0,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-34"
                     }
                 ],
                 "nameRight": "月出里",
@@ -440,9 +479,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103801,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102605/vo_full_102605-2-35"
                     }
                 ],
                 "nameLeft": "みかげ",

@@ -8,14 +8,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103100,
                         "motion": 1,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103200,
                         "motion": 0,
                         "pos": 2
@@ -26,19 +26,21 @@
             {
                 "chara": [
                     {
-                        "id": 103100
+                        "id": 103100,
+                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-10-1"
                     }
                 ],
                 "nameLeft": "燦",
-                "textLeft": "本当に探られていた@みたいね、姫様",
+                "textLeft": "本当に探られてた@みたいね、姫様",
                 "turnChangeOut": "fadeOut"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
-                        "id": 103200
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 103200,
+                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-10-2"
                     }
                 ],
                 "nameRight": "ミユリ",
@@ -49,7 +51,8 @@
                     {
                         "id": 103200,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-10-3"
                     }
                 ],
                 "nameRight": "ミユリ",
@@ -59,10 +62,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 102600,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-10-4"
                     }
                 ],
                 "nameRight": "ちはる",
@@ -72,10 +76,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 103500,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-10-5"
                     }
                 ],
                 "nameLeft": "アレクサンドラ",
@@ -85,10 +90,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103200,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-10-6"
                     }
                 ],
                 "nameRight": "ミユリ",
@@ -98,10 +104,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 103100,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-10-7"
                     }
                 ],
                 "nameLeft": "燦",

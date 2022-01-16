@@ -8,14 +8,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 300301,
                         "motion": 0,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 305301,
                         "motion": 0,
                         "pos": 2
@@ -26,8 +26,7 @@
             {
                 "chara": [
                     {
-                        "id": 300301,
-                        "motion": 400
+                        "id": 300301
                     }
                 ],
                 "nameNarration": "",
@@ -37,28 +36,29 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "bgm": "bgm01_anime02",
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
                         "id": 300301,
-                        "lipSynch": 0,
-                        "motion": 0,
-                        "pos": 0
+                        "lipSynch": 1,
+                        "motion": 400,
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-2"
                     }
                 ],
                 "nameLeft": "都 ひなの",
-                "narrationEffect": "out",
-                "textLeft": "…[wait:1.0][chara:300301:lipSynch_1]十七夜は来ないか"
+                "textLeft": "…十七夜は来ないか"
             },
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
                         "id": 305301,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-3"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -67,7 +67,8 @@
             {
                 "chara": [
                     {
-                        "id": 300301
+                        "id": 300301,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-4"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -77,7 +78,8 @@
                 "chara": [
                     {
                         "id": 300301,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-5"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -87,7 +89,8 @@
                 "chara": [
                     {
                         "id": 305301,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-6"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -97,7 +100,8 @@
                 "chara": [
                     {
                         "id": 300301,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-7"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -107,7 +111,8 @@
                 "chara": [
                     {
                         "id": 300301,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-8"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -117,7 +122,8 @@
                 "chara": [
                     {
                         "id": 305301,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-9"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -127,7 +133,8 @@
                 "chara": [
                     {
                         "id": 300301,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-10"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -137,10 +144,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 305301,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-11"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -150,7 +158,8 @@
                 "chara": [
                     {
                         "id": 300301,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-12"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -160,10 +169,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 305301,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-13"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -183,10 +193,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 304301,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-14"
                     }
                 ],
                 "nameLeft": "万年桜のウワサ",
@@ -196,10 +207,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 300301,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-15"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -209,7 +221,8 @@
                 "chara": [
                     {
                         "id": 304301,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-16"
                     }
                 ],
                 "nameLeft": "万年桜のウワサ",
@@ -231,16 +244,18 @@
             },
             {
                 "nameCenter": "ひなのの声",
-                "textCenter": "ん、んー…@普段サボってたせいだな…"
+                "textCenter": "ん、んー…@普段サボってたせいだな…",
+                "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-17"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 305301,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-18"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -250,10 +265,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 304301,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-19"
                     }
                 ],
                 "nameLeft": "万年桜のウワサ",
@@ -263,10 +279,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 300301,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-20"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -276,10 +293,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 305301,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-21"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -289,10 +307,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 304301,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-22"
                     }
                 ],
                 "nameLeft": "万年桜のウワサ",
@@ -302,7 +321,8 @@
                 "chara": [
                     {
                         "id": 305301,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-23"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -312,10 +332,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 300301,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-24"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -324,7 +345,8 @@
             {
                 "chara": [
                     {
-                        "id": 300301
+                        "id": 300301,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-25"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -334,7 +356,8 @@
                 "chara": [
                     {
                         "id": 300301,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-26"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -344,10 +367,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 300301,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-27"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -357,10 +381,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 304301,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-28"
                     }
                 ],
                 "nameLeft": "万年桜のウワサ",
@@ -370,10 +395,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 300301,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-29"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -393,10 +419,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 305301,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-30"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -406,10 +433,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 300301,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-31"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -419,10 +447,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 305301,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-32"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -432,9 +461,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 305301,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-33"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -444,7 +474,8 @@
                 "chara": [
                     {
                         "id": 300301,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-34"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -454,10 +485,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 304301,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-35"
                     }
                 ],
                 "nameLeft": "万年桜のウワサ",
@@ -467,10 +499,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 300301,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-36"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -481,7 +514,8 @@
                 "chara": [
                     {
                         "id": 304301,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-37"
                     }
                 ],
                 "nameLeft": "万年桜のウワサ",
@@ -490,7 +524,8 @@
             {
                 "chara": [
                     {
-                        "id": 300301
+                        "id": 300301,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-38"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -500,10 +535,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 300301,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-39"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -513,10 +549,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 305301,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-40"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -526,10 +563,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 304301,
                         "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-41"
                     }
                 ],
                 "nameLeft": "万年桜のウワサ",
@@ -540,10 +578,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 300301,
-                        "motion": 0,
-                        "pos": 2
+                        "motion": 400,
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-42"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -553,7 +592,8 @@
                 "chara": [
                     {
                         "id": 304301,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-43"
                     }
                 ],
                 "nameLeft": "万年桜のウワサ",
@@ -564,10 +604,11 @@
                     {
                         "cheek": 0,
                         "eyeClose": 1,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 300301,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-44"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -577,10 +618,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 305301,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-45"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -590,10 +632,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 300301,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-46"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -603,7 +646,8 @@
                 "chara": [
                     {
                         "id": 304301,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-47"
                     }
                 ],
                 "nameLeft": "万年桜のウワサ",
@@ -613,10 +657,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 305301,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-48"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -626,10 +671,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 300301,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-49"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -639,11 +685,12 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 305301,
                         "motion": 100,
                         "pos": 2,
-                        "tear": 1
+                        "tear": 1,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-50"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -653,10 +700,11 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 300301,
                         "pos": 0,
-                        "tear": 1
+                        "tear": 1,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-51"
                     }
                 ],
                 "nameLeft": "都 ひなの",
@@ -680,10 +728,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 304301,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-52"
                     }
                 ],
                 "nameCenter": "万年桜のウワサ",
@@ -696,7 +745,8 @@
                         "eyeClose": 1,
                         "id": 304301,
                         "motion": 100,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102602/vo_full_102602-6-53"
                     }
                 ],
                 "nameCenter": "万年桜のウワサ",

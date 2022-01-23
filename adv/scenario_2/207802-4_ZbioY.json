@@ -419,7 +419,6 @@
                         "cheek": 0,
                         "id": 101601,
                         "lipSynch": 0,
-                        "motion": 100,
                         "pos": 2
                     }
                 ],
@@ -427,10 +426,26 @@
                 "textRight": "（この女の心の底を@見極めねばならん…！）"
             },
             {
+                "autoTurnLast": 1,
                 "chara": [
                     {
-                        "id": 101601,
-                        "lipSynch": 0
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101600,
+                        "lipSynch": 0,
+                        "motion": 100
                     }
                 ],
                 "nameRight": "十七夜",
@@ -446,18 +461,18 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
-                        "id": 101601,
+                        "id": 101600,
                         "lipSynch": 0,
                         "motion": 400
                     }
                 ],
                 "nameRight": "十七夜",
-                "textRight": "[chara:101601:effect_emotion_surprise_0][se:7226_shock]――っ!?"
+                "textRight": "[chara:101600:effect_emotion_surprise_0][se:7226_shock]――っ!?"
             },
             {
                 "chara": [
                     {
-                        "id": 101601,
+                        "id": 101600,
                         "lipSynch": 0
                     }
                 ],
@@ -470,19 +485,19 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102801,
-                        "motion": 300,
+                        "motion": 400,
                         "pos": 0
                     }
                 ],
                 "nameLeft": "ひめな",
-                "textLeft": "何、今の魔力反応…"
+                "textLeft": "[chara:102801:effect_emotion_surprise_0][se:7226_shock]ちょっと、店ん中で変身とか@マジでイミフなんだけど！"
             },
             {
                 "bgm": "stop",
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp3.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 102801,
                         "pos": 0
                     }
@@ -496,7 +511,7 @@
                         "cheek": 0,
                         "eyeClose": 1,
                         "face": "mtn_ex_020.exp3.json",
-                        "id": 101601,
+                        "id": 101600,
                         "lipSynch": 0,
                         "motion": 300
                     }
@@ -505,24 +520,25 @@
                 "textRight": "っ…"
             },
             {
+                "autoTurnLast": 1,
                 "chara": [
                     {
-                        "eyeClose": 0,
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_000.exp.json",
                         "id": 101601,
-                        "lipSynch": 0
+                        "motion": 0,
+                        "pos": 2
                     }
                 ],
-                "nameRight": "十七夜",
-                "textRight": "（下手なウソは@命取りとなるか…）"
+                "se": "7205_magic_girl",
+                "textClear": 1
             },
             {
                 "bgm": "bgm05_event07",
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_000.exp3.json",
-                        "id": 101601,
-                        "motion": 0
+                        "id": 101601
                     }
                 ],
                 "nameRight": "十七夜",

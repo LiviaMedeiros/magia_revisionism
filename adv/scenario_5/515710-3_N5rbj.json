@@ -106,12 +106,35 @@
                         "cheek": 0,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 200600,
-                        "motion": 200,
+                        "motion": 400,
                         "pos": 2
                     }
                 ],
                 "nameRight": "杏子",
-                "textRight": "[flashEffect:flashWhite1][name:sprite_0:effect_shake][se:3207_restraint]まかせろ@あたしが魔女の動きを縛る！"
+                "textRight": "まかせろ@あたしが魔女の動きを縛る！"
+            },
+            {
+                "autoTurnLast": 1.2,
+                "chara": [
+                    {
+                        "id": 200600,
+                        "motion": 200
+                    }
+                ],
+                "flashEffect": "flashWhite1",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 1.5,
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 6400,
+                        "name": "sprite_0",
+                        "pos": 0
+                    }
+                ],
+                "se": "3207_restraint"
             },
             {
                 "chara": [
@@ -215,7 +238,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 200600,
-                        "motion": 200,
+                        "motion": 100,
                         "pos": 1
                     }
                 ],

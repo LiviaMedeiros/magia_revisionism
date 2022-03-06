@@ -8,7 +8,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 304401,
                         "motion": 1,
                         "pos": 0
@@ -17,6 +17,12 @@
                 "turnChangeIn": "fadeIn"
             },
             {
+                "chara": [
+                    {
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-1"
+                    }
+                ],
                 "nameNarration": "智珠 らんか",
                 "narration": "ほんとにごめん",
                 "narrationBg": "",
@@ -26,47 +32,63 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "chara": [
+                    {
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-2"
+                    }
+                ],
                 "narration": "アタシの方から連絡ブッチしといて@マジで都合がいいんだけどさ@ちょっとだけ話、聞いてくんない…？"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 100901,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-3"
                     }
                 ],
                 "nameNarration": "レナ",
                 "narration": "何…？",
-                "narrationPosX": 600
-            },
-            {
-                "narration": "今さらアンタとなんか@話すことなんてないと思うけど…",
                 "narrationPosX": 500
             },
             {
                 "chara": [
                     {
                         "id": 100901,
-                        "motion": 201
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-4"
+                    }
+                ],
+                "narration": "今さらアンタとなんか@話すことなんてないと思うけど…",
+                "narrationPosX": 400
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100901,
+                        "motion": 201,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-5"
                     }
                 ],
                 "narration": "追い詰められたからって@降参でもするつもり？ダッサ！"
             },
             {
-                "autoTurnLast": 2,
+                "autoTurnLast": 0.2,
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 1.8,
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 304401,
                         "motion": 0
                     }
-                ],
-                "narrationEffect": "out",
-                "textClear": 1
+                ]
             },
             {
                 "nameNarration": "",
@@ -79,19 +101,21 @@
                 "chara": [
                     {
                         "id": 100901,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-7"
                     }
                 ],
                 "nameNarration": "レナ",
                 "narration": "ちょっと、何か返事しなさいよ",
                 "narrationHAlignment": "left",
-                "narrationPosX": 500
+                "narrationPosX": 400
             },
             {
                 "chara": [
                     {
                         "id": 304401,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-8"
                     }
                 ],
                 "nameNarration": "智珠 らんか",
@@ -102,14 +126,21 @@
                 "chara": [
                     {
                         "id": 100901,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-9"
                     }
                 ],
                 "nameNarration": "レナ",
                 "narration": "殺す覚悟か何かしんないけど@あれだけレナに@言っといてそれなの…？",
-                "narrationPosX": 500
+                "narrationPosX": 400
             },
             {
+                "chara": [
+                    {
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-10"
+                    }
+                ],
                 "nameNarration": "智珠 らんか",
                 "narration": "長いものには巻かれろ、よ…",
                 "narrationPosX": 130
@@ -118,32 +149,36 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 304401,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-11"
                     }
                 ],
                 "narration": "とりあえずアタシ@もうプロミストブラッドを抜けるつもり@だから、拠点のこととか全部@洗いざらいレナに教えてあげる"
             },
             {
-                "autoTurnLast": 2,
+                "autoTurnLast": 0.2,
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 1.8,
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 100901
                     }
-                ],
-                "narrationEffect": "out",
-                "textClear": 1
+                ]
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 304401,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-12"
                     }
                 ],
                 "narration": "ちょっと、返事してよ",
@@ -155,22 +190,24 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 100901,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-13"
                     }
                 ],
                 "nameNarration": "レナ",
                 "narration": "どうせ罠でしょ、バカにしないで",
-                "narrationPosX": 500
+                "narrationPosX": 400
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 304401,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-14"
                     }
                 ],
                 "nameNarration": "智珠 らんか",
@@ -178,25 +215,33 @@
                 "narrationPosX": 130
             },
             {
+                "chara": [
+                    {
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-15"
+                    }
+                ],
                 "narration": "人数だって何人でもいい@アタシは伝える情報だけを引っ提げてくから"
             },
             {
                 "chara": [
                     {
                         "id": 100901,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-16"
                     }
                 ],
                 "nameNarration": "レナ",
                 "narration": "それなら、今日これから@いつものゲームセンターで@待ち合わせよ",
                 "narrationHAlignment": "left",
-                "narrationPosX": 500
+                "narrationPosX": 400
             },
             {
                 "chara": [
                     {
                         "id": 304401,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-17"
                     }
                 ],
                 "nameNarration": "智珠 らんか",
@@ -209,7 +254,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 100901,
                         "motion": 0,
                         "pos": 1
@@ -222,7 +267,8 @@
                 "chara": [
                     {
                         "id": 100901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-18"
                     }
                 ],
                 "nameCenter": "レナ",
@@ -230,19 +276,19 @@
                 "turnChangeOut": "fadeOut"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 1,
                 "bg": "bg_adv_15021.jpg",
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 304401,
                         "motion": 0,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 101001,
                         "motion": 1,
                         "pos": 2
@@ -255,7 +301,8 @@
                 "chara": [
                     {
                         "id": 304401,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-19"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -266,9 +313,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 101001,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-20"
                     }
                 ],
                 "nameRight": "ももこ",
@@ -278,8 +326,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 101001
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 101001,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-21"
                     }
                 ],
                 "textRight": "力になるよ"
@@ -288,9 +337,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 304401,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-22"
                     }
                 ],
                 "textLeft": "助かる"
@@ -299,30 +349,31 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 100901,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-23"
                     }
                 ],
                 "nameRight": "レナ",
                 "textRight": "あ、「神浜マギアユニオン」に@らんかも入ればいいんじゃない？"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 1,
                 "bg": "bg_adv_12101.jpg",
                 "bgm": "stop",
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 101001,
                         "motion": 0,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 100901,
                         "motion": 0,
                         "pos": 2
@@ -335,7 +386,8 @@
                 "chara": [
                     {
                         "id": 101001,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-24"
                     }
                 ],
                 "nameLeft": "ももこ",
@@ -346,9 +398,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 100901,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-25"
                     }
                 ],
                 "nameRight": "レナ",
@@ -358,8 +411,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
-                        "id": 100901
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 100901,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-26"
                     }
                 ],
                 "nameRight": "レナ",
@@ -369,7 +423,8 @@
                 "chara": [
                     {
                         "id": 100901,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-27"
                     }
                 ],
                 "nameRight": "レナ",
@@ -390,10 +445,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 101101,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-28"
                     }
                 ],
                 "nameRight": "かえで",
@@ -403,7 +459,8 @@
                 "chara": [
                     {
                         "id": 100901,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-29"
                     }
                 ],
                 "nameLeft": "レナ",
@@ -413,10 +470,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 101001,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-30"
                     }
                 ],
                 "nameLeft": "ももこ",
@@ -425,7 +483,8 @@
             {
                 "chara": [
                     {
-                        "id": 101001
+                        "id": 101001,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-31"
                     }
                 ],
                 "nameLeft": "ももこ",
@@ -435,9 +494,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 101101,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-32"
                     }
                 ],
                 "nameRight": "かえで",
@@ -447,10 +507,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 100201,
                         "motion": 301,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-33"
                     }
                 ],
                 "nameRight": "やちよ",
@@ -460,10 +521,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 100101,
                         "motion": 301,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-34"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -473,10 +535,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 101101,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-35"
                     }
                 ],
                 "nameLeft": "かえで",
@@ -496,10 +559,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 100901,
                         "motion": 201,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-36"
                     }
                 ],
                 "nameLeft": "レナ",
@@ -508,7 +572,8 @@
             {
                 "chara": [
                     {
-                        "id": 100901
+                        "id": 100901,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-37"
                     }
                 ],
                 "nameLeft": "レナ",
@@ -518,10 +583,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 101001,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-38"
                     }
                 ],
                 "nameLeft": "ももこ",
@@ -531,7 +597,8 @@
                 "chara": [
                     {
                         "id": 101101,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-39"
                     }
                 ],
                 "nameRight": "かえで",
@@ -541,10 +608,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 101601,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-41"
                     }
                 ],
                 "nameLeft": "十七夜",
@@ -554,10 +622,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 300301,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-42"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -566,7 +635,8 @@
             {
                 "chara": [
                     {
-                        "id": 300301
+                        "id": 300301,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-43"
                     }
                 ],
                 "nameRight": "都 ひなの",
@@ -576,10 +646,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 100101,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-44"
                     }
                 ],
                 "nameRight": "いろは",
@@ -599,10 +670,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_051.exp.json",
+                        "face": "mtn_ex_051.exp3.json",
                         "id": 100201,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-45"
                     }
                 ],
                 "nameRight": "やちよ",
@@ -611,7 +683,8 @@
             {
                 "chara": [
                     {
-                        "id": 100101
+                        "id": 100101,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-46"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -621,7 +694,8 @@
                 "chara": [
                     {
                         "id": 100101,
-                        "motion": 301
+                        "motion": 301,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-47"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -630,7 +704,8 @@
             {
                 "chara": [
                     {
-                        "id": 100101
+                        "id": 100101,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-48"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -640,9 +715,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 100201,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-49"
                     }
                 ],
                 "nameRight": "やちよ",
@@ -662,10 +738,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 101001,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-50"
                     }
                 ],
                 "nameLeft": "ももこ",
@@ -675,7 +752,8 @@
                 "chara": [
                     {
                         "id": 100101,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-51"
                     }
                 ],
                 "nameRight": "いろは",
@@ -692,15 +770,18 @@
                 "textClear": 1
             },
             {
+                "autoTurnLast": 1.5,
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 100301,
                         "motion": 101,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102701/vo_full_102701-4-52"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "鶴乃",
                 "textRight": "こっちは、わたしもいるから@安心してドーンと任せて！"
             },
@@ -708,11 +789,24 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_041.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 100301,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp3.json",
                         "id": 100101,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102701/vo_full_102701-4-53",
+                        "voiceFullStop": "fullvoice/section_102701/vo_full_102701-4-52"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "いろは",
                 "textLeft": "ごめんね、ありがとう！"
             },

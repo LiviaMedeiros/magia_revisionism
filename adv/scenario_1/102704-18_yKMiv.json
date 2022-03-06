@@ -13,7 +13,7 @@
                     },
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 305300,
                         "motion": 0,
                         "pos": 2
@@ -22,6 +22,7 @@
                 "turnChangeIn": "fadeIn"
             },
             {
+                "autoTurnLast": 0.5,
                 "chara": [
                     {
                         "id": 6212,
@@ -33,18 +34,21 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 1.5,
                 "bgm": "bgm03_story07",
                 "chara": [
                     {
+                        "eyeClose": 1,
                         "id": 305300,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-2"
                     }
                 ],
                 "nameRight": "牧野 郁美",
                 "textRight": "[se:3001_chara_damage][chara:305300:effect_7002_damage01][bgEffect:shakeLarge]ぐっ…ぅ…"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 1.5,
                 "chara": [
                     {
                         "effect": "fadeout",
@@ -57,26 +61,22 @@
             {
                 "chara": [
                     {
-                        "cheek": 1,
-                        "eyeClose": 1,
-                        "face": "mtn_ex_031.exp.json",
-                        "id": 305300,
-                        "lipSynch": 0,
-                        "motion": 1
+                        "id": 305300
                     }
                 ],
                 "nameRight": "牧野 郁美",
-                "textRight": "（もう、こんな軽い攻撃にも@耐えられないんだ…）"
+                "textRight": "（もう、こんな軽い攻撃にも@耐えられないんだ…）",
+                "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-3"
             },
             {
                 "chara": [
                     {
-                        "id": 305300,
-                        "lipSynch": 0
+                        "id": 305300
                     }
                 ],
                 "nameRight": "牧野 郁美",
-                "textRight": "（悔しい…悔しいよ…@ごめんね、令ちゃん…）"
+                "textRight": "（悔しい…悔しいよ…@ごめんね、令ちゃん…）",
+                "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-4"
             },
             {
                 "autoTurnLast": 0.5,
@@ -84,7 +84,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 305300,
                         "motion": 1,
                         "pos": 1
@@ -95,7 +95,8 @@
             {
                 "chara": [
                     {
-                        "id": 305300
+                        "id": 305300,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-5"
                     }
                 ],
                 "nameCenter": "牧野 郁美",
@@ -127,7 +128,8 @@
                 "chara": [
                     {
                         "id": 305300,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-7"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -147,7 +149,8 @@
                 "chara": [
                     {
                         "id": 305300,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-9"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -156,7 +159,8 @@
             {
                 "chara": [
                     {
-                        "id": 305300
+                        "id": 305300,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-10"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -166,7 +170,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 305300
+                        "id": 305300,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-11"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -177,7 +182,8 @@
                     {
                         "eyeClose": 0,
                         "id": 305300,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-12"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -197,7 +203,8 @@
                 "chara": [
                     {
                         "id": 305300,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-14"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -217,8 +224,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 305300
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 305300,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-16"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -239,18 +247,20 @@
                     {
                         "cheek": 0,
                         "eyeClose": 1,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 305300,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-18"
                     }
                 ],
                 "nameRight": "牧野 郁美",
-                "textRight": "そっか私が弱いんだ"
+                "textRight": "そっか、私が弱いんだ"
             },
             {
                 "chara": [
                     {
-                        "id": 305300
+                        "id": 305300,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-19"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -261,8 +271,9 @@
                     {
                         "cheek": 0,
                         "eyeClose": 1,
-                        "face": "mtn_ex_031.exp.json",
-                        "id": 305300
+                        "face": "mtn_ex_031.exp3.json",
+                        "id": 305300,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-20"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -273,7 +284,8 @@
                     {
                         "eyeClose": 0,
                         "id": 305300,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-21"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -284,9 +296,10 @@
                     {
                         "cheek": 0,
                         "eyeClose": 1,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 305300,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-22"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -297,7 +310,8 @@
                     {
                         "eyeClose": 0,
                         "id": 305300,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-23"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -316,7 +330,8 @@
             {
                 "chara": [
                     {
-                        "id": 305300
+                        "id": 305300,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-25"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -326,7 +341,8 @@
                 "chara": [
                     {
                         "id": 305300,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-26"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -345,8 +361,11 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 305300,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-28"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -355,8 +374,11 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
                         "eyeClose": 1,
-                        "id": 305300
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 305300,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-29"
                     }
                 ],
                 "nameRight": "牧野 郁美",
@@ -366,7 +388,8 @@
                 "chara": [
                     {
                         "eyeClose": 0,
-                        "id": 305300
+                        "id": 305300,
+                        "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-18-30"
                     }
                 ],
                 "nameRight": "牧野 郁美",

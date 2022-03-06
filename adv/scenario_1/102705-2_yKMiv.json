@@ -7,14 +7,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103701,
                         "motion": 0,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 103301,
                         "motion": 0,
                         "pos": 2
@@ -27,7 +27,8 @@
                 "chara": [
                     {
                         "id": 103301,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-1"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -38,7 +39,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 200
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-2"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -48,8 +50,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 103701
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 103701,
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-3"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -59,9 +63,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-4"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -71,7 +76,8 @@
                 "chara": [
                     {
                         "id": 103301,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-5"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -80,7 +86,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-6"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -90,23 +97,25 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103501,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-7"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
                 "textRight": "はじめまして、@私は栗栖アレクサンドラです"
             },
             {
+                "autoTurnLast": 2,
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 103501
+                        "id": 103501,
+                        "voiceFull": "fullvoice/section_102705/vo_full_102705-2-8"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "アレクサンドラ",
                 "textRight": "気軽にサーシャって@呼んでくださいね、うふふっ♪"
             },
@@ -114,12 +123,24 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 103501
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
-                        "motion": 300,
-                        "pos": 0
+                        "motion": 200,
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-9",
+                        "voiceFullStop": "fullvoice/section_102705/vo_full_102705-2-8"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "那由他",
                 "textLeft": "えっ、あ、外国の方…？@ハローじゃなくて…？"
             },
@@ -127,22 +148,26 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103301,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-10"
                     }
                 ],
                 "nameRight": "ラビ",
                 "textRight": "日本語で話してたじゃないですか@同郷なので来てもらうんです"
             },
             {
+                "autoTurnLast": 1.5,
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102705/vo_full_102705-2-11"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameLeft": "那由他",
                 "textLeft": "そ、そうなんですのね@よろしくお願いします"
             },
@@ -150,12 +175,24 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 103701
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 103501,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-12",
+                        "voiceFullStop": "fullvoice/section_102705/vo_full_102705-2-11"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "アレクサンドラ",
                 "textRight": "はい、よろしくお願いします"
             },
@@ -173,14 +210,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103501,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-13"
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 103301,
                         "motion": 0,
                         "pos": 0
@@ -195,9 +233,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103301,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-14"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -206,7 +245,8 @@
             {
                 "chara": [
                     {
-                        "id": 103301
+                        "id": 103301,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-15"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -223,10 +263,12 @@
                 "narration": "「教授の言葉に従って@“答え合わせ”が終わるまでの間は@何も話すつもりはなかったけど…」",
                 "narrationBg": "black",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-16"
             },
             {
-                "narration": "「那由他の努力が少しずつ実を結んで@教授に近付いているのが事実である以上@私たちと教授の繋がりや目的を話す時だと思う」"
+                "narration": "「那由他の努力が少しずつ実を結んで@教授に近付いているのが事実である以上@私たちと教授の繋がりや目的を話す時だと思う」",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-2-17"
             },
             {
                 "autoTurnLast": 2,

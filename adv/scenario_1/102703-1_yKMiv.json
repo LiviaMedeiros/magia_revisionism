@@ -23,19 +23,27 @@
                 "narrationHAlignment": "left",
                 "narrationPosX": 150,
                 "progressNarration": "[textBlack:神浜マギアユニオンとプロミストブラッド。]@[textBlack:市長選で浮かぶ疑惑の調査が進む中で、]@[textBlack:両者も衝突までのカウントを刻んでいた。]",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-1"
             },
             {
-                "progressNarration": "[textBlack:だけどその狭間で、]@[textBlack:フェリシアさんはもがき苦しんでいた。]@[textBlack:彼女の過去と起きた出来事を合わせて知った時、]@[textBlack:私は息が詰りそうになって、]@[textBlack:胸が張り裂けるような気持ちになった。]"
+                "progressNarration": "[textBlack:だけどその狭間で、]@[textBlack:フェリシアさんはもがき苦しんでいた。]@[textBlack:彼女の過去と起きた出来事を合わせて知った時、]@[textBlack:私は息が詰まりそうになって、]@[textBlack:胸が張り裂けるような気持ちになった。]",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-2"
             },
             {
-                "progressNarration": "[textBlack:ユニオンとプロミストブラッドの争いにも関わる]@[textBlack:エピソードのひとつだけど、それ以上に]@[textBlack:魔法少女が叶えた願いの形のひとつとして]@[textBlack:ここに改めて記しておこうと思う。]"
+                "progressNarration": "[textBlack:私が話を聞いたのは全てが終わった後だけど、]@[textBlack:ひとつひとつ理解をしていく中で]@[textBlack:胸が張り裂けそうになるほど]@[textBlack:想像を絶する苦しみを味わったことがわかった。]",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-3"
             },
             {
-                "progressNarration": "[textBlack:彼女の願いと、]@[textBlack:この時に起きた出来事について…。]"
+                "progressNarration": "[textBlack:ユニオンとプロミストブラッドの争いにも関わる]@[textBlack:エピソードのひとつだけど、それ以上に]@[textBlack:魔法少女が叶えた願いの形のひとつとして]@[textBlack:ここに改めて記しておこうと思う。]",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-4"
             },
             {
-                "autoTurnLast": 0.01,
+                "progressNarration": "[textBlack:彼女の願いと、]@[textBlack:この時に起きた出来事について…。]",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-5"
+            },
+            {
+                "autoTurnLast": 2.5,
                 "bg": "black",
                 "bgm": "stop",
                 "item": [
@@ -58,7 +66,8 @@
                 "nameNarration": "フェリシア",
                 "narration": "かこ、オレの願いのこと知ってたのか…？",
                 "narrationHAlignment": "left",
-                "narrationPosX": 180
+                "narrationPosX": 180,
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-7"
             },
             {
                 "autoTurnLast": 0.01,
@@ -66,7 +75,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 301101,
                         "motion": 0,
                         "pos": 1
@@ -80,7 +89,8 @@
                 "chara": [
                     {
                         "id": 301101,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-8"
                     }
                 ],
                 "nameCenter": "夏目 かこ",
@@ -90,7 +100,8 @@
             {
                 "chara": [
                     {
-                        "id": 301101
+                        "id": 301101,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-9"
                     }
                 ],
                 "nameCenter": "夏目 かこ",
@@ -119,51 +130,64 @@
                 "narrationFontSize": 30,
                 "narrationLineMargin": 10,
                 "narrationLineSpace": 20,
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-10"
             },
             {
-                "narration": "―フェリシア―@オレはずっと魔女だって思って@はんにんの魔女…さがしてたのにさ…"
+                "narration": "―フェリシア―@オレはずっと魔女だって思って@はんにんの魔女…さがしてたのにさ…",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-11"
             },
             {
                 "nameNarration": "夏目 かこ",
-                "narration": "―かこ―@どうして、そんなはずないよ…!?@フェリシアちゃんは絶対に悪くないよ…！"
+                "narration": "―かこ―@どうして、そんなはずないよ…!?@フェリシアちゃんは絶対に悪くないよ…！",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-12"
             },
             {
                 "nameNarration": "フェリシア",
-                "narration": "―フェリシア―@うそつくなよ"
+                "narration": "―フェリシア―@うそつくなよ",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-13"
             },
             {
                 "nameNarration": "夏目 かこ",
-                "narration": "―かこ―@本当にフェリシアちゃんは信じるの…？@それが真実だって…"
+                "narration": "―かこ―@本当にフェリシアちゃんは信じるの…？@それが真実だって…",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-14"
             },
             {
                 "nameNarration": "フェリシア",
-                "narration": "―フェリシア―@わかんねーけど…@でもそうとしか思えないし…"
+                "narration": "―フェリシア―@わかんねーけど…@でもそうとしか思えないし…",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-15"
             },
             {
-                "narration": "―フェリシア―@もしもそうだとしたらさ@オレ、もういろはたちと一緒に暮らせねえよ"
+                "narration": "―フェリシア―@もしもそうだとしたらさ@オレ、もういろはたちと一緒に暮らせねえよ",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-16"
             },
             {
-                "narration": "―フェリシア―@かこともあやめとも@遊んでいいようなやつじゃない"
+                "narration": "―フェリシア―@かこともあやめとも@遊んでいいようなやつじゃない",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-17"
             },
             {
                 "nameNarration": "夏目 かこ",
-                "narration": "―かこ―@落ち着いてよフェリシアちゃん"
+                "narration": "―かこ―@落ち着いてよフェリシアちゃん",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-18"
             },
             {
                 "nameNarration": "フェリシア",
-                "narration": "―フェリシア―@かこも知ってただろ!!"
+                "narration": "―フェリシア―@かこも知ってただろ!!",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-19"
             },
             {
                 "nameNarration": "夏目 かこ",
-                "narration": "―かこ―@１回ちゃんと話そう！"
+                "narration": "―かこ―@１回ちゃんと話そう！",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-20"
             },
             {
-                "nameNarration": "",
-                "narration": "…………"
+                "nameNarration": "夏目 かこ",
+                "narration": "―かこ―@…………",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-21"
             },
             {
-                "narration": "…………"
+                "narration": "―かこ―@…………",
+                "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-22"
             },
             {
                 "autoTurnLast": 0.01,
@@ -171,7 +195,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 301101,
                         "motion": 1,
                         "pos": 1
@@ -190,7 +214,8 @@
                 "chara": [
                     {
                         "id": 301101,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-23"
                     }
                 ],
                 "nameCenter": "夏目 かこ",
@@ -201,7 +226,8 @@
                 "chara": [
                     {
                         "id": 301101,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-24"
                     }
                 ],
                 "nameCenter": "夏目 かこ",
@@ -214,17 +240,21 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 301101,
-                        "lipSynch": 0,
-                        "motion": 400
+                        "lipSynch": 1,
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-26"
                     }
                 ],
                 "nameCenter": "夏目 かこ",
-                "narrationEffect": "out",
                 "textCenter": "――っ!?"
             },
             {
@@ -233,14 +263,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 301101,
                         "motion": 0,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 302801,
                         "motion": 0,
                         "pos": 2
@@ -253,18 +283,20 @@
                 "chara": [
                     {
                         "id": 301101,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-27"
                     }
                 ],
                 "nameLeft": "夏目 かこ",
                 "textLeft": "あ、あやめちゃん!?",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "rollOutFast"
             },
             {
                 "chara": [
                     {
                         "id": 302801,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-28"
                     }
                 ],
                 "nameRight": "三栗 あやめ",
@@ -274,8 +306,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 301101
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 301101,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-29"
                     }
                 ],
                 "nameLeft": "夏目 かこ",
@@ -285,7 +318,8 @@
                 "chara": [
                     {
                         "id": 302801,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-30"
                     }
                 ],
                 "nameRight": "三栗 あやめ",
@@ -294,7 +328,8 @@
             {
                 "chara": [
                     {
-                        "id": 302801
+                        "id": 302801,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-31"
                     }
                 ],
                 "nameRight": "三栗 あやめ",
@@ -304,7 +339,8 @@
                 "chara": [
                     {
                         "id": 301101,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-32"
                     }
                 ],
                 "nameLeft": "夏目 かこ",
@@ -314,7 +350,8 @@
                 "chara": [
                     {
                         "id": 302801,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-33"
                     }
                 ],
                 "nameRight": "三栗 あやめ",
@@ -324,9 +361,10 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_022.exp.json",
+                        "face": "mtn_ex_022.exp3.json",
                         "id": 301101,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-34"
                     }
                 ],
                 "nameLeft": "夏目 かこ",
@@ -336,7 +374,8 @@
                 "chara": [
                     {
                         "id": 302801,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-35"
                     }
                 ],
                 "nameRight": "三栗 あやめ",
@@ -346,9 +385,10 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 301101,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-36"
                     }
                 ],
                 "nameLeft": "夏目 かこ",
@@ -358,8 +398,9 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_022.exp.json",
-                        "id": 301101
+                        "face": "mtn_ex_022.exp3.json",
+                        "id": 301101,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-37"
                     }
                 ],
                 "nameLeft": "夏目 かこ",
@@ -369,7 +410,8 @@
                 "chara": [
                     {
                         "id": 301101,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-38"
                     }
                 ],
                 "nameLeft": "夏目 かこ",
@@ -379,7 +421,8 @@
                 "chara": [
                     {
                         "id": 302801,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-39"
                     }
                 ],
                 "nameRight": "三栗 あやめ",
@@ -391,14 +434,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 302801,
                         "motion": 0,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_022.exp.json",
+                        "face": "mtn_ex_022.exp3.json",
                         "id": 301101,
                         "motion": 0,
                         "pos": 2
@@ -410,7 +453,8 @@
             {
                 "chara": [
                     {
-                        "id": 302801
+                        "id": 302801,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-40"
                     }
                 ],
                 "nameLeft": "三栗 あやめ",
@@ -420,7 +464,8 @@
             {
                 "chara": [
                     {
-                        "id": 301101
+                        "id": 301101,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-41"
                     }
                 ],
                 "nameRight": "夏目 かこ",
@@ -430,7 +475,8 @@
                 "chara": [
                     {
                         "id": 302801,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-42"
                     }
                 ],
                 "nameLeft": "三栗 あやめ",
@@ -440,7 +486,8 @@
                 "chara": [
                     {
                         "id": 301101,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-43"
                     }
                 ],
                 "nameRight": "夏目 かこ",
@@ -449,38 +496,53 @@
             {
                 "chara": [
                     {
-                        "id": 301101
+                        "id": 301101,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-44"
                     }
                 ],
                 "nameRight": "夏目 かこ",
                 "textRight": "今はクレセントハウスっていう@避難場所に居るって…！"
             },
             {
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "cheek": 0,
+                        "effect": "ef_adv_01",
                         "face": "mtn_ex_050.exp.json",
                         "id": 301101,
-                        "lipSynch": 0,
                         "motion": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "effect": "ef_adv_01",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 302801,
                         "motion": 0
                     }
                 ],
+                "se": "7201_detect_magic",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101,
+                        "lipSynch": 1,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-45"
+                    }
+                ],
                 "nameRight": "夏目 かこ",
-                "textRight": "[chara:301101:effect_ef_adv_01][chara:302801:effect_ef_adv_01][se:7201_detect_magic]この反応、フェリシアちゃん…！"
+                "textRight": "この反応、フェリシアちゃん…！"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 302801,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-46"
                     }
                 ],
                 "nameLeft": "三栗 あやめ",
@@ -490,9 +552,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_022.exp3.json",
                         "id": 301101,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-1-47"
                     }
                 ],
                 "nameRight": "夏目 かこ",

@@ -7,14 +7,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 0,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 103301,
                         "motion": 0,
                         "pos": 2
@@ -24,36 +24,44 @@
             },
             {
                 "bgm": "bgm01_anime02",
-                "nameNarration": "那由多の父",
+                "nameNarration": "那由他の父",
                 "narration": "今日、兄さんに会ってくるから@ロビーで待っていてくれるかな？",
                 "narrationBg": "bg_adv_21011.jpg",
                 "narrationEffect": "in",
                 "narrationHAlignment": "left",
                 "narrationPosX": 180,
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-1"
             },
             {
-                "narration": "実は改めて那由他たち魔法少女の話を@伝えようと思ってるんだ@灯花も魔法少女になっている以上は@兄さんも当事者のひとりだからね"
+                "narration": "実は改めて那由他たち魔法少女の話を@伝えようと思ってるんだ@灯花も魔法少女になっている以上は@兄さんも当事者のひとりだからね",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-2"
             },
             {
-                "narration": "ここで兄さんに伝える話は@あとで那由他にも伝える@だから少しだけ覚悟をしておいて欲しい"
+                "narration": "ここで兄さんに伝える話は@あとで那由他にも伝える@だから少しだけ覚悟をしておいて欲しい",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-3"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-4"
                     }
                 ],
                 "nameLeft": "那由他",
-                "narrationEffect": "out",
                 "textLeft": "覚悟…@急に重い気持ちになりますの…"
             },
             {
                 "chara": [
                     {
                         "id": 103301,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-5"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -63,10 +71,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103301,
                         "lipSynch": 0,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-6"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -86,32 +95,42 @@
                 "nameNarration": "ラビ",
                 "narration": "那由他はどんな反応をするだろうか@意固地になって認めないか@それとも私たちと一緒に来てくれるか…",
                 "narrationBg": "bg_adv_21011.jpg",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-7"
             },
             {
-                "narration": "それでも、私は那由他をだまして@一緒に暮らしていたようなもの"
+                "narration": "それでも、私は那由他をだまして@一緒に暮らしていたようなもの",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-8"
             },
             {
-                "narration": "娘に知られたくないという教授のエゴには@否定的だったから@彼女の父親捜しを潰す気はなかったけど"
+                "narration": "娘に知られたくないという教授のエゴには@否定的だったから@彼女の父親捜しを潰す気はなかったけど",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-9"
             },
             {
-                "narration": "首を突っ込まないように@核心に迫られないようにしたのは私で@教授の居場所も教えなかったのも私"
+                "narration": "首を突っ込まないように@核心に迫られないようにしたのは私で@教授の居場所を教えなかったのも私",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-10"
             },
             {
-                "narration": "恨まれてもおかしくない…"
+                "narration": "恨まれてもおかしくない…",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-11"
             },
             {
-                "narration": "長く一緒に居たせいか@恨まれると思うとショックが大きい…@けど、那由他はきっと@私なんかより大きなショックを受ける…"
+                "narration": "長く一緒に居たせいか@恨まれると思うとショックが大きい…@けど、那由他はきっと@私なんかより大きなショックを受ける…",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-12"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 103301
+                        "id": 103301,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-13"
                     }
                 ],
                 "nameCenter": "ラビ",
-                "narrationEffect": "out",
                 "textCenter": "ふぅ…"
             },
             {
@@ -124,20 +143,21 @@
                 "nameNarration": "ラビ",
                 "narration": "この世にあるものは全て分け隔てがないもの@私は私であり、私ではなく@１が全であり、全が１である@言葉による境も全て綺麗に失って意味をなくせば@どんな苦も楽もなく無でいられる",
                 "narrationBg": "bg_adv_21011.jpg",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-14"
             },
             {
-                "narration": "ショックも無いようなもの"
+                "narration": "ショックも無いようなもの",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-15"
             },
             {
                 "autoTurnLast": 0.01,
-                "bgm": "stop",
-                "narrationEffect": "out",
-                "textClear": 1
+                "bgm": "stop"
             },
             {
                 "autoTurnLast": 2,
                 "bg": "black",
+                "narrationEffect": "out",
                 "turnChangeIn": "fadeIn",
                 "turnChangeInTime": 2
             },
@@ -157,14 +177,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103701,
                         "motion": 0,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 103301,
                         "motion": 0,
                         "pos": 2
@@ -179,7 +199,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-18"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -190,10 +211,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_051.exp.json",
+                        "face": "mtn_ex_051.exp3.json",
                         "id": 103301,
-                        "lipSynch": 0,
-                        "motion": 400
+                        "lipSynch": 1,
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-19"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -203,10 +225,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103301,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-20"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -216,7 +239,8 @@
                 "chara": [
                     {
                         "id": 103301,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-21"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -226,7 +250,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-22"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -238,6 +263,21 @@
                     {
                         "effect": "fadeout",
                         "id": 103701
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 103301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 103301,
+                        "pos": 1
                     }
                 ],
                 "textClear": 1
@@ -246,10 +286,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103301,
                         "motion": 200,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-23"
                     }
                 ],
                 "nameCenter": "ラビ",
@@ -259,8 +300,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 103301
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103301,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-24"
                     }
                 ],
                 "nameCenter": "ラビ",
@@ -272,7 +314,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103701,
                         "motion": 0,
                         "pos": 1
@@ -284,7 +326,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-25"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -294,7 +337,8 @@
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-26"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -319,10 +363,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103701,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-27"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -333,25 +378,31 @@
                 "nameNarration": "灯花の父",
                 "narration": "―――",
                 "narrationBg": "",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-28"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 103701
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-29"
                     }
                 ],
                 "nameCenter": "那由他",
-                "narrationEffect": "out",
                 "textCenter": "電話をしてる…？"
             },
             {
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-30"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -361,8 +412,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 103701
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-31"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -373,59 +425,74 @@
                 "nameNarration": "灯花の父",
                 "narration": "「それで、弟のことですが…」",
                 "narrationBg": "",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-32"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
-                        "lipSynch": 0,
-                        "motion": 0
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-33"
                     }
                 ],
                 "nameCenter": "那由他",
-                "narrationEffect": "out",
                 "textCenter": "[chara:103701:effect_emotion_surprise_0][se:7226_shock]――っ!?"
             },
             {
                 "nameNarration": "灯花の父",
                 "narration": "「ええ、私も娘が関わっているので@彼の空想物語に耳を傾けもしましたが@本当におかしな話ですよ…」",
                 "narrationBg": "",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-34"
             },
             {
-                "narration": "「とりあえず、これ以上周りを振り回して@恥をさらして欲しくないので@今は頭を冷やしてもらっています@また雲隠れされたんじゃ困りますからね」"
+                "narration": "「とりあえず、これ以上周りを振り回して@恥をさらして欲しくないので@今は頭を冷やしてもらっています@また雲隠れされたんじゃ困りますからね」",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-35"
             },
             {
-                "narration": "「監禁だなんて人聞きが悪い@私の仕事が終わるのを待ってもらってるんです@もう少し説得を続けたいのでね」"
+                "narration": "「監禁だなんて人聞きが悪い@私の仕事が終わるのを待ってもらってるんです@もう少し説得を続けたいのでね」",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-36"
             },
             {
-                "narration": "「それに、世間を混乱させる恐れがある以上は@科学的な見地から説明するためにも@いずれ私から世間に出ていく必要があります」"
+                "narration": "「それに、世間を混乱させる恐れがある以上は@科学的な見地から説明するためにも@いずれ私から世間に出ていく必要があります」",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-37"
             },
             {
-                "narration": "「はい、詳しい話は後ほど会食の席で」"
+                "narration": "「はい、詳しい話は後ほど会食の席で」",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-38"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "lipSynch": 0,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-39"
                     }
                 ],
                 "nameCenter": "那由他",
-                "narrationEffect": "out",
                 "textCenter": "（伯父様がパパを監禁…？）"
             },
             {
                 "chara": [
                     {
                         "id": 103701,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-40"
                     }
                 ],
                 "nameCenter": "那由他",
@@ -434,23 +501,25 @@
             {
                 "nameRight": "看護師の声",
                 "textBg": "shout",
-                "textRight": "ちょっと、そこの子、@何をしてるんですか!?"
+                "textRight": "ちょっと、そこの子、@何をしてるんですか!?",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-41"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-42"
                     }
                 ],
                 "nameCenter": "那由他",
                 "textCenter": "あっ…！"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "effect": "fadeout",
@@ -463,17 +532,18 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 800600,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-10-43"
                     }
                 ],
                 "nameCenter": "看護師",
                 "textCenter": "待ちなさい!!"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "effect": "fadeout",
@@ -484,7 +554,7 @@
             },
             {
                 "autoTurnLast": 2,
-                "turnChangeIn": "fadeIn"
+                "turnChangeIn": "rollInFast"
             }
         ]
     },

@@ -23,22 +23,28 @@
                 "narrationHAlignment": "left",
                 "narrationPosX": 150,
                 "progressNarration": "[textBlack:神浜と二木を結ぶ株分けのミラーズ。]@[textBlack:そのショートカットを消すために動くユニオンと]@[textBlack:守ろうとするプロミストブラッドの間で起きた]@[textBlack:地下鉄跡での熾烈な争いは、]@[textBlack:ユニオン側の勝利で幕を閉じることになった。]",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-1"
             },
             {
-                "progressNarration": "[textBlack:だけどユニオン側がその代償として支払ったのは]@[textBlack:ひとりの魔法少女の命。]@[textBlack:それは今後の活動に]@[textBlack:暗い影を落とすことになってしまった。]"
+                "progressNarration": "[textBlack:だけどユニオン側がその代償として支払ったのは]@[textBlack:ひとりの魔法少女の命。]@[textBlack:それは今後の活動に]@[textBlack:暗い影を落とすことになってしまった。]",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-2"
             },
             {
-                "progressNarration": "[textBlack:私はその熾烈な争いの傍らで、]@[textBlack:当時はみたまさんの様子を見守っていた。]"
+                "progressNarration": "[textBlack:私はその熾烈な争いの傍らで、]@[textBlack:当時はみたまさんの様子を見守っていた。]",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-3"
             },
             {
-                "progressNarration": "[textBlack:キュゥべえではなく、私たちが生きている社会が]@[textBlack:魔法少女を生むという考えについて、]@[textBlack:市長選で揺れ動いているこの時の神浜なら、]@[textBlack:確認できるような気がしていたから。]"
+                "progressNarration": "[textBlack:キュゥべえではなく、私たちが生きている社会が]@[textBlack:魔法少女を生むという考えについて、]@[textBlack:市長選で揺れ動いているこの時の神浜なら、]@[textBlack:確認できるような気がしていたから。]",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-4"
             },
             {
-                "progressNarration": "[textBlack:また、この頃は神浜市から離れた湯国市という町で]@[textBlack:里見那由他さんがお父さんの捜索を続けていた。]"
+                "progressNarration": "[textBlack:また、この頃は神浜市から離れた湯国市という町で]@[textBlack:里見那由他さんがお父さんの捜索を続けていた。]",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-5"
             },
             {
-                "progressNarration": "[textBlack:この時は微塵も思いもしなかった。]@[textBlack:みたまさんと那由他さんの間で起きた事が]@[textBlack:繋がってしまうだなんて…。]"
+                "progressNarration": "[textBlack:この時は微塵も思いもしなかった。]@[textBlack:みたまさんと那由他さんの間で起きた事が]@[textBlack:繋がってしまうだなんて…。]",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-6"
             },
             {
                 "autoTurnLast": 2,
@@ -47,14 +53,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 101700,
                         "motion": 0,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103801,
                         "motion": 1,
                         "pos": 2
@@ -75,23 +81,29 @@
                 "narration": "「神浜における東西の格差問題については@以前から議論されるところですが@今回の選挙選の影響は@生活する市民にとっても@大きな影響を与えるものになりそうです」",
                 "narrationBg": "",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-7"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
                         "id": 101700,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-8"
                     }
                 ],
                 "nameLeft": "みたま",
-                "narrationEffect": "out",
                 "textLeft": "何もできないまま、@明日の投開票を迎えてしまうわね"
             },
             {
                 "chara": [
                     {
-                        "id": 103801
+                        "id": 103801,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-9"
                     }
                 ],
                 "nameRight": "みかげ",
@@ -101,7 +113,8 @@
                 "chara": [
                     {
                         "id": 103801,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-10"
                     }
                 ],
                 "nameRight": "みかげ",
@@ -111,7 +124,8 @@
                 "chara": [
                     {
                         "id": 101700,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-11"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -121,10 +135,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_041.exp.json",
+                        "face": "mtn_ex_041.exp3.json",
                         "id": 101700,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-12"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -134,11 +149,12 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_001.exp.json",
+                        "face": "mtn_ex_001.exp3.json",
                         "id": 102001,
                         "motion": 1,
                         "pos": 2,
-                        "soulGem": 0
+                        "soulGem": 0,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-13"
                     }
                 ],
                 "nameRight": "かごめ",
@@ -148,7 +164,8 @@
                 "chara": [
                     {
                         "id": 102001,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-14"
                     }
                 ],
                 "nameRight": "アルちゃん",
@@ -158,9 +175,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 101700,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-15"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -170,7 +188,8 @@
                 "chara": [
                     {
                         "id": 102001,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-16"
                     }
                 ],
                 "nameRight": "アルちゃん",
@@ -181,9 +200,10 @@
                     {
                         "cheek": 0,
                         "eyeClose": 1,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 101700,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-17"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -193,7 +213,8 @@
                 "chara": [
                     {
                         "eyeClose": 0,
-                        "id": 101700
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-18"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -203,7 +224,8 @@
                 "chara": [
                     {
                         "id": 101700,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-19"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -212,7 +234,8 @@
             {
                 "chara": [
                     {
-                        "id": 101700
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-20"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -222,9 +245,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 102001,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-21"
                     }
                 ],
                 "nameRight": "かごめ",
@@ -234,9 +258,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 101700,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-22"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -245,7 +270,8 @@
             {
                 "chara": [
                     {
-                        "id": 101700
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-23"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -254,7 +280,8 @@
             {
                 "chara": [
                     {
-                        "id": 101700
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-24"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -264,8 +291,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 101700
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-25"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -275,9 +303,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 101700,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-26"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -287,7 +316,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 101700
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-27"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -298,19 +328,21 @@
                     {
                         "cheek": 0,
                         "eyeClose": 1,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 101700
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-28"
                     }
                 ],
                 "nameLeft": "みたま",
-                "textLeft": "だから少し頑張りたかったの"
+                "textLeft": "だから少し頑張ってたの"
             },
             {
                 "chara": [
                     {
                         "eyeClose": 0,
                         "id": 101700,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-29"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -320,10 +352,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103801,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-30"
                     }
                 ],
                 "nameRight": "みかげ",
@@ -333,20 +366,22 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 103801
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 103801,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-31"
                     }
                 ],
                 "nameRight": "みかげ",
-                "textRight": "それに、あした屋に来る子たちと@バアちゃは平気だよっ"
+                "textRight": "それに、あした屋に来る子たちと@ばあちゃは平気だよっ"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_001.exp.json",
+                        "face": "mtn_ex_001.exp3.json",
                         "id": 101700,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-32"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -355,21 +390,23 @@
             {
                 "chara": [
                     {
-                        "id": 101700
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-33"
                     }
                 ],
                 "nameLeft": "みたま",
-                "textLeft": "また“東のやつだ！”って@敵意を向けられるかもしれないわ"
+                "textLeft": "また“東のやつだ！”って@敵意を向けられるかもしれないし"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 102001,
                         "motion": 0,
                         "pos": 2,
-                        "soulGem": 0
+                        "soulGem": 0,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-34"
                     }
                 ],
                 "nameRight": "かごめ",
@@ -379,9 +416,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 101700,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-35"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -390,7 +428,8 @@
             {
                 "chara": [
                     {
-                        "id": 101700
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-36"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -400,10 +439,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 102001,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-37"
                     }
                 ],
                 "nameRight": "かごめ",
@@ -413,7 +453,8 @@
                 "chara": [
                     {
                         "id": 101700,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-38"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -422,7 +463,8 @@
             {
                 "chara": [
                     {
-                        "id": 101700
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-39"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -433,20 +475,25 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_051.exp.json",
+                        "face": "mtn_ex_051.exp3.json",
                         "id": 101700,
                         "motion": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 102001
                     }
                 ],
                 "nameNarration": "",
                 "narration": "「一部の週刊誌では@未成年を選挙運動に関わらせた@公職選挙法違反を報じるものもあり@こちらも真偽の確認が急がれています」",
                 "narrationBg": "",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-40"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
@@ -456,8 +503,7 @@
                     }
                 ],
                 "nameLeft": "みたま",
-                "narrationEffect": "out",
-                "textLeft": "…………[wait:0.8][chara:101700:cheek_0][chara:101700:face_mtn_ex_052.exp.json][chara:101700:lipSynch_1]わたしのこと？"
+                "textLeft": "…………[wait:0.8][chara:101700:cheek_0][chara:101700:face_mtn_ex_052.exp3.json][chara:101700:lipSynch_1][chara:101700:voiceFull_fullvoice/section_102705/vo_full_102705-1-41]わたしのこと？"
             },
             {
                 "autoTurnLast": 2,
@@ -471,7 +517,8 @@
                         "visible": "appear"
                     }
                 ],
-                "turnChangeIn": "fadeIn"
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102705/vo_full_102705-1-41"
             },
             {
                 "bgm": "bgm20_song10",
@@ -481,13 +528,16 @@
                 "narrationHAlignment": "left",
                 "narrationPosX": 150,
                 "progressNarration": "[textBlack:続けられたワイドショーのコーナーで]@[textBlack:関係者の人がテレビに映ると、]@[textBlack:メディアで取り上げられている疑惑について]@[textBlack:必死に弁明をしていた。]",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-42"
             },
             {
-                "progressNarration": "[textBlack:確かに未成年で手伝っている人もいたけど]@[textBlack:法令を順守していると語っていて、]@[textBlack:内容を聞くだけで、私やみかげちゃんには、]@[textBlack:みたまさんのことだということがわかった。]"
+                "progressNarration": "[textBlack:確かに未成年で手伝っている人もいたけど]@[textBlack:法令を順守していると語っていて、]@[textBlack:内容を聞くだけで、私やみかげちゃんには、]@[textBlack:みたまさんのことだということがわかった。]",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-43"
             },
             {
-                "progressNarration": "[textBlack:画面から目を離すと、みたまさんは]@[textBlack:悲しんでるとも怒ってるともとれない]@[textBlack:複雑な顔で画面を見つめていた。]"
+                "progressNarration": "[textBlack:画面から目を離すと、みたまさんは]@[textBlack:悲しんでるとも怒ってるともとれない]@[textBlack:複雑な顔で画面を見つめていた。]",
+                "voiceFullAuto": "fullvoice/section_102705/vo_full_102705-1-44"
             },
             {
                 "autoTurnLast": 2,

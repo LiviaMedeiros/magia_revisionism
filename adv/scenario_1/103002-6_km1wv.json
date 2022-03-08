@@ -1,0 +1,458 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_13141.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "[se:7106_telmail]ピロン♪",
+                "narrationBg": "bg_adv_13141.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "nameCenter": "いろは",
+                "narrationEffect": "out",
+                "textCenter": "…やちよさんから"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 200
+                    }
+                ],
+                "nameNarration": "やちよ",
+                "narration": "十七夜からネオマギウスの動きを@秘密裡に教えるっていう連絡が入ったわ",
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 150,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "narration": "十中八九は罠だという見立てだけど@今は小さな情報でも掴みたいし@少人数だと奇襲にあってやられる恐れがあるから@ももこたち３人も連れて@南凪にある待ち合わせのポイントに向かうわ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 100
+                    }
+                ],
+                "narration": "いろはと二葉さんは途中でういちゃんと合流して@私たちのあとに続いてちょうだい@もしも私たちが罠にかかったとしても@十七夜を背後から突けるはずよ"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_13141.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 102701,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "ごめんね、すなおちゃん",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "十七夜さんが動き始めたみたいで@私たち行かないと"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102701,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "すなお",
+                "textRight": "それは、ネオマギウスが動いたと@いうことですよね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102701
+                    }
+                ],
+                "nameRight": "すなお",
+                "textRight": "私たちも他の分家に連絡をとって@一族総出で向かいます"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "ありがとう、すなおちゃん"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_01",
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100101
+                    },
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_01",
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 102701
+                    }
+                ],
+                "se": "7201_detect_magic",
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm24_story05",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "さな",
+                "textLeft": "この反応…すなおさん…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102701,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "すなお",
+                "textRight": "はい、間違いありません…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "slideInLeftFast",
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102601,
+                        "motion": 200,
+                        "pos": 1,
+                        "posX": 40
+                    }
+                ],
+                "nameCenter": "ちはる",
+                "textCenter": "すなおちゃん！@静香ちゃんが近付いてるよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp3.json",
+                        "id": 100401,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "さな",
+                "textLeft": "プロミストブラッドでも、@笠音さんが現れたみたいですし…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102601,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "ちはる",
+                "textCenter": "それ、ネオマギウスが本格的に@動いてるってことだよぅ…!!"
+            },
+            {
+                "nameNarration": "かごめの声",
+                "narration": "「ごめんくださーい！」",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102601
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 102701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100401
+                    }
+                ],
+                "narrationEffect": "out",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_13131.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 102601,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp3.json",
+                        "id": 102001,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "nameLeft": "ちはる",
+                "textLeft": "かごめちゃん！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102001,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "もしかして静香さんが@近付いてますか…!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102601,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ちはる",
+                "textLeft": "うん…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102001,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "アルちゃん",
+                "textRight": "＜ひめなさんたちが@動き始めたんだね…＞"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102001,
+                        "lipSynch": 1,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "そうみたい…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102001
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 102601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_13131.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100101,
+                        "motion": 401,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "それじゃあ、すなおちゃん@ふたりで南凪に向かいますね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102701,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "すなお",
+                "textRight": "はい、私たちはこのまま@静香を待ち受けます"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100101
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "説得、上手くいくといいですね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102701,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "すなお",
+                "textRight": "環さんと二葉さんの想い、@静香にも繋げておきますね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "改めて言われると恥ずかしいな…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp3.json",
+                        "id": 100401,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "さな",
+                "textLeft": "はい…@でも、お願いします…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102701,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "すなお",
+                "textRight": "任せてください"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

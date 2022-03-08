@@ -1,0 +1,828 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_21171.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2.5,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21081.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp3.json",
+                        "id": 102901,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 801500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm01_anime02",
+                "chara": [
+                    {
+                        "id": 102901,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "はい、じいじ",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "今日の朝ご飯は焼き鮭と@昨日の炊き込みご飯だって"
+            },
+            {
+                "nameCenter": "時雨の母の声",
+                "textCenter": "炊くときの水を変えたんだけど、@美味しかった…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102901,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "え、水…@もしかして母…また…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 801500
+                    }
+                ],
+                "nameRight": "時雨の祖父",
+                "textRight": "だまされて買ったんじゃないよ@私が選んだから大丈夫だ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102901
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "そっか、よかった…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "時雨の母",
+                "textRight": "お母さんが買っちゃうと@まただまされちゃうからね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "時雨の母",
+                "textRight": "はい、準備ができたし@食べましょう"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800600,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "id": 102901,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameCenter": "みんな",
+                "textCenter": "いただきます"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp3.json",
+                        "id": 102901,
+                        "motion": 200,
+                        "mouthOpen": 0
+                    },
+                    {
+                        "id": 800600,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "…はむっ、[chara:102901:lipSynch_0][wait:0.8][chara:102901:cheek_0][chara:102901:face_mtn_ex_010.exp3.json][chara:102901:lipSynch_1]うん、美味しい"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "時雨の母",
+                "textRight": "そう、良かったぁ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 801500,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "時雨の祖父",
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 801500,
+                        "lipSynch": 1
+                    }
+                ],
+                "nameRight": "時雨の祖父",
+                "textRight": "なあ時雨、こんど欲しがってた@Berry Piを買ってあげようか"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 102901,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "え、いいの…!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801500
+                    }
+                ],
+                "nameRight": "時雨の祖父",
+                "textRight": "前からマイコンボードを@欲しがってたし"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801500
+                    },
+                    {
+                        "id": 102901,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "時雨の祖父",
+                "textRight": "最近は調子が良さそうで、@どこか溌剌としてるからな"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801500
+                    }
+                ],
+                "nameRight": "時雨の祖父",
+                "textRight": "こういう時に何かを作ると@いいものができるものだ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801500
+                    }
+                ],
+                "nameRight": "時雨の祖父",
+                "textRight": "せっかくだから挑戦してみなさい"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_014.exp3.json",
+                        "id": 102901,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "え、じゃあ、じいじ！@ぼくのプログラムも見てよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 801500
+                    }
+                ],
+                "nameRight": "時雨の祖父",
+                "textRight": "もちろん、構わないよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "時雨の母",
+                "textRight": "良かったね、時雨ちゃん"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102901,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "うんっ…！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "時雨",
+                "textCenter": "（最近のぼくに良い波が来てる）",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "時雨",
+                "textCenter": "（はぐむんと一緒に@ネオマギウスを維持しつづけて）"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 102901,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "時雨",
+                "textCenter": "（姫や教官と再始動させて、@ここまで来て本当に良かった…）"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800300,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800200,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "時雨",
+                "narration": "これで魔法少女のことが広まったら@ぼくたちが魔女を倒してるんだって大声で言える@みんなよりちょっとスゴいんだぞって言って@バカになんてされなくなる",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102801,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narration": "あとちょっと、あと少しで姫が@ぼくたちを引き上げてくれるんだ"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_21081.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp3.json",
+                        "id": 102901,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "時雨",
+                "textCenter": "（だけど、@みんなに知ってもらったあとで）",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "時雨",
+                "textCenter": "（どうやって@信じてもらうつもりなんだろ…）"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 102901,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "時雨の母",
+                "textRight": "時雨ちゃん…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 102901,
+                        "lipSynch": 1,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "[chara:102901:effect_emotion_surprise_0][se:7226_shock]えっ!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "時雨の母",
+                "textRight": "最近帰りが遅いけど、@気をつけてね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 801500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "時雨の祖父",
+                "textRight": "そうだぞ、危険なことはするな@みんな心配してるからな"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102901,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "時雨",
+                "textLeft": "うん…ごめん…"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_17171.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 103001,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "[chara:103001:effect_emotion_surprise_0][se:7226_shock]ふぇええっ!?!?@役者ってあの役者ですか…!?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "舞台の上で演技をする…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 800201
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "うちの演劇部では、@それを役者って言うのよ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103001,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "（あぅぅ、バカにされてる…）"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001,
+                        "lipSynch": 1,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "そそ、それはそうなんですけど@本当に私が…ですか…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800201
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "相変わらずドジっ子ちゃんだけど@最近、いいんだよね安積"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800201
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "言葉で表現しにくいんだけど、@なんかキラキラしてる"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800201
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "もしかして、恋してる？@[chara:800201:lipSynch_0][wait:1.0][chara:800201:cheek_0][chara:800201:face_mtn_ex_050.exp3.json][chara:800201:lipSynch_1]いや、まさかの彼氏とか!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 103001,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "違います違います！@私なんて全然モテないですし"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103001
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "キラキラなんて気のせいです！@だから無理です！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800201
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "そう言わないでさ@検討してみてよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800201
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "この話なんだけど、@どうしてもやってみたくてさ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "…………[wait:0.8][chara:103001:cheek_0][chara:103001:lipSynch_1]絵本ですか…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 103001
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "あ、これって@最近ネットで評判になってる…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800201
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "そっ、これを原作にした本は@私が書くからさ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "安積はカメの役をお願い！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "カメ…！@あ、動物さんの絵本なんですね"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800201
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "あとは鳥と虎が出てくるよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103001
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "衣装作り、難しそうだなぁ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 103001,
+                        "motion": 0
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "[se:7106_telmail]ピロンッ",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800201
+                    }
+                ],
+                "nameRight": "",
+                "narrationEffect": "out",
+                "textRight": "いいよ、スマホ見ても"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 103001
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "ありがとうございます"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "はぐむ",
+                "textLeft": "…………"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102901,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "motion": 100
+                    }
+                ],
+                "nameNarration": "時雨",
+                "narration": "電波望遠鏡で話を広める方法は前に聞いたけど@みんなに信じてもらえるのかな…？@なんだか急に心配になってきて…@どうするかって、はぐむんは姫から聞いてる？",
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 150,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_17171.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103001,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103001,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "はぐむ",
+                "textCenter": "（…私も聞いてない、よね）",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

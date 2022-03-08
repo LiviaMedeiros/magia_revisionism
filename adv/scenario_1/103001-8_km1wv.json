@@ -1,0 +1,977 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_15091.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101001,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100901,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101101,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "id": 101001,
+                        "motion": 300,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameCenter": "ももこ",
+                "textCenter": "はぁ…はぁ…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100901
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101001
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101201,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 304401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "御園 かりん",
+                "textLeft": "はぁ…ふぅ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ももこ",
+                "textRight": "ふぅ…[chara:101001:lipSynch_0][wait:0.8][chara:101001:cheek_0][chara:101001:motion_200:eyeClose_0][chara:101001:lipSynch_1]落ち着いてくれた？@説明した内容で納得してくれた？"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101201
+                    }
+                ],
+                "nameLeft": "御園 かりん",
+                "textLeft": "うん…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101101,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "かえで",
+                "textRight": "果てなしのミラーズのことなら、@他のグループの人も連れて"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101101
+                    }
+                ],
+                "nameRight": "かえで",
+                "textRight": "みふゆさんたちが調べるから@焦らなくても大丈夫だよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101201,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "御園 かりん",
+                "textLeft": "でも…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 304401,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "でもじゃないっての！@何回説明すりゃわかんの!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "ああもう…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 304401
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "こんな面倒になるなら@心配するんじゃなかった…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 304401,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 100901,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "レナ",
+                "textRight": "変に律義だから、@損な役回りになるんじゃない？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 304401,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "智珠 らんか",
+                "textLeft": "うるさい@その舌、引っこ抜くよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100901
+                    }
+                ],
+                "nameRight": "レナ",
+                "textRight": "こっわ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 102401,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "なんだこれ@変なメンツで集まってんな"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "あぁ、ゲーセンに行くメンツを@らんかが集めたっつーことか"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 304401,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "智珠 らんか",
+                "textLeft": "違う、色々あったの…"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21491.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 304401,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "nameNarration": "",
+                "narration": "ガラガラ…",
+                "narrationBg": "bg_adv_21491.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401
+                    }
+                ],
+                "nameCenter": "智珠 らんか",
+                "narrationEffect": "out",
+                "textCenter": "あれ、放課後はここで部活って@聞いてたんだけどな"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 304401
+                    }
+                ],
+                "nameCenter": "智珠 らんか",
+                "textCenter": "アリナってマギウスもいないし、@ヘコんで帰っちゃったかな…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "智珠 らんか",
+                "textCenter": "（…御園かりんはユニオンだし@心配する必要もないんだけど）"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_15091.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_022.exp3.json",
+                        "id": 101201,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 101201,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 304401,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "（と、思ったらいた…）"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 304401
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "アンタ大丈夫？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 101201,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "御園 かりん",
+                "textLeft": "えっ…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "いや、アリナってヤツが消えて@ヘコんでると思ってさ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "一応、@心配しとこうと思っただけ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_022.exp3.json",
+                        "id": 101201,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "御園 かりん",
+                "textLeft": "大丈夫なの"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101201
+                    }
+                ],
+                "nameLeft": "御園 かりん",
+                "textLeft": "だって、これからわたしが、@アリナ先輩を助けに行くから！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "ふーん…[chara:304401:lipSynch_0][wait:0.8][chara:304401:cheek_0][chara:304401:face_mtn_ex_050.exp3.json:motion_100][chara:304401:lipSynch_1]ん？@これからってひとりで？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101201,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "御園 かりん",
+                "textLeft": "そうなの！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101201
+                    }
+                ],
+                "nameLeft": "御園 かりん",
+                "textLeft": "帰って来られたなら、@また行き来できるはずなの！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "ちょ、いや、バカじゃないの!?@偶然戻ってきただけでしょ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101201,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "御園 かりん",
+                "textLeft": "でも、みんなが動かないなら@わたしが行くしかないの！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 304401,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "智珠 らんか",
+                "textCenter": "[chara:101201:effect_shake][chara:304401:effect_shake]ひとりで行ったら、@スイサイドルート一直線だって！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101201,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "御園 かりん",
+                "textLeft": "はなすの！"
+            },
+            {
+                "nameRight": "かえでの声",
+                "textBg": "shout",
+                "textRight": "あーーーーー！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 304401,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "智珠 らんか",
+                "textCenter": "[chara:304401:effect_emotion_surprise_0][se:7226_shock]――っ!?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304401
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101201
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_15091.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 101101,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 101001,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100901,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "かえで",
+                "textRight": "かりんちゃん大丈夫!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100901,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "レナ",
+                "textLeft": "白昼堂々、手を出すだなんて@アンタどういうつもり!?"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100901
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101001
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_15091.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 304401,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_022.exp3.json",
+                        "id": 101201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "なに勘違いしてんのバカ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401
+                    }
+                ],
+                "nameRight": "智珠 らんか",
+                "textRight": "コイツの暴走を@止めてるんだって！"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 304401,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 102401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "id": 304401,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "智珠 らんか",
+                "textLeft": "というわけ…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 102401,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "あっはは、そりゃ災難だな"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "智珠 らんか",
+                "textLeft": "で、樹里は何しに来たの？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "らんかとゲーセンに行こうと@思ったんだよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102401,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "本当は時雨とはぐむを捕まえて"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "ネオマギウスの情報を@吐かせたかったんだけどな"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "どこを捜してもいねーんだよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304401
+                    }
+                ],
+                "nameLeft": "智珠 らんか",
+                "textLeft": "そういうこと…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101201,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "御園 かりん",
+                "textLeft": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102401,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "おびえんなよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "らんかの言う通り、@ひとりで行けば死んで終わりだ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "本当に再会したきゃ我慢しろ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101201,
+                        "lipSynch": 1,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "御園 かりん",
+                "textLeft": "…わかったの@無理をしても先輩は喜ばないの…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102401
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "前にウェルダンにしたのは謝るし@詫びにゲーム代はおごってやる"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102401,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "だから、その内側に溜めた鬱憤を@樹里サマと晴らしに行こうぜ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 101201,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "御園 かりん",
+                "textLeft": "そうするの…！@おごってもらえるなら行くの！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100901,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "レナ",
+                "textRight": "肝が据わってるわね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 304401,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "智珠 らんか",
+                "textLeft": "で、アンタたちはどうする？@一緒に来る？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 101001,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ももこ",
+                "textRight": "あとで合流するよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101001
+                    }
+                ],
+                "nameRight": "ももこ",
+                "textRight": "十七夜さんがいなくなってから、@東の様子も見ないといけないしね"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 101001,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "大丈夫そうか？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "ももこ",
+                "textLeft": "今のところは他に離反はないよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_032.exp3.json",
+                        "id": 101001
+                    }
+                ],
+                "nameLeft": "ももこ",
+                "textLeft": "身勝手な滅びを望む行動だから、@追いかける必要はないって"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001
+                    }
+                ],
+                "nameLeft": "ももこ",
+                "textLeft": "事前に十七夜さんと調整屋から@東の子に連絡があったらしいんだ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101101,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "かえで",
+                "textRight": "みかげちゃんだけが@心配だよね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100901,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "レナ",
+                "textLeft": "みたまさんの願いを自分の願いで@打ち消そうとしたわけだしね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "そっちには行かなくていいのか？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100901
+                    }
+                ],
+                "nameLeft": "レナ",
+                "textLeft": "もっと適任になりそうな子が、@一緒にいてくれてるからね"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

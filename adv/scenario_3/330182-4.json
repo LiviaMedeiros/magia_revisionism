@@ -7,15 +7,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 301800,
                         "motion": 0,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 800300,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104400,
                         "motion": 0,
                         "pos": 2
                     }
@@ -23,19 +23,33 @@
                 "turnChangeIn": "fadeIn"
             },
             {
-                "autoTurnLast": 1,
+                "autoTurnLast": 0.3,
                 "chara": [
                     {
                         "cheek": 0,
                         "effect": "ef_adv_05",
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 301801,
                         "motion": 0,
                         "pos": 0
                     }
                 ],
                 "se": "7205_magic_girl",
-                "textClear": 1,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "se": "7205_magic_girl",
                 "turnChangeOut": "fadeOut"
             },
             {
@@ -52,7 +66,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 301801
                     }
                 ],
@@ -69,11 +83,11 @@
             {
                 "chara": [
                     {
-                        "id": 800300,
+                        "id": 104401,
                         "lipSynch": 0
                     }
                 ],
-                "nameRight": "瀬奈 みこと",
+                "nameRight": "みこと",
                 "textRight": "…………"
             },
             {
@@ -104,7 +118,7 @@
             {
                 "chara": [
                     {
-                        "id": 800300,
+                        "id": 104401,
                         "lipSynch": 0
                     }
                 ],
@@ -122,7 +136,8 @@
             {
                 "chara": [
                     {
-                        "id": 800300
+                        "id": 104401,
+                        "motion": 300
                     }
                 ],
                 "textRight": "…ち、違うの…"
@@ -131,7 +146,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 301801
                     }
                 ],
@@ -140,7 +155,8 @@
             {
                 "chara": [
                     {
-                        "id": 800300
+                        "id": 104401,
+                        "motion": 0
                     }
                 ],
                 "textRight": "何か…わ、私…変で…"
@@ -159,7 +175,10 @@
                 "bgm": "bgm05_event08",
                 "chara": [
                     {
-                        "id": 800300
+                        "effect": "ef_adv_08",
+                        "eyeClose": 1,
+                        "id": 104401,
+                        "mouthOpen": 1
                     }
                 ],
                 "textBg": "shout",
@@ -169,6 +188,10 @@
                 "chara": [
                     {
                         "id": 301801
+                    },
+                    {
+                        "id": 104401,
+                        "mouthOpen": 0
                     }
                 ],
                 "textLeft": "瀬奈!?"
@@ -176,7 +199,10 @@
             {
                 "chara": [
                     {
-                        "id": 800300
+                        "eyeClose": 1,
+                        "id": 104401,
+                        "motion": 300,
+                        "mouthOpen": 0
                     }
                 ],
                 "textRight": "は、帆奈ちゃん！@ど、どうしよう!?"
@@ -184,7 +210,8 @@
             {
                 "chara": [
                     {
-                        "id": 800300
+                        "eyeClose": 1,
+                        "id": 104401
                     }
                 ],
                 "textBg": "shout",
@@ -203,10 +230,6 @@
                 "chara": [
                     {
                         "id": 301801
-                    },
-                    {
-                        "effect": "ef_adv_08",
-                        "id": 800300
                     }
                 ],
                 "textLeft": "…え!?"
@@ -224,7 +247,8 @@
             {
                 "chara": [
                     {
-                        "id": 800300
+                        "eyeClose": 1,
+                        "id": 104401
                     }
                 ],
                 "textRight": "帆奈…ちゃん…！@わ、私…どうした…の!?",
@@ -234,7 +258,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 301801
                     }
                 ],
@@ -243,9 +267,11 @@
             {
                 "chara": [
                     {
-                        "id": 800300
+                        "eyeClose": 0,
+                        "id": 104401
                     }
                 ],
+                "nameRight": "みこと",
                 "textRight": "…帆奈ちゃん…！"
             },
             {
@@ -256,7 +282,7 @@
                     }
                 ],
                 "textBg": "shout",
-                "textLeft": "瀬奈－っ！"
+                "textLeft": "瀬奈ーっ！"
             },
             {
                 "nameNarration": "更紗 帆奈",
@@ -281,7 +307,7 @@
                     {
                         "cheek": 0,
                         "eyeClose": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 301801,
                         "motion": 1,
                         "pos": 1,

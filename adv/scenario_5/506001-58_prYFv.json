@@ -7,16 +7,16 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 101601,
                         "motion": 100,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 800300,
-                        "motion": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 104401,
+                        "motion": 200,
                         "pos": 2
                     }
                 ],
@@ -26,16 +26,22 @@
                 "bgm": "bgm05_event08",
                 "chara": [
                     {
-                        "id": 800300
+                        "id": 104401
                     }
                 ],
-                "nameRight": "瀬奈 みこと",
-                "textRight": "帆奈が使うのは…",
+                "nameRight": "みこと",
+                "textRight": "帆奈ちゃんが使うのは…",
                 "turnChangeOut": "fadeOut",
                 "turnEffect": "blackFrame"
             },
             {
-                "nameNarration": "瀬奈 みこと",
+                "chara": [
+                    {
+                        "id": 104401,
+                        "motion": 0
+                    }
+                ],
+                "nameNarration": "みこと",
                 "narration": "「“[textRed:上書きの魔法]”…なんです！」",
                 "narrationEffect": "in"
             },
@@ -43,7 +49,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 101601,
                         "motion": 1
                     }
@@ -56,18 +62,20 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 800300
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104401,
+                        "motion": 300
                     }
                 ],
-                "textRight": "帆奈は最初@何も魔法が使えなくて…"
+                "textRight": "帆奈ちゃんは最初@何も魔法が使えなくて…"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 800300
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 104401,
+                        "motion": 400
                     }
                 ],
                 "textRight": "だけど、それもそのはずで！"
@@ -75,10 +83,10 @@
             {
                 "chara": [
                     {
-                        "id": 800300
+                        "id": 104401
                     }
                 ],
-                "textRight": "帆奈は他人の魔法を@自分にコピーして使えるんです！"
+                "textRight": "帆奈ちゃんは他人の魔法を@自分にコピーして使えるんです！"
             },
             {
                 "chara": [
@@ -101,7 +109,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 301801,
                         "motion": 0,
                         "pos": 2
@@ -114,9 +122,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 800300,
-                        "motion": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 104401,
+                        "motion": 1,
                         "pos": 2
                     },
                     {
@@ -124,15 +132,13 @@
                         "motion": 0
                     }
                 ],
-                "nameRight": "瀬奈 みこと",
+                "nameRight": "みこと",
                 "textRight": "私も最初はビックリしたけど…"
             },
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 800300
+                        "id": 104401
                     }
                 ],
                 "textRight": "だったらふたりで@暗示の魔法を研究しようって！"
@@ -140,7 +146,7 @@
             {
                 "chara": [
                     {
-                        "id": 800300
+                        "id": 104401
                     }
                 ],
                 "textRight": "情報を共有すれば色々と@分かってくるじゃないですか"
@@ -149,7 +155,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 101601,
                         "motion": 200
                     }
@@ -159,7 +165,8 @@
             {
                 "chara": [
                     {
-                        "id": 800300
+                        "id": 104401,
+                        "motion": 100
                     }
                 ],
                 "textRight": "だから、私たち@コンビで頑張ってるんです！"
@@ -176,7 +183,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 301801,
                         "lipSynch": 0,
                         "motion": 0,
@@ -192,14 +199,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 301300,
                         "motion": 0,
                         "pos": 2
                     },
                     {
                         "cheek": -1,
-                        "face": "mtn_ex_051.exp.json",
+                        "face": "mtn_ex_051.exp3.json",
                         "id": 100200,
                         "motion": 0,
                         "pos": 0
@@ -237,14 +244,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 302700,
                         "motion": 200,
                         "pos": 0
                     },
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 302800,
                         "motion": 0,
                         "pos": 2
@@ -281,14 +288,14 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_021.exp.json",
+                        "face": "mtn_ex_021.exp3.json",
                         "id": 100300,
                         "motion": 201,
                         "pos": 2
                     },
                     {
                         "cheek": -1,
-                        "face": "mtn_ex_021.exp.json",
+                        "face": "mtn_ex_021.exp3.json",
                         "id": 100200,
                         "motion": 0,
                         "pos": 0
@@ -324,14 +331,14 @@
                 "chara": [
                     {
                         "cheek": -1,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 300500,
                         "motion": 1,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 301200,
                         "motion": 0,
                         "pos": 2
@@ -368,14 +375,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 300800,
                         "motion": 100,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_022.exp.json",
+                        "face": "mtn_ex_022.exp3.json",
                         "id": 301100,
                         "motion": 0,
                         "pos": 2
@@ -412,14 +419,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 301300,
                         "motion": 200,
                         "pos": 0
                     },
                     {
                         "cheek": 2,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 301400,
                         "motion": 1,
                         "pos": 2
@@ -455,14 +462,14 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 302700,
                         "motion": 0,
                         "pos": 0
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 301500,
                         "motion": 0,
                         "pos": 2
@@ -485,7 +492,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 301300,
                         "motion": 1,
                         "pos": 0
@@ -522,7 +529,7 @@
                     {
                         "cheek": 0,
                         "eyeClose": 1,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 301800,
                         "lipSynch": 0,
                         "motion": 0,
@@ -558,7 +565,7 @@
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 302700,
                         "motion": 400,
                         "pos": 2
@@ -591,7 +598,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 301800,
                         "motion": 100
                     }
@@ -602,7 +609,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 302600,
                         "motion": 400,
                         "pos": 2
@@ -615,7 +622,7 @@
                 "chara": [
                     {
                         "cheek": -1,
-                        "face": "mtn_ex_021.exp.json",
+                        "face": "mtn_ex_021.exp3.json",
                         "id": 100200,
                         "motion": 0,
                         "pos": 2
@@ -628,7 +635,7 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 302800,
                         "motion": 0,
                         "pos": 2
@@ -680,7 +687,7 @@
                 "chara": [
                     {
                         "cheek": -1,
-                        "face": "mtn_ex_021.exp.json",
+                        "face": "mtn_ex_021.exp3.json",
                         "id": 100200,
                         "motion": 201,
                         "pos": 2
@@ -694,7 +701,7 @@
                     {
                         "cheek": 0,
                         "eyeClose": 0,
-                        "face": "mtn_ex_014.exp.json",
+                        "face": "mtn_ex_014.exp3.json",
                         "id": 301800,
                         "motion": 100
                     }
@@ -722,7 +729,7 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 301800,
                         "motion": 200
                     }
@@ -750,7 +757,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 302600,
                         "motion": 200,
                         "pos": 2
@@ -764,7 +771,7 @@
                     {
                         "cheek": 0,
                         "eyeClose": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 301800,
                         "motion": 1
                     }
@@ -792,7 +799,7 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 302800,
                         "motion": 200,
                         "pos": 2
@@ -806,7 +813,7 @@
                     {
                         "cheek": 0,
                         "eyeClose": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 301800,
                         "motion": 0
                     }
@@ -817,7 +824,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_014.exp.json",
+                        "face": "mtn_ex_014.exp3.json",
                         "id": 301800,
                         "motion": 100
                     }

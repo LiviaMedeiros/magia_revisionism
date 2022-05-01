@@ -26,7 +26,8 @@
                 "bgm": "bgm22_battle08",
                 "chara": [
                     {
-                        "id": 100300
+                        "id": 100300,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-12-1"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -37,7 +38,8 @@
                 "chara": [
                     {
                         "id": 100300,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-12-2"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -50,7 +52,8 @@
                         "face": "mtn_ex_011.exp3.json",
                         "id": 102400,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-12-3"
                     }
                 ],
                 "nameRight": "樹里",
@@ -61,7 +64,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_012.exp3.json",
-                        "id": 102400
+                        "id": 102400,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-12-4"
                     }
                 ],
                 "nameRight": "樹里",
@@ -74,32 +78,50 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 100300,
                         "motion": 101,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-12-5"
                     }
                 ],
                 "nameLeft": "鶴乃",
                 "textLeft": "争う気が無くなるぐらい、@わたしが燃焼させてあげるよ"
             },
             {
+                "autoTurnLast": 1.7,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 102400,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102802/vo_full_102802-12-6"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "樹里",
                 "textRight": "最強にしかできねーってか？@ざけるな、バーカ"
             },
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp3.json",
+                        "id": 102400
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 102400,
-                        "motion": 400
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-12-7",
+                        "voiceFullStop": "fullvoice/section_102802/vo_full_102802-12-6"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "樹里",
                 "textRight": "樹里サマを燃えさせるのはな@いつだって姉さんだけなんだよ"
             },

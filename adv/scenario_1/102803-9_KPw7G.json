@@ -22,23 +22,26 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "id": 101901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-2"
                     }
                 ],
                 "nameCenter": "月咲",
-                "narrationEffect": "out",
                 "textCenter": "…………"
             },
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp3.json",
                         "id": 101901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-3"
                     }
                 ],
                 "nameCenter": "月咲",
@@ -51,7 +54,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 101901,
                         "lipSynch": 1,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-4"
                     }
                 ],
                 "nameCenter": "月咲",
@@ -61,7 +65,8 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-5"
                     }
                 ],
                 "nameCenter": "月咲",
@@ -72,7 +77,8 @@
                     {
                         "id": 101901,
                         "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-6"
                     }
                 ],
                 "nameCenter": "月咲",
@@ -82,7 +88,8 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-7"
                     }
                 ],
                 "nameCenter": "月咲",
@@ -93,7 +100,7 @@
                     {
                         "id": 101901,
                         "lipSynch": 1,
-                        "motion": 0
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-8"
                     }
                 ],
                 "nameCenter": "月咲",
@@ -128,7 +135,8 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-9"
                     }
                 ],
                 "nameRight": "月咲",
@@ -138,7 +146,8 @@
             {
                 "chara": [
                     {
-                        "id": 101901
+                        "id": 101901,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-10"
                     }
                 ],
                 "textRight": "もっと気楽にすればいいでしょ!?"
@@ -146,7 +155,8 @@
             {
                 "chara": [
                     {
-                        "id": 101901
+                        "id": 101901,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-11"
                     }
                 ],
                 "textRight": "こんなの@ウチの方が息が詰まっちゃうよ！"
@@ -157,7 +167,8 @@
                         "cheek": 1,
                         "face": "mtn_ex_020.exp3.json",
                         "id": 101801,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-12"
                     }
                 ],
                 "nameLeft": "月夜",
@@ -166,7 +177,8 @@
             {
                 "chara": [
                     {
-                        "id": 101801
+                        "id": 101801,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-13"
                     }
                 ],
                 "textLeft": "私はお金を掛けて欲しいとか@言ってないでございます！"
@@ -190,7 +202,8 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-14"
                     }
                 ],
                 "nameCenter": "月咲",
@@ -201,7 +214,8 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-15"
                     }
                 ],
                 "nameCenter": "月咲",
@@ -213,7 +227,8 @@
                         "cheek": 1,
                         "id": 101901,
                         "lipSynch": 0,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-16"
                     }
                 ],
                 "nameCenter": "月咲",
@@ -224,7 +239,8 @@
                     {
                         "id": 101901,
                         "lipSynch": 1,
-                        "tear": 1
+                        "tear": 1,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-17"
                     }
                 ],
                 "nameCenter": "月咲",
@@ -236,15 +252,19 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "id": 101901,
                         "motion": 0,
-                        "tear": 1
+                        "tear": 1,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-19"
                     }
                 ],
                 "nameCenter": "月咲",
-                "narrationEffect": "out",
                 "textCenter": "十七夜さん…"
             },
             {
@@ -264,7 +284,8 @@
             {
                 "chara": [
                     {
-                        "id": 101901
+                        "id": 101901,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-20"
                     }
                 ],
                 "nameCenter": "月咲",
@@ -297,7 +318,8 @@
                 "chara": [
                     {
                         "id": 101601,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-21"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -305,15 +327,26 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 2,
                 "chara": [
                     {
                         "cheek": 1,
                         "id": 101901,
-                        "motion": 100
+                        "tear": 1,
+                        "voiceFull": "fullvoice/section_102803/vo_full_102803-9-22"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameLeft": "月咲",
                 "textLeft": "っ…どうしよう十七夜さん"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 100
+                    }
+                ]
             },
             {
                 "chara": [
@@ -321,16 +354,20 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 101601,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-23",
+                        "voiceFullStop": "fullvoice/section_102803/vo_full_102803-9-22"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "十七夜",
                 "textRight": "ほとぼりが冷めれば、@会っても支障はないだろう"
             },
             {
                 "chara": [
                     {
-                        "id": 101601
+                        "id": 101601,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-24"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -340,7 +377,8 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-25"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -349,7 +387,8 @@
             {
                 "chara": [
                     {
-                        "id": 101901
+                        "id": 101901,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-26"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -359,7 +398,8 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-27"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -372,7 +412,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 101601,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-28"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -382,7 +423,8 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-29"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -392,7 +434,8 @@
                 "chara": [
                     {
                         "id": 101601,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-30"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -402,7 +445,8 @@
                 "chara": [
                     {
                         "id": 101601,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-31"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -411,7 +455,8 @@
             {
                 "chara": [
                     {
-                        "id": 101601
+                        "id": 101601,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-32"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -420,7 +465,8 @@
             {
                 "chara": [
                     {
-                        "id": 101901
+                        "id": 101901,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-33"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -454,7 +500,8 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-34"
                     }
                 ],
                 "textLeft": "…東の魔法少女たちはみんな、@ウチと同じ気持ちのはずです…",
@@ -463,7 +510,8 @@
             {
                 "chara": [
                     {
-                        "id": 101901
+                        "id": 101901,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-35"
                     }
                 ],
                 "textLeft": "…東の境遇からの解放は無理でも@魔女化の運命からは解放されたい"
@@ -471,7 +519,8 @@
             {
                 "chara": [
                     {
-                        "id": 101901
+                        "id": 101901,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-36"
                     }
                 ],
                 "textLeft": "そのためには…@マギウスにすがるしかない…"
@@ -482,7 +531,8 @@
                         "cheek": 1,
                         "face": "mtn_ex_020.exp3.json",
                         "id": 101901,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-37"
                     }
                 ],
                 "textLeft": "…たとえマギウスの手段が、@道に外れるものだとしても…！"
@@ -512,7 +562,8 @@
             {
                 "chara": [
                     {
-                        "id": 101901
+                        "id": 101901,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-38"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -526,7 +577,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 101601,
-                        "lipSynch": 0
+                        "lipSynch": 1,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-39"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -557,7 +609,8 @@
             {
                 "chara": [
                     {
-                        "id": 101700
+                        "id": 101700,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-40"
                     }
                 ],
                 "nameLeft": "みたま",
@@ -569,7 +622,8 @@
                 "chara": [
                     {
                         "id": 101700,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-41"
                     }
                 ],
                 "textLeft": "そして、その歴史の上に定着した@現状の神浜の破壊…"
@@ -578,7 +632,8 @@
                 "chara": [
                     {
                         "id": 101601,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-42"
                     }
                 ],
                 "textRight": "そうだ"
@@ -586,7 +641,8 @@
             {
                 "chara": [
                     {
-                        "id": 101601
+                        "id": 101601,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-43"
                     }
                 ],
                 "textRight": "歴史を破壊するためには"
@@ -594,7 +650,8 @@
             {
                 "chara": [
                     {
-                        "id": 101601
+                        "id": 101601,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-44"
                     }
                 ],
                 "textRight": "神浜そのものを一度、@徹底的に破壊しなければならない"
@@ -625,7 +682,8 @@
                 "chara": [
                     {
                         "id": 101601,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-45"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -636,7 +694,8 @@
             {
                 "chara": [
                     {
-                        "id": 101601
+                        "id": 101601,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-46"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -646,7 +705,8 @@
                 "chara": [
                     {
                         "id": 101601,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-47"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -657,7 +717,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_032.exp3.json",
-                        "id": 101601
+                        "id": 101601,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-48"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -667,7 +728,8 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-49"
                     },
                     {
                         "id": 101601,
@@ -680,7 +742,8 @@
             {
                 "chara": [
                     {
-                        "id": 101901
+                        "id": 101901,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-50"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -690,7 +753,8 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-51"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -703,7 +767,8 @@
                         "face": "mtn_ex_032.exp3.json",
                         "id": 101601,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-52"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -713,7 +778,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 101601
+                        "id": 101601,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-53"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -724,7 +790,8 @@
                     {
                         "cheek": 1,
                         "id": 101901,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-9-54"
                     }
                 ],
                 "nameLeft": "月咲",

@@ -17,6 +17,12 @@
             },
             {
                 "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-1"
+                    }
+                ],
                 "nameNarration": "結菜",
                 "narration": "「ユニオンと時女一族が警戒するのは@地理的に有利な私たちに動かされて@一網打尽にされるということ」",
                 "narrationEffect": "in",
@@ -26,7 +32,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-2"
                     }
                 ],
                 "narration": "「それを踏まえると、倒す相手を絞った上で@目立たないように少数で@侵入してくると考えられるわぁ」"
@@ -35,16 +42,18 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-3"
                     }
                 ],
-                "narration": "「標的になるのはもちろん、@[textYellow:キモチ]の石を持っている私たち３姉妹」"
+                "narration": "「標的になるのはもちろん@[textYellow:キモチ]の石を持っている私たち３姉妹」"
             },
             {
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-4"
                     }
                 ],
                 "narration": "「恐らくひとりずつ的を絞って攻めてきた上で@こちらを殺そうとしてくるはずよぉ@もしくは、甘い彼女たちのことだから@交渉するための捕獲が目的かもしれないわぁ」"
@@ -53,7 +62,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-5"
                     }
                 ],
                 "narration": "「だから、いくつかのパターンを想定して@動きましょぅ…」"
@@ -81,7 +91,8 @@
                 "narrationFontSize": 30,
                 "narrationLineMargin": 10,
                 "narrationLineSpace": 20,
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-6"
             },
             {
                 "item": [
@@ -92,7 +103,8 @@
                         "visible": "appear"
                     }
                 ],
-                "narration": "次に、ひとりかふたりで現れた場合は各個撃破"
+                "narration": "次に、ひとりかふたりで現れた場合は各個撃破",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-7"
             },
             {
                 "item": [
@@ -107,7 +119,8 @@
                         "visible": "hide"
                     }
                 ],
-                "narration": "ある程度、纏まって来た場合は分断"
+                "narration": "ある程度、纏まって来た場合は分断",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-8"
             },
             {
                 "item": [
@@ -122,7 +135,8 @@
                         "visible": "hide"
                     }
                 ],
-                "narration": "分断したあとは各個撃破のときと同様に@地の利を活かしてひとりずつ潰すか@最低限、散り散りにさせてちょうだぃ…"
+                "narration": "分断したあとは各個撃破のときと同様に@地の利を活かしてひとりずつ潰すか@最低限、散り散りにさせてちょうだぃ…",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-9"
             },
             {
                 "item": [
@@ -131,10 +145,15 @@
                         "visible": "hide"
                     }
                 ],
-                "narration": "あとは、ユニオンと時女一族を@まとめる機会を見つけて@彼女たちに逃げ道を作って合流させれば"
+                "narration": "あとは、ユニオンと時女一族を@まとめる機会を見つけて@彼女たちに逃げ道を作って合流させれば",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-10"
             },
             {
-                "narration": "手間をかけずに消せるはずよぉ"
+                "narration": "手間をかけずに消せるはずよぉ",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-11"
+            },
+            {
+                "autoTurnLast": 0.1
             },
             {
                 "autoTurnLast": 1,
@@ -225,7 +244,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-12"
                     }
                 ],
                 "nameCenter": "結菜",
@@ -236,7 +256,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-13"
                     }
                 ],
                 "nameCenter": "結菜",
@@ -245,16 +266,18 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-14"
                     }
                 ],
                 "nameCenter": "結菜",
-                "textCenter": "こちらの出鼻が挫かれて@動き辛くなる"
+                "textCenter": "こちらの出鼻が挫かれて@動きづらくなる"
             },
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-15"
                     }
                 ],
                 "nameCenter": "結菜",
@@ -287,7 +310,8 @@
                 "bgm": "bgm23_promised06",
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-16"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -298,7 +322,8 @@
                 "chara": [
                     {
                         "id": 302100,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-17"
                     }
                 ],
                 "nameRight": "鈴鹿 さくや",
@@ -308,7 +333,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-18"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -317,7 +343,8 @@
             {
                 "chara": [
                     {
-                        "id": 302100
+                        "id": 302100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-19"
                     }
                 ],
                 "nameRight": "鈴鹿 さくや",
@@ -327,7 +354,8 @@
                 "chara": [
                     {
                         "id": 302100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-20"
                     }
                 ],
                 "nameRight": "鈴鹿 さくや",
@@ -337,7 +365,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-21"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -346,7 +375,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-22"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -356,7 +386,8 @@
                 "chara": [
                     {
                         "id": 302100,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-23"
                     }
                 ],
                 "nameRight": "鈴鹿 さくや",
@@ -381,7 +412,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-24"
                     }
                 ],
                 "nameCenter": "結菜",
@@ -412,7 +444,8 @@
             {
                 "chara": [
                     {
-                        "id": 800200
+                        "id": 800200,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-25"
                     }
                 ],
                 "nameRight": "",
@@ -422,7 +455,8 @@
             {
                 "chara": [
                     {
-                        "id": 102101
+                        "id": 102101,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-26"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -432,7 +466,8 @@
                 "chara": [
                     {
                         "id": 102101,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-27"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -441,7 +476,8 @@
             {
                 "chara": [
                     {
-                        "id": 102101
+                        "id": 102101,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-28"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -451,7 +487,8 @@
                 "chara": [
                     {
                         "id": 102101,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-29"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -461,10 +498,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp3.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 102101,
                         "lipSynch": 0,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-2-30"
                     }
                 ],
                 "nameLeft": "結菜",

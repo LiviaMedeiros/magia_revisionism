@@ -28,7 +28,8 @@
                 "chara": [
                     {
                         "id": 100900,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-15-1"
                     }
                 ],
                 "nameLeft": "レナ",
@@ -39,27 +40,40 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 100900
+                        "id": 100900,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-15-2"
                     }
                 ],
                 "nameLeft": "レナ",
                 "textLeft": "苦しめて…ごめん…"
             },
             {
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "eyeClose": 1,
                         "id": 304400,
-                        "tear": 1
+                        "lipSynch": 0,
+                        "tear": 1,
+                        "voiceFull": "fullvoice/section_102802/vo_full_102802-15-3"
                     }
                 ],
                 "nameRight": "智珠 らんか",
                 "textRight": "…全然心に響いてこない"
             },
             {
+                "chara": [
+                    {
+                        "id": 304400,
+                        "lipSynch": 1
+                    }
+                ]
+            },
+            {
                 "autoTurnLast": 2,
                 "bgm": "stop",
-                "turnChangeIn": "fadeIn"
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102802/vo_full_102802-15-3"
             }
         ]
     },

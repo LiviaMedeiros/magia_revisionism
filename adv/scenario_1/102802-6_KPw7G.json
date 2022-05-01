@@ -25,10 +25,12 @@
                 "narrationFontSize": 30,
                 "narrationLineMargin": 60,
                 "narrationLineSpace": 20,
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-1"
             },
             {
-                "narration": "背中を守り合える状況を作らせなければ@相手も土地勘がない場所で追い立てられるだけ"
+                "narration": "背中を守り合える状況を作らせなければ@相手も土地勘がない場所で追い立てられるだけ",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-2"
             },
             {
                 "item": [
@@ -39,10 +41,12 @@
                         "visible": "appear"
                     }
                 ],
-                "narration": "状況を見ながら誰かと合流しようとしたときは@ゲリラ的に攻撃して疲弊させてやりなさぃ"
+                "narration": "状況を見ながら誰かと合流しようとしたときは@ゲリラ的に攻撃して疲弊させてやりなさぃ",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-3"
             },
             {
-                "narration": "ユニオンも時女一族も@逃げながら心と体が磨耗していけば@いずれ追い詰められるわぁ"
+                "narration": "ユニオンも時女一族も@逃げながら心と体が磨耗していけば@いずれ追い詰められるわぁ",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-4"
             },
             {
                 "item": [
@@ -53,10 +57,12 @@
                         "visible": "appear"
                     }
                 ],
-                "narration": "そして、相手が水を欲しがれば逃げ道を与え@私たちは追撃して追い詰めていく"
+                "narration": "そして、相手が水を欲しがれば逃げ道を与え@私たちは追撃して追い詰めていく",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-5"
             },
             {
-                "narration": "最終的には一網打尽にするのが目的だけど@殺せるチャンスがあるのなら@いくらでも殺してしまいなさぃ…"
+                "narration": "最終的には一網打尽にするのが目的だけど@殺せるチャンスがあるのなら@いくらでも殺してしまいなさぃ…",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-6"
             },
             {
                 "autoTurnLast": 0.2,
@@ -95,15 +101,16 @@
                 "nameNarration": "結菜",
                 "narration": "近くにいるのは時女静香…@以前あなたに放った言葉が@今になって自分の心に刺さるわぁ…",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-7"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 1.5,
                 "bg": "bg_adv_19202.jpg",
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_001.exp3.json",
+                        "face": "mtn_ex_050.exp.json",
                         "id": 102500,
                         "motion": 0,
                         "pos": 0
@@ -123,7 +130,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-8"
                     }
                 ],
                 "nameRight": "結菜",
@@ -134,7 +142,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-9"
                     }
                 ],
                 "nameRight": "結菜",
@@ -147,7 +156,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102500,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-10"
                     }
                 ],
                 "nameLeft": "静香",
@@ -157,7 +167,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-11"
                     }
                 ],
                 "nameRight": "結菜",
@@ -166,7 +177,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-12"
                     }
                 ],
                 "nameRight": "結菜",
@@ -175,7 +187,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-13"
                     }
                 ],
                 "nameRight": "結菜",
@@ -208,29 +221,36 @@
                 "narration": "あなたに対して嫌な気持ちを抱いたのは@私も自分の命を@二木の仲間に捧げていたから…",
                 "narrationBg": "black",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-14"
             },
             {
-                "narration": "それに気付いた今となっては@誰かのために命を張れる気持ちがわかる@だけど、見知らぬ他人のために身を賭すぐらいなら@私は愛する二木の仲間のために血を流して@あなたたちの意志を打ち砕くわぁ…"
+                "narration": "それに気付いた今となっては@誰かのために命を張れる気持ちがわかる@だけど、見知らぬ他人のために身を賭すぐらいなら@私は愛する二木の仲間のために血を流して@あなたたちの意志を打ち砕くわぁ…",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-15"
             },
             {
+                "autoTurnLast": 0.1,
                 "bgm": "stop",
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "id": 102500,
                         "motion": 300,
-                        "mouthOpen": 1
+                        "mouthOpen": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-16"
                     }
                 ],
                 "nameRight": "静香",
-                "narrationEffect": "out",
                 "textRight": "っ、はぁ…はぁ…"
             },
             {
                 "bgm": "bgm22_battle08",
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-17"
                     },
                     {
                         "id": 102500,
@@ -247,17 +267,20 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102500,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-18"
                     }
                 ],
                 "nameRight": "静香",
                 "textRight": "それなら、あなたの仲間も@いないってことよね"
             },
             {
+                "autoTurnLast": 0.8,
                 "chara": [
                     {
                         "id": 102500,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-19"
                     }
                 ],
                 "nameRight": "静香",
@@ -270,7 +293,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102100,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-20"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -279,21 +303,22 @@
             {
                 "chara": [
                     {
-                        "id": 102500
+                        "id": 102500,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-21"
                     }
                 ],
                 "nameRight": "静香",
                 "textRight": "助けを求められないなら@自分で状況を変える"
             },
             {
-                "autoTurnLast": 0.2,
+                "autoTurnLast": 0.3,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 102500,
-                        "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102802/vo_full_102802-6-22"
                     },
                     {
                         "cheek": 0,
@@ -303,16 +328,17 @@
                     }
                 ],
                 "nameRight": "静香",
-                "textRight": "[surround:1025A02][chara:102100:effect_7000_attack01]あなたを倒して！"
+                "textRight": "[chara:102100:effect_7000_attack01][surround:1025A02]あなたを倒して！"
             },
             {
-                "autoTurnLast": 0.6,
+                "autoTurnLast": 0.5,
                 "chara": [
                     {
                         "effect": "7001_attack02",
                         "id": 102100
                     }
-                ]
+                ],
+                "surround": "1025A02"
             },
             {
                 "autoTurnLast": 0.5,
@@ -331,7 +357,8 @@
                         "effect": "fadeout",
                         "id": 102500
                     }
-                ]
+                ],
+                "voiceFullStop": "fullvoice/section_102802/vo_full_102802-6-22"
             },
             {
                 "autoTurnLast": 0.1,
@@ -345,22 +372,24 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102100,
                         "motion": 200,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-23"
                     }
                 ],
                 "nameCenter": "結菜",
                 "textCenter": "日の本を守る刃っていうのは、@ただの脳筋なのかしらぁ…"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 1.1,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 102100,
                         "motion": 400,
-                        "mouthOpen": 1,
-                        "pos": 1
+                        "mouthOpen": 0,
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-24"
                     }
                 ],
                 "nameCenter": "結菜",
@@ -389,7 +418,8 @@
                         "face": "mtn_ex_060.exp3.json",
                         "id": 102500,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-25"
                     }
                 ],
                 "nameRight": "静香",
@@ -402,7 +432,8 @@
                         "face": "mtn_ex_021.exp3.json",
                         "id": 102100,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-26"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -413,7 +444,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 102500
+                        "id": 102500,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-27"
                     }
                 ],
                 "nameRight": "静香",
@@ -423,7 +455,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-28"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -432,7 +465,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-29"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -466,7 +500,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 770100,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102802/vo_full_102802-6-30"
                     },
                     {
                         "cheek": 0,
@@ -486,7 +521,9 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_060.exp3.json",
-                        "id": 102500
+                        "id": 102500,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-31",
+                        "voiceFullStop": "fullvoice/section_102802/vo_full_102802-6-30"
                     }
                 ],
                 "nameLeft": "静香",
@@ -565,7 +602,8 @@
                     {
                         "effect": "shake",
                         "eyeClose": 1,
-                        "id": 102500
+                        "id": 102500,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-32"
                     }
                 ],
                 "nameCenter": "静香",
@@ -580,7 +618,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 770100,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-33"
                     }
                 ],
                 "nameLeft": "",
@@ -592,7 +631,8 @@
                         "eyeClose": 0,
                         "id": 102500,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-34"
                     }
                 ],
                 "nameRight": "静香",
@@ -602,7 +642,8 @@
                 "chara": [
                     {
                         "id": 770100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-35"
                     }
                 ],
                 "nameLeft": "",
@@ -615,7 +656,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102100,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-36"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -625,7 +667,8 @@
                 "chara": [
                     {
                         "id": 102500,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-37"
                     }
                 ],
                 "nameRight": "静香",
@@ -638,7 +681,8 @@
                         "face": "mtn_ex_021.exp3.json",
                         "id": 102500,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-38"
                     }
                 ],
                 "nameRight": "静香",
@@ -651,7 +695,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 102100,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-39"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -661,7 +706,8 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "id": 102500
+                        "id": 102500,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-40"
                     }
                 ],
                 "nameRight": "静香",
@@ -671,7 +717,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-41"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -681,7 +728,8 @@
                 "chara": [
                     {
                         "id": 102500,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-42"
                     }
                 ],
                 "nameRight": "静香",
@@ -690,7 +738,8 @@
             {
                 "chara": [
                     {
-                        "id": 102500
+                        "id": 102500,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-43"
                     }
                 ],
                 "nameRight": "静香",
@@ -704,7 +753,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 770100,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-44"
                     }
                 ],
                 "nameLeft": "",
@@ -713,11 +763,14 @@
             {
                 "chara": [
                     {
-                        "id": 102500
+                        "eyeClose": 1,
+                        "id": 102500,
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-45"
                     }
                 ],
                 "nameRight": "静香",
-                "textRight": "[chara:102500:effect_shake]ふぅ…"
+                "textRight": "[chara:770100:effect_shake]ふぅ…"
             },
             {
                 "chara": [
@@ -726,34 +779,55 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 770100,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-46"
                     }
                 ],
                 "nameLeft": "",
                 "textLeft": "な、びくとも!?"
             },
             {
-                "autoTurnLast": 0.8,
+                "autoTurnLast": 0.9,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 102500,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102802/vo_full_102802-6-47"
+                    }
+                ],
+                "enableSkipAutoTurn": 1,
+                "nameRight": "静香",
+                "textBg": "shout",
+                "textRight": "時女一心流・旋風鎌鼬!!"
+            },
+            {
+                "autoTurnLast": 1.4,
                 "chara": [
                     {
                         "id": 102500,
                         "motion": 400
+                    },
+                    {
+                        "id": 770100
                     }
                 ],
-                "nameRight": "静香",
-                "textBg": "shout",
-                "textRight": "[flashEffect:flashWhite2][surround:1025A04]時女一心流・旋風鎌鼬!!"
+                "flashEffect": "flashWhite2",
+                "surround": "1025A04"
             },
             {
-                "autoTurnLast": 0.8,
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "cheek": 0,
                         "eyeClose": 1,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 770100
+                        "id": 770100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-48",
+                        "voiceFullStop": "fullvoice/section_102802/vo_full_102802-6-47"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "",
                 "textLeft": "[flashEffect:flashRed2][surround:1025A06][bgEffect:shakeLarge][chara:770100:effect_shake]がぁあっ！"
             },
@@ -772,7 +846,8 @@
                 "chara": [
                     {
                         "id": 102500,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-49"
                     },
                     {
                         "cheek": 0,
@@ -786,7 +861,7 @@
                 "textRight": "さぁ、次はあなたの番よ"
             },
             {
-                "autoTurnLast": 0.2,
+                "autoTurnLast": 0.5,
                 "chara": [
                     {
                         "cheek": 0,
@@ -801,7 +876,8 @@
             {
                 "chara": [
                     {
-                        "id": 102500
+                        "id": 102500,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-50"
                     }
                 ],
                 "nameRight": "静香",
@@ -814,7 +890,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102100,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-51"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -827,7 +904,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102500,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-52"
                     }
                 ],
                 "nameRight": "静香",
@@ -847,7 +925,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-53"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -856,7 +935,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-6-54"
                     }
                 ],
                 "nameLeft": "結菜",

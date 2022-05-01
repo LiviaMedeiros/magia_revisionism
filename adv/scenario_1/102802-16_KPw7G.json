@@ -19,14 +19,16 @@
                 "bgm": "bgm03_story12",
                 "nameLeft": "レナの声",
                 "textLeft": "ぅ…ごめん",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-1"
             },
             {
                 "chara": [
                     {
                         "id": 304400,
                         "lipSynch": 0,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-2"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -37,22 +39,24 @@
                     {
                         "eyeClose": 1,
                         "id": 304400,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-3"
                     }
                 ],
                 "nameRight": "智珠 らんか",
-                "textRight": "（確かにコイツらのせいで@私はアオたちを苦しめた…）"
+                "textRight": "（確かにコイツらのせいで@アタシはアオたちを苦しめた…）"
             },
             {
                 "chara": [
                     {
                         "eyeClose": 0,
                         "id": 304400,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-4"
                     }
                 ],
                 "nameRight": "智珠 らんか",
-                "textRight": "…本当はレナたちが関係ないのは@気付いてんのよ…"
+                "textRight": "本当は…本当はレナたちが@関係ないのは気付いてんのよ…"
             },
             {
                 "chara": [
@@ -61,7 +65,8 @@
                         "face": "mtn_ex_032.exp3.json",
                         "id": 100900,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-5"
                     }
                 ],
                 "nameLeft": "レナ",
@@ -70,13 +75,20 @@
             {
                 "chara": [
                     {
-                        "id": 304400
+                        "id": 304400,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-6"
                     }
                 ],
                 "nameRight": "智珠 らんか",
                 "textRight": "…なんで人ってさ@国だったり学校だったり…"
             },
             {
+                "chara": [
+                    {
+                        "id": 304400,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-7"
+                    }
+                ],
                 "nameRight": "智珠 らんか",
                 "textRight": "一部の人がしたことで@その全ての印象を決めるんだろう"
             },
@@ -84,7 +96,8 @@
                 "chara": [
                     {
                         "id": 100900,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-8"
                     }
                 ],
                 "nameLeft": "レナ",
@@ -94,7 +107,8 @@
                 "chara": [
                     {
                         "id": 304400,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-9"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -103,7 +117,8 @@
             {
                 "chara": [
                     {
-                        "id": 304400
+                        "id": 304400,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-10"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -114,7 +129,8 @@
                     {
                         "cheek": 1,
                         "id": 304400,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-11"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -123,7 +139,8 @@
             {
                 "chara": [
                     {
-                        "id": 304400
+                        "id": 304400,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-12"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -135,7 +152,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 100900,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-13"
                     }
                 ],
                 "nameLeft": "レナ",
@@ -147,7 +165,8 @@
                         "cheek": 0,
                         "eyeClose": 1,
                         "id": 304400,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-14"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -159,14 +178,15 @@
                         "cheek": 0,
                         "eyeClose": 0,
                         "face": "mtn_ex_020.exp3.json",
-                        "id": 304400
+                        "id": 304400,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-15"
                     }
                 ],
                 "nameRight": "智珠 らんか",
                 "textRight": "二木の魔法少女を救うためには@自動浄化システムが必要だから…"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "cheek": 0,
@@ -183,7 +203,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 100900
+                        "id": 100900,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-16"
                     }
                 ],
                 "nameLeft": "レナ",
@@ -193,7 +214,8 @@
                 "chara": [
                     {
                         "id": 304400,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-17"
                     }
                 ],
                 "nameCenter": "智珠 らんか",
@@ -207,7 +229,8 @@
                         "effect": "ef_adv_09",
                         "face": "mtn_ex_050.exp3.json",
                         "id": 100900,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-18"
                     }
                 ],
                 "nameLeft": "レナ",
@@ -219,7 +242,8 @@
                     {
                         "id": 100900,
                         "lipSynch": 1,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-19"
                     }
                 ],
                 "nameLeft": "レナ",
@@ -229,8 +253,8 @@
                 "chara": [
                     {
                         "id": 304400,
-                        "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-20"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -239,7 +263,9 @@
             {
                 "chara": [
                     {
-                        "id": 304400
+                        "id": 304400,
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-21"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -264,7 +290,8 @@
                 "chara": [
                     {
                         "eyeClose": 0,
-                        "id": 100900
+                        "id": 100900,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-22"
                     }
                 ],
                 "nameLeft": "レナ",
@@ -274,7 +301,8 @@
                 "chara": [
                     {
                         "id": 304400,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-23"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -285,7 +313,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_032.exp3.json",
-                        "id": 100900
+                        "id": 100900,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-24"
                     }
                 ],
                 "nameLeft": "レナ",
@@ -306,7 +335,7 @@
                     {
                         "id": 304400,
                         "lipSynch": 0,
-                        "motion": 0
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-25"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -320,7 +349,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 304400,
                         "lipSynch": 0,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-26"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -344,7 +374,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 770100,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-27"
                     }
                 ],
                 "nameRight": "",
@@ -359,7 +390,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 304400,
                         "lipSynch": 1,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-28"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -368,7 +400,8 @@
             {
                 "chara": [
                     {
-                        "id": 304400
+                        "id": 304400,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-29"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -380,7 +413,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 304400,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-30"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -392,7 +426,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 770100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-31"
                     }
                 ],
                 "nameRight": "",
@@ -402,7 +437,8 @@
                 "chara": [
                     {
                         "id": 304400,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-32"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -411,7 +447,8 @@
             {
                 "chara": [
                     {
-                        "id": 304400
+                        "id": 304400,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-33"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -420,7 +457,8 @@
             {
                 "chara": [
                     {
-                        "id": 304400
+                        "id": 304400,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-34"
                     }
                 ],
                 "nameLeft": "智珠 らんか",
@@ -444,7 +482,8 @@
                         "id": 304400,
                         "lipSynch": 0,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-35"
                     }
                 ],
                 "nameCenter": "智珠 らんか",
@@ -454,7 +493,8 @@
                 "chara": [
                     {
                         "id": 304400,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-36"
                     }
                 ],
                 "nameCenter": "智珠 らんか",
@@ -464,7 +504,8 @@
                 "chara": [
                     {
                         "id": 304400,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-37"
                     }
                 ],
                 "nameCenter": "智珠 らんか",
@@ -478,7 +519,8 @@
                         "face": "mtn_ex_031.exp3.json",
                         "id": 304400,
                         "lipSynch": 0,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-16-38"
                     }
                 ],
                 "nameCenter": "智珠 らんか",

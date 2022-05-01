@@ -24,7 +24,8 @@
                         "eyeClose": 1,
                         "id": 300701,
                         "lipSynch": 0,
-                        "tear": 1
+                        "tear": 1,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-1"
                     }
                 ],
                 "nameCenter": "保澄 雫",
@@ -43,7 +44,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 300700,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-2"
                     }
                 ],
                 "nameCenter": "保澄 雫",
@@ -55,7 +57,8 @@
                     {
                         "id": 300700,
                         "lipSynch": 0,
-                        "motion": 101
+                        "motion": 101,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-3"
                     }
                 ],
                 "nameCenter": "保澄 雫",
@@ -67,7 +70,8 @@
                         "cheek": 1,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 300700,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-4"
                     }
                 ],
                 "nameCenter": "保澄 雫",
@@ -80,7 +84,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 300700,
                         "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-5"
                     }
                 ],
                 "nameCenter": "保澄 雫",
@@ -92,7 +97,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 300700,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-6"
                     }
                 ],
                 "nameCenter": "保澄 雫",
@@ -103,7 +109,8 @@
                     {
                         "id": 300700,
                         "lipSynch": 0,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-7"
                     }
                 ],
                 "nameCenter": "保澄 雫",
@@ -136,7 +143,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
                         "id": 300700,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-10"
                     }
                 ],
                 "nameLeft": "保澄 雫",
@@ -177,7 +185,11 @@
                 "nameNarration": "保澄 雫",
                 "narration": "この戦いが終わったら@みんなにお帰りって言ってみよう",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-11"
+            },
+            {
+                "autoTurnLast": 0.1
             },
             {
                 "autoTurnLast": 2,
@@ -232,6 +244,12 @@
             },
             {
                 "bgm": "bgm20_song10",
+                "chara": [
+                    {
+                        "id": 102201,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-13"
+                    }
+                ],
                 "nameNarration": "ひかる",
                 "narrationCoverOpacity": 0,
                 "narrationEffect": "in",
@@ -246,7 +264,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
                         "id": 102201,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-14"
                     }
                 ],
                 "progressNarration": "[textBlack:「いつも通り、結菜さんの馬として働く]@[textBlack:ただそれだけっすからね！」]"
@@ -257,7 +276,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102201,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-15"
                     }
                 ],
                 "progressNarration": "[textBlack:「ただ、この戦いが落ち着いて、]@[textBlack:そのうち結菜さんの頭から]@[textBlack:ツノがなくなってくれるとうれしいっすよ」]"
@@ -268,7 +288,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102201,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-16"
                     }
                 ],
                 "progressNarration": "[textBlack:「別に結菜さんと一緒に]@[textBlack:復讐を果たそうとするのは嫌いじゃないんすよ。]@[textBlack:それに、殺したくないとかいう]@[textBlack:生っちょろい話でもないんす」]"
@@ -276,7 +297,9 @@
             {
                 "chara": [
                     {
-                        "id": 102201
+                        "id": 102201,
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-17"
                     }
                 ],
                 "progressNarration": "[textBlack:「ひかるは結菜さんに]@[textBlack:平穏な心を取り戻して欲しいだけなんすよ」]"
@@ -285,18 +308,21 @@
                 "chara": [
                     {
                         "id": 102201,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-18"
                     }
                 ],
                 "progressNarration": "[textBlack:「苦しんでる顔や怒ってる顔を見てると]@[textBlack:ひかるの胸も苦しくなってくるし、]@[textBlack:このまま恨みに駆られ続けてしまうと]@[textBlack:いつか消えてしまいそうで怖いんす」]"
             },
             {
+                "autoTurnLast": 3.8,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102201,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102803/vo_full_102803-12-19"
                     }
                 ],
                 "progressNarration": "[textBlack:「もちろん結菜さんが消えるときは]@[textBlack:ひかるもお供するのが当然なんすけど、]@[textBlack:ただ、もうちょっとだけ結菜さんたちと過ごす]@[textBlack:学校生活を味わいたいっす」]"
@@ -305,9 +331,20 @@
                 "chara": [
                     {
                         "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102201
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
                         "id": 102201,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-20",
+                        "voiceFullStop": "fullvoice/section_102803/vo_full_102803-12-19"
                     }
                 ],
                 "progressNarration": "[textBlack:「そしていつか大人になったら、]@[textBlack:魔法少女のこと以外でも結菜さんを支えられる]@[textBlack:ちゃんとした片腕になりたいっすね」]"
@@ -318,7 +355,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102201,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102803/vo_full_102803-12-21"
                     }
                 ],
                 "progressNarration": "[textBlack:「もしかしたら、そのためにはまず、]@[textBlack:ひかるはさくやさんを目指さないと]@[textBlack:ダメなのかもしれないっす」]"

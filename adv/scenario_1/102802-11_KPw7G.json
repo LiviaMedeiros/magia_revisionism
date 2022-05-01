@@ -36,10 +36,12 @@
                 "nameNarration": "樹里",
                 "narration": "怒りやストレスを耐えられない樹里サマにとって@気兼ねなく争える魔法少女の世界っつーのは@溜め込んだモンを発散できる最高の場所だった",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-1"
             },
             {
-                "narration": "強いヤツも気にくわねえヤツも@ぶっ潰して上に登っていけるのは@樹里サマの性分に合ってるし快感だった"
+                "narration": "強いヤツも気にくわねえヤツも@ぶっ潰して上に登っていけるのは@樹里サマの性分に合ってるし快感だった",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-2"
             },
             {
                 "chara": [
@@ -50,7 +52,8 @@
                         "motion": 300
                     }
                 ],
-                "narration": "けど、姉さんたちが現れて…"
+                "narration": "けど、姉さんたちが現れて…",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-3"
             },
             {
                 "autoTurnLast": 0.5,
@@ -78,7 +81,8 @@
             {
                 "chara": [
                     {
-                        "id": 102102
+                        "id": 102102,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-4"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -91,7 +95,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_012.exp3.json",
                         "id": 102400,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-5"
                     }
                 ],
                 "nameRight": "樹里",
@@ -101,19 +106,31 @@
                 "chara": [
                     {
                         "id": 102102,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-6"
                     }
                 ],
                 "textLeft": "じゃないとあなたは@付いてこないでしょぉ？"
             },
             {
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "id": 102400,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102802/vo_full_102802-11-7"
                     }
                 ],
-                "textRight": "…ニヒッ…[chara:102400:lipSynch_0][wait:0.8][chara:102400:cheek_0][chara:102400:face_mtn_ex_010.exp3.json][chara:102400:lipSynch_1]まぁそうだな@わかった、降参してやるよ"
+                "textRight": "…ニヒッ…まぁそうだな@わかった、降参してやるよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102400
+                    }
+                ]
             },
             {
                 "chara": [
@@ -121,7 +138,9 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102400,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-8",
+                        "voiceFullStop": "fullvoice/section_102802/vo_full_102802-11-7"
                     },
                     {
                         "id": 102102,
@@ -133,7 +152,8 @@
             {
                 "chara": [
                     {
-                        "id": 102400
+                        "id": 102400,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-9"
                     }
                 ],
                 "textRight": "樹里サマの炎は我慢をするほど@溜まっていくのが特徴だ…"
@@ -142,7 +162,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 102400
+                        "id": 102400,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-10"
                     }
                 ],
                 "textRight": "お前とまたやり合えるって@わかったとき"
@@ -154,7 +175,8 @@
                         "eyeClose": 0,
                         "face": "mtn_ex_012.exp3.json",
                         "id": 102400,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-11"
                     }
                 ],
                 "textRight": "それまでに溜めてきた衝動で@お前をウェルダンにするからな"
@@ -184,7 +206,8 @@
                 "nameNarration": "樹里",
                 "narration": "あれからキュゥべえを消しまくったあとも@魔法少女たちの統率は取れていたけど@樹里サマがダメにしちまって",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-12"
             },
             {
                 "chara": [
@@ -193,7 +216,8 @@
                         "id": 102400
                     }
                 ],
-                "narration": "常に二木に争いの火種をまきながら@樹里サマは姉さんを倒すことに躍起になっていた"
+                "narration": "常に二木に争いの火種をまきながら@樹里サマは姉さんを倒すことに躍起になっていた",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-13"
             },
             {
                 "chara": [
@@ -205,7 +229,8 @@
                         "motion": 0
                     }
                 ],
-                "narration": "要は樹里サマの魔法少女人生は@争いと血で彩られていて@平穏だった時期なんてもんはほとんどない"
+                "narration": "要は樹里サマの魔法少女人生は@争いと血で彩られていて@平穏だった時期なんてもんはほとんどない",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-14"
             },
             {
                 "chara": [
@@ -215,7 +240,8 @@
                         "id": 102400
                     }
                 ],
-                "narration": "この争いが終わったところで@どうなるか想像つかねーよ"
+                "narration": "この争いが終わったところで@どうなるか想像つかねーよ",
+                "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-15"
             },
             {
                 "autoTurnLast": 0.5,
@@ -224,7 +250,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp3.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 100300,
                         "motion": 0,
                         "pos": 1
@@ -237,7 +263,8 @@
                 "chara": [
                     {
                         "id": 100300,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-16"
                     }
                 ],
                 "nameCenter": "鶴乃",
@@ -248,19 +275,24 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp3.json",
                         "id": 100300,
-                        "motion": 300
+                        "motion": 201,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-17"
                     }
                 ],
                 "nameCenter": "鶴乃",
                 "textCenter": "わたしを倒しても、@[textYellow:キモチ]の石は持ってないのに"
             },
             {
-                "autoTurnLast": 0.2,
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "cheek": 0,
                         "effect": "ef_adv_01",
+                        "eyeClose": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 100300
                     }
@@ -271,10 +303,9 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_050.exp3.json",
                         "id": 100300,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-18"
                     }
                 ],
                 "nameCenter": "鶴乃",
@@ -298,7 +329,8 @@
                         "face": "mtn_ex_021.exp3.json",
                         "id": 100200,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-19"
                     }
                 ],
                 "nameRight": "やちよ",
@@ -312,7 +344,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 100300,
-                        "motion": 101
+                        "motion": 101,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-20"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -321,7 +354,8 @@
             {
                 "chara": [
                     {
-                        "id": 100200
+                        "id": 100200,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-21"
                     }
                 ],
                 "nameRight": "やちよ",
@@ -340,14 +374,15 @@
                 "turnEffect": "stop"
             },
             {
-                "autoTurnLast": 0.2,
+                "autoTurnLast": 0.5,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 100300,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-22"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -364,16 +399,18 @@
                         "zOrder": "charaFront"
                     }
                 ],
-                "autoTurnLast": 0.1
+                "autoTurnLast": 0.2,
+                "textClear": 1
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_060.exp3.json",
                         "id": 100300,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-23"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -387,7 +424,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102400,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-24"
                     }
                 ],
                 "nameRight": "樹里",
@@ -396,7 +434,8 @@
             {
                 "chara": [
                     {
-                        "id": 102400
+                        "id": 102400,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-25"
                     }
                 ],
                 "nameRight": "樹里",
@@ -409,7 +448,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 100300,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-26"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -422,7 +462,8 @@
                         "face": "mtn_ex_021.exp3.json",
                         "id": 100200,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-27"
                     }
                 ],
                 "nameRight": "やちよ",
@@ -434,7 +475,8 @@
                 "chara": [
                     {
                         "id": 100300,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-28"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -445,7 +487,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 100200
+                        "id": 100200,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-29"
                     }
                 ],
                 "nameRight": "やちよ",
@@ -458,7 +501,8 @@
                         "face": "mtn_ex_021.exp3.json",
                         "id": 100200,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-30"
                     }
                 ],
                 "nameRight": "やちよ",
@@ -468,7 +512,8 @@
                 "chara": [
                     {
                         "id": 100300,
-                        "motion": 101
+                        "motion": 101,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-31"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -493,7 +538,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102400,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-32"
                     }
                 ],
                 "nameRight": "樹里",
@@ -503,25 +549,40 @@
                 "chara": [
                     {
                         "id": 100300,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-33"
                     }
                 ],
                 "nameLeft": "鶴乃",
-                "textLeft": "いいよ、わたしも前回の決着を@付けるだけの魔力はあるからね"
+                "textLeft": "いいよ、わたしも前回の決着を@つけるだけの魔力はあるからね"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 0.7,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_012.exp3.json",
                         "id": 102400,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102802/vo_full_102802-11-34"
                     }
                 ],
                 "nameRight": "樹里",
-                "textRight": "[surround:1024A04][chara:100300:effect_7001_attack02]上等だっつーの"
+                "textRight": "上等だっつーの"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "id": 102400
+                    },
+                    {
+                        "effect": "7001_attack02",
+                        "id": 100300
+                    }
+                ],
+                "surround": "1024A04"
             },
             {
                 "chara": [
@@ -531,7 +592,9 @@
                         "id": 100300,
                         "lipSynch": 0,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-35",
+                        "voiceFullStop": "fullvoice/section_102802/vo_full_102802-11-34"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -571,7 +634,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 100300,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-36"
                     },
                     {
                         "cheek": 0,
@@ -591,7 +655,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102400,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-37"
                     }
                 ],
                 "nameRight": "樹里",
@@ -603,7 +668,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 100300,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-38"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -613,7 +679,8 @@
                 "chara": [
                     {
                         "id": 100300,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-39"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -626,7 +693,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102400,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-40"
                     }
                 ],
                 "nameRight": "樹里",
@@ -637,7 +705,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_110.exp3.json",
-                        "id": 102400
+                        "id": 102400,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-41"
                     }
                 ],
                 "nameRight": "樹里",
@@ -647,7 +716,8 @@
                 "chara": [
                     {
                         "id": 100300,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-42"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -660,7 +730,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102400,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-43"
                     }
                 ],
                 "nameRight": "樹里",
@@ -670,7 +741,8 @@
                 "chara": [
                     {
                         "id": 102400,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102802/vo_full_102802-11-44"
                     }
                 ],
                 "nameRight": "樹里",

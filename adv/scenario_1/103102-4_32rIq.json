@@ -1,0 +1,592 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_17193.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 121600,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "bgm24_story03",
+                "chara": [
+                    {
+                        "id": 121600
+                    }
+                ],
+                "nameCenter": "十七夜",
+                "textCenter": "[flashEffect:flashWhiteSlow2]見えた…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 121600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_032.exp3.json",
+                        "id": 100200,
+                        "motion": 400
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 121600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "ウソでしょ…!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "魔力パターンが変わって、@能力まで成長したっていうの…!?"
+            },
+            {
+                "autoTurnLast": 0.4,
+                "chara": [
+                    {
+                        "id": 121600,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "十七夜",
+                "textRight": "[surround:3049A01][chara:100200:effect_7000_attack01]ふっ…"
+            },
+            {
+                "autoTurnLast": 0.4,
+                "chara": [
+                    {
+                        "effect": "7001_attack02",
+                        "id": 100200
+                    }
+                ],
+                "surround": "3049A01"
+            },
+            {
+                "autoTurnLast": 0.4,
+                "flashEffect": "flashWhite2",
+                "surround": "3049A05"
+            },
+            {
+                "autoTurnLast": 0.4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 100200,
+                        "motion": 300,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textBg": "shout",
+                "textLeft": "[chara:100200:effect_7002_damage01][surround:3049A03][bgEffect:shakeSmall]ァアアッ！"
+            },
+            {
+                "autoTurnLast": 0.4,
+                "chara": [
+                    {
+                        "effect": "7003_damage02",
+                        "id": 100200
+                    }
+                ],
+                "surround": "3049A03"
+            },
+            {
+                "autoTurnLast": 0.6,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 100200
+                    }
+                ],
+                "flashEffect": "flashRed2",
+                "surround": "3049A08"
+            },
+            {
+                "autoTurnLast": 0.8,
+                "bg": "bg_adv_17201.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 100200,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "く…ぅぅ…",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_032.exp3.json",
+                        "id": 100200
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "はぁ…いけない…@今までの経験が役に立たない…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100300,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameRight": "鶴乃",
+                "textRight": "やちよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "大丈夫ですか…!?"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_17201.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 100500,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp3.json",
+                        "id": 121700,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "フェリシア",
+                "textRight": "そこをどけよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100500,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "フェリシア",
+                "textRight": "やちよをイジメたらな、@さすがにみたまでも許さねえぞ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 121700,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "許す…許さない…@なんて言える状況じゃない…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 121700
+                    }
+                ],
+                "nameLeft": "みたま",
+                "textLeft": "わたしたちにとっては、@滅びを成せるか成せないか…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100500,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameRight": "フェリシア",
+                "textBg": "shout",
+                "textRight": "どけぇええ！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 121700
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "slideOutLeftFast",
+                        "id": 100500,
+                        "mouthOpen": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100500,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "フェリシア",
+                "textLeft": "――っ!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp3.json",
+                        "id": 121700,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "みたま",
+                "textRight": "確かにわたしは弱いけど@魔法少女が相手なら話は別…"
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "id": 121700
+                    }
+                ],
+                "nameRight": "みたま",
+                "textRight": "[flashEffect:flashWhite2][surround:3032A02]忘れない方が良いわよぉ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 100500,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "フェリシア",
+                "textLeft": "[flashEffect:flashRed2][surround:3032A01][bgEffect:shakeSmall][chara:100500:effect_shake]ニャッ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100500
+                    }
+                ],
+                "nameLeft": "フェリシア",
+                "textLeft": "…ぬぅ、力が…"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100500
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 121700
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_17201.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 121600,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "十七夜",
+                "textCenter": "…来るか"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 121600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "鶴乃",
+                "textRight": "消えた…!?"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "ef_adv_01",
+                        "id": 100300
+                    },
+                    {
+                        "effect": "ef_adv_01",
+                        "id": 100100
+                    }
+                ],
+                "se": "7201_detect_magic",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 401
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "違う…後ろです…!?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 101500,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "うい",
+                "textCenter": "ツバメさん！守って!!"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter6/102704_ui_magicsquare.png",
+                        "posX": -130,
+                        "posY": 50,
+                        "visible": "appear",
+                        "zOrder": "charaBack"
+                    },
+                    {
+                        "path": "resource/scenario/img/part2_chapter6/102704_ui_magicsquare2.png",
+                        "posX": 100,
+                        "posY": 50,
+                        "visible": "appear",
+                        "zOrder": "charaBack"
+                    },
+                    {
+                        "path": "resource/scenario/img/part2_chapter6/102704_ui_magicsquare3.png",
+                        "posX": 400,
+                        "posY": 50,
+                        "visible": "appear",
+                        "zOrder": "charaBack"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 101500,
+                        "motion": 300,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 100300,
+                        "motion": 300,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 100100,
+                        "motion": 300,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameNarration": "みんな",
+                "narration": "[flashEffect:flashRed2][se:3001_chara_damage][chara:100200:effect_shake][chara:101500:effect_shake][chara:100100:effect_shake]「ァアアッ！」@「ウァぅ！」@「ィヤァッ！」",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100100,
+                        "mouthOpen": 0
+                    },
+                    {
+                        "id": 101500,
+                        "mouthOpen": 0
+                    },
+                    {
+                        "id": 100300,
+                        "mouthOpen": 0
+                    }
+                ],
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter6/102704_ui_magicsquare.png",
+                        "visible": "hide"
+                    },
+                    {
+                        "path": "resource/scenario/img/part2_chapter6/102704_ui_magicsquare2.png",
+                        "visible": "hide"
+                    },
+                    {
+                        "path": "resource/scenario/img/part2_chapter6/102704_ui_magicsquare3.png",
+                        "visible": "hide"
+                    }
+                ],
+                "se": "3002_chara_dead"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

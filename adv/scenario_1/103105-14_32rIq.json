@@ -1,0 +1,162 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_21583.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_100.exp3.json",
+                        "id": 101600,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_101.exp3.json",
+                        "id": 101700,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm23_puella05",
+                "chara": [
+                    {
+                        "id": 101600
+                    }
+                ],
+                "nameLeft": "十七夜",
+                "textLeft": "八雲、姫君が設置した仕掛けは@近くにあるはずだ",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "みたま",
+                "textRight": "ええ、強い反応があるわ@[chara:101700:lipSynch_0][wait:0.8][chara:101700:cheek_0][chara:101700:face_mtn_ex_130.exp3.json][chara:101700:lipSynch_1]だけど…あれって…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 104100,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "[flashEffect:flashRed2][bgEffect:shakeLarge][chara:104100:effect_shake][se:3001_chara_damage]ぐっ…くぅ…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 104100
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "こんな仕掛けひとつに、@なんて魔力詰め込んでるんや！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_151.exp3.json",
+                        "id": 101700,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "みたま",
+                "textRight": "先生!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 104100,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "ちょうどええ！@あんたらふたりとも手を貸し！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104100
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "ヨヅルと月出里が伸びてもうて@ヤバいところやったんや！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104100,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "ここで止められへんかったら@姫さんの作戦が成功してまうで！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_101.exp3.json",
+                        "id": 101700,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "みたま",
+                "textRight": "わ、わかりました！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_120.exp3.json",
+                        "id": 101600,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "十七夜",
+                "textRight": "致し方ない！"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

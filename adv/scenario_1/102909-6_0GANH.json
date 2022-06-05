@@ -26,7 +26,8 @@
                 "bgm": "bgm01_anime05",
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-1"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -37,33 +38,53 @@
                 "chara": [
                     {
                         "id": 100100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-2"
                     }
                 ],
                 "nameLeft": "いろは",
                 "textLeft": "神浜市に入れないはずじゃ…"
             },
             {
+                "autoTurnLast": 2.8,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 102400,
-                        "motion": 400,
-                        "pos": 0
+                        "motion": 200,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102956/vo_full_102909-6-3"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameLeft": "樹里",
-                "textLeft": "[surround:1024A04][chara:810000:effect_7001_attack02]おいこら害獣！@何しにきやがった！"
+                "textLeft": "おいこら害獣！@何しにきやがった！"
             },
             {
                 "autoTurnLast": 0.5,
                 "chara": [
                     {
-                        "effect": "fadeout",
+                        "id": 102400,
+                        "motion": 400
+                    },
+                    {
+                        "effect": "7001_attack02",
                         "id": 810000
                     }
                 ],
+                "surround": "1024A04"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 810000,
+                        "voiceFullStop": "fullvoice/section_102956/vo_full_102909-6-3"
+                    }
+                ],
+                "enableSkipAutoTurn": 0,
                 "textClear": 1
             },
             {
@@ -87,7 +108,8 @@
                         "motion": 0,
                         "pos": 2,
                         "posX": 40,
-                        "posY": 0
+                        "posY": 0,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-4"
                     },
                     {
                         "cheek": 0,
@@ -103,7 +125,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-5"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -112,7 +135,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-6"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -122,7 +146,8 @@
                 "chara": [
                     {
                         "id": 102400,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-7"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -135,7 +160,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102100,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-8"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -148,7 +174,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102700,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-9"
                     }
                 ],
                 "nameRight": "すなお",
@@ -157,7 +184,8 @@
             {
                 "chara": [
                     {
-                        "id": 102700
+                        "id": 102700,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-10"
                     }
                 ],
                 "nameRight": "すなお",
@@ -184,7 +212,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 101500,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-11"
                     },
                     {
                         "id": 810000,
@@ -200,7 +229,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-12"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -210,7 +240,8 @@
                 "chara": [
                     {
                         "id": 101500,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-13"
                     }
                 ],
                 "nameLeft": "うい",
@@ -219,7 +250,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-14"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -228,7 +260,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-15"
                     }
                 ],
                 "nameNarration": "キュゥべえ",
@@ -236,17 +269,21 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 101500,
-                        "lipSynch": 0,
-                        "motion": 0
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-16"
                     }
                 ],
                 "nameLeft": "うい",
-                "narrationEffect": "out",
                 "textLeft": "――っ!?"
             },
             {
@@ -271,77 +308,98 @@
                 "narrationFontSize": 30,
                 "narrationLineMargin": 35,
                 "narrationLineSpace": 20,
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-17"
             },
             {
                 "nameNarration": "いろは",
-                "narration": "―いろは―@イブの肉体が神浜市に飛び散って@自動浄化システムが残ったのは"
+                "narration": "―いろは―@イブの肉体が神浜市に飛び散って@自動浄化システムが残ったのは",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-18"
             },
             {
                 "nameNarration": "いろは",
-                "narration": "―いろは―@userNameが@イブのコアになってくれたからだよ"
+                "narration": "―いろは―@userNameが@イブのコアになってくれたからだよ",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-19"
             },
             {
                 "nameNarration": "キュゥべえ",
-                "narration": "―キュゥべえ―@だけど、そのコアであるuserNameは@キミたちのところに戻ってきた"
+                "narration": "―キュゥべえ―@だけど、そのコアであるuserNameは@キミたちのところに戻ってきた",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-20"
             },
             {
                 "nameNarration": "鶴乃",
-                "narration": "―鶴乃―@それは神浜市が自動浄化システムにとって@結界内にあたるからじゃないの…!?"
+                "narration": "―鶴乃―@それは神浜市が自動浄化システムにとって@結界内にあたるからじゃないの…!?",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-21"
             },
             {
                 "nameNarration": "キュゥべえ",
-                "narration": "―キュゥべえ―@神浜市はあくまで自動浄化システムが及ぼす@影響の範囲でしかない"
+                "narration": "―キュゥべえ―@神浜市はあくまで自動浄化システムが及ぼす@影響の範囲でしかない",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-22"
             },
             {
                 "nameNarration": "キュゥべえ",
-                "narration": "―キュゥべえ―@userNameが戻ってきたのは@ボクが代わりにコアになったからだよ"
+                "narration": "―キュゥべえ―@userNameが戻ってきたのは@ボクが代わりにコアになったからだよ",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-23"
             },
             {
                 "nameNarration": "フェリシア",
-                "narration": "―フェリシア―@マジかよ…"
+                "narration": "―フェリシア―@マジかよ…",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-24"
             },
             {
                 "nameNarration": "フェリシア",
-                "narration": "―フェリシア―@じゃあ、めっちゃ前からオマエが@自動浄化システムの中にいたってことか!?"
+                "narration": "―フェリシア―@じゃあ、めっちゃ前からオマエが@自動浄化システムの中にいたってことか!?",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-25"
             },
             {
                 "nameNarration": "さな",
-                "narration": "―さな―@そして、前からずっとコアとして@何かを“していた”…？"
+                "narration": "―さな―@そして、前からずっとコアとして@何かを“していた”…？",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-26"
             },
             {
                 "nameNarration": "キュゥべえ",
-                "narration": "―キュゥべえ―@その認識で間違いないよ"
+                "narration": "―キュゥべえ―@その認識で間違いないよ",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-27"
             },
             {
-                "narration": "―キュゥべえ―@ドッペル化という現象で効率的にエネルギーを@回収できるか調べる必要があったからね"
+                "narration": "―キュゥべえ―@ドッペル化という現象で効率的にエネルギーを@回収できるか調べる必要があったからね",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-28"
             },
             {
-                "narration": "―キュゥべえ―@どうしても自動浄化システムを解析して@コントロール下に置きたかったんだ"
+                "narration": "―キュゥべえ―@どうしても自動浄化システムを解析して@コントロール下に置きたかったんだ",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-29"
             },
             {
-                "narration": "―キュゥべえ―@だけどコアになった当初は維持するのが精一杯で@一切のコントロールができなかった"
+                "narration": "―キュゥべえ―@だけどコアになった当初は維持するのが精一杯で@一切のコントロールができなかった",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-30"
             },
             {
-                "narration": "―キュゥべえ―@おかげで自動浄化システムの主導権を握るまでに@何体もの個体を失ってしまったけど"
+                "narration": "―キュゥべえ―@おかげで自動浄化システムの主導権を握るまでに@何体もの個体を失ってしまったけど",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-31"
             },
             {
-                "narration": "―キュゥべえ―@ようやくボクは自動浄化システムの@被膜をコントロールできるようになったんだ"
+                "narration": "―キュゥべえ―@ようやくボクは自動浄化システムの@被膜をコントロールできるようになったんだ",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-32"
             },
             {
-                "narration": "―キュゥべえ―@現に今、神浜市を覆っていた被膜は消えて@ボクは自由に往来できるようになった"
+                "narration": "―キュゥべえ―@現に今、神浜市を覆っていた被膜は消えて@ボクは自由に往来できるようになった",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-33"
             },
             {
-                "narration": "―キュゥべえ―@この被膜の範囲はドッペル化を促すために@ソウルジェムの穢れを回収する範囲でもあるから"
+                "narration": "―キュゥべえ―@この被膜の範囲はドッペル化を促すために@ソウルジェムの穢れを回収する範囲でもあるから",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-34"
             },
             {
-                "narration": "―キュゥべえ―@自動浄化システムのON・OFFも@可能になったと言えるね"
+                "narration": "―キュゥべえ―@自動浄化システムのON・OFFも@可能になったと言えるね",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-35"
             },
             {
-                "narration": "―キュゥべえ―@ボクの行動に気付いたuserNameが@結界内まで侵入して妨害してきたけど"
+                "narration": "―キュゥべえ―@ボクの行動に気付いたuserNameが@結界内まで侵入して妨害してきたけど",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-36"
             },
             {
-                "narration": "―キュゥべえ―@なんとか捕えることができてよかったよ"
+                "narration": "―キュゥべえ―@なんとか捕えることができてよかったよ",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-37"
             },
             {
                 "autoTurnLast": 0.2,
@@ -370,7 +428,8 @@
             {
                 "chara": [
                     {
-                        "id": 810100
+                        "id": 810100,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-38"
                     }
                 ],
                 "nameRight": "userName",
@@ -381,7 +440,8 @@
                 "chara": [
                     {
                         "id": 100100,
-                        "motion": 401
+                        "motion": 401,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-39"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -394,7 +454,8 @@
                         "motion": 0,
                         "pos": 2,
                         "posX": 40,
-                        "posY": 0
+                        "posY": 0,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-40"
                     },
                     {
                         "id": 100100,
@@ -407,7 +468,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-41"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -416,7 +478,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-42"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -431,7 +494,8 @@
                         "motion": 0,
                         "pos": 2,
                         "posX": 40,
-                        "posY": 0
+                        "posY": 0,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-43"
                     }
                 ],
                 "nameRight": "userName",
@@ -443,7 +507,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 100100,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-44"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -452,7 +517,8 @@
             {
                 "chara": [
                     {
-                        "id": 100100
+                        "id": 100100,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-45"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -464,7 +530,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_031.exp3.json",
                         "id": 100100,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-46"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -492,62 +559,79 @@
                 "narrationFontSize": 30,
                 "narrationLineMargin": 10,
                 "narrationLineSpace": 20,
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-47"
             },
             {
-                "narration": "―フェリシア―@userNameが知ってるなら@別のキュゥべえがいる結界に突入できるだろ！"
+                "narration": "―フェリシア―@userNameが知ってるなら@別のキュゥべえがいる結界に突入できるだろ！",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-48"
             },
             {
                 "nameNarration": "キュゥべえ",
-                "narration": "―キュゥべえ―@それは不可能だよ"
+                "narration": "―キュゥべえ―@それは不可能だよ",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-49"
             },
             {
-                "narration": "―キュゥべえ―@ボクたちコアになれる存在じゃない限り@キミたちには見つけられない"
+                "narration": "―キュゥべえ―@ボクたちコアになれる存在じゃない限り@キミたちには見つけられない",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-50"
             },
             {
                 "nameNarration": "ちはる",
-                "narration": "―ちはる―@それ、わたしたちじゃもう@どうしようもないってことだよぅ…"
+                "narration": "―ちはる―@それ、わたしたちじゃもう@どうしようもないってことだよぅ…",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-51"
             },
             {
                 "nameNarration": "うい",
-                "narration": "―うい―@ううん"
+                "narration": "―うい―@ううん",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-52"
             },
             {
-                "narration": "―うい―@わたしたちだってコアを見つけられるし@キュゥべえから取り返せるよ"
+                "narration": "―うい―@わたしたちだってコアを見つけられるし@キュゥべえから取り返せるよ",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-53"
             },
             {
-                "narration": "―うい―@だって、[textYellow:キモチ]が苦しんでたのは@キュゥべえが操ってたからだと思うし"
+                "narration": "―うい―@だって、[textYellow:キモチ]が苦しんでたのは@キュゥべえが操ってたからだと思うし",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-54"
             },
             {
-                "narration": "―うい―@それでわたしを消そうとしたっていうことは@わたしが邪魔だってことだもん！"
-            },
-            {
-                "nameNarration": "やちよ",
-                "narration": "―やちよ―@[textYellow:キモチ]の元がイブだと思えば@本来はコントロールできるってことね"
-            },
-            {
-                "narration": "―やちよ―@ういちゃんの説明に対して@あなたはどう思うのかしら、キュゥべえ"
-            },
-            {
-                "nameNarration": "キュゥべえ",
-                "narration": "―キュゥべえ―@おおむね、ふたりが言った通りだよ"
-            },
-            {
-                "narration": "―キュゥべえ―@確かに環ういは今のボクにとって@脅威と言わざるを得ない"
+                "narration": "―うい―@それでわたしを消そうとしたっていうことは@わたしが邪魔だってことだもん！",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-55"
             },
             {
                 "nameNarration": "やちよ",
-                "narration": "―やちよ―@その理由は？"
+                "narration": "―やちよ―@[textYellow:キモチ]の元がイブだと思えば@本来はコントロールできるってことね",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-56"
+            },
+            {
+                "narration": "―やちよ―@ういちゃんの説明に対して@あなたはどう思うのかしら、キュゥべえ",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-57"
             },
             {
                 "nameNarration": "キュゥべえ",
-                "narration": "―キュゥべえ―@環ういはイブのオリジナルだ"
+                "narration": "―キュゥべえ―@おおむね、ふたりが言った通りだよ",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-58"
             },
             {
-                "narration": "―キュゥべえ―@自動浄化システムが保有している“性質”も@[textYellow:キモチ]が保有している“肉体”も全て支配できる"
+                "narration": "―キュゥべえ―@確かに環ういは今のボクにとって@脅威と言わざるを得ない",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-59"
             },
             {
-                "narration": "―キュゥべえ―@ボクから自動浄化システムを@奪取できる存在なんだ"
+                "nameNarration": "やちよ",
+                "narration": "―やちよ―@その理由は？",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-60"
+            },
+            {
+                "nameNarration": "キュゥべえ",
+                "narration": "―キュゥべえ―@環ういはイブのオリジナルだ",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-61"
+            },
+            {
+                "narration": "―キュゥべえ―@自動浄化システムが保有している“性質”も@[textYellow:キモチ]が保有している“肉体”も全て支配できる",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-62"
+            },
+            {
+                "narration": "―キュゥべえ―@ボクから自動浄化システムを@奪取できる存在なんだ",
+                "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-63"
             },
             {
                 "autoTurnLast": 0.5,
@@ -577,7 +661,8 @@
                 "chara": [
                     {
                         "id": 305800,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-64"
                     }
                 ],
                 "nameRight": "南津 涼子",
@@ -588,7 +673,8 @@
                 "chara": [
                     {
                         "id": 102400,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-65"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -597,7 +683,8 @@
             {
                 "chara": [
                     {
-                        "id": 102400
+                        "id": 102400,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-66"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -607,7 +694,8 @@
                 "chara": [
                     {
                         "id": 102400,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-67"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -620,7 +708,8 @@
                         "motion": 0,
                         "pos": 2,
                         "posX": 40,
-                        "posY": 0
+                        "posY": 0,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-68"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -629,7 +718,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-69"
                     },
                     {
                         "id": 102400,
@@ -642,7 +732,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-70"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -651,7 +742,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-71"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -660,7 +752,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-72"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -669,7 +762,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-73"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -678,7 +772,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-74"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -691,7 +786,8 @@
                         "face": "mtn_ex_001.exp3.json",
                         "id": 100300,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-75"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -700,7 +796,8 @@
             {
                 "chara": [
                     {
-                        "id": 100300
+                        "id": 100300,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-76"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -709,7 +806,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-77"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -718,7 +816,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-78"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -727,7 +826,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-79"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -740,7 +840,8 @@
                         "face": "mtn_ex_021.exp3.json",
                         "id": 100200,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-80"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -749,7 +850,8 @@
             {
                 "chara": [
                     {
-                        "id": 100200
+                        "id": 100200,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-81"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -758,7 +860,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-82"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -767,7 +870,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-83"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -776,7 +880,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-84"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -785,7 +890,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-85"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -794,7 +900,8 @@
             {
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-86"
                     }
                 ],
                 "nameRight": "キュゥべえ",
@@ -804,7 +911,8 @@
                 "chara": [
                     {
                         "id": 100200,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-87"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -817,7 +925,8 @@
                         "face": "mtn_ex_021.exp3.json",
                         "id": 102100,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-88"
                     }
                 ],
                 "nameRight": "結菜",
@@ -872,7 +981,8 @@
                 "autoTurnLast": 1,
                 "chara": [
                     {
-                        "id": 810000
+                        "id": 810000,
+                        "voiceFullAuto": "fullvoice/section_102956/vo_full_102909-6-89"
                     }
                 ],
                 "nameCenter": "キュゥべえ",

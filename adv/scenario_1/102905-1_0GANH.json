@@ -13,13 +13,16 @@
                 "narrationHAlignment": "left",
                 "narrationPosX": 150,
                 "progressNarration": "これは、@ピュエラケアのリヴィアさんから受け取った@最初の４編のひとつ。",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-1"
             },
             {
-                "progressNarration": "午前０時のフォークロアの話。"
+                "progressNarration": "午前０時のフォークロアの話。",
+                "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-2"
             },
             {
-                "progressNarration": "この時は誰もが@自分たちに訪れる未来を知る由もなかった。"
+                "progressNarration": "この時は誰もが@自分たちに訪れる未来を知る由もなかった。",
+                "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-3"
             },
             {
                 "autoTurnLast": 1.5,
@@ -56,7 +59,8 @@
                 "bgm": "bgm23_folklore01",
                 "chara": [
                     {
-                        "id": 103300
+                        "id": 103300,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-4"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -66,7 +70,8 @@
             {
                 "chara": [
                     {
-                        "id": 103500
+                        "id": 103500,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-5"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -75,7 +80,8 @@
             {
                 "chara": [
                     {
-                        "id": 103500
+                        "id": 103500,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-6"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -85,7 +91,8 @@
                 "chara": [
                     {
                         "id": 103500,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-7"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -98,7 +105,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 103300,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-8"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -111,11 +119,24 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 103500,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-9"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
                 "textRight": "でも、身の危険はありませんよ♪"
+            },
+            {
+                "autoTurnLast": 3.5,
+                "chara": [
+                    {
+                        "id": 103500,
+                        "voiceFull": "fullvoice/section_102932/vo_full_102905-1-10"
+                    }
+                ],
+                "enableSkipAutoTurn": 1,
+                "nameRight": "アレクサンドラ",
+                "textRight": "旭ちゃんは時女一族の中でも@信頼されてますから、うふふっ♪"
             },
             {
                 "chara": [
@@ -124,9 +145,7 @@
                         "face": "mtn_ex_011.exp3.json",
                         "id": 103500
                     }
-                ],
-                "nameRight": "アレクサンドラ",
-                "textRight": "旭ちゃんは時女一族の中でも@信頼されてますから、うふふっ♪"
+                ]
             },
             {
                 "chara": [
@@ -135,9 +154,12 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 103300,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-11",
+                        "voiceFullStop": "fullvoice/section_102932/vo_full_102905-1-10"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "ラビ",
                 "textLeft": "ええ"
             },
@@ -148,7 +170,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 103500,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-12"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -161,7 +184,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 103300,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-13"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -170,7 +194,8 @@
             {
                 "chara": [
                     {
-                        "id": 103300
+                        "id": 103300,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-14"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -182,7 +207,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 103500,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-15"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -192,7 +218,8 @@
                 "chara": [
                     {
                         "id": 103300,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-16"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -201,7 +228,8 @@
             {
                 "chara": [
                     {
-                        "id": 103300
+                        "id": 103300,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-17"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -210,7 +238,8 @@
             {
                 "chara": [
                     {
-                        "id": 103300
+                        "id": 103300,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-18"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -219,7 +248,8 @@
             {
                 "chara": [
                     {
-                        "id": 103300
+                        "id": 103300,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-19"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -232,7 +262,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 103500,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-20"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -241,7 +272,8 @@
             {
                 "chara": [
                     {
-                        "id": 103500
+                        "id": 103500,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-21"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -250,7 +282,8 @@
             {
                 "chara": [
                     {
-                        "id": 103500
+                        "id": 103500,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-22"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -263,7 +296,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 103500,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-23"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -272,7 +306,8 @@
             {
                 "chara": [
                     {
-                        "id": 103500
+                        "id": 103500,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-24"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -285,7 +320,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 103300,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-25"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -294,7 +330,8 @@
             {
                 "chara": [
                     {
-                        "id": 103300
+                        "id": 103300,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-26"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -304,7 +341,8 @@
                 "chara": [
                     {
                         "id": 103500,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-27"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -317,7 +355,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 103300,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-28"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -327,7 +366,8 @@
                 "chara": [
                     {
                         "id": 103500,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-29"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -336,7 +376,8 @@
             {
                 "chara": [
                     {
-                        "id": 103500
+                        "id": 103500,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-30"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -345,7 +386,8 @@
             {
                 "chara": [
                     {
-                        "id": 103500
+                        "id": 103500,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-31"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -358,7 +400,8 @@
                         "face": "mtn_ex_032.exp3.json",
                         "id": 103300,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-32"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -368,7 +411,8 @@
                 "chara": [
                     {
                         "id": 103500,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-33"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -377,7 +421,8 @@
             {
                 "chara": [
                     {
-                        "id": 103500
+                        "id": 103500,
+                        "voiceFull": "fullvoice/section_102932/vo_full_102905-1-34"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -390,17 +435,20 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 103300,
                         "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullStop": "fullvoice/section_102932/vo_full_102905-1-34"
                     }
                 ],
                 "nameLeft": "ラビ",
-                "textLeft": "…………[wait:0.8][chara:103300:lipSynch_1]できそう？"
+                "textLeft": "…………[wait:0.8][chara:103300:lipSynch_1][chara:103300:voiceFull_fullvoice/section_102932/vo_full_102905-1-35]できそう？"
             },
             {
                 "chara": [
                     {
                         "id": 103500,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-36",
+                        "voiceFullStop": "fullvoice/section_102932/vo_full_102905-1-35"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -410,7 +458,8 @@
                 "chara": [
                     {
                         "id": 103500,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-37"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -419,7 +468,8 @@
             {
                 "chara": [
                     {
-                        "id": 103500
+                        "id": 103500,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-38"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -429,7 +479,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 103500
+                        "id": 103500,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-39"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -439,7 +490,8 @@
                 "chara": [
                     {
                         "id": 103300,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-40"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -449,7 +501,8 @@
                 "chara": [
                     {
                         "id": 103300,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-41"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -458,7 +511,8 @@
             {
                 "chara": [
                     {
-                        "id": 103300
+                        "id": 103300,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-42"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -469,7 +523,8 @@
                     {
                         "eyeClose": 0,
                         "id": 103500,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-43"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -482,7 +537,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 103300,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-44"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -492,7 +548,8 @@
                 "chara": [
                     {
                         "id": 103500,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-45"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -501,7 +558,8 @@
             {
                 "chara": [
                     {
-                        "id": 103500
+                        "id": 103500,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-46"
                     }
                 ],
                 "nameRight": "アレクサンドラ",
@@ -514,7 +572,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 103300,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-47"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -523,7 +582,8 @@
             {
                 "chara": [
                     {
-                        "id": 103300
+                        "id": 103300,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-48"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -531,7 +591,8 @@
             },
             {
                 "nameCenter": "リヴィアの声",
-                "textCenter": "ホンマに灯花ちゃんのとこの@おとんは動きが早すぎるわ"
+                "textCenter": "ホンマに灯花ちゃんのとこの@おとんは動きが早すぎるわ",
+                "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-49"
             },
             {
                 "chara": [
@@ -540,7 +601,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 104100,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-50"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -553,7 +615,8 @@
                         "face": "mtn_ex_051.exp3.json",
                         "id": 103300,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-51"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -564,7 +627,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
-                        "id": 104100
+                        "id": 104100,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-52"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -577,7 +641,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 104100,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-53"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -590,7 +655,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 103500,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-54"
                     }
                 ],
                 "nameLeft": "アレクサンドラ",
@@ -603,7 +669,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 104100,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-55"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -612,7 +679,8 @@
             {
                 "chara": [
                     {
-                        "id": 104100
+                        "id": 104100,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-56"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -622,7 +690,8 @@
                 "chara": [
                     {
                         "id": 104100,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-57"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -631,7 +700,8 @@
             {
                 "chara": [
                     {
-                        "id": 104100
+                        "id": 104100,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-58"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -642,7 +712,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 104100
+                        "id": 104100,
+                        "voiceFullAuto": "fullvoice/section_102932/vo_full_102905-1-59"
                     }
                 ],
                 "nameRight": "リヴィア",

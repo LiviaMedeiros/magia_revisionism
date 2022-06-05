@@ -13,13 +13,16 @@
                 "narrationHAlignment": "left",
                 "narrationPosX": 150,
                 "progressNarration": "これは、@ピュエラケアの月出里ちゃんから受け取った@最初の４編のひとつ。",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-1"
             },
             {
-                "progressNarration": "神浜マギアユニオンの話。"
+                "progressNarration": "神浜マギアユニオンの話。",
+                "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-2"
             },
             {
-                "progressNarration": "この時は誰もが@自分たちに訪れる未来を知る由もなかった。"
+                "progressNarration": "この時は誰もが@自分たちに訪れる未来を知る由もなかった。",
+                "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-3"
             },
             {
                 "autoTurnLast": 1.5,
@@ -43,23 +46,28 @@
                 "narrationEffect": "in",
                 "narrationHAlignment": "left",
                 "narrationPosX": 150,
-                "progressNarration": "[textBlack:かごめさんの代わりに、]@[textBlack:私、佐和月出里が神浜マギアユニオンの様子を]@[textBlack:見に行くことになった。]",
-                "turnChangeOut": "whiteOut"
+                "progressNarration": "[textBlack:かごめさんの代わりに、]@[textBlack:わたし、佐和月出里が]@[textBlack:神浜マギアユニオンの様子を]@[textBlack:見に行くことになった。]",
+                "turnChangeOut": "whiteOut",
+                "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-4"
             },
             {
-                "progressNarration": "[textBlack:途中、みふゆさんに出会うまでウロウロしてると]@[textBlack:プロミストブラッドと手を組む方針が]@[textBlack:グループの人たちに広まったばかりなのか、]@[textBlack:みんなモヤモヤしてるみたいだった。]"
+                "progressNarration": "[textBlack:途中、みふゆさんに出会うまでウロウロしてると]@[textBlack:プロミストブラッドと手を組む方針が]@[textBlack:グループの人たちに広まったばかりなのか、]@[textBlack:みんなモヤモヤしてるみたいだった。]",
+                "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-5"
             },
             {
-                "progressNarration": "[textBlack:プロミストブラッドは]@[textBlack:神浜市の魔法少女を皆殺しにしようとして]@[textBlack:スパイだって送り込んでたから、]@[textBlack:そうだよねって思う。]"
+                "progressNarration": "[textBlack:プロミストブラッドは]@[textBlack:神浜市の魔法少女を皆殺しにしようとして]@[textBlack:スパイだって送り込んでたから、]@[textBlack:そうだよねって思う。]",
+                "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-6"
             },
             {
-                "progressNarration": "[textBlack:でも、みんながモヤモヤしてる理由は]@[textBlack:もう少し複雑みたいだった。]@[textBlack:紅晴さんの作戦の動きと神浜市の選挙の問題が]@[textBlack:同時に起きたせいで、東の人が西の人を]@[textBlack:信じられなくなっちゃったみたい。]"
+                "progressNarration": "[textBlack:でも、みんながモヤモヤしてる理由は]@[textBlack:もう少し複雑みたいだった。]@[textBlack:紅晴さんの作戦の動きと神浜市の選挙の問題が]@[textBlack:同時に起きたせいで、東の人が西の人を]@[textBlack:信じられなくなっちゃったみたい。]",
+                "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-7"
             },
             {
-                "progressNarration": "[textBlack:私も前にミィちゃんとあした屋さんに行ったとき]@[textBlack:西の子に悪口を言われたことがあったから]@[textBlack:なんかわかるなーって思った。]"
+                "progressNarration": "[textBlack:わたしも前にミィちゃんと]@[textBlack:あした屋さんに行ったとき]@[textBlack:西の子に悪口を言われたことがあったから]@[textBlack:なんかわかるなーって思った。]",
+                "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-8"
             },
             {
-                "autoTurnLast": 1.5,
+                "autoTurnLast": 2,
                 "bg": "bg_adv_21721.jpg",
                 "bgm": "stop",
                 "chara": [
@@ -84,7 +92,7 @@
                 "chara": [
                     {
                         "id": 301501,
-                        "motion": 200
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-9"
                     }
                 ],
                 "nameCenter": "相野 みと",
@@ -109,7 +117,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 301401,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-10"
                     },
                     {
                         "cheek": 0,
@@ -125,7 +134,8 @@
             {
                 "chara": [
                     {
-                        "id": 301301
+                        "id": 301301,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-11"
                     }
                 ],
                 "nameLeft": "伊吹 れいら",
@@ -138,7 +148,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 301501,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-12"
                     }
                 ],
                 "nameRight": "相野 みと",
@@ -147,7 +158,8 @@
             {
                 "chara": [
                     {
-                        "id": 301501
+                        "id": 301501,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-13"
                     }
                 ],
                 "nameRight": "相野 みと",
@@ -157,9 +169,10 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp3.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 301301,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-14"
                     }
                 ],
                 "nameLeft": "伊吹 れいら",
@@ -172,7 +185,8 @@
                         "face": "mtn_ex_011.exp3.json",
                         "id": 301501,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-15"
                     }
                 ],
                 "nameRight": "相野 みと",
@@ -186,9 +200,12 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 301401,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-16"
                     },
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 301301,
                         "motion": 0
                     }
@@ -200,17 +217,21 @@
             {
                 "chara": [
                     {
-                        "id": 301401
+                        "id": 301401,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-17"
                     }
                 ],
                 "nameRight": "桑水 せいか",
-                "textRight": "…れいらは隠してるけど、@本当は私たちと同じだよね…？"
+                "textRight": "…れいらも隠してるけど、@本当は私たちと同じだよね…？"
             },
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 301301,
-                        "lipSynch": 0
+                        "lipSynch": 1,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-18"
                     }
                 ],
                 "nameLeft": "伊吹 れいら",
@@ -221,23 +242,31 @@
                     {
                         "id": 301301,
                         "lipSynch": 1,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-19"
                     }
                 ],
                 "nameLeft": "伊吹 れいら",
                 "textLeft": "…うん、本音を言うと@私も今朝は気分が落ちてた…"
             },
             {
-                "nameCenter": "みたまの声",
-                "textCenter": "やっぱり、みんなここにいた！"
-            },
-            {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
+                        "id": 301301
+                    }
+                ],
+                "nameCenter": "みたまの声",
+                "textCenter": "やっぱり、みんなここにいた！",
+                "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-20"
+            },
+            {
+                "chara": [
+                    {
                         "id": 301301,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-21"
                     }
                 ],
                 "nameLeft": "伊吹 れいら",
@@ -264,7 +293,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 101601,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-22"
                     },
                     {
                         "cheek": 0,
@@ -284,7 +314,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 301501,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-23"
                     }
                 ],
                 "nameLeft": "相野 みと",
@@ -293,7 +324,8 @@
             {
                 "chara": [
                     {
-                        "id": 101601
+                        "id": 101601,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-24"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -302,7 +334,8 @@
             {
                 "chara": [
                     {
-                        "id": 101601
+                        "id": 101601,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-25"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -312,7 +345,8 @@
                 "chara": [
                     {
                         "id": 101601,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-26"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -325,7 +359,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 301401,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-27"
                     }
                 ],
                 "nameLeft": "桑水 せいか",
@@ -335,7 +370,8 @@
                 "chara": [
                     {
                         "id": 301401,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-28"
                     }
                 ],
                 "nameLeft": "桑水 せいか",
@@ -344,7 +380,8 @@
             {
                 "chara": [
                     {
-                        "id": 301401
+                        "id": 301401,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-29"
                     },
                     {
                         "id": 101601,
@@ -358,7 +395,8 @@
                 "chara": [
                     {
                         "id": 301401,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-30"
                     }
                 ],
                 "nameLeft": "桑水 せいか",
@@ -367,7 +405,8 @@
             {
                 "chara": [
                     {
-                        "id": 301401
+                        "id": 301401,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-31"
                     }
                 ],
                 "nameLeft": "桑水 せいか",
@@ -376,7 +415,8 @@
             {
                 "chara": [
                     {
-                        "id": 301401
+                        "id": 301401,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-32"
                     }
                 ],
                 "nameLeft": "桑水 せいか",
@@ -403,7 +443,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 301301,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-33"
                     },
                     {
                         "cheek": 0,
@@ -419,7 +460,11 @@
             {
                 "chara": [
                     {
-                        "id": 301301
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 301301,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-34"
                     }
                 ],
                 "nameLeft": "伊吹 れいら",
@@ -429,7 +474,8 @@
                 "chara": [
                     {
                         "id": 301501,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-35"
                     }
                 ],
                 "nameRight": "相野 みと",
@@ -438,7 +484,8 @@
             {
                 "chara": [
                     {
-                        "id": 301501
+                        "id": 301501,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-36"
                     }
                 ],
                 "nameRight": "相野 みと",
@@ -448,10 +495,11 @@
                 "chara": [
                     {
                         "cheek": 0,
+                        "eyeClose": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 301301,
                         "motion": 400,
-                        "pos": 0
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-37"
                     }
                 ],
                 "nameLeft": "伊吹 れいら",
@@ -461,7 +509,8 @@
                 "chara": [
                     {
                         "id": 301501,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-38"
                     }
                 ],
                 "nameRight": "相野 みと",
@@ -470,7 +519,8 @@
             {
                 "chara": [
                     {
-                        "id": 301501
+                        "id": 301501,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-39"
                     }
                 ],
                 "nameRight": "相野 みと",
@@ -483,7 +533,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 301301,
                         "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-40"
                     }
                 ],
                 "nameLeft": "伊吹 れいら",
@@ -496,7 +547,8 @@
                         "face": "mtn_ex_001.exp3.json",
                         "id": 101701,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-41"
                     }
                 ],
                 "nameRight": "みたま",
@@ -505,7 +557,8 @@
             {
                 "chara": [
                     {
-                        "id": 101701
+                        "id": 101701,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-42"
                     }
                 ],
                 "nameRight": "みたま",
@@ -518,7 +571,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 101601,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-43"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -527,7 +581,8 @@
             {
                 "chara": [
                     {
-                        "id": 101601
+                        "id": 101601,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-44"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -540,7 +595,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 301501,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-45"
                     }
                 ],
                 "nameLeft": "相野 みと",
@@ -551,7 +607,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 101601
+                        "id": 101601,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-46"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -562,7 +619,8 @@
                     {
                         "id": 101601,
                         "lipSynch": 0,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-47"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -572,11 +630,12 @@
                 "chara": [
                     {
                         "id": 101601,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-48"
                     }
                 ],
                 "nameRight": "十七夜",
-                "textRight": "（ここで紅晴結菜の策が@ジワジワ効いてくるとはな…）"
+                "textRight": "（ここで紅晴結菜の策が@ジワジワ効いてくるとは…）"
             },
             {
                 "autoTurnLast": 0.2,
@@ -595,7 +654,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 301401,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-49"
                     }
                 ],
                 "nameLeft": "桑水 せいか",
@@ -605,7 +665,8 @@
                 "chara": [
                     {
                         "id": 301501,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-50"
                     }
                 ],
                 "nameRight": "相野 みと",
@@ -614,7 +675,8 @@
             {
                 "chara": [
                     {
-                        "id": 301501
+                        "id": 301501,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-51"
                     }
                 ],
                 "nameRight": "相野 みと",
@@ -623,7 +685,8 @@
             {
                 "chara": [
                     {
-                        "id": 301501
+                        "id": 301501,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-52"
                     }
                 ],
                 "nameRight": "相野 みと",
@@ -636,7 +699,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 301301,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-53"
                     }
                 ],
                 "nameLeft": "伊吹 れいら",
@@ -646,7 +710,8 @@
                 "chara": [
                     {
                         "id": 301301,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-54"
                     }
                 ],
                 "nameLeft": "伊吹 れいら",
@@ -673,7 +738,8 @@
                         "face": "mtn_ex_032.exp3.json",
                         "id": 101701,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-55"
                     },
                     {
                         "cheek": 0,
@@ -690,7 +756,8 @@
                 "chara": [
                     {
                         "id": 101601,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-56"
                     }
                 ],
                 "nameRight": "十七夜",
@@ -699,17 +766,19 @@
             {
                 "chara": [
                     {
-                        "id": 101601
+                        "id": 101601,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-57"
                     }
                 ],
                 "nameRight": "十七夜",
-                "textRight": "今回ばかりはみんなが@方針に難色を示しているか"
+                "textRight": "今回ばかりは皆が@方針に難色を示しているか"
             },
             {
                 "chara": [
                     {
                         "id": 101701,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102902/vo_full_102902-1-58"
                     }
                 ],
                 "nameLeft": "みたま",

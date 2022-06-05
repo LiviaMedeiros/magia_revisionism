@@ -23,10 +23,12 @@
                 "narrationHAlignment": "left",
                 "narrationPosX": 150,
                 "progressNarration": "[textBlack:神浜市の魔法少女と手を取り合うことに]@[textBlack:反対している竜ケ崎の魔法少女たち。]@[textBlack:話を聞いていると、事態は悪化して、]@[textBlack:紅晴さんと大庭さんの一騎打ちになっていた。]",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-1"
             },
             {
-                "progressNarration": "[textBlack:その対決の直前、]@[textBlack:仲間を連れてきた智珠さんの話によると、]@[textBlack:笠音さんの様子もいよいよおかしくなっていて、]@[textBlack:一騎打ちの当日は波乱が起きそうだった。]"
+                "progressNarration": "[textBlack:その対決の直前、]@[textBlack:仲間を連れてきた智珠さんの話によると、]@[textBlack:笠音さんの様子もいよいよおかしくなっていて、]@[textBlack:一騎打ちの当日は波乱が起きそうだった。]",
+                "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-2"
             },
             {
                 "autoTurnLast": 1.5,
@@ -69,23 +71,42 @@
                 "turnChangeIn": "fadeIn"
             },
             {
+                "autoTurnLast": 1.7,
                 "bgm": "bgm22_battle08",
                 "chara": [
                     {
                         "id": 102400,
-                        "motion": 400
+                        "voiceFull": "fullvoice/section_102916/vo_full_102903-5-3"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "樹里",
-                "textRight": "[surround:1024A04][chara:102100:effect_7000_attack01]隙が見えたぞ、姉さん！@ウェルダンになりやがれぇええ！",
+                "textRight": "隙が見えたぞ、姉さん！@ウェルダンになりやがれぇええ！",
                 "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1.2,
+                "chara": [
+                    {
+                        "id": 102400,
+                        "motion": 400
+                    },
+                    {
+                        "effect": "7000_attack01",
+                        "id": 102100
+                    }
+                ],
+                "surround": "1024A04"
             },
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-4",
+                        "voiceFullStop": "fullvoice/section_102916/vo_full_102903-5-3"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "結菜",
                 "textLeft": "甘いわねぇ…"
             },
@@ -93,7 +114,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-5"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -106,7 +128,8 @@
                         "face": "mtn_ex_060.exp3.json",
                         "id": 102400,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-6"
                     }
                 ],
                 "nameRight": "樹里",
@@ -116,7 +139,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-7"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -148,7 +172,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 770083,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-8"
                     },
                     {
                         "cheek": 0,
@@ -164,7 +189,8 @@
             {
                 "chara": [
                     {
-                        "id": 770183
+                        "id": 770183,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-9"
                     }
                 ],
                 "nameLeft": "",
@@ -173,7 +199,8 @@
             {
                 "chara": [
                     {
-                        "id": 770183
+                        "id": 770183,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-10"
                     }
                 ],
                 "nameLeft": "",
@@ -182,11 +209,12 @@
             {
                 "chara": [
                     {
-                        "id": 770183
+                        "id": 770183,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-11"
                     }
                 ],
                 "nameLeft": "",
-                "textLeft": "次は竜ケ崎が舵を取ればいい！@"
+                "textLeft": "次は竜ケ崎が舵を取ればいい！"
             },
             {
                 "autoTurnLast": 0.2,
@@ -215,7 +243,8 @@
                         "id": 102100,
                         "lipSynch": 0,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-12"
                     },
                     {
                         "cheek": 0,
@@ -232,7 +261,8 @@
                 "chara": [
                     {
                         "id": 102400,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-13"
                     }
                 ],
                 "nameRight": "樹里",
@@ -241,7 +271,8 @@
             {
                 "chara": [
                     {
-                        "id": 102400
+                        "id": 102400,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-14"
                     }
                 ],
                 "nameRight": "樹里",
@@ -251,7 +282,8 @@
                 "chara": [
                     {
                         "id": 102400,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-15"
                     }
                 ],
                 "nameRight": "樹里",
@@ -261,7 +293,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-16"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -270,12 +303,14 @@
             {
                 "chara": [
                     {
+                        "eyeClose": 1,
                         "id": 102100,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-17"
                     }
                 ],
                 "nameLeft": "結菜",
-                "textLeft": "（皆に説明はしたつもりだど、@もう一度…！）"
+                "textLeft": "（皆に説明はしたつもりだけど、@もう一度…！）"
             },
             {
                 "autoTurnLast": 0.2,
@@ -440,7 +475,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102100,
                         "motion": 400,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-18"
                     }
                 ],
                 "nameNarration": "結菜",
@@ -451,7 +487,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-19"
                     }
                 ],
                 "narration": "「私は決して神浜市の連中に膝を付いていなぃ@今もマギウスの３人を筆頭に恨み続け@怒り続け、信用していなぃ…！」"
@@ -460,7 +497,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-20"
                     }
                 ],
                 "narration": "「だから、平和裡に自動浄化システムを得るのが@最短ルートだとわかっていても@保有するのが神浜市の魔法少女である限りは@復讐の対象として奪うつもりしかなかった…！」"
@@ -476,17 +514,34 @@
                 "narrationEffect": "out"
             },
             {
+                "autoTurnLast": 3,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102400,
-                        "motion": 100,
-                        "pos": 2
+                        "motion": 200,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102916/vo_full_102903-5-21"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "樹里",
-                "textRight": "[surround:1024A04][chara:102100:effect_7001_attack02]今さら竜ケ崎の奴らを説得なんて@馬鹿げたことを考えやがる！"
+                "textRight": "今さら竜ケ崎の奴らを説得なんて@馬鹿げたことを考えやがる！"
+            },
+            {
+                "autoTurnLast": 1.2,
+                "chara": [
+                    {
+                        "id": 102400,
+                        "motion": 100
+                    },
+                    {
+                        "effect": "7001_attack02",
+                        "id": 102100
+                    }
+                ],
+                "surround": "1024A04"
             },
             {
                 "chara": [
@@ -495,9 +550,12 @@
                         "face": "mtn_ex_060.exp3.json",
                         "id": 102100,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-22",
+                        "voiceFullStop": "fullvoice/section_102916/vo_full_102903-5-21"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "結菜",
                 "textLeft": "[chara:102100:effect_7003_damage02][surround:1024A05][bgEffect:shakeSmall]っく…"
             },
@@ -507,7 +565,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-23"
                     }
                 ],
                 "nameNarration": "結菜",
@@ -517,7 +576,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-24"
                     }
                 ],
                 "narration": "「彼女がきっかけになって@みかづき荘の魔法少女たちがひとつになり@果ては神浜市の魔法少女たちも巻き込んで@マギウスの計画を止めるに至った」"
@@ -525,7 +585,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-25"
                     }
                 ],
                 "narration": "「その道のりの中で@妹のことを自分以外が覚えていなくても…@その妹があらぬ姿で見つかったとしても…@仲間がウワサという存在に支配されても…@彼女は決して折れることはなかった」"
@@ -534,15 +595,17 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-26"
                     }
                 ],
-                "narration": "「そんな、自分が信じるものに愚直で@誰かが傷付くことを否定する彼女が@全ての魔法少女を救うという@絵空事のような理想を叶えようとしている」"
+                "narration": "「そんな、自分が信じるものに愚直で@誰かが傷つくことを否定する彼女が@全ての魔法少女を救うという@絵空事のような理想を叶えようとしている」"
             },
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-27"
                     }
                 ],
                 "narration": "「できるかどうかはわからないけど@その理想を叶えようとする想いに@一切の曇りやうそ偽りは存在しない…」"
@@ -551,7 +614,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-28"
                     }
                 ],
                 "narration": "「それで私は思ったのよぉ@もしも外から来た環いろはという魔法少女が@神浜市に生きる魔法少女の運命を@良い方に変えたのだとしたら」"
@@ -560,33 +624,57 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-29"
                     }
                 ],
                 "narration": "「彼女が救おうとしている魔法少女の未来も@良い方に向かうんじゃないかって」"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 2.8,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 102400,
-                        "motion": 400,
-                        "pos": 2
+                        "motion": 0,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102916/vo_full_102903-5-30"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "樹里",
-                "narrationEffect": "out",
-                "textRight": "[surround:1024A04][chara:102100:effect_7000_attack01]だからなんだ！@復讐をやめる理由にはなんねえ！"
+                "textRight": "だからなんだ！@復讐をやめる理由にはなんねえ！"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "id": 102400,
+                        "motion": 400
+                    },
+                    {
+                        "effect": "7000_attack01",
+                        "id": 102100
+                    }
+                ],
+                "surround": "1024A04"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_060.exp3.json",
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-31",
+                        "voiceFullStop": "fullvoice/section_102916/vo_full_102903-5-30"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "結菜",
                 "textLeft": "[chara:102100:effect_7002_damage01][surround:1024A05][bgEffect:shakeSmall]グッ…"
             },
@@ -597,7 +685,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102100,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-32"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -610,21 +699,38 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102100,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-33"
                     }
                 ],
                 "nameLeft": "結菜",
                 "textLeft": "それに！"
             },
             {
+                "autoTurnLast": 4,
+                "chara": [
+                    {
+                        "id": 102100,
+                        "voiceFull": "fullvoice/section_102916/vo_full_102903-5-34"
+                    }
+                ],
+                "enableSkipAutoTurn": 1,
+                "nameLeft": "結菜",
+                "textLeft": "二木市の魔法少女の幸福を望む@リーダーとしては！"
+            },
+            {
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "id": 102100,
                         "motion": 400
+                    },
+                    {
+                        "effect": "7001_attack02",
+                        "id": 102400
                     }
                 ],
-                "nameLeft": "結菜",
-                "textLeft": "[surround:1021A03][chara:102400:effect_7001_attack02]二木市の魔法少女の幸福を望む@リーダーとしては！"
+                "surround": "1021A03"
             },
             {
                 "chara": [
@@ -633,9 +739,12 @@
                         "face": "mtn_ex_060.exp3.json",
                         "id": 102400,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-35",
+                        "voiceFullStop": "fullvoice/section_102916/vo_full_102903-5-34"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "樹里",
                 "textRight": "[chara:102400:effect_7003_damage02][surround:1021A04][bgEffect:shakeSmall]がぁッ…!?"
             },
@@ -644,7 +753,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_021.exp3.json",
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-36"
                     }
                 ],
                 "nameNarration": "結菜",
@@ -655,20 +765,25 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-37"
                     }
                 ],
                 "narration": "「もしも環いろはが裏切るようであれば@再び神浜市に復讐すればいい@私も裏切り者として殺せばいい」"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-38"
                     }
                 ],
                 "nameLeft": "結菜",
-                "narrationEffect": "out",
                 "textLeft": "その日のために牙を磨くことを@私は決して否定しなぃ!!"
             },
             {
@@ -678,19 +793,21 @@
                         "face": "mtn_ex_021.exp3.json",
                         "id": 102400,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-39"
                     }
                 ],
                 "nameRight": "樹里",
                 "textRight": "じゃあ、今日がその牙に@貫かれるときだなぁ!!"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 1.3,
                 "chara": [
                     {
                         "id": 102100,
                         "motion": 400,
-                        "mouthOpen": 1
+                        "mouthOpen": 0,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-40"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -698,12 +815,13 @@
                 "textLeft": "[flashEffect:flashWhite2][surround:1021A01]っ、ハァアアッ!!"
             },
             {
-                "autoTurnLast": 0.2,
+                "autoTurnLast": 0.8,
                 "chara": [
                     {
                         "id": 102400,
                         "motion": 400,
-                        "mouthOpen": 1
+                        "mouthOpen": 0,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-41"
                     },
                     {
                         "id": 102100,
@@ -770,7 +888,8 @@
                         "id": 102300,
                         "lipSynch": 0,
                         "motion": 100,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-42"
                     }
                 ],
                 "nameCenter": "アオ",
@@ -780,7 +899,8 @@
                 "chara": [
                     {
                         "id": 102300,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-43"
                     }
                 ],
                 "nameCenter": "アオ",
@@ -791,7 +911,8 @@
                     {
                         "id": 102300,
                         "lipSynch": 0,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-44"
                     }
                 ],
                 "nameCenter": "アオ",
@@ -826,7 +947,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp3.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 102400,
                         "motion": 0,
                         "pos": 2
@@ -841,18 +962,36 @@
                 ]
             },
             {
+                "autoTurnLast": 0.5,
                 "chara": [
                     {
+                        "effect": "ef_adv_01",
+                        "id": 102100
+                    },
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_01",
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 102400
                     }
                 ],
-                "nameRight": "樹里",
-                "textRight": "[se:7201_detect_magic][chara:102400:effect_ef_adv_01][chara:102100:effect_ef_adv_01]なんだ、この殺気は…！"
+                "se": "7201_detect_magic"
             },
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102400,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-45"
+                    }
+                ],
+                "nameRight": "樹里",
+                "textRight": "なんだ、この殺気は…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-46"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -878,7 +1017,8 @@
                         "cheek": 0,
                         "eyeClose": 0,
                         "face": "mtn_ex_050.exp3.json",
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-47"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -905,24 +1045,36 @@
                 "bgChangeEffect": "cameraPan"
             },
             {
+                "autoTurnLast": 0.5,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_051.exp3.json",
                         "id": 102300,
                         "motion": 400,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFull": "fullvoice/section_102916/vo_full_102903-5-48"
                     }
                 ],
                 "nameCenter": "アオ",
                 "textCenter": "ウソでしょ…@何でこんなときに…"
             },
             {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102300
+                    }
+                ]
+            },
+            {
                 "autoTurnLast": 0.2,
                 "chara": [
                     {
                         "effect": "fadeout",
-                        "id": 102300
+                        "id": 102300,
+                        "voiceFullStop": "fullvoice/section_102916/vo_full_102903-5-48"
                     }
                 ],
                 "textClear": 1
@@ -939,7 +1091,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 100101,
                         "motion": 401,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-49"
                     }
                 ],
                 "nameCenter": "いろは",
@@ -1015,7 +1168,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 100101,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102916/vo_full_102903-5-50"
                     }
                 ],
                 "nameCenter": "いろは",

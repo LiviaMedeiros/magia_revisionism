@@ -23,19 +23,24 @@
                 "narrationHAlignment": "left",
                 "narrationPosX": 150,
                 "progressNarration": "[textBlack:これは過去を記した]@[textBlack:最初の４編よりも前にあった話。]@[textBlack:魔法少女たちを分かれさせる切っ掛けになった]@[textBlack:短いけれども大きな話。]",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-1"
             },
             {
-                "progressNarration": "[textBlack:これはその中でもかりんさんについて調べて]@[textBlack:わかってきた彼女が語った出来事。]"
+                "progressNarration": "[textBlack:これはその中でもかりんさんについて調べて]@[textBlack:わかってきた彼女が語った出来事。]",
+                "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-2"
             },
             {
-                "progressNarration": "[textBlack:果てなしのミラーズからひとりだけ戻り、]@[textBlack:竜真館にいた人たちに話したのは、]@[textBlack:誰も知らない深層にたどり着いたこと。]"
+                "progressNarration": "[textBlack:果てなしのミラーズからひとりだけ戻り、]@[textBlack:竜真館にいた人たちに話したのは、]@[textBlack:誰も知らない深層にたどり着いたこと。]",
+                "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-3"
             },
             {
-                "progressNarration": "[textBlack:その話の中には、]@[textBlack:やちよさんとみたまさんだけが名前を知っている]@[textBlack:魔法少女の物語が転がっていて、]"
+                "progressNarration": "[textBlack:その話の中には、]@[textBlack:やちよさんとみたまさんだけが名前を知っている]@[textBlack:魔法少女の物語が転がっていて、]",
+                "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-4"
             },
             {
-                "progressNarration": "[textBlack:人格だけを残した魔法少女は、]@[textBlack:どうも深い恨みを抱えているようだった。]"
+                "progressNarration": "[textBlack:人格だけを残したその魔法少女は、]@[textBlack:どうも深い恨みを抱えているようだった。]",
+                "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-5"
             },
             {
                 "autoTurnLast": 1.5,
@@ -63,7 +68,8 @@
                 "nameNarration": "アリナ",
                 "narration": "果てなしのミラーズの奧へ引きずり込まれるとき",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-6"
             },
             {
                 "autoTurnLast": 0.01,
@@ -82,7 +88,11 @@
                 "nameNarration": "アリナ",
                 "narration": "アリナの中にいるもうひとりの誰かに@少しだけ懐かしい[textRed:滅び]のイメージを@見せられた気がする",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-7"
+            },
+            {
+                "autoTurnLast": 0.01
             },
             {
                 "autoTurnLast": 2,
@@ -106,7 +116,8 @@
                     {
                         "id": 100800,
                         "lipSynch": 0,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-8"
                     }
                 ],
                 "nameCenter": "アリナ",
@@ -117,7 +128,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-9"
                     }
                 ],
                 "nameCenter": "アリナ",
@@ -127,7 +139,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-10"
                     }
                 ],
                 "nameCenter": "アリナ",
@@ -136,11 +149,10 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_020.exp3.json",
                         "id": 100800,
                         "lipSynch": 0,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-11"
                     }
                 ],
                 "nameCenter": "アリナ",
@@ -150,7 +162,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-12"
                     }
                 ],
                 "nameCenter": "アリナ",
@@ -159,9 +172,12 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 100800,
                         "lipSynch": 1,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-13"
                     }
                 ],
                 "nameCenter": "アリナ",
@@ -170,7 +186,8 @@
             {
                 "chara": [
                     {
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-14"
                     }
                 ],
                 "nameCenter": "アリナ",
@@ -194,7 +211,8 @@
                         "id": 101200,
                         "lipSynch": 0,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-15"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -205,7 +223,8 @@
                     {
                         "id": 100800,
                         "lipSynch": 1,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-16"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -215,7 +234,8 @@
                 "chara": [
                     {
                         "id": 101200,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-17"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -224,7 +244,8 @@
             {
                 "chara": [
                     {
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-18"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -236,7 +257,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_000.exp3.json",
                         "id": 100800,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-19"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -246,7 +268,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-20"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -259,7 +282,8 @@
                         "face": "mtn_ex_040.exp3.json",
                         "id": 101200,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-21"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -268,7 +292,8 @@
             {
                 "chara": [
                     {
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-22"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -281,7 +306,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 101200,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-23"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -294,7 +320,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 100800,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-24"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -305,18 +332,20 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-25"
                     }
                 ],
                 "nameRight": "御園 かりん",
-                "textRight": "せっかく鏡の魔女に近付いたなら@ふたりで倒しちゃうの"
+                "textRight": "せっかく鏡の魔女に近づいたなら@ふたりで倒しちゃうの"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-26"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -339,10 +368,12 @@
                 "nameNarration": "御園 かりん",
                 "narration": "鏡の魔女を倒せば罪滅ぼしになるし@みんなも喜んでくれるの",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-27"
             },
             {
-                "narration": "そしてドライでコールドなアリナ先輩が@みんなのウォームな感じに気付いて改心するの"
+                "narration": "そしてドライでコールドなアリナ先輩が@みんなのウォームな感じに気付いて改心するの",
+                "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-28"
             },
             {
                 "autoTurnLast": 0.2,
@@ -367,6 +398,12 @@
                 "turnChangeIn": "fadeIn"
             },
             {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-29"
+                    }
+                ],
                 "nameLeft": "アリナ",
                 "textLeft": "なんかムカツクんですケド…",
                 "turnChangeOut": "fadeOut"
@@ -386,7 +423,8 @@
                     {
                         "cheek": 1,
                         "face": "mtn_ex_060.exp3.json",
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-30"
                     },
                     {
                         "id": 100800,
@@ -398,17 +436,21 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_000.exp3.json",
                         "id": 100800,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-31"
                     }
                 ],
                 "nameLeft": "アリナ",
-                "narrationEffect": "out",
                 "textLeft": "モチみたい…"
             },
             {
@@ -417,7 +459,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 100800,
-                        "lipSynch": 0
+                        "lipSynch": 1,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-32"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -430,7 +473,8 @@
                         "face": "mtn_ex_040.exp3.json",
                         "id": 101200,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-33"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -443,7 +487,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 100800,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-34"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -452,7 +497,8 @@
             {
                 "chara": [
                     {
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-35"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -465,7 +511,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 101200,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-36"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -478,7 +525,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 100800,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-37"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -487,7 +535,8 @@
             {
                 "chara": [
                     {
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-38"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -510,7 +559,8 @@
                         "face": "mtn_ex_040.exp3.json",
                         "id": 101200,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-39"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -523,7 +573,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 100800,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-40"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -536,7 +587,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 101200,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-41"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -547,7 +599,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-42"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -557,7 +610,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-43"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -566,7 +620,8 @@
             {
                 "chara": [
                     {
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-44"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -575,8 +630,11 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 100800,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-45"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -589,7 +647,8 @@
                         "face": "mtn_ex_040.exp3.json",
                         "id": 101200,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102946/vo_full_102908-1-46"
                     }
                 ],
                 "nameRight": "御園 かりん",

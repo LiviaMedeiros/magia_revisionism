@@ -13,13 +13,16 @@
                 "narrationHAlignment": "left",
                 "narrationPosX": 150,
                 "progressNarration": "これは、@私自身が二木市の魔法少女たちから聞いた話。",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-1"
             },
             {
-                "progressNarration": "最初の４編のひとつで、@プロミストブラッドの話。"
+                "progressNarration": "最初の４編のひとつで、@プロミストブラッドの話。",
+                "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-2"
             },
             {
-                "progressNarration": "この時は誰もが@自分たちに訪れる未来を知る由もなかった。"
+                "progressNarration": "この時は誰もが@自分たちに訪れる未来を知る由もなかった。",
+                "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-3"
             },
             {
                 "autoTurnLast": 1.5,
@@ -44,19 +47,24 @@
                 "narrationHAlignment": "left",
                 "narrationPosX": 150,
                 "progressNarration": "[textBlack:二木市の病院で入院していた私のところには]@[textBlack:プロミストブラッドの人たちが、]@[textBlack:お見舞いついでに様子を色々と教えてくれた。]",
-                "turnChangeOut": "whiteOut"
+                "turnChangeOut": "whiteOut",
+                "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-4"
             },
             {
-                "progressNarration": "[textBlack:先の戦いでいろはさんを信じて、]@[textBlack:ユニオンとの戦いをやめると宣言した紅晴さん。]@[textBlack:だけど、大庭さんが率いる竜ケ崎の人たちから]@[textBlack:反対の声が強くあがってるみたいだった。]"
+                "progressNarration": "[textBlack:先の戦いでいろはさんを信じて、]@[textBlack:ユニオンとの戦いをやめると宣言した紅晴さん。]@[textBlack:だけど、大庭さんが率いる竜ケ崎の人たちから]@[textBlack:反対の声が強くあがってるみたいだった。]",
+                "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-5"
             },
             {
-                "progressNarration": "[textBlack:私も簡単にはいかないと思っていたけど、]@[textBlack:紅晴さんに戦いをやめさせた鈴鹿さんの死は]@[textBlack:間違いなく他の二木市の魔法少女たちに]@[textBlack:火を点けている。]"
+                "progressNarration": "[textBlack:私も簡単にはいかないと思っていたけど、]@[textBlack:紅晴さんに戦いをやめさせた鈴鹿さんの死は]@[textBlack:間違いなく他の二木市の魔法少女たちに]@[textBlack:火を点けている。]",
+                "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-6"
             },
             {
-                "progressNarration": "[textBlack:いろはさんたちユニオンだけじゃなく]@[textBlack:時女一族も恨み始めたプロミストブラッドは、]@[textBlack:３つのグループで手を取り合う方向には]@[textBlack:動けていない様子だった。]"
+                "progressNarration": "[textBlack:いろはさんたちユニオンだけじゃなく]@[textBlack:時女一族も恨み始めたプロミストブラッドは、]@[textBlack:３つのグループで手を取り合う方向には]@[textBlack:動けていない様子だった。]",
+                "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-7"
             },
             {
-                "progressNarration": "[textBlack:本当はこういうときこそ竜ケ崎の大庭さんが]@[textBlack:前に出るべきなのかもしれないけど、]@[textBlack:ユニオンとの戦いが一区切りついたばかりで、]@[textBlack:いつもの炎が消えかかっているみたいだった。]"
+                "progressNarration": "[textBlack:本当はこういうときこそ竜ケ崎の大庭さんが]@[textBlack:前に出るべきなのかもしれないけど、]@[textBlack:ユニオンとの戦いが一区切りついたばかりで、]@[textBlack:いつもの炎が消えかかっているみたいだった。]",
+                "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-8"
             },
             {
                 "autoTurnLast": 1.5,
@@ -85,7 +93,8 @@
                 "chara": [
                     {
                         "id": 102401,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-9"
                     }
                 ],
                 "nameCenter": "樹里",
@@ -101,17 +110,21 @@
                 "narration": "「第１部完」"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 102401,
                         "motion": 400,
-                        "mouthOpen": 1
+                        "mouthOpen": 0,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-12"
                     }
                 ],
                 "nameCenter": "樹里",
-                "narrationEffect": "out",
                 "textBg": "shout",
                 "textCenter": "おおおおぃいいい!!"
             },
@@ -127,17 +140,21 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102401,
                         "motion": 300,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-14"
                     }
                 ],
                 "nameCenter": "樹里",
-                "narrationEffect": "out",
                 "textCenter": "あぁ、マジかぁ…@クッソ不完全燃焼すぎるだろ…"
             },
             {
@@ -145,7 +162,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_032.exp3.json",
-                        "id": 102401
+                        "id": 102401,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-15"
                     }
                 ],
                 "nameCenter": "樹里",
@@ -158,7 +176,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102401,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-16"
                     }
                 ],
                 "nameCenter": "樹里",
@@ -167,7 +186,8 @@
             {
                 "chara": [
                     {
-                        "id": 102401
+                        "id": 102401,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-17"
                     }
                 ],
                 "nameCenter": "樹里",
@@ -177,7 +197,8 @@
                 "chara": [
                     {
                         "id": 102401,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-18"
                     }
                 ],
                 "nameCenter": "樹里",
@@ -195,9 +216,13 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "nameCenter": "樹里の声",
-                "narrationEffect": "out",
-                "textCenter": "生きてる気がしねー…"
+                "textCenter": "生きてる気がしねー…",
+                "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-20"
             },
             {
                 "chara": [
@@ -206,7 +231,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 304401,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-21"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -215,7 +241,8 @@
             {
                 "chara": [
                     {
-                        "id": 304401
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-22"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -228,7 +255,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102401,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-23"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -238,7 +266,8 @@
                 "chara": [
                     {
                         "id": 304401,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-24"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -247,7 +276,8 @@
             {
                 "chara": [
                     {
-                        "id": 304401
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-25"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -257,7 +287,8 @@
                 "chara": [
                     {
                         "id": 102401,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-26"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -270,7 +301,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 304401,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-27"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -283,7 +315,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102401,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-28"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -292,7 +325,8 @@
             {
                 "chara": [
                     {
-                        "id": 102401
+                        "id": 102401,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-29"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -301,7 +335,8 @@
             {
                 "chara": [
                     {
-                        "id": 102401
+                        "id": 102401,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-30"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -312,7 +347,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 102401
+                        "id": 102401,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-31"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -325,7 +361,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 304401,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-32"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -338,7 +375,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102401,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-33"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -351,7 +389,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 304401,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-34"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -360,7 +399,8 @@
             {
                 "chara": [
                     {
-                        "id": 304401
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-35"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -369,7 +409,8 @@
             {
                 "chara": [
                     {
-                        "id": 304401
+                        "id": 304401,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-36"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -382,7 +423,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102401,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-37"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -392,7 +434,8 @@
                 "chara": [
                     {
                         "id": 304401,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-38"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -402,7 +445,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 102401
+                        "id": 102401,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-39"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -413,7 +457,8 @@
                     {
                         "eyeClose": 0,
                         "id": 102401,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-40"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -423,7 +468,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 102401
+                        "id": 102401,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-41"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -436,7 +482,8 @@
                         "eyeClose": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102401,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-42"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -449,7 +496,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 304401,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-43"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -458,7 +506,8 @@
             {
                 "chara": [
                     {
-                        "id": 102401
+                        "id": 102401,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-44"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -471,7 +520,8 @@
                         "face": "mtn_ex_012.exp3.json",
                         "id": 102401,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-45"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -484,7 +534,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 304401,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-46"
                     }
                 ],
                 "nameRight": "智珠 らんか",
@@ -495,7 +546,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
-                        "id": 102401
+                        "id": 102401,
+                        "voiceFullAuto": "fullvoice/section_102912/vo_full_102903-1-47"
                     }
                 ],
                 "nameLeft": "樹里",

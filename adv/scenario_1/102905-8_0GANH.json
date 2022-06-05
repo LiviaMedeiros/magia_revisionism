@@ -24,11 +24,12 @@
                 "turnChangeIn": "fadeIn"
             },
             {
+                "autoTurnLast": 1,
                 "bgm": "bgm03_story07",
                 "chara": [
                     {
-                        "eyeClose": 0,
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFull": "fullvoice/section_102939/vo_full_102905-8-1"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -38,7 +39,17 @@
             {
                 "chara": [
                     {
-                        "id": 104101
+                        "eyeClose": 0,
+                        "id": 103701
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-2",
+                        "voiceFullStop": "fullvoice/section_102939/vo_full_102905-8-1"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -51,7 +62,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-3"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -64,7 +76,8 @@
                         "face": "mtn_ex_011.exp3.json",
                         "id": 104101,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-4"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -75,7 +88,8 @@
                     {
                         "cheek": 1,
                         "face": "mtn_ex_050.exp3.json",
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-5"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -87,7 +101,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 103701,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-6"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -99,7 +114,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_040.exp3.json",
                         "id": 104101,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-7"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -108,7 +124,8 @@
             {
                 "chara": [
                     {
-                        "id": 104101
+                        "id": 104101,
+                        "voiceFull": "fullvoice/section_102939/vo_full_102905-8-8"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -121,16 +138,19 @@
                         "face": "mtn_ex_031.exp3.json",
                         "id": 103701,
                         "lipSynch": 0,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullStop": "fullvoice/section_102939/vo_full_102905-8-8"
                     }
                 ],
                 "nameLeft": "那由他",
-                "textLeft": "…………[wait:0.8][chara:103701:lipSynch_1]その出てったは"
+                "textLeft": "…………[wait:0.8][chara:103701:lipSynch_1][chara:103701:voiceFull_fullvoice/section_102939/vo_full_102905-8-9]その出てったは"
             },
             {
                 "chara": [
                     {
-                        "id": 103701
+                        "id": 103701,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-10",
+                        "voiceFullStop": "fullvoice/section_102939/vo_full_102905-8-9"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -142,7 +162,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 104101,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-11"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -155,7 +176,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 103701,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-12"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -165,7 +187,8 @@
                 "chara": [
                     {
                         "id": 104101,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-13"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -174,7 +197,8 @@
             {
                 "chara": [
                     {
-                        "id": 104101
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-14"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -187,7 +211,8 @@
                         "face": "mtn_ex_011.exp3.json",
                         "id": 104101,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-15"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -197,7 +222,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-16"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -218,8 +244,14 @@
                 "turnChangeIn": "fadeIn"
             },
             {
+                "chara": [
+                    {
+                        "id": 802401,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-17"
+                    }
+                ],
                 "nameNarration": "太助",
-                "narration": "那由他の心も体も傷付かないように@配慮していたつもりが@一番傷付ける結果を招いたのかもしれない",
+                "narration": "那由他の心も体も傷つかないように@配慮していたつもりが@一番傷つける結果を招いたのかもしれない",
                 "narrationEffect": "in",
                 "turnChangeOut": "fadeOut"
             },
@@ -227,7 +259,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 802401
+                        "id": 802401,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-18"
                     }
                 ],
                 "narration": "それについては最大限謝らせて欲しい"
@@ -237,18 +270,26 @@
                     {
                         "eyeClose": 0,
                         "id": 802401,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-19"
                     }
                 ],
                 "narration": "ただ、今日話した@魔法少女を広めることで絶望が生まれる@仮説の検証は、これからも続く"
             },
             {
+                "chara": [
+                    {
+                        "id": 802401,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-20"
+                    }
+                ],
                 "narration": "もしも那由他が@私たちの考えに理解を示してくれるなら@今夜、南凪にある水族館に来て欲しい"
             },
             {
                 "chara": [
                     {
-                        "id": 802401
+                        "id": 802401,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-21"
                     }
                 ],
                 "narration": "午前０時のフォークロアの４人と一緒に@湯国市に戻ることができたなら@彼女たちに何が起きたのか説明できるし@もう少し私の考えを話す時間も持てる"
@@ -257,19 +298,27 @@
                 "chara": [
                     {
                         "id": 802401,
-                        "motion": 2
+                        "motion": 2,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-22"
                     }
                 ],
                 "narration": "だけど、もしも今の家に残るようであれば@何もせずに戦いの成り行きを@見守っていて欲しい"
             },
             {
+                "chara": [
+                    {
+                        "id": 802401,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-23"
+                    }
+                ],
                 "narration": "あと最後に、今日聞いた話は@分裂を生む最も危険な要因となりえる話だから@他言無用でお願いする"
             },
             {
                 "chara": [
                     {
                         "id": 802401,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-24"
                     }
                 ],
                 "narration": "じゃあ、待ってるよ那由他"
@@ -289,6 +338,12 @@
                 "turnChangeIn": "fadeIn"
             },
             {
+                "chara": [
+                    {
+                        "id": 103301,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-25"
+                    }
+                ],
                 "nameNarration": "ラビ",
                 "narration": "今まで教授との関係を黙っていたこと@非常に申し訳なく思っています@私自身、切り出すタイミングを失い@あのような形で知らせることになりました",
                 "narrationEffect": "in",
@@ -298,7 +353,8 @@
                 "chara": [
                     {
                         "id": 103301,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-26"
                     }
                 ],
                 "narration": "勘違いしないで欲しいのは@私から那由他様への想いについてです"
@@ -307,7 +363,8 @@
                 "chara": [
                     {
                         "id": 103301,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-27"
                     }
                 ],
                 "narration": "騙していたとはいえ@あくまで隠し事をしていた部分だけが@偽りの私です"
@@ -315,7 +372,8 @@
             {
                 "chara": [
                     {
-                        "id": 103301
+                        "id": 103301,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-28"
                     }
                 ],
                 "narration": "これまで共に生活をして過ごしていた時間@その９割９分９厘は@偽りではなく真実の私ですので"
@@ -323,7 +381,8 @@
             {
                 "chara": [
                     {
-                        "id": 103301
+                        "id": 103301,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-29"
                     }
                 ],
                 "narration": "何卒、何もなかった幻の時間だったとは@思わないで頂きたいです"
@@ -334,7 +393,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 103301,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-30"
                     }
                 ],
                 "narration": "また那由他様にラザニアを作れるのを@楽しみにしております"
@@ -365,7 +425,8 @@
                 "chara": [
                     {
                         "id": 103701,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-31"
                     }
                 ],
                 "nameLeft": "那由他",
@@ -375,7 +436,8 @@
             {
                 "chara": [
                     {
-                        "id": 104101
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-32"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -386,7 +448,8 @@
                     {
                         "id": 103701,
                         "lipSynch": 1,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_102939/vo_full_102905-8-33"
                     }
                 ],
                 "nameLeft": "那由他",

@@ -29,7 +29,8 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-1"
                     }
                 ],
                 "nameCenter": "月咲",
@@ -40,7 +41,8 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-2"
                     }
                 ],
                 "nameCenter": "月咲",
@@ -50,11 +52,12 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-3"
                     }
                 ],
                 "nameCenter": "月咲",
-                "textCenter": "（動き辛くなっちゃったな…）"
+                "textCenter": "（動きづらくなっちゃったな…）"
             },
             {
                 "chara": [
@@ -63,7 +66,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 101901,
                         "lipSynch": 1,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-4"
                     }
                 ],
                 "nameCenter": "月咲",
@@ -75,15 +79,19 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
-                        "id": 101901
+                        "id": 101901,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-6"
                     }
                 ],
                 "nameCenter": "月咲",
-                "narrationEffect": "out",
                 "textCenter": "月夜ちゃん…"
             },
             {
@@ -111,14 +119,18 @@
                 "narration": "なので、どこかで抜け出して@ユニオンの力になった方が良さそうでございます@特に果てなしのミラーズの問題については@何も動けていないので…"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "id": 101901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-11"
                     }
                 ],
                 "nameCenter": "月咲",
-                "narrationEffect": "out",
                 "textCenter": "…………"
             },
             {
@@ -138,7 +150,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 801100,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-12"
                     }
                 ],
                 "nameRight": "タケ",
@@ -150,8 +163,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 101901,
-                        "lipSynch": 0,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-13"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -160,7 +173,8 @@
             {
                 "chara": [
                     {
-                        "id": 801100
+                        "id": 801100,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-14"
                     }
                 ],
                 "nameRight": "タケ",
@@ -173,7 +187,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 101901,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-15"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -184,7 +199,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 801100
+                        "id": 801100,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-16"
                     }
                 ],
                 "nameRight": "タケ",
@@ -193,7 +209,8 @@
             {
                 "chara": [
                     {
-                        "id": 801100
+                        "id": 801100,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-17"
                     }
                 ],
                 "nameRight": "タケ",
@@ -203,7 +220,8 @@
                 "chara": [
                     {
                         "id": 101901,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-18"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -214,7 +232,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 801100
+                        "id": 801100,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-19"
                     }
                 ],
                 "nameRight": "タケ",
@@ -223,7 +242,8 @@
             {
                 "chara": [
                     {
-                        "id": 801100
+                        "id": 801100,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-20"
                     }
                 ],
                 "nameRight": "タケ",
@@ -234,7 +254,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
-                        "id": 101901
+                        "id": 101901,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-21"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -245,7 +266,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
-                        "id": 801100
+                        "id": 801100,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-22"
                     }
                 ],
                 "nameRight": "タケ",
@@ -256,7 +278,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 801100
+                        "id": 801100,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-23"
                     }
                 ],
                 "nameRight": "タケ",
@@ -265,7 +288,8 @@
             {
                 "chara": [
                     {
-                        "id": 801100
+                        "id": 801100,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-24"
                     }
                 ],
                 "nameRight": "タケ",
@@ -277,7 +301,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 101901,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-25"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -286,7 +311,8 @@
             {
                 "chara": [
                     {
-                        "id": 101901
+                        "id": 101901,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-26"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -295,7 +321,8 @@
             {
                 "chara": [
                     {
-                        "id": 801100
+                        "id": 801100,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-27"
                     }
                 ],
                 "nameRight": "タケ",
@@ -308,7 +335,8 @@
                         "face": "mtn_ex_011.exp3.json",
                         "id": 101901,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-28"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -320,7 +348,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 101901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-29"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -345,13 +374,16 @@
                 "narration": "灯花さんとねむさんは@いつも乱暴なやり方だったけど@ウチらを救おうとしてくれた",
                 "narrationCoverOpacity": 150,
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-30"
             },
             {
-                "narration": "確かにマギウスの時は知的好奇心の方が@強かったのかもしれない"
+                "narration": "確かにマギウスの時は知的好奇心の方が@強かったのかもしれない",
+                "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-31"
             },
             {
-                "narration": "だけど、本気で魔法少女の解放を望んでいるから@メッセージに書かれていた通り@捨て身で死にかけているんだと思う"
+                "narration": "だけど、本気で魔法少女の解放を望んでいるから@メッセージに書かれていた通り@捨て身で死にかけているんだと思う",
+                "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-32"
             },
             {
                 "autoTurnLast": 0.1,
@@ -363,13 +395,16 @@
                 ]
             },
             {
-                "narration": "そんなふたりと比べて@ウチはいつでもおんぶに抱っこ@自分の力で救われようとはしていない…"
+                "narration": "そんなふたりと比べて@ウチはいつでもおんぶに抱っこ@自分の力で救われようとはしていない…",
+                "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-33"
             },
             {
-                "narration": "だから、本当に救われたいなら@自分で動かないと…"
+                "narration": "だから、本当に救われたいなら@自分で動かないと…",
+                "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-34"
             },
             {
-                "narration": "月夜ちゃんとウチを隔てる@東西の呪縛から解放されるためにも@自分で動かないと"
+                "narration": "月夜ちゃんとウチを隔てる@東西の呪縛から解放されるためにも@自分で動かないと",
+                "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-35"
             },
             {
                 "autoTurnLast": 0.2,
@@ -397,7 +432,8 @@
             {
                 "chara": [
                     {
-                        "id": 101901
+                        "id": 101901,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-36"
                     }
                 ],
                 "nameLeft": "月咲",
@@ -407,7 +443,8 @@
             {
                 "chara": [
                     {
-                        "id": 801100
+                        "id": 801100,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-6-37"
                     }
                 ],
                 "nameRight": "タケ",

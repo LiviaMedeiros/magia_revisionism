@@ -51,7 +51,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 801000,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-2"
                     }
                 ],
                 "nameCenter": "ひめなの母",
@@ -60,7 +61,8 @@
             {
                 "chara": [
                     {
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-3"
                     }
                 ],
                 "nameCenter": "ひめなの母",
@@ -84,7 +86,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102801,
                         "motion": 1,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-4"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -94,7 +97,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 102801
+                        "id": 102801,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-5"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -107,13 +111,15 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 801000,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-6"
                     }
                 ],
                 "nameLeft": "ひめなの母",
                 "textLeft": "っ、やめなさいひめな！"
             },
             {
+                "autoTurnLast": 0.6,
                 "chara": [
                     {
                         "cheek": 0,
@@ -121,17 +127,41 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102801,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_103001/vo_full_103001-5-7"
                     }
                 ],
                 "nameRight": "ひめな",
-                "textRight": "は…？@[chara:102801:lipSynch_0][wait:1.2][chara:102801:cheek_0][chara:102801:eyeClose_1][chara:102801:lipSynch_1]ちょっと待ってヒコ君"
+                "textRight": "は…？@ちょっと待ってヒコ君"
             },
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102801
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
                         "eyeClose": 0,
                         "id": 102801
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102801,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-8",
+                        "voiceFullStop": "fullvoice/section_103001/vo_full_103001-5-7"
                     }
                 ],
                 "nameRight": "ひめな",
@@ -140,7 +170,8 @@
             {
                 "chara": [
                     {
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-9"
                     }
                 ],
                 "nameLeft": "ひめなの母",
@@ -151,7 +182,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-10"
                     }
                 ],
                 "nameLeft": "ひめなの母",
@@ -160,7 +192,8 @@
             {
                 "chara": [
                     {
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-11"
                     }
                 ],
                 "nameLeft": "ひめなの母",
@@ -173,7 +206,8 @@
                         "face": "mtn_ex_021.exp3.json",
                         "id": 102801,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-12"
                     }
                 ],
                 "nameRight": "ひめな",
@@ -182,7 +216,8 @@
             {
                 "chara": [
                     {
-                        "id": 102801
+                        "id": 102801,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-13"
                     }
                 ],
                 "nameRight": "ひめな",
@@ -192,7 +227,8 @@
                 "chara": [
                     {
                         "id": 102801,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-14"
                     }
                 ],
                 "nameRight": "ひめな",
@@ -201,7 +237,8 @@
             {
                 "chara": [
                     {
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-15"
                     }
                 ],
                 "nameLeft": "ひめなの母",
@@ -210,7 +247,8 @@
             {
                 "chara": [
                     {
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-16"
                     }
                 ],
                 "nameLeft": "ひめなの母",
@@ -219,7 +257,8 @@
             {
                 "chara": [
                     {
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-17"
                     }
                 ],
                 "nameLeft": "ひめなの母",
@@ -232,7 +271,7 @@
                     {
                         "cheek": 1,
                         "id": 102801,
-                        "mouthOpen": 1
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-18"
                     }
                 ],
                 "nameRight": "ひめな",
@@ -243,8 +282,7 @@
                 "chara": [
                     {
                         "id": 102801,
-                        "motion": 400,
-                        "mouthOpen": 0
+                        "motion": 400
                     }
                 ],
                 "nameNarration": "",
@@ -252,22 +290,27 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-20"
                     }
                 ],
                 "nameLeft": "ひめなの母",
-                "narrationEffect": "out",
                 "textLeft": "ヒッ…！"
             },
             {
                 "chara": [
                     {
                         "id": 102801,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-21"
                     }
                 ],
                 "nameRight": "ひめな",
@@ -278,7 +321,8 @@
                     {
                         "cheek": 2,
                         "id": 102801,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-22"
                     }
                 ],
                 "nameRight": "ひめな",
@@ -313,7 +357,8 @@
                     {
                         "eyeClose": 1,
                         "id": 102801,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-23"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -324,7 +369,8 @@
                 "chara": [
                     {
                         "eyeClose": 0,
-                        "id": 102801
+                        "id": 102801,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-24"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -355,7 +401,8 @@
             {
                 "chara": [
                     {
-                        "id": 800202
+                        "id": 800202,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-25"
                     }
                 ],
                 "nameLeft": "",
@@ -365,7 +412,8 @@
             {
                 "chara": [
                     {
-                        "id": 800202
+                        "id": 800202,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-26"
                     }
                 ],
                 "nameLeft": "",
@@ -374,7 +422,8 @@
             {
                 "chara": [
                     {
-                        "id": 800301
+                        "id": 800301,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-27"
                     }
                 ],
                 "nameRight": "",
@@ -383,7 +432,8 @@
             {
                 "chara": [
                     {
-                        "id": 800301
+                        "id": 800301,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-28"
                     }
                 ],
                 "nameRight": "",
@@ -392,7 +442,8 @@
             {
                 "chara": [
                     {
-                        "id": 800202
+                        "id": 800202,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-29"
                     }
                 ],
                 "nameLeft": "",
@@ -415,7 +466,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-30"
                     }
                 ],
                 "nameCenter": "",
@@ -425,7 +477,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-31"
                     }
                 ],
                 "nameCenter": "",
@@ -434,7 +487,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-32"
                     }
                 ],
                 "nameCenter": "",
@@ -457,7 +511,8 @@
             {
                 "chara": [
                     {
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-33"
                     }
                 ],
                 "nameCenter": "ひめなの母",
@@ -467,7 +522,8 @@
             {
                 "chara": [
                     {
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-34"
                     }
                 ],
                 "nameCenter": "ひめなの母",
@@ -476,7 +532,8 @@
             {
                 "chara": [
                     {
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-35"
                     }
                 ],
                 "nameCenter": "ひめなの母",
@@ -485,7 +542,8 @@
             {
                 "chara": [
                     {
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-36"
                     }
                 ],
                 "nameCenter": "ひめなの母",
@@ -509,7 +567,8 @@
             {
                 "chara": [
                     {
-                        "id": 102801
+                        "id": 102801,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-37"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -520,7 +579,8 @@
                 "chara": [
                     {
                         "id": 102801,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-38"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -532,7 +592,8 @@
                         "cheek": 1,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102801,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-39"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -541,7 +602,8 @@
             {
                 "chara": [
                     {
-                        "id": 102801
+                        "id": 102801,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-40"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -552,7 +614,8 @@
                     {
                         "cheek": 1,
                         "face": "mtn_ex_031.exp3.json",
-                        "id": 102801
+                        "id": 102801,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-41"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -562,7 +625,8 @@
                 "chara": [
                     {
                         "id": 102801,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-42"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -575,7 +639,8 @@
                         "face": "mtn_ex_021.exp3.json",
                         "id": 102801,
                         "motion": 400,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-43"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -586,7 +651,8 @@
                     {
                         "id": 102801,
                         "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-44"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -596,7 +662,8 @@
                 "chara": [
                     {
                         "id": 102801,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-5-45"
                     }
                 ],
                 "nameCenter": "ひめな",

@@ -4,6 +4,7 @@
             {
                 "autoTurnLast": 0.01,
                 "bg": "bg_adv_21614.jpg",
+                "bgm": "bgm03_story19",
                 "chara": [
                     {
                         "cheek": 0,
@@ -13,7 +14,6 @@
                         "pos": 1
                     }
                 ],
-                "surround": "7102_townbuzz",
                 "turnChangeIn": "fadeIn"
             },
             {
@@ -29,7 +29,7 @@
                         "id": 801200
                     }
                 ],
-                "nameCenter": "",
+                "nameCenter": "れい",
                 "narrationEffect": "out",
                 "textCenter": "ふぅ…"
             },
@@ -43,7 +43,7 @@
                         "pos": 1
                     }
                 ],
-                "nameCenter": "",
+                "nameCenter": "れい",
                 "textCenter": "…………"
             },
             {
@@ -123,7 +123,7 @@
                         "pos": 1
                     }
                 ],
-                "nameCenter": "",
+                "nameCenter": "れい",
                 "textCenter": "…………"
             },
             {
@@ -144,7 +144,7 @@
                         "pos": 1
                     }
                 ],
-                "nameCenter": "",
+                "nameCenter": "れい",
                 "surround": "stop",
                 "textCenter": "あっ…"
             },
@@ -233,8 +233,7 @@
                         "pos": 1
                     }
                 ],
-                "nameCenter": "",
-                "surround": "stop",
+                "nameCenter": "れい",
                 "textCenter": "…………！"
             },
             {
@@ -247,13 +246,12 @@
                         "pos": 1
                     }
                 ],
-                "nameCenter": "",
+                "nameCenter": "れい",
                 "textCenter": "[flashEffect:flashWhite2]えいっ！"
             },
             {
-                "bgm": "bgm03_story09",
                 "nameNarration": "",
-                "narration": "「今のは通称、うららスペシャルでしょうか？@有愛うらら選手にしかできないと思ってましたが@天才小学生の出場ですね！」",
+                "narration": "「今のは通称、うららスペシャルでしょうか？@有愛うらら選手にしかできないと思ってましたが@天才小学生の登場ですね！」",
                 "narrationBg": "",
                 "narrationEffect": "in"
             },
@@ -287,10 +285,11 @@
                     }
                 ],
                 "nameCenter": "うらら",
-                "textCenter": "れいちゃん…！@[chara:103601:lipSynch_0][wait:1.0][chara:103601:motion_100][chara:103601:cheek_0][chara:103601:face_mtn_ex_011.exp.json][chara:103601:lipSynch_1]やったんよ!!"
+                "textCenter": "れいちゃん…！@[chara:103601:lipSynch_0][wait:1.0][chara:103601:effect_emotion_joy_0][se:7222_happy][chara:103601:motion_100][chara:103601:cheek_0][chara:103601:face_mtn_ex_011.exp.json][chara:103601:lipSynch_1]やったんよ!!"
             },
             {
                 "autoTurnLast": 0.2,
+                "bgm": "stop",
                 "textClear": 1
             },
             {
@@ -316,6 +315,7 @@
                 "turnChangeInTime": 1.5
             },
             {
+                "bgm": "bgm24_story08",
                 "chara": [
                     {
                         "cheek": 0,
@@ -325,7 +325,7 @@
                         "pos": 2
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "[chara:801200:effect_emotion_joy_0][se:7222_happy]うららちゃん、見てみて！",
                 "turnChangeOut": "fadeOut",
                 "turnChangeOutTime": 1.5
@@ -336,7 +336,7 @@
                         "id": 801200
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "優勝カップ、@初めてもらっちゃった！"
             },
             {
@@ -361,7 +361,7 @@
                         "pos": 2
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "ミスもあったけど…"
             },
             {
@@ -373,7 +373,7 @@
                         "pos": 2
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "天才のあの子にもできなかった@トリックが評価されて"
             },
             {
@@ -382,7 +382,7 @@
                         "id": 801200
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "ギリギリ優勝できたの！"
             },
             {
@@ -391,7 +391,7 @@
                         "id": 801200
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "本当にぜんぶ@うららちゃんのおかげだよ"
             },
             {
@@ -419,10 +419,11 @@
             {
                 "chara": [
                     {
+                        "cheek": 1,
                         "id": 801200
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "えへへ…"
             },
             {
@@ -431,7 +432,7 @@
                         "id": 801200
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "私でもあの子に勝てることが@あったんだって思うとね"
             },
             {
@@ -440,7 +441,7 @@
                         "id": 801200
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "すっごく嬉しい…！"
             },
             {
@@ -449,7 +450,7 @@
                         "id": 801200
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "うららちゃんに教えてほしいって@お願いしてよかった…！"
             },
             {
@@ -460,7 +461,7 @@
                     }
                 ],
                 "nameLeft": "うらら",
-                "textLeft": "ウチも引き受けさせてもらえて@よかったんよ"
+                "textLeft": "ウチもコーチをやらせてもらえて@よかったんよ"
             },
             {
                 "chara": [
@@ -483,7 +484,7 @@
                         "pos": 2
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "後悔…？"
             },
             {
@@ -531,7 +532,7 @@
                         "pos": 2
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "ふぅん…？"
             },
             {
@@ -543,7 +544,7 @@
                         "pos": 2
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "それならきっと、大成功だよね！"
             },
             {
@@ -552,7 +553,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 103601,
-                        "motion": 200,
+                        "motion": 0,
                         "pos": 0
                     }
                 ],
@@ -565,7 +566,7 @@
                         "id": 801200
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "だってうららちゃんのおかげで@難しいトリックを学べて"
             },
             {
@@ -574,7 +575,7 @@
                         "id": 801200
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "あの子にも勝って@優勝できたんだもん！"
             },
             {
@@ -583,7 +584,6 @@
                         "cheek": 0,
                         "id": 103601,
                         "lipSynch": 0,
-                        "motion": 0,
                         "pos": 0
                     }
                 ],
@@ -594,7 +594,8 @@
                 "chara": [
                     {
                         "id": 103601,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "motion": 300
                     }
                 ],
                 "nameLeft": "うらら",
@@ -608,7 +609,7 @@
                     }
                 ],
                 "nameLeft": "うらら",
-                "textLeft": "（ウチが教えてあげられるのか@不安だったけど…）"
+                "textLeft": "（ウチが教えてあげられるか@不安だったけど…）"
             },
             {
                 "chara": [
@@ -626,6 +627,8 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 103601,
                         "motion": 100
                     }
@@ -642,7 +645,7 @@
                         "pos": 2
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "ねえ…ディアボロのコーチ@またやってくれる…？"
             },
             {
@@ -651,6 +654,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 103601,
+                        "motion": 400,
                         "pos": 0
                     }
                 ],
@@ -666,7 +670,7 @@
                         "pos": 2
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "うららちゃんだから@お願いしたいんだよ"
             },
             {
@@ -675,7 +679,7 @@
                         "id": 801200
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "だって、優勝するだけじゃなくて"
             },
             {
@@ -684,7 +688,7 @@
                         "id": 801200
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "れい",
                 "textRight": "ディアボロは楽しいんだって@気持ちを思い出せたんだもん"
             },
             {

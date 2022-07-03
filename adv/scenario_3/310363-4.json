@@ -4,7 +4,7 @@
             {
                 "autoTurnLast": 0.01,
                 "bg": "bg_adv_18081.jpg",
-                "bgm": "bgm23_folklore01",
+                "bgm": "bgm23_folklore02",
                 "chara": [
                     {
                         "cheek": 1,
@@ -212,6 +212,8 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 103601
                     }
                 ],
@@ -280,16 +282,18 @@
                     }
                 ],
                 "nameRight": "うらら",
-                "textRight": "ラビさんにそう言ってもらえると@すごく嬉しいんよ、ニパッ"
+                "textRight": "ラビさんにそう言ってもらえると@すごく嬉しいんよ、[chara:103601:lipSynch_0][wait:1.0][chara:103601:mouthOpen_1][chara:103601:lipSynch_1]ニパッ"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
+                        "eyeClose": 1,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 103601,
                         "lipSynch": 0,
-                        "pos": 2
+                        "motion": 0,
+                        "mouthOpen": 0
                     }
                 ],
                 "nameRight": "うらら",
@@ -298,6 +302,9 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103601,
                         "lipSynch": 0
                     }
@@ -311,7 +318,6 @@
                         "cheek": 0,
                         "id": 103601,
                         "lipSynch": 0,
-                        "motion": 0,
                         "pos": 2
                     }
                 ],
@@ -321,6 +327,9 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103601
                     }
                 ],
@@ -342,7 +351,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 103401,
-                        "motion": 100,
+                        "motion": 1,
                         "pos": 0
                     }
                 ],
@@ -370,15 +379,15 @@
                 "textRight": "そうなんよ"
             },
             {
-                "autoTurnLast": 1,
+                "autoTurnLast": 1.5,
                 "bg": "bg_adv_21341.jpg",
                 "bgm": "stop",
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp3.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103601,
-                        "motion": 0,
+                        "motion": 200,
                         "pos": 0,
                         "soulGem": 0
                     },
@@ -397,8 +406,7 @@
                 "bgm": "bgm03_story05",
                 "chara": [
                     {
-                        "id": 103601,
-                        "motion": 200
+                        "id": 103601
                     }
                 ],
                 "nameLeft": "うらら",
@@ -408,14 +416,17 @@
             {
                 "chara": [
                     {
-                        "id": 103601
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 103601,
+                        "motion": 100
                     }
                 ],
                 "nameLeft": "うらら",
                 "textLeft": "ディアボロの演技で@世界中の人を笑顔にするんよ！"
             },
             {
-                "autoTurnLast": 0.01,
+                "autoTurnLast": 1,
                 "bg": "bg_adv_18081.jpg",
                 "chara": [
                     {
@@ -518,6 +529,7 @@
                 "chara": [
                     {
                         "cheek": 0,
+                        "eyeClose": 1,
                         "id": 103601,
                         "lipSynch": 0,
                         "motion": 1,
@@ -526,6 +538,63 @@
                 ],
                 "nameRight": "うらら",
                 "textRight": "（それでも、こんな夢くらいは@持ってていいんよね…？）"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_narration.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 103601,
+                        "motion": 0,
+                        "pos": 1,
+                        "tear": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnFirst": 1.3,
+                "chara": [
+                    {
+                        "id": 103601,
+                        "pos": 1,
+                        "voice": "vo_char_1036_00_05"
+                    }
+                ],
+                "nameCenter": "うらら",
+                "textCenter": "ウチの夢、@いつか叶えてみせるんよ！",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnFirst": 0.2,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 103601
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp3.json",
+                        "id": 103601,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103601
+                    }
+                ]
             },
             {
                 "autoTurnLast": 2,

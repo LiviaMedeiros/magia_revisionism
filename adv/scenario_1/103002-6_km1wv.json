@@ -23,13 +23,17 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
-                        "id": 100101
+                        "id": 100101,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-2"
                     }
                 ],
                 "nameCenter": "いろは",
-                "narrationEffect": "out",
                 "textCenter": "…やちよさんから"
             },
             {
@@ -51,7 +55,8 @@
                 "chara": [
                     {
                         "id": 100201,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-3"
                     }
                 ],
                 "nameNarration": "やちよ",
@@ -64,7 +69,8 @@
             {
                 "chara": [
                     {
-                        "id": 100201
+                        "id": 100201,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-4"
                     }
                 ],
                 "narration": "十中八九は罠だという見立てだけど@今は小さな情報でも掴みたいし@少人数だと奇襲にあってやられる恐れがあるから@ももこたち３人も連れて@南凪にある待ち合わせのポイントに向かうわ"
@@ -73,7 +79,8 @@
                 "chara": [
                     {
                         "id": 100201,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-5"
                     }
                 ],
                 "narration": "いろはと二葉さんは途中でういちゃんと合流して@私たちのあとに続いてちょうだい@もしも私たちが罠にかかったとしても@十七夜を背後から突けるはずよ"
@@ -104,7 +111,8 @@
                 "chara": [
                     {
                         "id": 100101,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-6"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -114,7 +122,8 @@
             {
                 "chara": [
                     {
-                        "id": 100101
+                        "id": 100101,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-7"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -127,16 +136,18 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102701,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-8"
                     }
                 ],
                 "nameRight": "すなお",
-                "textRight": "それは、ネオマギウスが動いたと@いうことですよね"
+                "textRight": "それは、ネオマギウスが動いた@ということですよね"
             },
             {
                 "chara": [
                     {
-                        "id": 102701
+                        "id": 102701,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-9"
                     }
                 ],
                 "nameRight": "すなお",
@@ -149,7 +160,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 100101,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-10"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -183,7 +195,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 100401,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-11"
                     }
                 ],
                 "nameLeft": "さな",
@@ -196,7 +209,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102701,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-12"
                     }
                 ],
                 "nameRight": "すなお",
@@ -211,7 +225,8 @@
                         "id": 102601,
                         "motion": 200,
                         "pos": 1,
-                        "posX": 40
+                        "posX": 40,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-13"
                     }
                 ],
                 "nameCenter": "ちはる",
@@ -223,7 +238,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_040.exp3.json",
                         "id": 100401,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-14"
                     }
                 ],
                 "nameLeft": "さな",
@@ -235,7 +251,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102601,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-15"
                     }
                 ],
                 "nameCenter": "ちはる",
@@ -244,7 +261,8 @@
             {
                 "nameNarration": "かごめの声",
                 "narration": "「ごめんくださーい！」",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-16"
             },
             {
                 "autoTurnLast": 0.3,
@@ -277,7 +295,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102601,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-17"
                     },
                     {
                         "cheek": 0,
@@ -295,7 +314,8 @@
                 "chara": [
                     {
                         "id": 102001,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-18"
                     }
                 ],
                 "nameRight": "かごめ",
@@ -308,7 +328,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102601,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-19"
                     }
                 ],
                 "nameLeft": "ちはる",
@@ -318,7 +339,8 @@
                 "chara": [
                     {
                         "id": 102001,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-20"
                     }
                 ],
                 "nameRight": "アルちゃん",
@@ -331,7 +353,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102001,
                         "lipSynch": 1,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-21"
                     }
                 ],
                 "nameRight": "かごめ",
@@ -363,7 +386,8 @@
                         "face": "mtn_ex_021.exp3.json",
                         "id": 100101,
                         "motion": 401,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-22"
                     },
                     {
                         "cheek": 0,
@@ -383,7 +407,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102701,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-23"
                     }
                 ],
                 "nameRight": "すなお",
@@ -394,7 +419,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 100101
+                        "id": 100101,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-24"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -407,7 +433,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102701,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-25"
                     }
                 ],
                 "nameRight": "すなお",
@@ -418,7 +445,8 @@
                     {
                         "cheek": 1,
                         "id": 100101,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-26"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -431,7 +459,8 @@
                         "face": "mtn_ex_040.exp3.json",
                         "id": 100401,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-27"
                     }
                 ],
                 "nameLeft": "さな",
@@ -441,7 +470,8 @@
                 "chara": [
                     {
                         "id": 102701,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103002/vo_full_103002-6-28"
                     }
                 ],
                 "nameRight": "すなお",

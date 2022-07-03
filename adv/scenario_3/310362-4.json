@@ -4,7 +4,7 @@
             {
                 "autoTurnLast": 0.01,
                 "bg": "bg_adv_18081.jpg",
-                "bgm": "bgm23_folklore01",
+                "bgm": "bgm03_story08",
                 "chara": [
                     {
                         "cheek": 0,
@@ -57,6 +57,8 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103301,
                         "motion": 100
                     }
@@ -94,6 +96,7 @@
             {
                 "chara": [
                     {
+                        "eyeClose": 1,
                         "id": 103601
                     }
                 ],
@@ -103,6 +106,8 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 103301,
                         "motion": 200
                     }
@@ -113,6 +118,7 @@
             {
                 "chara": [
                     {
+                        "eyeClose": 0,
                         "id": 103601,
                         "motion": 1
                     }
@@ -123,6 +129,8 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103301
                     }
                 ],
@@ -179,7 +187,7 @@
                     }
                 ],
                 "nameLeft": "うらら",
-                "textLeft": "ウチも…あの子を傷つける@つもりなんてなかったんよ…"
+                "textLeft": "ウチも…くららを傷つける@つもりなんてなかったんよ…"
             },
             {
                 "chara": [
@@ -204,6 +212,7 @@
                 "chara": [
                     {
                         "cheek": 0,
+                        "eyeClose": 1,
                         "face": "mtn_ex_031.exp3.json",
                         "id": 103301,
                         "lipSynch": 0,
@@ -218,17 +227,16 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp3.json",
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103301,
-                        "motion": 0,
-                        "pos": 2
+                        "motion": 0
                     }
                 ],
                 "nameRight": "ラビ",
                 "textRight": "…おいで、うらら"
             },
             {
-                "bgm": "stop",
                 "chara": [
                     {
                         "effect": "shake",
@@ -244,10 +252,17 @@
             {
                 "autoTurnLast": 0.01,
                 "bg": "black",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/31036_urara_story/memoria_1757.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
                 "turnChangeIn": "rollInFast"
             },
             {
-                "bgm": "bgm05_event10",
                 "nameNarration": "うらら",
                 "narration": "―うらら―@ウチ…ずっとくららに@嫌な思いをさせてたんよ",
                 "narrationAnchor": "bottom",
@@ -281,6 +296,9 @@
             {
                 "nameNarration": "ラビ",
                 "narration": "―ラビ―@…………"
+            },
+            {
+                "narrationEffect": "out"
             },
             {
                 "autoTurnLast": 1,
@@ -370,7 +388,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 103601
+                        "id": 103601,
+                        "motion": 0
                     }
                 ],
                 "nameLeft": "うらら",
@@ -380,7 +399,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp3.json",
+                        "face": "mtn_ex_031.exp3.json",
                         "id": 103301,
                         "motion": 100,
                         "pos": 2
@@ -450,7 +469,7 @@
                     }
                 ],
                 "nameLeft": "うらら",
-                "textLeft": "あの子の気持ちに気づけなかった@ことが悔しいんよ…"
+                "textLeft": "くららの気持ちに気づけなかった@ことが悔しいんよ…"
             },
             {
                 "chara": [
@@ -465,11 +484,8 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_000.exp3.json",
                         "id": 103301,
-                        "motion": 300,
-                        "pos": 2
+                        "motion": 100
                     }
                 ],
                 "nameRight": "ラビ",
@@ -487,7 +503,8 @@
             {
                 "chara": [
                     {
-                        "id": 103301
+                        "id": 103301,
+                        "motion": 0
                     }
                 ],
                 "nameRight": "ラビ",
@@ -509,8 +526,11 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
                         "eyeClose": 1,
-                        "id": 103301
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 103301,
+                        "motion": 300
                     }
                 ],
                 "nameRight": "ラビ",
@@ -528,6 +548,7 @@
                 "textRight": "でも、うららに@乗り越えて欲しいから伝えた"
             },
             {
+                "bgm": "stop",
                 "chara": [
                     {
                         "id": 103601,
@@ -538,6 +559,7 @@
                 "textLeft": "…ぐすっ…@ラビさん…"
             },
             {
+                "bgm": "bgm23_folklore02",
                 "chara": [
                     {
                         "cheek": 1,
@@ -585,6 +607,8 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103601
                     }
                 ],
@@ -606,7 +630,6 @@
                 "textRight": "その意気"
             },
             {
-                "bgm": "stop",
                 "nameNarration": "",
                 "narration": "[se:7106_telmail]ピロン♪",
                 "narrationBg": "",
@@ -616,7 +639,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp3.json",
+                        "face": "mtn_ex_040.exp3.json",
                         "id": 103601,
                         "motion": 200,
                         "pos": 0
@@ -667,6 +690,44 @@
                 ],
                 "nameLeft": "うらら",
                 "textLeft": "でも、なんでウチに…？"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_narration.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103601,
+                        "motion": 0,
+                        "pos": 1,
+                        "tear": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnFirst": 3.4,
+                "chara": [
+                    {
+                        "id": 103601,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_1036_00_04"
+                    }
+                ],
+                "nameCenter": "うらら",
+                "textCenter": "ウチにできることなんて@あるのん…？",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103601
+                    }
+                ]
             },
             {
                 "autoTurnLast": 2,

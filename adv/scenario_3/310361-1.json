@@ -70,7 +70,7 @@
                 "turnEffect": "blackFrame"
             },
             {
-                "bgm": "bgm23_folklore02",
+                "bgm": "bgm23_folklore03",
                 "chara": [
                     {
                         "id": 103301
@@ -179,7 +179,7 @@
                     }
                 ],
                 "nameCenter": "うらら",
-                "textCenter": "（アジの開き２尾、もやし１袋に@豆腐と味噌…）",
+                "textCenter": "（アジの開き３尾、もやし１袋に@豆腐と味噌…）",
                 "turnChangeOut": "fadeOut"
             },
             {
@@ -195,14 +195,12 @@
                 "textCenter": "まずは野菜売り場から回るんよ"
             },
             {
-                "bgm": "stop",
                 "nameNarration": "",
                 "narration": "「ただいまよりタイムセール開始でーす！@今日の目玉商品！@牛バラ肉３パックでなんと500円！@500円きっかりなのは今から１時間だけ！」",
                 "narrationBg": "",
                 "narrationEffect": "in"
             },
             {
-                "autoTurnLast": 0.01,
                 "chara": [
                     {
                         "cheek": 0,
@@ -215,9 +213,6 @@
                 "nameCenter": "うらら",
                 "narrationEffect": "out",
                 "textCenter": "破格なんよ…！@[chara:103601:lipSynch_0][wait:1.0][chara:103601:motion_400][chara:103601:cheek_0][chara:103601:face_mtn_ex_010.exp.json][chara:103601:lipSynch_1]買うしかないんよ！"
-            },
-            {
-                "bgm": "bgm23_folklore03"
             },
             {
                 "autoTurnLast": 1,
@@ -316,7 +311,6 @@
             {
                 "autoTurnLast": 2,
                 "bg": "bg_adv_18081.jpg",
-                "bgm": "stop",
                 "chara": [
                     {
                         "cheek": 0,
@@ -336,7 +330,6 @@
                 "turnChangeIn": "fadeIn"
             },
             {
-                "bgm": "bgm23_folklore01",
                 "chara": [
                     {
                         "id": 103601,
@@ -476,7 +469,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
                         "id": 103601,
-                        "pos": 2
+                        "mouthOpen": 1
                     }
                 ],
                 "nameRight": "うらら",
@@ -489,7 +482,7 @@
                         "id": 103601,
                         "lipSynch": 0,
                         "motion": 1,
-                        "pos": 2
+                        "mouthOpen": 0
                     }
                 ],
                 "nameRight": "うらら",
@@ -561,7 +554,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp3.json",
+                        "face": "mtn_ex_040.exp3.json",
                         "id": 103601,
                         "motion": 200,
                         "pos": 2
@@ -619,6 +612,7 @@
                 "textLeft": "大丈夫だから"
             },
             {
+                "bgm": "stop",
                 "chara": [
                     {
                         "id": 103601,
@@ -639,6 +633,7 @@
                 "textRight": "（ラビさんの役に立って@褒めてほしかったのに…）"
             },
             {
+                "bgm": "bgm23_folklore02",
                 "chara": [
                     {
                         "cheek": 0,
@@ -668,7 +663,7 @@
                     }
                 ],
                 "nameLeft": "ラビ",
-                "textLeft": "もう少しコントロールできるよう@心がけてみてほしい"
+                "textLeft": "もう少し自分をコントロール@できるよう、心がけてみてほしい"
             },
             {
                 "chara": [
@@ -815,7 +810,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp3.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103601,
                         "motion": 200,
                         "pos": 2
@@ -845,17 +840,16 @@
                     }
                 ],
                 "nameLeft": "アレクサンドラ",
-                "textLeft": "うららちゃんは湯国市では有名で@若い子たちを中心に知られてるし"
+                "textLeft": "湯国市では、うららちゃんは@学生を中心に知られた有名人だし"
             },
             {
-                "bgm": "stop",
                 "chara": [
                     {
                         "id": 103501
                     }
                 ],
                 "nameLeft": "アレクサンドラ",
-                "textLeft": "魔法少女撲滅派の人たちに@襲われないとも限りません…"
+                "textLeft": "魔法少女撲滅派の人たちに@察知されるかもしれません…"
             },
             {
                 "chara": [
@@ -887,7 +881,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp3.json",
+                        "face": "mtn_ex_040.exp3.json",
                         "id": 103601,
                         "pos": 2
                     }

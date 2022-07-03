@@ -328,7 +328,7 @@
                     }
                 ],
                 "nameLeft": "うらら",
-                "textLeft": "（上級者で、やる気もあるのに@悪いことしちゃったんよ…）"
+                "textLeft": "（上級者で、やる気もあったのに@悪いことしちゃったんよ…）"
             },
             {
                 "chara": [
@@ -374,6 +374,8 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 103601,
                         "motion": 200
                     }
@@ -403,13 +405,13 @@
                 "turnChangeIn": "fadeIn"
             },
             {
-                "bgm": "bgm23_folklore02",
+                "bgm": "bgm03_story02",
                 "chara": [
                     {
                         "id": 800900
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "うららのマネージャー",
                 "textRight": "お疲れ、うらら！",
                 "turnChangeOut": "fadeOut"
             },
@@ -426,7 +428,7 @@
                         "pos": 0
                     }
                 ],
-                "nameRight": "",
+                "nameRight": "うららのマネージャー",
                 "textRight": "氷室さんたちも@手伝ってくれて助かったよ"
             },
             {
@@ -603,7 +605,7 @@
                     }
                 ],
                 "nameLeft": "うらら",
-                "textLeft": "（人に教えたり、解説するのは@くららのほうが上手だったから）"
+                "textLeft": "（人に教えたり、説明するのは@くららのほうが上手だったから）"
             },
             {
                 "chara": [
@@ -629,6 +631,7 @@
             {
                 "chara": [
                     {
+                        "eyeClose": 1,
                         "id": 103601,
                         "lipSynch": 0
                     }
@@ -650,10 +653,10 @@
                 "chara": [
                     {
                         "cheek": 0,
+                        "eyeClose": 0,
                         "id": 103601,
                         "lipSynch": 0,
-                        "motion": 300,
-                        "pos": 0
+                        "motion": 300
                     }
                 ],
                 "nameLeft": "うらら",
@@ -713,8 +716,6 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_050.exp3.json",
                         "id": 103301,
                         "lipSynch": 0,
                         "motion": 300
@@ -722,6 +723,53 @@
                 ],
                 "nameRight": "ラビ",
                 "textRight": "…………？"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_narration.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103601,
+                        "motion": 0,
+                        "pos": 1,
+                        "tear": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnFirst": 2.3,
+                "chara": [
+                    {
+                        "id": 103601,
+                        "pos": 1,
+                        "voice": "vo_char_1036_00_03"
+                    }
+                ],
+                "nameCenter": "うらら",
+                "textCenter": "あの子のこと…@やっぱり思い出しちゃうんよ",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnFirst": 3.2,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 103601,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103601
+                    }
+                ]
             },
             {
                 "autoTurnLast": 2,

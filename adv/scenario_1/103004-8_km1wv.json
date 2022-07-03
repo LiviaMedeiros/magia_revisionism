@@ -31,7 +31,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 102702
+                        "id": 102702,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-1"
                     }
                 ],
                 "nameNarration": "すなお",
@@ -46,7 +47,8 @@
                         "cheek": 0,
                         "eyeClose": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 102702
+                        "id": 102702,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-2"
                     }
                 ],
                 "narration": "「池のほとりで暮らすカメには悩みがありました@それは何をするにも遅くて@誰の役にも立てないということ」"
@@ -54,7 +56,8 @@
             {
                 "chara": [
                     {
-                        "id": 102702
+                        "id": 102702,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-3"
                     }
                 ],
                 "narration": "「サカナのように早く泳いでものを運ぶことも@イヌのように芸で楽しませることもできないので@いつも悩んで自分の殻に閉じこもっていました」"
@@ -66,13 +69,20 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102602,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-4"
                     }
                 ],
                 "nameNarration": "ちはる",
                 "narration": "「そんなある日、@遠い国から旅をしてきた白いトリが@町にやってきました」"
             },
             {
+                "chara": [
+                    {
+                        "id": 102602,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-5"
+                    }
+                ],
                 "narration": "「日なたぼっこをしていたカメは@トリから温かい甲羅の上で羽を休ませて欲しいと@お願いされると『いいよ』と応えました」"
             },
             {
@@ -80,7 +90,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
-                        "id": 102602
+                        "id": 102602,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-6"
                     }
                 ],
                 "narration": "「トリに温かな甲羅をほめられると@カメは胸の奥まで温かくなった気がしました」"
@@ -103,7 +114,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102702,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-7"
                     }
                 ],
                 "nameNarration": "すなお",
@@ -113,7 +125,8 @@
                 "chara": [
                     {
                         "id": 102602,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-8"
                     }
                 ],
                 "nameNarration": "ちはる",
@@ -122,18 +135,20 @@
             {
                 "chara": [
                     {
-                        "id": 102702
+                        "id": 102702,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-9"
                     }
                 ],
                 "nameNarration": "すなお",
-                "narration": "「トリが羽を休めにカメの所に来たときに@カメはトリに憧れていることを正直に伝えました@すると、トリはカメに言いました」"
+                "narration": "「トリが羽を休めにカメの所に来たとき@カメはトリに憧れていることを正直に伝えました@すると、トリはカメに言いました」"
             },
             {
                 "chara": [
                     {
                         "eyeClose": 1,
                         "id": 102602,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-10"
                     }
                 ],
                 "nameNarration": "ちはる",
@@ -153,9 +168,17 @@
             },
             {
                 "nameNarration": "ちはる＆すなお",
-                "narration": "「その物語の裏側では@森の中でこわーいトラが生活をしていました」",
+                "narration": "[voiceFull:fullvoice/section_103004/vo_full_103004-8-11_chiharu][voiceFull:fullvoice/section_103004/vo_full_103004-8-11_sunao]「その物語の裏側では@森の中でこわーいトラが生活をしていました」",
                 "narrationEffect": "in",
                 "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "voiceFullStop": "fullvoice/section_103004/vo_full_103004-8-11_chiharu"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "voiceFullStop": "fullvoice/section_103004/vo_full_103004-8-11_sunao"
             },
             {
                 "armatureList": [
@@ -192,7 +215,8 @@
             {
                 "chara": [
                     {
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-12"
                     }
                 ],
                 "nameRight": "静香の母",
@@ -200,13 +224,26 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 2,
                 "chara": [
                     {
-                        "id": 102502
+                        "id": 102502,
+                        "voiceFull": "fullvoice/section_103004/vo_full_103004-8-13"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameLeft": "静香",
-                "textLeft": "母様は病気なんだから仕方ないわ@[chara:102502:lipSynch_0][wait:0.8][chara:102502:cheek_0][chara:102502:face_mtn_ex_010.exp3.json:motion_100][chara:102502:lipSynch_1]大丈夫、私は元気だから"
+                "textLeft": "母様は病気なんだから仕方ないわ@大丈夫、私は元気だから"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102502,
+                        "motion": 100
+                    }
+                ]
             },
             {
                 "chara": [
@@ -215,16 +252,20 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 801600,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-14",
+                        "voiceFullStop": "fullvoice/section_103004/vo_full_103004-8-13"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "",
                 "textRight": "ねえ、お姉ちゃん@お腹が空いちゃった…"
             },
             {
                 "chara": [
                     {
-                        "id": 102502
+                        "id": 102502,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-15"
                     }
                 ],
                 "nameLeft": "静香",
@@ -233,7 +274,8 @@
             {
                 "chara": [
                     {
-                        "id": 801600
+                        "id": 801600,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-16"
                     }
                 ],
                 "nameRight": "",
@@ -246,7 +288,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102502,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-17"
                     }
                 ],
                 "nameLeft": "静香",
@@ -255,7 +298,8 @@
             {
                 "chara": [
                     {
-                        "id": 102502
+                        "id": 102502,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-18"
                     }
                 ],
                 "nameLeft": "静香",
@@ -268,7 +312,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102502,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-19"
                     }
                 ],
                 "nameLeft": "静香",
@@ -277,7 +322,8 @@
             {
                 "chara": [
                     {
-                        "id": 801600
+                        "id": 801600,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-20"
                     }
                 ],
                 "nameRight": "",
@@ -290,7 +336,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 801000,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-21"
                     }
                 ],
                 "nameRight": "静香の母",
@@ -299,7 +346,8 @@
             {
                 "chara": [
                     {
-                        "id": 102502
+                        "id": 102502,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-22"
                     }
                 ],
                 "nameLeft": "静香",
@@ -323,7 +371,8 @@
                     {
                         "id": 102502,
                         "lipSynch": 0,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-23"
                     }
                 ],
                 "nameCenter": "静香",
@@ -334,7 +383,8 @@
                 "chara": [
                     {
                         "id": 102502,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-24"
                     }
                 ],
                 "nameCenter": "静香",
@@ -346,8 +396,9 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102502,
-                        "lipSynch": 0,
-                        "motion": 0
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-25"
                     }
                 ],
                 "nameCenter": "静香",
@@ -370,7 +421,8 @@
             {
                 "chara": [
                     {
-                        "id": 102502
+                        "id": 102502,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-26"
                     }
                 ],
                 "nameCenter": "静香",
@@ -384,7 +436,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102502,
                         "motion": 200,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-27"
                     }
                 ],
                 "nameCenter": "静香",
@@ -394,7 +447,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 102502
+                        "id": 102502,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-28"
                     }
                 ],
                 "nameCenter": "静香",
@@ -406,16 +460,20 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
                         "eyeClose": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 102502
+                        "id": 102502,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-30"
                     }
                 ],
                 "nameCenter": "静香",
-                "narrationEffect": "out",
                 "textCenter": "…だめよ@人様のご飯なんだから…"
             },
             {
@@ -425,7 +483,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102502,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-31"
                     }
                 ],
                 "nameCenter": "静香",
@@ -460,7 +519,8 @@
             {
                 "chara": [
                     {
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-32"
                     }
                 ],
                 "nameRight": "静香の母",
@@ -470,7 +530,8 @@
             {
                 "chara": [
                     {
-                        "id": 102502
+                        "id": 102502,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-33"
                     }
                 ],
                 "nameLeft": "静香",
@@ -480,7 +541,8 @@
                 "chara": [
                     {
                         "id": 102502,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-34"
                     }
                 ],
                 "nameLeft": "静香",
@@ -489,7 +551,8 @@
             {
                 "chara": [
                     {
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-35"
                     }
                 ],
                 "nameRight": "静香の母",
@@ -498,7 +561,8 @@
             {
                 "chara": [
                     {
-                        "id": 102502
+                        "id": 102502,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-36"
                     }
                 ],
                 "nameLeft": "静香",
@@ -511,7 +575,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102502,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-37"
                     }
                 ],
                 "nameLeft": "静香",
@@ -522,7 +587,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
-                        "id": 801000
+                        "id": 801000,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-38"
                     }
                 ],
                 "nameRight": "静香の母",
@@ -533,7 +599,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 102502
+                        "id": 102502,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-39"
                     }
                 ],
                 "nameLeft": "静香",
@@ -543,7 +610,8 @@
                 "chara": [
                     {
                         "id": 102502,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-40"
                     }
                 ],
                 "nameLeft": "静香",
@@ -556,7 +624,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 801600,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-41"
                     }
                 ],
                 "nameRight": "",
@@ -567,7 +636,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
-                        "id": 102502
+                        "id": 102502,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-42"
                     }
                 ],
                 "nameLeft": "静香",
@@ -578,7 +648,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 801600
+                        "id": 801600,
+                        "voiceFullAuto": "fullvoice/section_103004/vo_full_103004-8-43"
                     }
                 ],
                 "nameRight": "",

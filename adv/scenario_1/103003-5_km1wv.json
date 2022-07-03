@@ -20,7 +20,8 @@
                 "chara": [
                     {
                         "id": 102501,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-1"
                     }
                 ],
                 "nameCenter": "静香",
@@ -36,7 +37,8 @@
                 ],
                 "nameNarration": "静香",
                 "narration": "聞くところによると神浜市という町は@ずいぶんと昔から悪に支配されているらしく@長く人々が苦しみを味わっている…",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-2"
             },
             {
                 "chara": [
@@ -45,7 +47,8 @@
                         "motion": 300
                     }
                 ],
-                "narration": "だから、和泉十七夜や八雲みたまが言う通り@滅びを与えるということは@日の本を守る私としては許せないことだけど@耐え続けてきた人たちにとっては@人々を変えるための最終手段なのかもしれない"
+                "narration": "だから、和泉十七夜や八雲みたまが言う通り@滅びを与えるということは@日の本を守る私としては許せないことだけど@耐え続けてきた人たちにとっては@人々を変えるための最終手段なのかもしれない",
+                "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-3"
             },
             {
                 "chara": [
@@ -54,7 +57,8 @@
                         "motion": 1
                     }
                 ],
-                "narration": "だけど藍家ひめなは別格の存在だわ@本当にわかりやすく、私利私欲に従って@人々を支配するために害を成そうとしている上に@滅ぼすということに躊躇がない"
+                "narration": "だけど藍家ひめなは別格の存在だわ@本当にわかりやすく、私利私欲に従って@人々を支配するために害を成そうとしている上に@滅ぼすということに躊躇がない",
+                "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-4"
             },
             {
                 "chara": [
@@ -62,7 +66,12 @@
                         "id": 102501
                     }
                 ],
-                "narration": "もしも度が行きすぎるようであれば@私が彼女の首を取って人々に示さないと…@心優しき巫が導くから安心して欲しいって…"
+                "narration": "もしも度が行きすぎるようであれば@私が彼女の首を取って人々に示さないと…@心優しき巫が導くから安心して欲しいって…",
+                "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-5"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
@@ -71,18 +80,19 @@
                         "eyeClose": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102501,
-                        "lipSynch": 1
+                        "lipSynch": 1,
+                        "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-6"
                     }
                 ],
                 "nameCenter": "静香",
-                "narrationEffect": "out",
                 "textCenter": "…それぐらいの分別はあっても、@私は、神子柴に似ているのかしら"
             },
             {
                 "chara": [
                     {
                         "id": 102501,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-7"
                     }
                 ],
                 "nameCenter": "静香",
@@ -105,7 +115,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 770201,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-8"
                     }
                 ],
                 "nameRight": "",
@@ -118,7 +129,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 770201,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-9"
                     }
                 ],
                 "nameRight": "",
@@ -129,7 +141,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 102501
+                        "id": 102501,
+                        "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-10"
                     }
                 ],
                 "nameLeft": "静香",
@@ -141,8 +154,9 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102501,
-                        "lipSynch": 0,
-                        "motion": 0
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-11"
                     }
                 ],
                 "nameLeft": "静香",
@@ -155,7 +169,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 770201,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-12"
                     }
                 ],
                 "nameRight": "",
@@ -169,7 +184,7 @@
                     }
                 ],
                 "nameLeft": "静香",
-                "textLeft": "…………[wait:0.8][chara:102501:cheek_0][chara:102501:face_mtn_ex_000.exp3.json:motion_100][chara:102501:lipSynch_1]ううん、ただの鳥みたい"
+                "textLeft": "…………[wait:0.8][chara:102501:cheek_0][chara:102501:voiceFull_fullvoice/section_103003/vo_full_103003-5-13][chara:102501:face_mtn_ex_000.exp3.json:motion_100][chara:102501:lipSynch_1]ううん、ただの鳥みたい"
             },
             {
                 "autoTurnLast": 0.5,
@@ -184,7 +199,8 @@
                         "pos": 1
                     }
                 ],
-                "turnChangeIn": "fadeIn"
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_103003/vo_full_103003-5-13"
             },
             {
                 "nameNarration": "",
@@ -193,15 +209,19 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "bgm": "bgm24_story05",
                 "chara": [
                     {
                         "id": 304701,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-15"
                     }
                 ],
                 "nameCenter": "青葉 ちか",
-                "narrationEffect": "out",
                 "textCenter": "…そうですか、@ありがとうございます"
             },
             {
@@ -221,7 +241,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102701,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-16"
                     }
                 ],
                 "nameLeft": "すなお",
@@ -231,7 +252,8 @@
                 "chara": [
                     {
                         "id": 304701,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-17"
                     }
                 ],
                 "nameRight": "青葉 ちか",
@@ -244,7 +266,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102601,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-18"
                     }
                 ],
                 "nameLeft": "ちはる",
@@ -257,7 +280,8 @@
                         "face": "mtn_ex_012.exp3.json",
                         "id": 305801,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-19"
                     }
                 ],
                 "nameRight": "南津 涼子",
@@ -268,7 +292,7 @@
                     {
                         "id": 102601,
                         "motion": 200,
-                        "mouthOpen": 1
+                        "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-20"
                     }
                 ],
                 "nameNarration": "ちはる",
@@ -316,7 +340,8 @@
                     }
                 ],
                 "nameNarration": "みんな",
-                "narration": "「オー!!」"
+                "narration": "「オー!!」",
+                "voiceFullAuto": "fullvoice/section_103003/vo_full_103003-5-21"
             },
             {
                 "autoTurnLast": 2,

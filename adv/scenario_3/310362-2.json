@@ -106,6 +106,7 @@
                 "chara": [
                     {
                         "cheek": 0,
+                        "eyeClose": 1,
                         "face": "mtn_ex_040.exp3.json",
                         "id": 103601,
                         "motion": 1,
@@ -139,10 +140,10 @@
                 "chara": [
                     {
                         "cheek": 0,
+                        "eyeClose": 0,
                         "face": "mtn_ex_001.exp3.json",
                         "id": 103601,
-                        "lipSynch": 0,
-                        "pos": 0
+                        "lipSynch": 0
                     }
                 ],
                 "nameLeft": "うらら",
@@ -202,8 +203,7 @@
             {
                 "chara": [
                     {
-                        "id": 800100,
-                        "lipSynch": 0
+                        "id": 800100
                     }
                 ],
                 "nameRight": "くらら",
@@ -250,7 +250,7 @@
                     }
                 ],
                 "nameLeft": "うらら",
-                "textLeft": "ウチの考えなしのせいで"
+                "textLeft": "ウチの考えなしのせいで@大勢の人を救えなかったし"
             },
             {
                 "chara": [
@@ -259,7 +259,7 @@
                     }
                 ],
                 "nameLeft": "うらら",
-                "textLeft": "大勢の人を、くららを@傷つけることになったから…"
+                "textLeft": "くららを@傷つけることになったから…"
             },
             {
                 "chara": [
@@ -313,7 +313,7 @@
                     }
                 ],
                 "nameLeft": "うらら",
-                "textLeft": "だから…せめて普通に話せる仲に@戻りたいんよ…"
+                "textLeft": "だから…せめて普通に@話せるようになりたいんよ…"
             },
             {
                 "chara": [
@@ -350,7 +350,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 103601,
-                        "motion": 1,
+                        "motion": 0,
                         "pos": 0
                     }
                 ],
@@ -358,7 +358,7 @@
                 "textLeft": "…え？"
             },
             {
-                "bgm": "bgm03_story08",
+                "bgm": "bgm23_folklore04",
                 "chara": [
                     {
                         "id": 800100
@@ -520,6 +520,7 @@
             {
                 "chara": [
                     {
+                        "cheek": 2,
                         "id": 800100
                     }
                 ],
@@ -571,7 +572,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
+                        "cheek": 1,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 800100,
                         "pos": 2
@@ -639,6 +640,8 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 800100
                     }
                 ],
@@ -674,7 +677,7 @@
                     }
                 ],
                 "nameRight": "くらら",
-                "textRight": "今ではあんたに頼ってきたけど@これからは私の実力でのし上がる"
+                "textRight": "今まであんたに頼ってきたけど@これからは私の実力でのし上がる"
             },
             {
                 "chara": [
@@ -683,7 +686,7 @@
                     }
                 ],
                 "nameRight": "くらら",
-                "textRight": "だから…あんたにもう用はないわ"
+                "textRight": "だから…もう私に関わらないで"
             },
             {
                 "chara": [

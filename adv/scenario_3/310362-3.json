@@ -60,7 +60,7 @@
                 "textClear": 1
             },
             {
-                "bgm": "bgm01_anime02",
+                "bgm": "bgm03_story07",
                 "chara": [
                     {
                         "cheek": 0,
@@ -377,7 +377,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp3.json",
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 800900,
                         "pos": 2
                     }
@@ -434,7 +434,16 @@
                     }
                 ],
                 "nameRight": "うららのマネージャー",
-                "textRight": "逆境でも、常に笑顔で@周りを明るくできるのも才能だ"
+                "textRight": "家族を支える苦労を見せずに"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "nameRight": "うららのマネージャー",
+                "textRight": "常に笑顔で@周りを明るくできるのも才能だ"
             },
             {
                 "chara": [
@@ -448,6 +457,8 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 103601,
                         "motion": 1
                     }
@@ -489,7 +500,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 103601,
-                        "pos": 0
+                        "motion": 0
                     }
                 ],
                 "nameLeft": "うらら",
@@ -563,6 +574,11 @@
                 "textLeft": "…うん…"
             },
             {
+                "autoTurnLast": 0.2,
+                "bgm": "stop",
+                "textClear": 1
+            },
+            {
                 "autoTurnLast": 1,
                 "bg": "bg_adv_53011.jpg",
                 "chara": [
@@ -585,6 +601,7 @@
                     }
                 ],
                 "nameCenter": "うらら",
+                "surround": "7003_wind",
                 "textCenter": "…………",
                 "turnChangeOut": "fadeOut",
                 "turnChangeOutTime": 1
@@ -638,8 +655,8 @@
             {
                 "chara": [
                     {
-                        "id": 103601,
-                        "motion": 1
+                        "eyeClose": 1,
+                        "id": 103601
                     }
                 ],
                 "nameLeft": "うらら",

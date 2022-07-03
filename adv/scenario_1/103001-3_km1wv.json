@@ -36,7 +36,8 @@
                 "chara": [
                     {
                         "id": 102901,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-1"
                     }
                 ],
                 "nameLeft": "時雨",
@@ -46,7 +47,8 @@
             {
                 "chara": [
                     {
-                        "id": 102901
+                        "id": 102901,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-2"
                     }
                 ],
                 "nameLeft": "時雨",
@@ -54,7 +56,8 @@
             },
             {
                 "nameCenter": "時雨の母の声",
-                "textCenter": "炊くときの水を変えたんだけど、@美味しかった…？"
+                "textCenter": "炊くときの水を変えたんだけど、@美味しかった…？",
+                "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-3"
             },
             {
                 "chara": [
@@ -63,7 +66,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102901,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-4"
                     }
                 ],
                 "nameLeft": "時雨",
@@ -74,7 +78,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
-                        "id": 801500
+                        "id": 801500,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-5"
                     }
                 ],
                 "nameRight": "時雨の祖父",
@@ -85,7 +90,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 102901
+                        "id": 102901,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-6"
                     }
                 ],
                 "nameLeft": "時雨",
@@ -98,7 +104,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 800600,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-7"
                     }
                 ],
                 "nameRight": "時雨の母",
@@ -109,7 +116,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-8"
                     }
                 ],
                 "nameRight": "時雨の母",
@@ -118,40 +126,65 @@
             {
                 "chara": [
                     {
-                        "id": 800600,
-                        "mouthOpen": 1
+                        "id": 800600
                     },
                     {
-                        "id": 102901,
-                        "mouthOpen": 1
+                        "id": 102901
                     }
                 ],
-                "nameCenter": "みんな",
-                "textCenter": "いただきます"
+                "nameNarration": "みんな",
+                "narration": "[voiceFull:fullvoice/section_103001/vo_full_103001-3-9_shiguregrandpa][chara:800600:voiceFull_fullvoice/section_103001/vo_full_103001-3-9_shiguremom][chara:102901:voiceFull_fullvoice/section_103001/vo_full_103001-3-9_shigure]いただきます",
+                "narrationBg": "",
+                "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 102901,
+                        "voiceFullStop": "fullvoice/section_103001/vo_full_103001-3-9_shigure"
+                    },
+                    {
+                        "id": 800600,
+                        "voiceFullStop": "fullvoice/section_103001/vo_full_103001-3-9_shiguremom"
+                    }
+                ],
+                "voiceFullStop": "fullvoice/section_103001/vo_full_103001-3-9_shiguregrandpa"
+            },
+            {
+                "autoTurnLast": 1.5,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_001.exp3.json",
                         "id": 102901,
                         "motion": 200,
-                        "mouthOpen": 0
-                    },
-                    {
-                        "id": 800600,
-                        "mouthOpen": 0
+                        "voiceFull": "fullvoice/section_103001/vo_full_103001-3-10"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameLeft": "時雨",
-                "textLeft": "…はむっ、[chara:102901:lipSynch_0][wait:0.8][chara:102901:cheek_0][chara:102901:face_mtn_ex_010.exp3.json][chara:102901:lipSynch_1]うん、美味しい"
+                "narrationEffect": "out",
+                "textLeft": "…はむっ、うん、美味しい"
             },
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102901
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-11",
+                        "voiceFullStop": "fullvoice/section_103001/vo_full_103001-3-10"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "時雨の母",
                 "textRight": "そう、良かったぁ"
             },
@@ -163,7 +196,8 @@
                         "id": 801500,
                         "lipSynch": 0,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-12"
                     }
                 ],
                 "nameRight": "時雨の祖父",
@@ -175,7 +209,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 801500,
-                        "lipSynch": 1
+                        "lipSynch": 1,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-13"
                     }
                 ],
                 "nameRight": "時雨の祖父",
@@ -188,7 +223,8 @@
                         "face": "mtn_ex_051.exp3.json",
                         "id": 102901,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-14"
                     }
                 ],
                 "nameLeft": "時雨",
@@ -197,7 +233,8 @@
             {
                 "chara": [
                     {
-                        "id": 801500
+                        "id": 801500,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-15"
                     }
                 ],
                 "nameRight": "時雨の祖父",
@@ -206,7 +243,8 @@
             {
                 "chara": [
                     {
-                        "id": 801500
+                        "id": 801500,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-16"
                     },
                     {
                         "id": 102901,
@@ -219,7 +257,8 @@
             {
                 "chara": [
                     {
-                        "id": 801500
+                        "id": 801500,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-17"
                     }
                 ],
                 "nameRight": "時雨の祖父",
@@ -228,7 +267,8 @@
             {
                 "chara": [
                     {
-                        "id": 801500
+                        "id": 801500,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-18"
                     }
                 ],
                 "nameRight": "時雨の祖父",
@@ -241,7 +281,8 @@
                         "face": "mtn_ex_014.exp3.json",
                         "id": 102901,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-19"
                     }
                 ],
                 "nameLeft": "時雨",
@@ -252,7 +293,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
-                        "id": 801500
+                        "id": 801500,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-20"
                     }
                 ],
                 "nameRight": "時雨の祖父",
@@ -265,7 +307,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 800600,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-21"
                     }
                 ],
                 "nameRight": "時雨の母",
@@ -277,7 +320,8 @@
                         "cheek": 1,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102901,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-22"
                     }
                 ],
                 "nameLeft": "時雨",
@@ -299,7 +343,8 @@
                         "id": 102901,
                         "lipSynch": 0,
                         "motion": 1,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-23"
                     }
                 ],
                 "nameCenter": "時雨",
@@ -310,7 +355,8 @@
                 "chara": [
                     {
                         "id": 102901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-24"
                     }
                 ],
                 "nameCenter": "時雨",
@@ -321,7 +367,8 @@
                     {
                         "eyeClose": 1,
                         "id": 102901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-25"
                     }
                 ],
                 "nameCenter": "時雨",
@@ -360,7 +407,8 @@
                 "nameNarration": "時雨",
                 "narration": "これで魔法少女のことが広まったら@ぼくたちが魔女を倒してるんだって大声で言える@みんなよりちょっとスゴいんだぞって言って@バカになんてされなくなる",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-26"
             },
             {
                 "autoTurnLast": 0.2,
@@ -389,7 +437,8 @@
                         "pos": 1
                     }
                 ],
-                "narration": "あとちょっと、あと少しで姫が@ぼくたちを引き上げてくれるんだ"
+                "narration": "あとちょっと、あと少しで姫が@ぼくたちを引き上げてくれるんだ",
+                "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-27"
             },
             {
                 "autoTurnLast": 0.2,
@@ -410,7 +459,8 @@
                 "chara": [
                     {
                         "id": 102901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-28"
                     }
                 ],
                 "nameCenter": "時雨",
@@ -422,7 +472,8 @@
                 "chara": [
                     {
                         "id": 102901,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-29"
                     }
                 ],
                 "nameCenter": "時雨",
@@ -446,7 +497,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 800600,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-30"
                     }
                 ],
                 "nameRight": "時雨の母",
@@ -459,7 +511,8 @@
                         "face": "mtn_ex_051.exp3.json",
                         "id": 102901,
                         "lipSynch": 1,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-31"
                     }
                 ],
                 "nameLeft": "時雨",
@@ -468,7 +521,8 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-32"
                     }
                 ],
                 "nameRight": "時雨の母",
@@ -481,7 +535,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 801500,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-33"
                     }
                 ],
                 "nameRight": "時雨の祖父",
@@ -494,7 +549,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102901,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-34"
                     }
                 ],
                 "nameLeft": "時雨",
@@ -525,7 +581,8 @@
                 "chara": [
                     {
                         "id": 103001,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-35"
                     }
                 ],
                 "nameLeft": "はぐむ",
@@ -535,7 +592,8 @@
             {
                 "chara": [
                     {
-                        "id": 103001
+                        "id": 103001,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-36"
                     }
                 ],
                 "nameLeft": "はぐむ",
@@ -544,9 +602,8 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_050.exp3.json",
-                        "id": 800201
+                        "id": 800201,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-37"
                     }
                 ],
                 "nameRight": "",
@@ -559,7 +616,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 103001,
                         "lipSynch": 0,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-38"
                     }
                 ],
                 "nameLeft": "はぐむ",
@@ -570,18 +628,21 @@
                     {
                         "id": 103001,
                         "lipSynch": 1,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-39"
                     }
                 ],
                 "nameLeft": "はぐむ",
                 "textLeft": "そそ、それはそうなんですけど@本当に私が…ですか…？"
             },
             {
+                "autoTurnLast": 1.3,
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp3.json",
-                        "id": 800201
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 800201,
+                        "voiceFull": "fullvoice/section_103001/vo_full_103001-3-40"
                     }
                 ],
                 "nameRight": "",
@@ -590,20 +651,45 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 800201
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800201,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-41",
+                        "voiceFullStop": "fullvoice/section_103001/vo_full_103001-3-40"
                     }
                 ],
                 "nameRight": "",
                 "textRight": "言葉で表現しにくいんだけど、@なんかキラキラしてる"
             },
             {
+                "autoTurnLast": 1.4,
                 "chara": [
                     {
-                        "id": 800201
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 800201,
+                        "voiceFull": "fullvoice/section_103001/vo_full_103001-3-42"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "",
-                "textRight": "もしかして、恋してる？@[chara:800201:lipSynch_0][wait:1.0][chara:800201:cheek_0][chara:800201:face_mtn_ex_050.exp3.json][chara:800201:lipSynch_1]いや、まさかの彼氏とか!?"
+                "textRight": "もしかして、恋してる？@いや、まさかの彼氏とか!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800201
+                    }
+                ]
             },
             {
                 "chara": [
@@ -612,9 +698,12 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 103001,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-43",
+                        "voiceFullStop": "fullvoice/section_103001/vo_full_103001-3-42"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "はぐむ",
                 "textLeft": "違います違います！@私なんて全然モテないですし"
             },
@@ -623,7 +712,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 103001
+                        "id": 103001,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-44"
                     }
                 ],
                 "nameLeft": "はぐむ",
@@ -634,7 +724,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 800201
+                        "id": 800201,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-45"
                     }
                 ],
                 "nameRight": "",
@@ -643,7 +734,8 @@
             {
                 "chara": [
                     {
-                        "id": 800201
+                        "id": 800201,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-46"
                     }
                 ],
                 "nameRight": "",
@@ -658,14 +750,16 @@
                     }
                 ],
                 "nameLeft": "はぐむ",
-                "textLeft": "…………[wait:0.8][chara:103001:cheek_0][chara:103001:lipSynch_1]絵本ですか…？"
+                "textLeft": "…………[wait:1.0][chara:103001:lipSynch_1][chara:103001:voiceFull_fullvoice/section_103001/vo_full_103001-3-47]絵本ですか…？"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
-                        "id": 103001
+                        "id": 103001,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-48",
+                        "voiceFullStop": "fullvoice/section_103001/vo_full_103001-3-47"
                     }
                 ],
                 "nameLeft": "はぐむ",
@@ -674,7 +768,8 @@
             {
                 "chara": [
                     {
-                        "id": 800201
+                        "id": 800201,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-49"
                     }
                 ],
                 "nameRight": "",
@@ -683,7 +778,8 @@
             {
                 "chara": [
                     {
-                        "id": 800300
+                        "id": 800201,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-50"
                     }
                 ],
                 "nameRight": "",
@@ -693,7 +789,8 @@
                 "chara": [
                     {
                         "id": 103001,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-51"
                     }
                 ],
                 "nameLeft": "はぐむ",
@@ -702,7 +799,8 @@
             {
                 "chara": [
                     {
-                        "id": 800201
+                        "id": 800201,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-52"
                     }
                 ],
                 "nameRight": "",
@@ -713,7 +811,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 103001
+                        "id": 103001,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-53"
                     }
                 ],
                 "nameLeft": "はぐむ",
@@ -729,25 +828,30 @@
                     }
                 ],
                 "nameNarration": "",
-                "narration": "[se:7106_telmail]ピロンッ",
+                "narration": "[se:7106_telmail]ピロンッ♪",
                 "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
-                        "id": 800201
+                        "id": 800201,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-55"
                     }
                 ],
                 "nameRight": "",
-                "narrationEffect": "out",
-                "textRight": "いいよ、スマホ見ても"
+                "textRight": "あ、いいよ@スマホ見ても"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 103001
+                        "id": 103001,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-56"
                     }
                 ],
                 "nameLeft": "はぐむ",
@@ -756,8 +860,11 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103001,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-57"
                     }
                 ],
                 "nameLeft": "はぐむ",
@@ -778,10 +885,12 @@
                 "turnChangeIn": "fadeIn"
             },
             {
+                "autoTurnLast": 5.3,
                 "chara": [
                     {
                         "id": 102901,
-                        "motion": 100
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_103001/vo_full_103001-3-58"
                     }
                 ],
                 "nameNarration": "時雨",
@@ -790,6 +899,14 @@
                 "narrationHAlignment": "left",
                 "narrationPosX": 150,
                 "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102901,
+                        "motion": 300
+                    }
+                ]
             },
             {
                 "autoTurnLast": 0.2,
@@ -804,13 +921,15 @@
                     }
                 ],
                 "narrationEffect": "out",
-                "turnChangeIn": "fadeIn"
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_103001/vo_full_103001-3-58"
             },
             {
                 "chara": [
                     {
                         "id": 103001,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103001/vo_full_103001-3-59"
                     }
                 ],
                 "nameCenter": "はぐむ",

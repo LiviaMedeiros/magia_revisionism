@@ -242,6 +242,14 @@
             {
                 "autoTurnLast": 0.01,
                 "bg": "black",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51164_tower_urara/memoria_1759.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
                 "turnChangeIn": "fadeIn"
             },
             {
@@ -573,14 +581,12 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_020.exp3.json",
                         "id": 801200,
                         "pos": 2
                     }
                 ],
                 "nameRight": "",
-                "textRight": "見るだけじゃわからないから@ひとつずつ解説してほしいの！"
+                "textRight": "見るだけじゃわからないから@ひとつずつ教えてほしいの！"
             },
             {
                 "chara": [
@@ -588,6 +594,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 103601,
+                        "motion": 0,
                         "pos": 0
                     }
                 ],
@@ -600,12 +607,11 @@
                         "cheek": 0,
                         "face": "mtn_ex_040.exp3.json",
                         "id": 103601,
-                        "lipSynch": 0,
-                        "motion": 1
+                        "lipSynch": 0
                     }
                 ],
                 "nameLeft": "うらら",
-                "textLeft": "（体が自然に動くから@解説なんかできないんよ…）"
+                "textLeft": "（体が自然に動くから@説明なんかできないんよ…）"
             },
             {
                 "chara": [
@@ -781,7 +787,7 @@
                 "textLeft": "…………"
             },
             {
-                "autoTurnLast": 0.2,
+                "autoTurnLast": 0.5,
                 "chara": [
                     {
                         "effect": "fadeout",
@@ -829,7 +835,6 @@
             {
                 "autoTurnLast": 1,
                 "bg": "bg_adv_21141.jpg",
-                "bgm": "stop",
                 "chara": [
                     {
                         "cheek": 0,
@@ -843,7 +848,6 @@
                 "turnChangeIn": "fadeIn"
             },
             {
-                "bgm": "bgm03_story02",
                 "chara": [
                     {
                         "id": 103601,
@@ -920,7 +924,7 @@
                     }
                 ],
                 "nameLeft": "うらら",
-                "textLeft": "ウチの教え方だと@ついていけない子がいて…"
+                "textLeft": "ウチの教え方だと@ついてこれない子がいて…"
             },
             {
                 "chara": [
@@ -942,7 +946,7 @@
                     }
                 ],
                 "nameRight": "旭",
-                "textRight": "解説はできないのでありますか？"
+                "textRight": "説明はできないのでありますか？"
             },
             {
                 "chara": [
@@ -955,7 +959,7 @@
                     }
                 ],
                 "nameLeft": "うらら",
-                "textLeft": "説明できたらいいんだけど@あまり上手じゃないんよ…"
+                "textLeft": "できたらいいんだけど@ウチは上手じゃなくて…"
             },
             {
                 "chara": [
@@ -1044,7 +1048,7 @@
                     }
                 ],
                 "nameRight": "うららのマネージャー",
-                "textRight": "ああ、紹介動画用にね"
+                "textRight": "ああ、プロモーション用にね"
             },
             {
                 "chara": [
@@ -1141,6 +1145,15 @@
             {
                 "autoTurnLast": 0.4,
                 "bg": "black",
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/31036_urara_story/memoria_1756.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
                 "turnChangeIn": "fadeIn"
             },
             {
@@ -1155,7 +1168,8 @@
                 "turnChangeOut": "fadeOut"
             },
             {
-                "narration": "―ラビ―@このトリックを失敗した子どもたちは@うららと少し角度が違う気がする"
+                "bgm": "bgm03_story09",
+                "narration": "―ラビ―@このトリックを失敗した子どもたちは@うららと少し手首の角度が違う気がする"
             },
             {
                 "nameNarration": "アレクサンドラ",
@@ -1166,7 +1180,7 @@
             },
             {
                 "nameNarration": "旭",
-                "narration": "―旭―@あとはうららのほうが@手首の返しが早いでありますな"
+                "narration": "―旭―@そうでありますな@うららのほうが手首の返しが早いであります"
             },
             {
                 "nameNarration": "ラビ",
@@ -1227,17 +1241,38 @@
                 "textLeft": "へ？"
             },
             {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800900
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 103601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 103501,
                         "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 103301,
+                        "motion": 0,
                         "pos": 0
                     }
                 ],
-                "nameLeft": "アレクサンドラ",
-                "textLeft": "私たちが…？"
+                "nameRight": "アレクサンドラ",
+                "textRight": "私たちが…？"
             },
             {
                 "chara": [
@@ -1256,7 +1291,11 @@
             {
                 "chara": [
                     {
-                        "id": 800900
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 2
                     }
                 ],
                 "nameRight": "うららのマネージャー",
@@ -1284,7 +1323,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_001.exp3.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 103601,
                         "motion": 200,
                         "pos": 2

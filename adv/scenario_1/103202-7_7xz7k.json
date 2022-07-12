@@ -1,0 +1,1227 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21201.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "うい",
+                "textLeft": "はい、おかわりの紅茶",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 101501
+                    }
+                ],
+                "nameLeft": "うい",
+                "textLeft": "落ち着く香りがするって@わたしとお姉ちゃんのおすすめ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "さな",
+                "textRight": "はい、頭を抱えてる時こそ、@いちどリラックスしてください…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101501
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100401
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102101,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102501,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102801,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "ありがとぅ、ういちゃん@気遣いができてえらいわねぇ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102501,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "静香",
+                "textCenter": "二葉さんもありがとう@[chara:102501:lipSynch_0][wait:0.5][chara:102501:cheek_0][chara:102501:face_mtn_ex_030.exp.json][chara:102501:lipSynch_1]確かに頭が沸騰しそうだわ…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102801,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "あ、ごめん！@とりま砂糖いっぱい欲しい！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102501
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 102101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 101501,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "うい",
+                "textLeft": "えっと、一杯？いっぱい？"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102801
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_21261.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp3.json",
+                        "id": 102001,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 100501,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "あ、あの、フェリシアさん"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102001
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "お菓子、勝手に持って行ったら@やちよさんに怒られませんか？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 100501,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "フェリシア",
+                "textLeft": "みんな菓子食って話してるなら@オレだって食っていいだろ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102001,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "フェリシアさんもみんなの話に@加わればいいだけでは…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100501,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "フェリシア",
+                "textLeft": "だって、ネオマギウスのヤツと@一緒とか、なんかイヤだろ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501
+                    }
+                ],
+                "nameLeft": "フェリシア",
+                "textLeft": "灯花たちみたいに罰もなんも@うけてねーし"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "それならプロミストブラッドの@人たちも同じですし"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102001,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "今回はグループ同士が@対等に手を取り合ってるんです"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102001
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "罰を受ければいいっていう、@簡単な話じゃないですよ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp3.json",
+                        "id": 100301,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "鶴乃",
+                "textLeft": "そう！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 102001,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "ひゃっ!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 100301,
+                        "motion": 201,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "鶴乃",
+                "textLeft": "どこのグループも本音を言えば@恨みつらみがあるんだから"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301
+                    }
+                ],
+                "nameLeft": "鶴乃",
+                "textLeft": "いまはお互いを信じて@一緒に頑張るのがベスト！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102001,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "キュゥべえに@先を越されるって考えると"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102001
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "罰を気にしてるような状況じゃ@ないですしね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp3.json",
+                        "id": 100301,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "鶴乃",
+                "textLeft": "うん、それもある！"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102001
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_21201.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102801,
+                        "motion": 300,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 102101,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "なんか向こう@私チャンのことで揉めてる？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102101
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "私のことも関係ありそうねぇ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 100201,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "フェリシアは鶴乃がなんとか@してくれるから平気よ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "それよりも、十七夜たちが@戻って来なかった場合が問題よ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100101,
+                        "motion": 301,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "自動浄化システムの代用品は@作れそうにないですからね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100201,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "里見さんと柊さんがいないと、@突飛な案も出なさそうだし…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102501,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "みんなの固有魔法を組み合わせる@方法だと難しいのよね…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "ういの回収能力はあっても、@範囲を決める被膜が難しいです"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "それをできるのはどうしても@アリナさんになるので…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102101,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "結菜",
+                "textRight": "部分的には再現できたとしても、@ういちゃんに負担を強いてしまぅ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 100101,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "はい、その負担は未知数なので、@下手をすれば魔女になるかも…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp3.json",
+                        "id": 102801,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "ぶっちゃけさ、キュゥべえに@自動浄化システムを取られた上に"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102801
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "疑似的に再現もできなかったら@とりまどうなんの？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102801,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "ワンチャン、私チャンたちが@バトる可能性もアリ寄りのアリ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 102101,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "結菜",
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102501,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 102101,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "結菜",
+                "textRight": "藍家さんとしてはどうなのぉ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 100201,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "ずるい、探りを入れたわね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102101
+                    }
+                ],
+                "nameRight": "結菜",
+                "textRight": "なんのことかしらぁ"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 102101,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 102801,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "んー、ヒコ君的にはどう？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102801
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "うん…うん…@まぁ、私チャン的にも同じかな…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 102101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "なんて言ってるのぉ？"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 102801,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "ないものを欲しがっても、@ぶっちゃけ意味ないじゃんって"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102801
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "それに過激な魔法少女至上主義は@否定されちゃったけど"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102801,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "私チャンたちが戦ってることを@みんなに知ってもらうって話は"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102801
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "他のグループ的にも@おけまるなわけでしょ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 102801,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "それなら戦う理由もないし@仲良くするのはとりまオッケー"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102101,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "そうねぇ…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102101
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "ないものをねだったところで、@ただの駄々っ子でしかなぃ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102101,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "神浜市の魔法少女に@恨みを晴らしたい子はいても"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102101
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "その不毛さも味わってるから@二木市に帰るでしょぅねぇ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp3.json",
+                        "id": 102501,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "時女一族はいつだって@敵対するつもりは毛頭ないわ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102501
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "魔女を倒すみんなが自然と@日の本を支えている！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102501,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "それで十分よ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102101,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "…シンプルねぇ"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp3.json",
+                        "id": 100101,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "はぁ…みんなに衝突するような@意思がなくて良かったです…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102801,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "今の奇跡的な状況を捨てる方が@ヤバみが深すぎるからね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 100101,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "それに私はこうして肩を並べて@みんなと悩めてるのが嬉しいです"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100101
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "一緒に未来を見ている証拠だから"
+            },
+            {
+                "bgm": "bgm03_story09",
+                "chara": [
+                    {
+                        "id": 102801,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "だったら、あのふたりが@戻らなかった時の話はやめてさ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 102801
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "自動浄化システムを取り戻した@あとの話をしようよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "それじゃなんのために@リーダーたちが集まったのか…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102801,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "幸せな未来を語るためだって"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "うーん…わかるけど…@なんか、調子が狂っちゃうわ…"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100201
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 102801
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "[se:7106_telmail]ピロン♪",
+                "narrationBg": "bg_adv_21201.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "いろは",
+                "narrationEffect": "out",
+                "textCenter": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 401
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "あ…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100101,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 100201,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "誰から？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "十七夜さんから…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 100101,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "あ、みたまさんと一緒に@戻って来るそうです!!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100101,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 102801,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "ほら、やっぱりいけるって@いい波乗ってんじゃん！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 101501,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "うい",
+                "textRight": "やったねお姉ちゃん"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 101501
+                    }
+                ],
+                "nameRight": "うい",
+                "textRight": "ピュエラケアのみんなが@成功したっていうことだよね？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 100101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "うん、そうみたい！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp3.json",
+                        "id": 102501,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "静香",
+                "textRight": "これで８つの石が全部そろう…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 102101,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "結菜",
+                "textRight": "キュゥべえに先を越される前に@動いた方がいいわねぇ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100201,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "ええ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "nameLeft": "やちよ",
+                "textLeft": "ふたりと合流したら、@今後の動きをすぐに決めましょう"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_19051.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp3.json",
+                        "id": 100601,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 1,
+                        "posX": 50
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101901,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "それでは、かりんさんの行方は@つかめませんでしたか…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "月咲",
+                "textRight": "みふゆさんも@ダメだったんですね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp3.json",
+                        "id": 100601,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "ですが、そもそも結界内の様子が@おかしい気がします"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "月夜",
+                "textCenter": "そうなんでございますよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp3.json",
+                        "id": 101801
+                    }
+                ],
+                "nameCenter": "月夜",
+                "textCenter": "コピーの姿が見当たらなくて、@あまりにも無防備でございました"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "月咲",
+                "textRight": "ウチの方も同じだよ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "nameRight": "月咲",
+                "textRight": "見かけても戦う意思が@ないみたいで…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100601,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "みふゆ",
+                "textLeft": "何が起きてるんでしょうか…"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

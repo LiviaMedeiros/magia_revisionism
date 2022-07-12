@@ -1,0 +1,776 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21251.jpg",
+                "bgm": "bgm23_folklore01",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 101500,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 810100,
+                        "motion": 0,
+                        "pos": 1,
+                        "posX": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "あ、く…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "はぁ…はぁ…@だめかもしれないけど…やる…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101500,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "うい",
+                "textRight": "わたし、も…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500
+                    }
+                ],
+                "nameRight": "うい",
+                "textRight": "やりかたは間違ったけど…@灯花ちゃんと、ねむちゃんは…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 101500,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "うい",
+                "textRight": "魔法少女を助けるために@イブを作ったんだもん…!!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "そう、だね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "ふたりの意思を生かすためにも@挫けちゃいけない、ね…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 810100
+                    },
+                    {
+                        "id": 100100,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_033.exp3.json",
+                        "id": 113300,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "どうして…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 113300
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "魔法少女は救われないのに…@宇宙に殺されるだけなのに…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 113300,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "だから抵抗なんてせずに諦めて@私がやることに付いてきて…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "できま、せん…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100100
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "救うために殺すなんて@ねじ曲がった、考えを…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "このまま通しちゃいけない…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 113300
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "それなら考えてみて…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 113300,
+                        "motion": 1
+                    },
+                    {
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "魔法少女の存在が広まらなければ@宇宙によって殺されることはない"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 113300
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "ソウルジェムの真相を知らずに@魔女の真相を知らずに"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 113300
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "魔女と戦う苦しみを知らずに@魔法少女は永遠の眠りにつく…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 113300,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "それが一瞬であれば不幸はない"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 113300,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "キュゥべえを防ぐ被膜があれば、@契約する子もいなくなる"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 113300
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "最後には環いろはが望む未来と@同じ光景に帰結するはず"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_031.exp3.json",
+                        "id": 100100,
+                        "motion": 301
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "…そうかもしれません"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100100
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "でも、誰かの人生の終わりを…@他人が、決めちゃいけなぃ…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "それに、私は寄り添うべき@氷室さんの想いが、わからない…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 113300,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "魔法少女を救おうとした結果、@関わった人たちが不幸になる…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 113300
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "いまも苦しむ魔法少女たちを見て@あなたは何も思わないの!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 113300,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "結局、悪夢のような仕打ちを@受けるぐらいなら"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 113300
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "諦めた方がいい…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "それは、わかるんですけど…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100100
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "たぶん、氷室さんは@自分にウソを吐いてますよ…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_033.exp3.json",
+                        "id": 113300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "いえ、これは本心"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "本当に、諦めてる人は…@戦おうとしません…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 113300,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "――っ!?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "みんなを、苦しまないように@死なせようとするのは…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "少しは助けたいっていう想いが@氷室さんに…残ってるからです…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "それに…諦めたくないから、@氷室さんは神浜市に来たはず…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp3.json",
+                        "id": 113300,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "違う…今の私は…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "諦めてる人は…戦いません…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "戦うのは…@望む結末が…あるから、です…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100100,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "苦しんでも…痛くても…@死にそうでも…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "もがいている人たちは…みんな…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "目指している希望が…！@心に宿っているはずなんです…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameRight": "いろは",
+                "textRight": "それは氷室さんの胸の中にも@宿ってますよ！"
+            },
+            {
+                "nameNarration": "",
+                "narration": "カチ…カチン…",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 113300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "narrationEffect": "out",
+                "textLeft": "あ…"
+            },
+            {
+                "autoTurnLast": 2,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter11/103201_searchmember_badge.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21081.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103701,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 103302,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter11/103201_searchmember_badge.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "今回のパパとラビさんが抱える@問題を通して気づいたんですの",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103302
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "…と言いますと？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 103701,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "実はパパもラビさんも@心が弱いって！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 103302,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "いささか失礼ですね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 103701,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "だから、もしもつらくなった時は@バッジを見て欲しいんですの"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 103701
+                    }
+                ],
+                "nameLeft": "那由他",
+                "textLeft": "私もみかげさんも@ラビさんと一緒にいますの！"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21251.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "うい",
+                "textRight": "苦しまなかったとしてもね",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500
+                    }
+                ],
+                "nameRight": "うい",
+                "textRight": "わたしは誰かがいなくなるのは@さみしいと思うよ…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "うん…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "だから、氷室さんが言うような@誰かを消すようなことは"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "絶対に手伝えない…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "id": 101500,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "でも、その中にある@救いたい気持ちには寄り添える"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "あるでしょ？"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "もっと、救いたいものが…@もっと、残したいものが…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 113300,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "ラビ",
+                "textCenter": "…………"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

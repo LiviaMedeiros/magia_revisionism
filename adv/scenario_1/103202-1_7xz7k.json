@@ -1,0 +1,466 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "nameNarration": "リヴィア",
+                "narration": "願いを叶えたあとは病院らしき施設を壊して@次は劇団やと思ってたけど@眠らされて移送されてきた手前@その劇団の場所は、ぜんぜんわからへんかった",
+                "narrationBg": "",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20281.jpg",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "リヴィア",
+                "narration": "木々が生い茂る山を越えてわかったんは@自分がおるんは日本の島っていうことやった",
+                "narrationBg": "",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "集落に出たら普通に日本人がおったから@病院の話を訴えてみたけど@周りの人は困惑するばっかやった"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20311.jpg",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "リヴィア",
+                "narration": "それから、せめて警察に話そうと思って@島と本州を結ぶ定期連絡船に乗ったんやけど@そのまま補導されてしもて@あれよあれよという間に新しい施設に移された",
+                "narrationBg": "",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_50071.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp3.json",
+                        "id": 104102,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm23_puella04",
+                "chara": [
+                    {
+                        "id": 104102,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "リヴィア",
+                "textCenter": "現実味がなさすぎる",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104102
+                    }
+                ],
+                "nameCenter": "リヴィア",
+                "textCenter": "なんなら夢ちゃうか…？@んなわけあるかいな…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_040.exp3.json",
+                        "id": 104102,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "nameCenter": "リヴィア",
+                "textCenter": "（私らを最初に捕まえた男は@もう収監されとるらしいけど）",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104102,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "リヴィア",
+                "textCenter": "（あのババアは死んだ言うてた）"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104102,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "リヴィア",
+                "textCenter": "（どうにもこうにも@劇団にまで繋がらへんな…）"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 104102,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "リヴィア",
+                "textCenter": "はぁ…"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21441.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 800302,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 800500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 800302
+                    },
+                    {
+                        "effect": "shake",
+                        "id": 800500
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800302
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 104102,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "リヴィア",
+                "textCenter": "なんやねんな"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104102
+                    }
+                ],
+                "nameCenter": "リヴィア",
+                "textCenter": "戻って来たら来たで@結局こういう扱いなんか…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 104102,
+                        "pos": 1
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "こんにちは"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104102,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "あ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "あなた、リヴィアさん？@すぐにわかったわ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104102,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "そりゃこんな見てくれやからな@姉さんは誰なん"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "あ、名刺を渡すわね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_042.exp3.json",
+                        "id": 104102
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "NPO法人路地裏キッズサポート@って、なんやうさんくさ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "あなたみたいに@社会の闇に揉まれた少年少女を"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "支援するための団体よ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 104102,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "間に合ってるわ@ひとりでようやります"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "ようならないわよ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "リヴィア",
+                "narration": "急に昔の日常に戻って来て@現実味がない時に現れたんがあの人やった",
+                "narrationBg": "bg_adv_21441.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "出会った時からほんまにグイグイ来て@絶対に私を離さへんつもりやった"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "",
+                "narrationEffect": "out",
+                "textRight": "まずは目つきから変えないと@やっていけなさそうね"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 104102,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "目つき？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "自分でも気づいてないけど@修羅場を潜った目をしてるわ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "ここの職員と子どもたちは@それにビビってるんでしょ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_042.exp3.json",
+                        "id": 104102,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "そんな目してる？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "してるしてる"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 104102,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "ほんなら、あんたはどうなん"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104102
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "それでビビらんてことは、@荒波に揉まれてきたんかいな"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "ズバリその通り"
+            },
+            {
+                "nameNarration": "リヴィア",
+                "narration": "戻って来てからずっと世間とずれてる",
+                "narrationBg": "bg_adv_21441.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "そんなフワフワとした感覚の中で@この世界と私を繋ぎ止めるためにやってきた"
+            },
+            {
+                "narration": "いま思えばあの人は@私にとってそんな人やったんかもしれん"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -70,7 +70,8 @@
                         "face": "mtn_ex_011.exp3.json",
                         "id": 102200,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-1"
                     },
                     {
                         "cheek": 0,
@@ -87,7 +88,8 @@
                 "chara": [
                     {
                         "id": 102400,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-2"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -100,7 +102,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102200,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-3"
                     }
                 ],
                 "nameRight": "ひかる",
@@ -120,7 +123,8 @@
                 "chara": [
                     {
                         "id": 102400,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-4"
                     }
                 ],
                 "nameLeft": "樹里",
@@ -143,7 +147,8 @@
                         "face": "mtn_ex_060.exp3.json",
                         "id": 102300,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-5"
                     }
                 ],
                 "nameLeft": "アオ",
@@ -156,7 +161,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102200,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-6"
                     }
                 ],
                 "nameRight": "ひかる",
@@ -182,9 +188,9 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102100,
-                        "lipSynch": 0,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-7"
                     }
                 ],
                 "nameCenter": "結菜",
@@ -197,7 +203,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102100,
                         "motion": 400,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-8"
                     }
                 ],
                 "nameCenter": "結菜",
@@ -221,7 +228,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102300,
                         "motion": 400,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-9"
                     },
                     {
                         "cheek": 0,
@@ -238,7 +246,8 @@
                 "chara": [
                     {
                         "id": 102200,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-10"
                     }
                 ],
                 "nameRight": "ひかる",
@@ -251,7 +260,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102200,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-11"
                     }
                 ],
                 "nameRight": "ひかる",
@@ -264,7 +274,8 @@
                         "face": "mtn_ex_051.exp3.json",
                         "id": 102300,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-12"
                     }
                 ],
                 "nameLeft": "アオ",
@@ -277,7 +288,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102300,
                         "motion": 101,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-13"
                     }
                 ],
                 "nameLeft": "アオ",
@@ -286,19 +298,20 @@
             {
                 "chara": [
                     {
-                        "id": 102300
+                        "id": 102300,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-14"
                     }
                 ],
                 "nameLeft": "アオ",
                 "textLeft": "邪魔な下っ端連中もいないし、@姉さまたちを倒せば天辺だもんね"
             },
             {
+                "autoTurnLast": 0.5,
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_063.exp3.json",
                         "id": 102300,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_103104/vo_full_103104-5-15"
                     }
                 ],
                 "nameLeft": "アオ",
@@ -307,8 +320,19 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_063.exp3.json",
+                        "id": 102300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
                         "id": 102200,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-16",
+                        "voiceFullStop": "fullvoice/section_103104/vo_full_103104-5-15"
                     },
                     {
                         "cheek": 0,
@@ -326,7 +350,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102400,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-17"
                     }
                 ],
                 "nameRight": "樹里",
@@ -339,7 +364,8 @@
                         "face": "mtn_ex_032.exp3.json",
                         "id": 102100,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-18"
                     }
                 ],
                 "nameRight": "結菜",
@@ -348,7 +374,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-19"
                     }
                 ],
                 "nameRight": "結菜",
@@ -361,7 +388,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102300,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-20"
                     }
                 ],
                 "nameLeft": "アオ",
@@ -371,7 +399,8 @@
                 "chara": [
                     {
                         "id": 102300,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-21"
                     }
                 ],
                 "nameLeft": "アオ",
@@ -382,7 +411,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 102300
+                        "id": 102300,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-22"
                     }
                 ],
                 "nameLeft": "アオ",
@@ -395,7 +425,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102100,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-23"
                     }
                 ],
                 "nameRight": "結菜",
@@ -418,7 +449,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102200,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-24"
                     }
                 ],
                 "nameRight": "ひかる",
@@ -429,7 +461,8 @@
             {
                 "chara": [
                     {
-                        "id": 102200
+                        "id": 102200,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-25"
                     }
                 ],
                 "nameRight": "ひかる",
@@ -442,7 +475,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102400,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-26"
                     }
                 ],
                 "nameRight": "樹里",
@@ -452,7 +486,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-27"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -461,7 +496,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-28"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -471,7 +507,8 @@
                 "chara": [
                     {
                         "id": 102400,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-29"
                     }
                 ],
                 "nameRight": "樹里",
@@ -481,7 +518,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-30"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -494,7 +532,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102200,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-31"
                     }
                 ],
                 "nameRight": "ひかる",
@@ -504,7 +543,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-32"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -517,7 +557,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102200,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-33"
                     }
                 ],
                 "nameRight": "ひかる",
@@ -527,7 +568,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-34"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -537,7 +579,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-35"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -547,7 +590,8 @@
                 "chara": [
                     {
                         "eyeClose": 0,
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-36"
                     },
                     {
                         "id": 102200,
@@ -560,7 +604,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-37"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -570,7 +615,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-38"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -579,7 +625,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-39"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -592,7 +639,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102200,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-40"
                     }
                 ],
                 "nameRight": "ひかる",
@@ -618,7 +666,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102300,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-41"
                     }
                 ],
                 "nameLeft": "アオ",
@@ -627,7 +676,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-42"
                     }
                 ],
                 "nameRight": "結菜",
@@ -637,7 +687,8 @@
                 "chara": [
                     {
                         "id": 102300,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-43"
                     }
                 ],
                 "nameLeft": "アオ",
@@ -647,7 +698,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-44"
                     }
                 ],
                 "nameRight": "結菜",
@@ -656,7 +708,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-45"
                     }
                 ],
                 "nameRight": "結菜",
@@ -666,7 +719,8 @@
                 "chara": [
                     {
                         "id": 102100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-46"
                     }
                 ],
                 "nameRight": "結菜",
@@ -679,7 +733,8 @@
                         "face": "mtn_ex_051.exp3.json",
                         "id": 102300,
                         "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-47"
                     }
                 ],
                 "nameLeft": "アオ",
@@ -691,7 +746,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_000.exp3.json",
                         "id": 102300,
-                        "lipSynch": 1
+                        "lipSynch": 1,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-48"
                     }
                 ],
                 "nameLeft": "アオ",
@@ -704,7 +760,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102100,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-49"
                     }
                 ],
                 "nameRight": "結菜",
@@ -717,7 +774,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102300,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-50"
                     }
                 ],
                 "nameLeft": "アオ",
@@ -730,7 +788,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 102100,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-51"
                     }
                 ],
                 "nameRight": "結菜",
@@ -739,7 +798,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-52"
                     }
                 ],
                 "nameRight": "結菜",
@@ -750,7 +810,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-53"
                     }
                 ],
                 "nameRight": "結菜",
@@ -760,7 +821,8 @@
                 "chara": [
                     {
                         "id": 102300,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-54"
                     }
                 ],
                 "nameLeft": "アオ",
@@ -798,7 +860,8 @@
             {
                 "nameNarration": "アオ",
                 "narration": "「これから、わたし自身の過去を@さかのぼっていくから…」",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-55"
             },
             {
                 "autoTurnLast": 0.2,
@@ -840,7 +903,8 @@
             {
                 "chara": [
                     {
-                        "id": 102401
+                        "id": 102401,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-56"
                     }
                 ],
                 "nameRight": "樹里",
@@ -852,7 +916,8 @@
                 "chara": [
                     {
                         "id": 102101,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-57"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -861,7 +926,8 @@
             {
                 "chara": [
                     {
-                        "id": 102101
+                        "id": 102101,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-58"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -873,7 +939,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102401,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-59"
                     }
                 ],
                 "nameRight": "樹里",
@@ -883,7 +950,8 @@
                 "chara": [
                     {
                         "id": 102101,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-60"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -894,7 +962,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 102101
+                        "id": 102101,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-61"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -903,7 +972,8 @@
             {
                 "chara": [
                     {
-                        "id": 102101
+                        "id": 102101,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-62"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -911,7 +981,8 @@
             },
             {
                 "nameCenter": "アオの声",
-                "textCenter": "ふぇぇ…"
+                "textCenter": "ふぇぇ…",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-63"
             },
             {
                 "chara": [
@@ -919,7 +990,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102401,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-64"
                     }
                 ],
                 "nameRight": "樹里",
@@ -929,7 +1001,8 @@
                 "chara": [
                     {
                         "id": 102101,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-65"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -959,79 +1032,98 @@
                 "narrationFontSize": 30,
                 "narrationLineMargin": 10,
                 "narrationLineSpace": 20,
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-66"
             },
             {
                 "nameNarration": "結菜",
-                "narration": "―結菜―@ちょ、ちょっと潰さないでよぉ@きっとアオ自身のはずだからぁ"
+                "narration": "―結菜―@ちょ、ちょっと潰さないでよぉ@きっとアオ自身のはずだからぁ",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-67"
             },
             {
                 "nameNarration": "樹里",
-                "narration": "―樹里―@あんの憎まれ口を叩いてくるやつも@赤ん坊になれば、なんつーか可愛いもんだな"
+                "narration": "―樹里―@あんの憎まれ口を叩いてくるやつも@赤ん坊になれば、なんつーか可愛いもんだな",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-68"
             },
             {
                 "nameNarration": "結菜",
-                "narration": "―結菜―@…そういう感情もあるのねぇ"
+                "narration": "―結菜―@…そういう感情もあるのねぇ",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-69"
             },
             {
                 "nameNarration": "樹里",
-                "narration": "―樹里―@やめろ、恥ずかしくなるだろ@つーか、姉さんは可愛いと思わねーのかよ"
+                "narration": "―樹里―@やめろ、恥ずかしくなるだろ@つーか、姉さんは可愛いと思わねーのかよ",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-70"
             },
             {
                 "nameNarration": "結菜",
-                "narration": "―結菜―@可愛いわ、とてもねぇ"
+                "narration": "―結菜―@可愛いわ、とてもねぇ",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-71"
             },
             {
                 "nameNarration": "樹里",
-                "narration": "―樹里―@で、こっから樹里サマたちはどうするんだ"
+                "narration": "―樹里―@で、こっから樹里サマたちはどうするんだ",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-72"
             },
             {
                 "nameNarration": "結菜",
-                "narration": "―結菜―@あと少し６～９ヶ月ぐらいの頃になると@アオに恐怖の感情が芽生える時期になるわぁ"
+                "narration": "―結菜―@あと少し６～９ヶ月ぐらいの頃になると@アオに恐怖の感情が芽生える時期になるわぁ",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-73"
             },
             {
                 "nameNarration": "樹里",
-                "narration": "―樹里―@なるほど"
+                "narration": "―樹里―@なるほど",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-74"
             },
             {
                 "nameNarration": "樹里",
-                "narration": "―樹里―@で、姉さんがさっき言ってた通り@恐怖を感じる心を守りきったら"
+                "narration": "―樹里―@で、姉さんがさっき言ってた通り@恐怖を感じる心を守りきったら",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-75"
             },
             {
                 "nameNarration": "樹里",
-                "narration": "―樹里―@元のアオになってるかもしれねーと"
+                "narration": "―樹里―@元のアオになってるかもしれねーと",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-76"
             },
             {
                 "nameNarration": "結菜",
-                "narration": "―結菜―@確証がない希望的観測だけどね"
+                "narration": "―結菜―@確証がない希望的観測だけどね",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-77"
             },
             {
                 "nameNarration": "樹里",
-                "narration": "―樹里―@ん、待て、それって樹里サマたちが@14年の時間をかけるってことか…？"
+                "narration": "―樹里―@ん、待て、それって樹里サマたちが@14年の時間をかけるってことか…？",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-78"
             },
             {
                 "nameNarration": "結菜",
-                "narration": "―結菜―@そうなるわねぇ"
+                "narration": "―結菜―@そうなるわねぇ",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-79"
             },
             {
                 "nameNarration": "樹里",
-                "narration": "―樹里―@体感だと１時間とか@そういうのじゃねーの？"
+                "narration": "―樹里―@体感だと１時間とか@そういうのじゃねーの？",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-80"
             },
             {
                 "nameNarration": "結菜",
-                "narration": "―結菜―@さぁ"
+                "narration": "―結菜―@さぁ",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-81"
             },
             {
                 "nameNarration": "樹里",
-                "narration": "―樹里―@うわ、マジか…@えっぐい実験に巻き込まれたな…"
+                "narration": "―樹里―@うわ、マジか…@えっぐい実験に巻き込まれたな…",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-82"
             },
             {
                 "nameNarration": "結菜",
-                "narration": "―結菜―@だけど、引き返そうにも引き返せない@付き合ってもらうわよぉ、樹里"
+                "narration": "―結菜―@だけど、引き返そうにも引き返せない@付き合ってもらうわよぉ、樹里",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-83"
             },
             {
                 "nameNarration": "樹里",
-                "narration": "―樹里―@…わーったよ、仕方ねぇな"
+                "narration": "―樹里―@…わーったよ、仕方ねぇな",
+                "voiceFullAuto": "fullvoice/section_103104/vo_full_103104-5-84"
             },
             {
                 "autoTurnLast": 2,

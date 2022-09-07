@@ -1,0 +1,869 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19333.jpg",
+                "bgm": "bgm22_battle16",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 104100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104000,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "ヨヅル",
+                "surround": "7202_telepathy",
+                "textRight": "本当に魔女は攻撃を仕掛けて@来るんでしょうか",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104100,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "相手は最奥部から遠隔で@ういちゃんを殺したんやろ？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104100
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "せやったら、自分の危機が@迫ってる状況になったら"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104100,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "さすがに黙ってへんはずやろ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "ていうか、ふたりとも@付き合わんで良かったんやで"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 103900,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "月出里",
+                "textLeft": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 104000,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ヨヅル",
+                "textRight": "月出里が先生は自分の命を@簡単に捨て過ぎだと言ってます"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103900,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "月出里",
+                "textLeft": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104000
+                    }
+                ],
+                "nameRight": "ヨヅル",
+                "textRight": "自分ひとりの@命ではないのだからと"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104100,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "そんなん言われても困るわ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104100
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "固有魔法の手前、@最後まで味方はでけへんし"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 104100,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "やから、ここで敵に回るんが@どう考えても最善やろ？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 104000,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ヨヅル",
+                "textRight": "ええ@だから、私たちもお供するんです"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104000
+                    }
+                ],
+                "nameRight": "ヨヅル",
+                "textRight": "悪に秘められた善を行う先生を@ひとりで逝かせたくない"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103900,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "月出里",
+                "textLeft": "…うん"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103900
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 104000
+                    }
+                ],
+                "surround": "stop",
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_330.exp3.json",
+                        "id": 102000,
+                        "motion": 300,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "はぁ…はぁ…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "やっぱり戦い慣れてる調整屋は@とてもじゃないけど…強い…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 303500,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "千秋 理子？",
+                "textRight": "うぅ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 103800,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "みかげ？",
+                "textRight": "むぎゅー…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100100,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "あのふたりも瞬時の調整だけで@動けなくなってるし…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 104100,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "リヴィア",
+                "textRight": "[surround:1041A05][chara:100100:effect_7000_attack01]そろそろ手鏡はもらうで"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 100100,
+                        "motion": 401,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "[surround:1041A07][chara:100100:effect_7002_damage01][bgEffect:shakeSmall]ぐっ！@だめです…取られません…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp3.json",
+                        "id": 100100,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "リヴィアさん…@魔女の仲間なんて本当に…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_002.exp3.json",
+                        "id": 104100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "リヴィア",
+                "textRight": "キュゥべえの仲間やった私に@何を言うてんねん"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "じゃあ、本気でいきますよ！@[chara:100100:lipSynch_0][wait:1.0][flashEffect:flashWhiteSlow2][chara:100100:eyeClose_0][chara:100100:motion_400][chara:100100:lipSynch_1]キモチの力を使って！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 104100,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "リヴィア",
+                "textRight": "ほんま、鳥肌が立つぐらい@えらい魔力やわ"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 104100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_19333.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 104100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 103900,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 104000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "ef_adv_01",
+                        "id": 104100
+                    },
+                    {
+                        "effect": "ef_adv_01",
+                        "id": 103900
+                    },
+                    {
+                        "effect": "ef_adv_01",
+                        "id": 104000
+                    }
+                ],
+                "se": "7201_detect_magic"
+            },
+            {
+                "bgm": "bgm23_puella06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 104100,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "来たな…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 104000,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ヨヅル",
+                "textRight": "先生…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 103900,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "月出里",
+                "textCenter": "ふむんむん！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104100,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "３人がかりで@いろはちゃんを狙うで！"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 104000
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 103900
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 104100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_19333.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100100,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "[chara:100100:effect_emotion_surprise_0][se:7226_shock]――っ!?"
+            },
+            {
+                "nameRight": "かごめの声",
+                "textBg": "shout",
+                "textRight": "いろはさん！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 104100,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 103900,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 104000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "終わりや！"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeLarge",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeLarge",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter12/102704_ui_magicsquare3.png",
+                        "posX": -130,
+                        "posY": 50,
+                        "visible": "appear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 104100,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 103900,
+                        "motion": 100
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 104000,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "…あとは頼んだで"
+            },
+            {
+                "autoTurnLast": 1,
+                "item": [
+                    {
+                        "action": {
+                            "moveTo": {
+                                "duration": 0.4,
+                                "posY": 0
+                            }
+                        },
+                        "path": "resource/scenario/img/adv_roll_fade.png",
+                        "posX": 0,
+                        "posY": 2000,
+                        "scale": 6,
+                        "setVisible": 1,
+                        "zOrder": "messageFront"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 1,
+                "flashEffect": "flashRed2",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_052.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "え…これ…@ういの時と同じ…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 301
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "でも…どうして…@魔女の仲間だったはずじゃ…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100100,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_552.exp3.json",
+                        "id": 102000,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "まさか、これを見越して、@私たちを通すために…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 401
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "そんな…@ひとこと言ってくれたら…！"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp3.json",
+                        "id": 104100,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp3.json",
+                        "id": 103900,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 104000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_10"
+            },
+            {
+                "nameNarration": "リヴィア",
+                "narration": "「言ったら私の固有魔法の意味ないやろ」",
+                "narrationCoverOpacity": 60,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104100
+                    }
+                ],
+                "narration": "「しかし、ほんまふたりには悪いな@付き合うてもろて」"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104000,
+                        "motion": 300
+                    }
+                ],
+                "nameNarration": "ヨヅル",
+                "narration": "「他の人たちにグループがあるように@ピュエラケアというものに@愛着が多少はあったのかもしれません」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 104100,
+                        "motion": 200
+                    }
+                ],
+                "nameNarration": "リヴィア",
+                "narration": "「そう言ってもろたら何よりや…」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104100,
+                        "motion": 0
+                    },
+                    {
+                        "eyeClose": 1,
+                        "id": 103900
+                    }
+                ],
+                "narration": "「…アカンな」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104000,
+                        "motion": 0
+                    }
+                ],
+                "nameNarration": "ヨヅル",
+                "narration": "「ええ、飲まれて溶けていきます…」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 104000,
+                        "motion": 1
+                    }
+                ],
+                "narration": "「月出里、後悔しないうちに@伝えておいた方がいいですよ…」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 104000,
+                        "motion": 100
+                    }
+                ],
+                "narration": "「こういう時は背中を押すのが優しさです…」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 104100
+                    }
+                ],
+                "nameNarration": "リヴィア",
+                "narration": "「なんや…？」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103900,
+                        "motion": 301
+                    }
+                ],
+                "nameNarration": "月出里",
+                "narration": "「…リヴィアさん@今まで一緒にいてくれてありがとう…」"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103900,
+                        "motion": 101,
+                        "tear": 1
+                    }
+                ],
+                "narration": "「人殺しの私に…@人を生かさせてくれて…ありがとう…」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 104100,
+                        "motion": 100
+                    }
+                ],
+                "nameNarration": "リヴィア",
+                "narration": "「あー、そんな声やったんやな…」"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 104100,
+                        "tear": 1
+                    }
+                ],
+                "narration": "「こちらこそありがとうな…@ものごっつ、幸せに死ねるわ…」"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

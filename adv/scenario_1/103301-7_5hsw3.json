@@ -1,0 +1,445 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19334.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 101200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm24_story05",
+                "chara": [
+                    {
+                        "id": 101200,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "やっぱり、@キモチの石の力ってすごいの…！",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 101500,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "うい",
+                "textLeft": "かりんさんは大丈夫？@キモチの石がないみたいだけど"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 104000,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ヨヅル",
+                "textLeft": "私と月出里も戦力ではないので、@一緒に行動しませんか？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 101200,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "優しい気遣いなの！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 104000
+                    }
+                ],
+                "nameLeft": "ヨヅル",
+                "textLeft": "メモに従っただけですよ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 101200,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "それでも嬉しいけど、@わたしはひとりで行動するの！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 101200
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "何かやれることが@あるような気がするの！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 104000,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ヨヅル",
+                "textLeft": "そうですか、承知しました"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 104100,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "ほんなら私ら戦う組は、@さっそく鏡を割って回ろか"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "はい、単独行動になると思うので@皆さん注意してください"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 103300,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "魔法少女は単独で動く方が多い@だから安心して"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 102100,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "ただ、最近は必ず誰かがいたわぁ@背後には気をつけないとねぇ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 103300,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "確かにそう@これから守ってくれる人はいない"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 103300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_19334.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_140.exp3.json",
+                        "id": 102000,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "いろはさん@少しだけいいですか？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102000
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "使い魔やコピーなんですけど、@ういちゃんを狙ってますよね…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "うん…だから私は、@ういと一緒に動くつもりだよ…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_101.exp3.json",
+                        "id": 102000,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "…わかりました"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102000
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "何か裏があると思うので、@アルちゃんに調べてもらいます"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "アルちゃんに？"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102000
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 820400,
+                        "live2dName": "live2d_2",
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "アルちゃん",
+                "textCenter": "＜私はかごめちゃんから@独立して動けるんだよ＞"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820400,
+                        "live2dName": "live2d_2",
+                        "motion": 200
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 820400,
+                        "live2dName": "live2d_1",
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 820400,
+                        "live2dName": "live2d_0",
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "flashEffect": "flashWhite",
+                "nameCenter": "アルちゃんズ",
+                "textCenter": "＜ほら、こうして分裂してね！＞"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 820400,
+                        "live2dName": "live2d_2"
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 820400,
+                        "live2dName": "live2d_1"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 101500,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "うい",
+                "textLeft": "わぁっ！すごい！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820400,
+                        "live2dName": "live2d_0",
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "アルちゃん",
+                "textRight": "＜だから使い魔やコピーの動きを@探ることだってできるんだよ＞"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_140.exp3.json",
+                        "id": 102000,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "分裂するだけ魔力も@消費するみたいなんですけど"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_100.exp3.json",
+                        "id": 102000
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "情報を集めて拡散することが@私の力みたいなので"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102000,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "今は有効活用してみます"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 100100,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "わかった、ありがとう@[chara:100100:lipSynch_0][wait:0.8][chara:100100:cheek_0][chara:100100:face_mtn_ex_011.exp.json][chara:100100:lipSynch_1]よろしくね、かごめちゃんっ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_110.exp3.json",
+                        "id": 102000,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "はい、全力を尽くしますね…！"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

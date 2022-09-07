@@ -1,0 +1,950 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19334.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event09",
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "みんな、ごめんなさい@気が抜けてしまって…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp3.json",
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "今も…なんだけど、@状況が受け入れられなくて…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "うい",
+                "textRight": "わたしもごめんね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103300,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "連れ添った相手を失えば当然@誰もあなたを責めてない…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 102100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "結菜",
+                "textRight": "…それでもキツイことを言うと、@すぐにでも動かないといけなぃ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102500,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "静香",
+                "textLeft": "誰も想像してなかった@危機だもの…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_330.exp3.json",
+                        "id": 102000,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "でも、どうしましょうか…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102000
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "急にタイムパラドクスなんて@難しいことを言われても…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102000,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "アルちゃん",
+                "textRight": "＜よくわからないよね…＞"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 102000,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 101200,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "少なくとも他の時代に行ける鏡は@全部壊さないとダメなの…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_130.exp3.json",
+                        "id": 102000,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "アルちゃん",
+                "textLeft": "＜それってどれくらい？＞"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19075.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "御園 かりん",
+                "narration": "―かりん―@隠し部屋で見た鏡のことを思い出すと@お空の鏡は壊すべきだと思うの…",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 10,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "かごめ",
+                "narration": "―かごめ―@そ、そんなに…!?"
+            },
+            {
+                "narration": "―かごめ―@じゃあ、あの遠くにある大きい鏡も…？"
+            },
+            {
+                "nameNarration": "御園 かりん",
+                "narration": "―かりん―@…あんな大きい鏡は隠し部屋にもなかったから@ちょっとわからないの…"
+            },
+            {
+                "nameNarration": "いろは",
+                "narration": "―いろは―@放っておくと危険かもしれないね…"
+            },
+            {
+                "narration": "―いろは―@小さな鏡が作用し合って@周りに壁を作ってるみたいだし…"
+            },
+            {
+                "nameNarration": "結菜",
+                "narration": "―結菜―@ええ、私たちの干渉を防ぐために@バリアを張ってるように見えるわぁ…"
+            },
+            {
+                "nameNarration": "静香",
+                "narration": "―静香―@ばりあ？"
+            },
+            {
+                "nameNarration": "結菜",
+                "narration": "―結菜―@見えない壁…障壁のようなものよぉ"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19334.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 102800,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 101200,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102800
+                    }
+                ],
+                "nameLeft": "ひめな",
+                "textLeft": "うん…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102800,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "ひめな",
+                "textLeft": "とりま、あの大きな鏡の破壊が@私チャンたちのゴールじゃない？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102800
+                    }
+                ],
+                "nameLeft": "ひめな",
+                "textLeft": "ヒコ君的には、守りが堅いなら@中に魔女がいるかもしれないし"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102800
+                    }
+                ],
+                "nameLeft": "ひめな",
+                "textLeft": "周りのバリアを消すのに@小さい鏡を壊す必要があるなら"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102800,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "ひめな",
+                "textLeft": "タイムパラドクスも防げて@一石二鳥だって言ってる"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102800
+                    }
+                ],
+                "nameLeft": "ひめな",
+                "textLeft": "かりりん的には小さい鏡も@全部壊す必要があるんでしょ？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101200,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "そうなの…！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp3.json",
+                        "id": 102500,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "静香",
+                "textLeft": "…魔女を倒せたら、@被膜への干渉はなくなるのよね？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 102100,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "結菜",
+                "textRight": "えぇ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102100
+                    }
+                ],
+                "nameRight": "結菜",
+                "textRight": "ドッペルが発現するようになって@倒れているみんなを救えるわぁ"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "black",
+                "chara": [
+                    {
+                        "id": 6212,
+                        "name": "sprite_0",
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "うい",
+                "narration": "―うい―@でも、他の所と繋がった結界って@株分けの魔女がいたよね…？",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 10,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "―うい―@すごく強いって@みふゆさんが言ってたよ…？"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19334.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "うい",
+                "textRight": "こんなに鏡もあるし、@ぜんぶ倒せるのかな…？",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 100100,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "私がもっているキモチの石を@みんなに渡せば大丈夫"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "キモチも、この世界がなくなれば@救われないはずだから"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "きっと、@力を貸してくれるはずだよ"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_19075.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "いろは",
+                "narration": "「それに、株分けの魔女と戦った経験上ですが」",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "「鏡を通して起きた出来事は@魔女が確定する前に@対象の鏡を破壊するか魔女を倒すことで@状況は変わらず帳尻が合わせられます」"
+            },
+            {
+                "narration": "「だからみんなで小さな鏡を破壊して@大きな鏡も壊しましょう」"
+            },
+            {
+                "narration": "「そして鏡の魔女を倒して@魔法少女たちの未来を生かすんです」"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_19334.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 103300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter10/103102_kimochi_bracelet_diamond.png",
+                        "posX": 200,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm24_story04",
+                "chara": [
+                    {
+                        "id": 103300,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "ありがとう、環さん",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 103300,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "ラビ",
+                "textLeft": "私は、自分が宿命に抗っていると@気づいた以上、最後まで戦う"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 102800,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter6/102704_kimochi_bracelet_pearl.png",
+                        "posX": 200,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102800,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "ひめな",
+                "textLeft": "あざまる！",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102800
+                    }
+                ],
+                "nameLeft": "ひめな",
+                "textLeft": "前はマイメンに助けられたから、@今回は私チャンのターンだよね★"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp3.json",
+                        "id": 102500,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter10/103104_kimochi_bracelet_ruby.png",
+                        "posX": 200,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102500,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "静香",
+                "textLeft": "私も全力を尽くす",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102500
+                    }
+                ],
+                "nameLeft": "静香",
+                "textLeft": "やっと足並みがそろってきた今、@一族の歩みは止めさせないわ"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 102100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter1/102204_kimochi_bracelet_aquamarine.png",
+                        "posX": 200,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102100
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "二木市のためにも受け取るわぁ",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102100,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "長い年月をかけて繋がれた奇跡を@私は大切にしたいのよぉ"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_100.exp3.json",
+                        "id": 102000,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter2/102303_kimochi_bracelet_turquoise.png",
+                        "posX": 200,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102000
+                    }
+                ],
+                "nameLeft": "かごめ",
+                "textLeft": "魔法少女になったばかりの私に@できることは少ないかもしれない",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102000,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "かごめ",
+                "textLeft": "だけど、今の出来事を@明日に届けるために頑張ります！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_200.exp3.json",
+                        "id": 102000,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "アルちゃん",
+                "textLeft": "＜その意気だ！かごめちゃん！＞"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102000
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter2/102303_kimochi_bracelet_turquoise.png",
+                        "visible": "hide"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 101500,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter3/102403_kimochi_bracelet_opal.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "nameRight": "うい",
+                "textRight": "そしてわたしたちも…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "うん…頑張ろう…@userNameの分も…！"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter3/102403_kimochi_bracelet_opal.png",
+                        "visible": "hide"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_19334.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 104100,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 103900,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 104000,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "ほんなら、私らは別行動やな"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 103900
+                    },
+                    {
+                        "id": 104100,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "最後のキモチの石は@リヴィアさんが使ってください"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp3.json",
+                        "id": 104100,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "リヴィア",
+                "textRight": "そんな、簡単に受け取られへんわ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "でも、みんなを助けてくれた@リヴィアさんと戦いたいんです"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104100
+                    }
+                ],
+                "nameRight": "リヴィア",
+                "textRight": "さよか…@[chara:104100:lipSynch_0][wait:0.8][chara:104100:cheek_0][chara:104100:face_mtn_ex_011.exp.json][chara:104100:lipSynch_1]ほならもらっとくわ"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104100,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "リヴィア",
+                "textCenter": "（パラドクスを防ごうとしたら@えらいことになってまうし…）",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104100,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "リヴィア",
+                "textCenter": "（鏡の魔女が楽できるように@戦うたらええかな…）"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 104100
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 101200,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_01",
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 101200,
+                        "motion": 400
+                    }
+                ],
+                "se": "7201_detect_magic"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 101200,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "御園 かりん",
+                "textCenter": "みんな大変なの@使い魔が来たみたいなの！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101200
+                    }
+                ],
+                "nameCenter": "御園 かりん",
+                "textCenter": "さっそく、そのキモチの力で@倒しちゃった方がいいの！"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

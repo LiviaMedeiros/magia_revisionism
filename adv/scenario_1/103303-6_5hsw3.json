@@ -1,0 +1,975 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19024.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 103300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_movie11",
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "[chara:100100:effect_ef_adv_01][se:7201_detect_magic]この近づいてくる反応って…@魔法少女…？",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 103300,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "わからないけど…@サーシャの反応があったような…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 103300
+                    }
+                ],
+                "nameRight": "ラビ",
+                "textRight": "それに旭とうららも…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 102100,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "私もプロミストブラッドの@メンバーの魔力を感じたわぁ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102800,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "これ、ワンチャン@生きてた可能性あるくない!?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102500,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "静香",
+                "textLeft": "だけど、私ははっきりと@仲間が悪鬼になるのを感じたわ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp3.json",
+                        "id": 102500
+                    }
+                ],
+                "nameLeft": "静香",
+                "textLeft": "いくら近づいてきてるからって@立ち止まるのは危険よ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102800,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "で…でも…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102500,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "静香",
+                "textLeft": "今の神浜市は@大きな魔女の結界の中"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102500
+                    }
+                ],
+                "nameLeft": "静香",
+                "textLeft": "都合の良いことを考えても@期待を裏切られる気がするわ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp3.json",
+                        "id": 104100,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "リヴィア",
+                "textRight": "ま、ここは@静香ちゃんの言う通りやろな"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 104100,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104000,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "ヨヅル",
+                "textRight": "ですが先生…@こんな反応は今まで１度も…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104100,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "いや、混在する可能性が@ひとつだけあるかもしれへん"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 104100
+                    }
+                ],
+                "nameLeft": "リヴィア",
+                "textLeft": "あんま考えたくないけどな"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgEffect": "shakeLarge",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgEffect": "shakeLarge"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 103900,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 104000,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "月出里",
+                "textLeft": "ふむﾞんむ！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104000,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "ヨヅル",
+                "textRight": "はい、地震ですね…@驚きました…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_330.exp3.json",
+                        "id": 102000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "使い魔があふれてる上に@魔女も強くなってる状況なので"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102000
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "各地で災害や事故が@起きてるようですね…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_350.exp3.json",
+                        "id": 102000,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "かごめ",
+                "textRight": "あっ…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_330.exp3.json",
+                        "id": 102000,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_052.exp3.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "[textBlack:神浜市中央区での緊急車両事故]@[textBlack:運転手は里見メディカルセンターの院長か]",
+                "narrationBg": "white",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 180
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102000,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "かごめ",
+                "narrationEffect": "out",
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "みかづき荘が…"
+            },
+            {
+                "nameNarration": "",
+                "narration": "[textBlack:地震によって電柱が倒れた影響で漏電か]@[textBlack:住宅が炎上し、近隣住宅へ延焼]@[textBlack:火元となった住宅の住人は不在で所在を確認中]",
+                "narrationBg": "white",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 180
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21694.jpg",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 1,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21209.jpg",
+                "bgChangeEffect": "fade"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_19024.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 102800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102800,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "工匠区ではビルが崩れてるし@大東と結ぶ橋も落ちたって…",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 102800
+                    }
+                ],
+                "nameRight": "ひめな",
+                "textRight": "しぐりんとはぐりんの@地元なのに…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102100,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "結菜",
+                "textLeft": "車輌基地も崩れてるようだから@影響はかなりの広範囲ねぇ…"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 102800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 102100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp3.json",
+                        "id": 100100,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "…っ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 401
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "気になるけど、気にしない…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 1
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "みんなの魔力反応も@今は気にせず進みましょう"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "かなりの速度で近づいてるので@いずれ追いつかれそうです"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "[chara:100100:effect_ef_adv_01][se:7201_detect_magic]あれ、ひとり…@この魔力反応って…"
+            },
+            {
+                "nameRight": "かりんの声",
+                "textBg": "shout",
+                "textRight": "きゃぁッ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "いろは",
+                "textCenter": "かりんちゃん！"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_19024.jpg",
+                "bgChangeEffect": "cameraPan"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 100800,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "アリナ",
+                "textCenter": "他のことに気を取られすぎて@気づくのが遅すぎなんですケド"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100800,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "何をする気ですか…！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "別に、ただアリナは@彼女を返してもらうダケ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "あなたたちのエンディングが"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "ハピネスかサッドネスか@アリナたちは賭けをしてるカラ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "フールガールには、@ラストを見ていて欲しいワケ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 100100,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "本当に…@それだけですか…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 101200,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "環先輩、わたしは大丈夫なの！@だから先に行って欲しいの！"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "でも…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101200,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "アリナ先輩は何もしないの@答えがないから何もできないの"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_013.exp3.json",
+                        "id": 100800,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "そ、アンサーのないアリナは@ただのオーディエンス"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 100800
+                    }
+                ],
+                "nameRight": "アリナ",
+                "textRight": "むしろ、バトルする気がないなら@さっさと行ってヨネ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 101200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter12/103303_witch_handmirror.png",
+                        "posX": 0,
+                        "posY": 130,
+                        "visible": "appear"
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "それじゃあ、@この手鏡を預けておくの"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "…ごめんね、かりんちゃん"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101200,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "謝る必要はないの@あとはコピーのふたりに任せるの"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 303500,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "千秋 理子？",
+                "textLeft": "はい、お任せください！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 103800,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "みかげ？",
+                "textLeft": "ミィたちが、かりんちゃんの分も@役に立ってくるからね"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "いろは",
+                "textLeft": "必ずハピネスで終わるように@私、頑張ってくるからね"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/part2_chapter12/103303_witch_handmirror.png",
+                        "visible": "hide"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101200,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 100800,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101200,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "…………",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_022.exp3.json",
+                        "id": 101200
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "わたしも行きたかったのに…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "ソーリー"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 101200,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "それに今は、@かなりサッドネス寄りなの…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101200,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "…………"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101200,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "アリナ先輩はこれで満足なの…？"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "ノー"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "アリナ的には人間が求めている@アートを提供したいケド"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "瀬奈みことのやり方は@アートを作らないカラ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 100800
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "過去をナッシングにするのは@ただの虚無でしかないんだヨネ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 101200,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "なのに抵抗しないの…？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 100800,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "フールガールの言う通り@今のアリナにアンサーはないカラ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "戦う理由がないワケ"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "自分のアンサーがない上に@問題提起をする相手もいないなら"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100800
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "アーティストであるアリナは@ただ見てるだけだヨネ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 100800,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "ケド…"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101200,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "御園 かりん",
+                "textRight": "けど？"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_013.exp3.json",
+                        "id": 100800
+                    }
+                ],
+                "nameLeft": "アリナ",
+                "textLeft": "アイツらをみてるとアンサーが@浮かびそうな気がするワケ…"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

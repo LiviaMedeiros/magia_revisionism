@@ -13,7 +13,8 @@
                 "narration": "願いを叶えたあとは病院らしき施設を壊して@次は劇団やと思ってたけど@眠らされて移送されてきた手前@その劇団の場所は、ぜんぜんわからへんかった",
                 "narrationBg": "",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-1"
             },
             {
                 "autoTurnLast": 0.01,
@@ -26,10 +27,12 @@
                 "narration": "木々が生い茂る山を越えてわかったんは@自分がおるんは日本の島っていうことやった",
                 "narrationBg": "",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-2"
             },
             {
-                "narration": "集落に出たら普通に日本人がおったから@病院の話を訴えてみたけど@周りの人は困惑するばっかやった"
+                "narration": "集落に出たら普通に日本人がおったから@病院の話を訴えてみたけど@周りの人は困惑するばっかやった",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-3"
             },
             {
                 "autoTurnLast": 0.01,
@@ -42,7 +45,8 @@
                 "narration": "それから、せめて警察に話そうと思って@島と本州を結ぶ定期連絡船に乗ったんやけど@そのまま補導されてしもて@あれよあれよという間に新しい施設に移された",
                 "narrationBg": "",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-4"
             },
             {
                 "autoTurnLast": 0.2,
@@ -64,7 +68,7 @@
                 "chara": [
                     {
                         "id": 104102,
-                        "motion": 300
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-5"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -72,16 +76,27 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 2,
                 "chara": [
                     {
                         "cheek": 0,
-                        "eyeClose": 1,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 104102
+                        "id": 104102,
+                        "motion": 300,
+                        "voiceFull": "fullvoice/section_103202/vo_full_103202-1-6"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameCenter": "リヴィア",
                 "textCenter": "なんなら夢ちゃうか…？@んなわけあるかいな…"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 104102
+                    }
+                ]
             },
             {
                 "chara": [
@@ -91,9 +106,12 @@
                         "face": "mtn_ex_040.exp3.json",
                         "id": 104102,
                         "lipSynch": 0,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-7",
+                        "voiceFullStop": "fullvoice/section_103202/vo_full_103202-1-6"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameCenter": "リヴィア",
                 "textCenter": "（私らを最初に捕まえた男は@もう収監されとるらしいけど）",
                 "turnEffect": "stop"
@@ -102,7 +120,8 @@
                 "chara": [
                     {
                         "id": 104102,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-8"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -114,7 +133,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 104102,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-9"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -125,8 +145,8 @@
                     {
                         "eyeClose": 1,
                         "id": 104102,
-                        "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-10"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -191,7 +211,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 104102,
                         "motion": 200,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-11"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -200,7 +221,8 @@
             {
                 "chara": [
                     {
-                        "id": 104102
+                        "id": 104102,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-12"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -223,7 +245,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 800600,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-13"
                     }
                 ],
                 "nameRight": "",
@@ -234,7 +257,8 @@
                     {
                         "id": 104102,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-14"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -245,7 +269,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-15"
                     }
                 ],
                 "nameRight": "",
@@ -255,7 +280,8 @@
                 "chara": [
                     {
                         "id": 104102,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-16"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -266,20 +292,24 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-17"
                     }
                 ],
                 "nameRight": "",
                 "textRight": "あ、名刺を渡すわね"
             },
             {
+                "autoTurnLast": 4,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_042.exp3.json",
-                        "id": 104102
+                        "id": 104102,
+                        "voiceFull": "fullvoice/section_103202/vo_full_103202-1-18"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameLeft": "リヴィア",
                 "textLeft": "NPO法人路地裏キッズサポート@って、なんやうさんくさ…"
             },
@@ -287,17 +317,30 @@
                 "chara": [
                     {
                         "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104102
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-19",
+                        "voiceFullStop": "fullvoice/section_103202/vo_full_103202-1-18"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "",
                 "textRight": "あなたみたいに@社会の闇に揉まれた少年少女を"
             },
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-20"
                     }
                 ],
                 "nameRight": "",
@@ -310,7 +353,8 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_020.exp3.json",
                         "id": 104102,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-21"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -321,7 +365,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-22"
                     }
                 ],
                 "nameRight": "",
@@ -340,19 +385,25 @@
                 "nameNarration": "リヴィア",
                 "narration": "急に昔の日常に戻って来て@現実味がない時に現れたんがあの人やった",
                 "narrationBg": "bg_adv_21441.jpg",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-23"
             },
             {
-                "narration": "出会った時からほんまにグイグイ来て@絶対に私を離さへんつもりやった"
+                "narration": "出会った時からほんまにグイグイ来て@絶対に私を離さへんつもりやった",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-24"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-25"
                     }
                 ],
                 "nameRight": "",
-                "narrationEffect": "out",
                 "textRight": "まずは目つきから変えないと@やっていけなさそうね"
             },
             {
@@ -360,7 +411,8 @@
                     {
                         "eyeClose": 0,
                         "id": 104102,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-26"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -371,7 +423,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-27"
                     }
                 ],
                 "nameRight": "",
@@ -382,7 +435,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-28"
                     }
                 ],
                 "nameRight": "",
@@ -395,7 +449,8 @@
                         "face": "mtn_ex_042.exp3.json",
                         "id": 104102,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-29"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -406,7 +461,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-30"
                     }
                 ],
                 "nameRight": "",
@@ -418,7 +474,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
                         "id": 104102,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-31"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -427,7 +484,8 @@
             {
                 "chara": [
                     {
-                        "id": 104102
+                        "id": 104102,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-32"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -438,7 +496,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
-                        "id": 800600
+                        "id": 800600,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-33"
                     }
                 ],
                 "nameRight": "",
@@ -448,13 +507,16 @@
                 "nameNarration": "リヴィア",
                 "narration": "戻って来てからずっと世間とずれてる",
                 "narrationBg": "bg_adv_21441.jpg",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-34"
             },
             {
-                "narration": "そんなフワフワとした感覚の中で@この世界と私を繋ぎ止めるためにやってきた"
+                "narration": "そんなフワフワとした感覚の中で@この世界と私を繋ぎ止めるためにやってきた",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-35"
             },
             {
-                "narration": "いま思えばあの人は@私にとってそんな人やったんかもしれん"
+                "narration": "いま思えばあの人は@私にとってそんな人やったんかもしれん",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-1-36"
             },
             {
                 "autoTurnLast": 2,

@@ -23,10 +23,12 @@
                 "narration": "たぶん私は他の子たちよりも@少しだけ強い因果を背負っていて@だからキュゥべえも@私に何度も契約を迫ってきたんだと思う",
                 "narrationEffect": "in",
                 "surround": "7003_wind",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-1"
             },
             {
-                "narration": "願いはひとつだけ@できることや叶い方だって千差万別"
+                "narration": "願いはひとつだけ@できることや叶い方だって千差万別",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-2"
             },
             {
                 "autoTurnLast": 0.2,
@@ -47,7 +49,8 @@
                 "narration": "願い事って言われると色々と思い描くけど@みんなに取材をして良かったと思う",
                 "narrationEffect": "in",
                 "turnChangeOut": "fadeOut",
-                "turnEffect": "blackPromist"
+                "turnEffect": "blackPromist",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-3"
             },
             {
                 "item": [
@@ -62,10 +65,12 @@
                         "visible": "hide"
                     }
                 ],
-                "narration": "“[textRed:魔法少女同士の争いを止めて]”"
+                "narration": "“[textRed:魔法少女同士の争いを止めて]”",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-4"
             },
             {
-                "narration": "魔法少女が争わなくなるだけで@グリーフシードの数は変わらないから意味がない"
+                "narration": "魔法少女が争わなくなるだけで@グリーフシードの数は変わらないから意味がない",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-5"
             },
             {
                 "item": [
@@ -80,10 +85,12 @@
                         "visible": "hide"
                     }
                 ],
-                "narration": "“[textRed:魔法少女の存在を世間に広めて欲しい]”"
+                "narration": "“[textRed:魔法少女の存在を世間に広めて欲しい]”",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-6"
             },
             {
-                "narration": "湯国市と同じでヒドい目に遭うかもしれないし@大人に利用されるかもしれないから@段階を踏まないと怖い結果になるのが見える"
+                "narration": "湯国市と同じでヒドい目に遭うかもしれないし@大人に利用されるかもしれないから@段階を踏まないと怖い結果になるのが見える",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-7"
             },
             {
                 "item": [
@@ -98,7 +105,8 @@
                         "visible": "hide"
                     }
                 ],
-                "narration": "“[textRed:みんなの命を助けて欲しい]”@“[textRed:氷室さんを助けて欲しい]”@“[textRed:私自身が自動浄化システムのコアになる]”"
+                "narration": "“[textRed:みんなの命を助けて欲しい]”@“[textRed:氷室さんを助けて欲しい]”@“[textRed:私自身が自動浄化システムのコアになる]”",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-8"
             },
             {
                 "item": [
@@ -113,7 +121,8 @@
                         "visible": "hide"
                     }
                 ],
-                "narration": "魔法少女のことを知っているほど@願いの数はたくさん出てくる"
+                "narration": "魔法少女のことを知っているほど@願いの数はたくさん出てくる",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-9"
             },
             {
                 "item": [
@@ -123,13 +132,16 @@
                     }
                 ],
                 "narration": "だけど、様々なリスクが頭の中をよぎって@本当に願って良いのかわからなくなって@ずっと自分の中で覚悟ができないままだった",
-                "turnEffect": "stop"
+                "turnEffect": "stop",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-10"
             },
             {
-                "narration": "それに、取材をするみんなが@魔法少女になって欲しそうじゃなかったから…"
+                "narration": "それに、取材をするみんなが@魔法少女になって欲しそうじゃなかったから…",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-11"
             },
             {
-                "narration": "それでも私はいま@ようやく自分の願いがわかった"
+                "narration": "それでも私はいま@ようやく自分の願いがわかった",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-12"
             },
             {
                 "autoTurnLast": 1,
@@ -138,7 +150,8 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_000.exp3.json",
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp3.json",
                         "id": 102100,
                         "motion": 0,
                         "pos": 1
@@ -153,9 +166,9 @@
                 "bgm": "bgm20_song09",
                 "chara": [
                     {
-                        "eyeClose": 1,
                         "id": 102100,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-13"
                     }
                 ],
                 "textCenter": "今も目を閉じれば聞こえて来る！",
@@ -179,7 +192,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-14"
                     }
                 ],
                 "nameCenter": "結菜",
@@ -193,7 +207,8 @@
                         "cheek": 1,
                         "face": "mtn_ex_052.exp.json",
                         "id": 102100,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-15"
                     }
                 ],
                 "textCenter": "だから、だから私たちは@自動浄化システムを頂くのよぉ…"
@@ -201,7 +216,8 @@
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-16"
                     }
                 ],
                 "textCenter": "私たちの血で作られたものを@贖罪の証としてねぇ"
@@ -218,7 +234,8 @@
                 "narrationBg": "white",
                 "narrationCoverOpacity": 0,
                 "narrationEffect": "in",
-                "turnChangeOut": "whiteOut"
+                "turnChangeOut": "whiteOut",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-17"
             },
             {
                 "autoTurnLast": 0.5,
@@ -246,7 +263,8 @@
             {
                 "chara": [
                     {
-                        "id": 102600
+                        "id": 102600,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-18"
                     }
                 ],
                 "nameLeft": "静香",
@@ -258,7 +276,8 @@
                 "chara": [
                     {
                         "id": 102600,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-19"
                     }
                 ],
                 "textRight": "魔女にならない不思議な力、@自動浄化システムがあるって"
@@ -270,7 +289,8 @@
                         "face": "mtn_ex_030.exp.json",
                         "id": 102700,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-20"
                     }
                 ],
                 "nameRight": "すなお",
@@ -280,7 +300,8 @@
                 "chara": [
                     {
                         "id": 102500,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-21"
                     }
                 ],
                 "textLeft": "でも私は@魔女にならない力が欲しい"
@@ -288,7 +309,8 @@
             {
                 "chara": [
                     {
-                        "id": 102500
+                        "id": 102500,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-22"
                     }
                 ],
                 "textLeft": "それがあれば、安心して私たちは@日の本のために戦えるから"
@@ -305,7 +327,8 @@
                 "narrationBg": "white",
                 "narrationCoverOpacity": 0,
                 "narrationEffect": "in",
-                "turnChangeOut": "whiteOut"
+                "turnChangeOut": "whiteOut",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-23"
             },
             {
                 "autoTurnLast": 0.5,
@@ -333,7 +356,8 @@
             {
                 "chara": [
                     {
-                        "id": 103000
+                        "id": 103000,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-24"
                     }
                 ],
                 "nameLeft": "はぐむ",
@@ -347,7 +371,8 @@
                         "cheek": 1,
                         "face": "mtn_ex_030.exp.json",
                         "id": 103000,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-25"
                     }
                 ],
                 "textLeft": "みんなが馬鹿にされずに@認められるような社会にして"
@@ -355,7 +380,8 @@
             {
                 "chara": [
                     {
-                        "id": 103000
+                        "id": 103000,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-26"
                     }
                 ],
                 "textLeft": "平穏に生きられるように…"
@@ -364,9 +390,10 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_010.exp3.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 103000,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-27"
                     }
                 ],
                 "textLeft": "その、ためにも@手に入れないといけない…"
@@ -376,9 +403,10 @@
                     {
                         "cheek": 0,
                         "eyeClose": 1,
-                        "face": "mtn_ex_001.exp3.json",
+                        "face": "mtn_ex_020.exp.json",
                         "id": 102900,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-28"
                     }
                 ],
                 "textRight": "…………"
@@ -388,7 +416,8 @@
                     {
                         "eyeClose": 0,
                         "id": 102900,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-29"
                     }
                 ],
                 "textRight": "きっと手に入れたら@魔法少女が付いてきてくれる"
@@ -405,7 +434,8 @@
                 "narrationBg": "white",
                 "narrationCoverOpacity": 0,
                 "narrationEffect": "in",
-                "turnChangeOut": "whiteOut"
+                "turnChangeOut": "whiteOut",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-30"
             },
             {
                 "autoTurnLast": 0.5,
@@ -427,7 +457,8 @@
                 "chara": [
                     {
                         "id": 100101,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-31"
                     }
                 ],
                 "nameNarration": "いろは",
@@ -439,7 +470,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 100101
+                        "id": 100101,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-32"
                     }
                 ],
                 "narration": "『その希望は魔法少女にとって@等しく尊くて大切なもののはずなのに@今の私たちは誰かの希望を奪いながら@自分の希望を叶えようとしている…』"
@@ -451,7 +483,8 @@
                         "eyeClose": 0,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 100101,
-                        "motion": 301
+                        "motion": 301,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-33"
                     }
                 ],
                 "narration": "『だから私は@誰かの希望も救いも否定しないで@ひとつひとつ叶えられるように@“みんなが生きられる世界を作りたい”』"
@@ -468,7 +501,8 @@
                 "narrationBg": "white",
                 "narrationCoverOpacity": 0,
                 "narrationEffect": "in",
-                "turnChangeOut": "whiteOut"
+                "turnChangeOut": "whiteOut",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-34"
             },
             {
                 "autoTurnLast": 0.5,
@@ -498,7 +532,8 @@
                 "chara": [
                     {
                         "id": 113300,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-35"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -512,7 +547,8 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_032.exp3.json",
                         "id": 113300,
-                        "tear": 1
+                        "tear": 1,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-36"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -536,7 +572,8 @@
                     {
                         "eyeClose": 1,
                         "id": 113300,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-37"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -554,7 +591,8 @@
                 "narrationBg": "white",
                 "narrationCoverOpacity": 0,
                 "narrationEffect": "in",
-                "turnChangeOut": "whiteOut"
+                "turnChangeOut": "whiteOut",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-38"
             },
             {
                 "autoTurnLast": 0.5,
@@ -581,7 +619,8 @@
                 "nameNarration": "かごめ",
                 "narration": "みんなが傷つきながら紡いだ奇跡を残せるのは@私しかいないから@この命をかけて希望の架け橋を築く！",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-39"
             },
             {
                 "autoTurnLast": 0.1,
@@ -608,7 +647,8 @@
                         "id": 102001,
                         "motion": 0,
                         "pos": 2,
-                        "soulGem": 0
+                        "soulGem": 0,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-40"
                     },
                     {
                         "id": 810000,
@@ -625,7 +665,8 @@
                 "chara": [
                     {
                         "id": 102001,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-41"
                     }
                 ],
                 "nameRight": "かごめ",
@@ -635,7 +676,8 @@
                 "chara": [
                     {
                         "id": 810000,
-                        "lipSynch": 0
+                        "lipSynch": 1,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-42"
                     }
                 ],
                 "nameLeft": "キュゥべえ",
@@ -645,7 +687,8 @@
                 "chara": [
                     {
                         "id": 102001,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-43"
                     }
                 ],
                 "nameRight": "かごめ",
@@ -654,7 +697,8 @@
             {
                 "chara": [
                     {
-                        "id": 102001
+                        "id": 102001,
+                        "voiceFullAuto": "fullvoice/section_103205/vo_full_103205-4-44"
                     }
                 ],
                 "nameNarration": "かごめ",

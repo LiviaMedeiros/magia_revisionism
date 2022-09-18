@@ -28,19 +28,32 @@
             },
             {
                 "bgm": "bgm03_story17",
+                "chara": [
+                    {
+                        "id": 104400,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-1"
+                    }
+                ],
                 "nameNarration": "みこと",
                 "narration": "「幾千、幾万の年を巡っても変わらない@人間を巡る滅びの連鎖」",
                 "narrationEffect": "in",
                 "turnChangeOut": "fadeOut"
             },
             {
+                "chara": [
+                    {
+                        "id": 104400,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-2"
+                    }
+                ],
                 "narration": "「人間は悪意と善意をもって@自分たちを傷つけて滅びようとする」"
             },
             {
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 104400
+                        "id": 104400,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-3"
                     }
                 ],
                 "narration": "「これまでいくつも無意識に死にゆく@人間の姿を見せてきたけれど@次はどんな滅びへの一例を見たいかな？」"
@@ -50,7 +63,8 @@
                     {
                         "eyeClose": 0,
                         "id": 104400,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-4"
                     }
                 ],
                 "narration": "「そうだ、どれだけ救おうとしても@人間は救いようがないっていうことを@見せてあげるのがいいのかも」"
@@ -71,7 +85,8 @@
                         "zOrder": "bgFront"
                     }
                 ],
-                "narration": "「だから、これから鏡が映すのは@[textRed:救いの道を得ても人々は滅ぼし合う様子]」"
+                "narration": "「だから、これから鏡が映すのは@[textRed:救いの道を得ても人々は滅ぼし合う様子]」",
+                "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-5"
             },
             {
                 "autoTurnLast": 0.01,
@@ -111,7 +126,8 @@
                 "chara": [
                     {
                         "id": 101200,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-6"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -122,7 +138,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-7"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -131,7 +148,8 @@
             {
                 "chara": [
                     {
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-8"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -141,7 +159,8 @@
                 "chara": [
                     {
                         "id": 101200,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-9"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -151,7 +170,8 @@
                 "chara": [
                     {
                         "id": 101200,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-10"
                     },
                     {
                         "id": 100800,
@@ -164,7 +184,8 @@
             {
                 "chara": [
                     {
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-11"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -177,7 +198,8 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 101200,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-12"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -187,7 +209,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-13"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -196,7 +219,8 @@
             {
                 "chara": [
                     {
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-14"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -223,7 +247,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-15"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -236,7 +261,8 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 101200,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-16"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -247,7 +273,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-17"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -257,7 +284,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-18"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -270,7 +298,8 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 101200,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-19"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -281,7 +310,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-20"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -302,7 +332,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-21"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -315,7 +346,8 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 101200,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-22"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -324,7 +356,8 @@
             {
                 "chara": [
                     {
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-23"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -334,7 +367,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-24"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -346,7 +380,8 @@
                         "cheek": 0,
                         "eyeClose": 1,
                         "face": "mtn_ex_013.exp3.json",
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-25"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -369,7 +404,8 @@
                 "nameNarration": "みこと",
                 "narration": "「そしてね…[textRed:人間は人間の根源すら否定するの]」",
                 "narrationEffect": "in",
-                "turnChangeOut": "rollOut"
+                "turnChangeOut": "rollOut",
+                "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-26"
             },
             {
                 "autoTurnLast": 0.01,
@@ -417,7 +453,8 @@
                         "id": 104400,
                         "motion": 100,
                         "pos": 0,
-                        "posX": -60
+                        "posX": -60,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-27"
                     }
                 ],
                 "nameLeft": "みこと",
@@ -426,7 +463,8 @@
             {
                 "chara": [
                     {
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-28"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -453,7 +491,8 @@
                 "chara": [
                     {
                         "id": 104400,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-29"
                     }
                 ],
                 "nameLeft": "みこと",
@@ -464,7 +503,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 104400
+                        "id": 104400,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-30"
                     }
                 ],
                 "nameLeft": "みこと",
@@ -474,7 +514,8 @@
                 "chara": [
                     {
                         "id": 101200,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-31"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -483,7 +524,8 @@
             {
                 "chara": [
                     {
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-32"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -495,7 +537,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
                         "id": 104400,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-33"
                     }
                 ],
                 "nameLeft": "みこと",
@@ -510,7 +553,8 @@
                         "id": 100800,
                         "motion": 200,
                         "pos": 0,
-                        "posX": -60
+                        "posX": -60,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-34"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -524,7 +568,8 @@
                         "id": 104400,
                         "motion": 1,
                         "pos": 0,
-                        "posX": -60
+                        "posX": -60,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-35"
                     }
                 ],
                 "nameLeft": "みこと",
@@ -539,7 +584,8 @@
                         "id": 100800,
                         "motion": 300,
                         "pos": 0,
-                        "posX": -60
+                        "posX": -60,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-36"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -548,7 +594,8 @@
             {
                 "chara": [
                     {
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-37"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -579,6 +626,12 @@
                 "turnChangeIn": "fadeIn"
             },
             {
+                "chara": [
+                    {
+                        "id": 104400,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-38"
+                    }
+                ],
                 "nameNarration": "みこと",
                 "narration": "「人は無意識に争いを求めていて@それが滅びに繋がっているのかもしれない」",
                 "narrationBg": "",
@@ -586,21 +639,40 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "chara": [
+                    {
+                        "id": 104400,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-39"
+                    }
+                ],
                 "narration": "「だけど、争いを求めてるかなんて@どうでもいいの」"
             },
             {
                 "chara": [
                     {
                         "id": 104400,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-40"
                     }
                 ],
                 "narration": "「だって人間は生まれた時から@性別っていう命の根源に差をつけて否定する」"
             },
             {
+                "chara": [
+                    {
+                        "id": 104400,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-41"
+                    }
+                ],
                 "narration": "「自分たちが生まれくるシステムそのものを@理由に滅びようとしているんだから」"
             },
             {
+                "chara": [
+                    {
+                        "id": 104400,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-4-42"
+                    }
+                ],
                 "narration": "「見せて欲しければもっと見せてあげる@例をあげればうんざりするぐらい@枚挙にいとまがないから」"
             },
             {

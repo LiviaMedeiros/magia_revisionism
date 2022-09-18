@@ -52,7 +52,7 @@
                 "textCenter": "――っ!?"
             },
             {
-                "autoTurnLast": 0.1,
+                "autoTurnLast": 0.2,
                 "chara": [
                     {
                         "effect": "fadeout",
@@ -84,13 +84,15 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 101500,
                         "motion": 200,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-3"
                     }
                 ],
                 "nameCenter": "うい",
                 "textCenter": "ツバメさん！@少しだけ動きを止めて！"
             },
             {
+                "autoTurnLast": 0.2,
                 "chara": [
                     {
                         "cheek": 0,
@@ -99,6 +101,15 @@
                         "id": 100100,
                         "motion": 1,
                         "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-4"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -168,7 +179,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 100100,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-6"
                     },
                     {
                         "cheek": 0,
@@ -188,7 +200,8 @@
                         "face": "mtn_ex_011.exp3.json",
                         "id": 101500,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-7"
                     }
                 ],
                 "nameRight": "うい",
@@ -197,7 +210,8 @@
             {
                 "chara": [
                     {
-                        "id": 100100
+                        "id": 100100,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-8"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -218,6 +232,12 @@
                 "turnChangeIn": "fadeIn"
             },
             {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-9"
+                    }
+                ],
                 "nameNarration": "いろは",
                 "narration": "こっちは７枚目の鏡を壊しました！",
                 "narrationEffect": "in",
@@ -232,7 +252,8 @@
                         "face": "mtn_ex_001.exp3.json",
                         "id": 102500,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-10"
                     }
                 ],
                 "nameNarration": "静香",
@@ -244,7 +265,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 100100,
-                        "motion": 301
+                        "motion": 301,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-11"
                     }
                 ],
                 "nameNarration": "いろは",
@@ -257,7 +279,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 103300,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-12"
                     }
                 ],
                 "nameNarration": "ラビ",
@@ -269,7 +292,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 100100,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-13"
                     }
                 ],
                 "nameNarration": "いろは",
@@ -282,7 +306,8 @@
                         "face": "mtn_ex_040.exp3.json",
                         "id": 102800,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-14"
                     }
                 ],
                 "nameNarration": "ひめな",
@@ -294,7 +319,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102800,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-15"
                     }
                 ],
                 "narration": "ワンチャン、ガチのマイメンだったりしたら@ぶっちゃけ最＆悪なわけじゃん？"
@@ -306,7 +332,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102500,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-16"
                     }
                 ],
                 "nameNarration": "静香",
@@ -318,7 +345,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 100100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-17"
                     }
                 ],
                 "nameNarration": "いろは",
@@ -329,7 +357,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_021.exp3.json",
-                        "id": 100100
+                        "id": 100100,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-18"
                     }
                 ],
                 "narration": "一番簡単なのは魔力反応を探ることです@すぐに違うのがわかります"
@@ -338,7 +367,8 @@
                 "chara": [
                     {
                         "id": 100100,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-19"
                     }
                 ],
                 "narration": "あとは精巧なコピーだったとしても@性格や過去や趣味など@何かしら一致しない部分があるので@それを探ってもらうのがいいと思います！"
@@ -350,7 +380,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 103300,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-20"
                     }
                 ],
                 "nameNarration": "ラビ",
@@ -363,7 +394,8 @@
                         "face": "mtn_ex_001.exp3.json",
                         "id": 102500,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-21"
                     }
                 ],
                 "nameNarration": "静香",
@@ -375,7 +407,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp3.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 102500,
                         "motion": 0,
                         "pos": 0
@@ -395,7 +427,8 @@
                 "chara": [
                     {
                         "id": 102500,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-22"
                     }
                 ],
                 "nameLeft": "静香",
@@ -408,7 +441,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
                         "id": 102600,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-23"
                     }
                 ],
                 "nameRight": "ちはる",
@@ -434,7 +468,8 @@
                         "eyeClose": 0,
                         "id": 102500,
                         "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-24"
                     }
                 ],
                 "nameLeft": "静香",
@@ -447,7 +482,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102500,
                         "lipSynch": 0,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-25"
                     }
                 ],
                 "nameLeft": "静香",
@@ -477,7 +513,8 @@
             {
                 "chara": [
                     {
-                        "id": 102600
+                        "id": 102600,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-26"
                     }
                 ],
                 "nameRight": "ちはる",
@@ -488,7 +525,8 @@
                 "chara": [
                     {
                         "id": 102500,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-27"
                     }
                 ],
                 "nameLeft": "静香",
@@ -498,7 +536,8 @@
                 "chara": [
                     {
                         "id": 102600,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-28"
                     }
                 ],
                 "nameRight": "ちはる",
@@ -509,7 +548,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
-                        "id": 102500
+                        "id": 102500,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-29"
                     }
                 ],
                 "nameLeft": "静香",
@@ -522,34 +562,50 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102600,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-30"
                     }
                 ],
                 "nameRight": "ちはる",
                 "textRight": "あれ、ちょっと調子が@悪いのかな…"
             },
             {
+                "autoTurnLast": 2.2,
                 "chara": [
                     {
                         "id": 102500,
-                        "motion": 400,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFull": "fullvoice/section_103301/vo_full_103301-8-31"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameCenter": "静香",
-                "textCenter": "[surround:1025A04][chara:102600:effect_7000_attack01]時女一心流@三尺蹴詰ノ首落し!!"
+                "textCenter": "時女一心流@三尺蹴詰ノ首落し!!"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "effect": "7000_attack01",
+                        "id": 102500,
+                        "motion": 400
+                    }
+                ],
+                "surround": "1025A04"
+            },
+            {
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102600,
-                        "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-32",
+                        "voiceFullStop": "fullvoice/section_103301/vo_full_103301-8-31"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "ちはる",
                 "textRight": "[surround:1025A06][chara:102600:effect_7002_damage01][bgEffect:shakeLarge]…っ!?"
             },
@@ -571,7 +627,8 @@
                         "face": "mtn_ex_001.exp3.json",
                         "id": 102500,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-33"
                     }
                 ],
                 "nameLeft": "静香",
@@ -594,7 +651,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102500,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-34"
                     }
                 ],
                 "nameLeft": "静香",
@@ -659,7 +717,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_060.exp3.json",
                         "id": 103400,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-35"
                     }
                 ],
                 "nameRight": "旭",
@@ -670,7 +729,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 103400
+                        "id": 103400,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-36"
                     }
                 ],
                 "nameRight": "旭",
@@ -682,7 +742,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_000.exp3.json",
                         "id": 103300,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-37"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -691,11 +752,12 @@
             {
                 "chara": [
                     {
-                        "id": 103300
+                        "id": 103300,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-38"
                     }
                 ],
                 "nameLeft": "ラビ",
-                "textLeft": "魔法少女は傷が治るからと、@打算でコピーしただけ…"
+                "textLeft": "魔法少女は傷が治るからと、@惰性でコピーしただけ…"
             },
             {
                 "chara": [
@@ -704,7 +766,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 103400,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-39"
                     }
                 ],
                 "nameRight": "旭",
@@ -717,7 +780,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 103300,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-40"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -786,7 +850,8 @@
                 "chara": [
                     {
                         "id": 103300,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-41"
                     }
                 ],
                 "nameLeft": "ラビ",
@@ -847,7 +912,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102800,
                         "motion": 200,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-8-43"
                     }
                 ],
                 "nameCenter": "ひめな",

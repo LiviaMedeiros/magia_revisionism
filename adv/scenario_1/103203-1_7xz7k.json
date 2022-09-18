@@ -20,7 +20,8 @@
                 "chara": [
                     {
                         "id": 101200,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-1"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -59,15 +60,19 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 0.1,
                 "bgm": "bgm05_event08",
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "id": 101200,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-3"
                     }
                 ],
                 "nameCenter": "御園 かりん",
-                "narrationEffect": "out",
                 "textCenter": "…っ、誰なの!?"
             },
             {
@@ -81,7 +86,7 @@
                 "textClear": 1
             },
             {
-                "autoTurnLast": 2,
+                "autoTurnLast": 1,
                 "bg": "bg_adv_21181.jpg",
                 "bgChangeEffect": "cameraPan"
             },
@@ -92,17 +97,21 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 101200,
                         "motion": 300,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-4"
                     }
                 ],
                 "nameCenter": "御園 かりん",
-                "narrationEffect": "out",
                 "textCenter": "こ、こんなので怖がってるような@場合じゃないの"
             },
             {
@@ -130,7 +139,8 @@
             {
                 "chara": [
                     {
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-5"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -142,7 +152,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_040.exp3.json",
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-6"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -152,7 +163,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-7"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -164,7 +176,7 @@
                         "cheek": 0,
                         "face": "mtn_ex_014.exp3.json",
                         "id": 100800,
-                        "mouthOpen": 0
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-8"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -178,11 +190,11 @@
                         "face": "mtn_ex_052.exp3.json",
                         "id": 101200,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-9"
                     },
                     {
-                        "id": 100800,
-                        "mouthOpen": 0
+                        "id": 100800
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -205,7 +217,8 @@
             {
                 "chara": [
                     {
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-10"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -219,7 +232,8 @@
                         "face": "mtn_ex_052.exp3.json",
                         "id": 101200,
                         "motion": 200,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-11"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -243,7 +257,8 @@
             {
                 "chara": [
                     {
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-12"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -255,7 +270,8 @@
                     {
                         "eyeClose": 1,
                         "id": 101200,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-13"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -266,7 +282,8 @@
                     {
                         "eyeClose": 0,
                         "id": 101200,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-14"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -279,20 +296,37 @@
                         "face": "mtn_ex_011.exp3.json",
                         "id": 101200,
                         "motion": 1,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-15"
                     }
                 ],
                 "nameCenter": "御園 かりん",
                 "textCenter": "ワッハッハッハー"
             },
             {
+                "chara": [
+                    {
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-16"
+                    }
+                ],
                 "nameNarration": "御園 かりん",
-                "narration": "ハッハッハー",
+                "narration": "「ハッハッハー」",
                 "narrationBg": "",
                 "narrationEffect": "in"
             },
             {
-                "narration": "[fontSize:20]ハッハッハー"
+                "chara": [
+                    {
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-17"
+                    }
+                ],
+                "narration": "[fontSize:20]「ハッハッハー」"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
@@ -301,18 +335,19 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 101200,
                         "lipSynch": 0,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-18"
                     }
                 ],
                 "nameCenter": "御園 かりん",
-                "narrationEffect": "out",
                 "textCenter": "…………"
             },
             {
                 "chara": [
                     {
                         "id": 101200,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-19"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -322,11 +357,12 @@
                 "chara": [
                     {
                         "id": 101200,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-20"
                     }
                 ],
                 "nameCenter": "御園 かりん",
-                "textCenter": "（前まではコピーが出てきたのに@今回は１度も出会ってないの…）"
+                "textCenter": "（前まではコピーが出てきたのに@今回は一度も出会ってないの…）"
             },
             {
                 "chara": [
@@ -334,7 +370,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_040.exp3.json",
                         "id": 101200,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-21"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -357,7 +394,8 @@
             {
                 "chara": [
                     {
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-22"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -369,7 +407,8 @@
                     {
                         "id": 101200,
                         "lipSynch": 0,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-23"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -379,7 +418,8 @@
                 "chara": [
                     {
                         "id": 101200,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-24"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -389,7 +429,8 @@
                 "chara": [
                     {
                         "id": 101200,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-25"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -400,7 +441,8 @@
                     {
                         "id": 101200,
                         "lipSynch": 0,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-26"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -413,17 +455,21 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 101200,
                         "motion": 300,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-28"
                     }
                 ],
                 "nameCenter": "御園 かりん",
-                "narrationEffect": "out",
                 "textCenter": "お腹空いたの…"
             },
             {
@@ -443,10 +489,11 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 101100,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-29"
                     }
                 ],
-                "nameLeft": "かえで",
+                "nameLeft": "かえで？",
                 "textLeft": "かりんちゃん"
             },
             {
@@ -456,7 +503,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 101200,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-30"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -466,10 +514,11 @@
                 "chara": [
                     {
                         "id": 101100,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-31"
                     }
                 ],
-                "nameLeft": "かえで",
+                "nameLeft": "かえで？",
                 "textLeft": "私はコピーか本物か@どっちだと思う？"
             },
             {
@@ -479,7 +528,8 @@
                         "face": "mtn_ex_040.exp3.json",
                         "id": 101200,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-32"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -488,7 +538,8 @@
             {
                 "chara": [
                     {
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-33"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -501,7 +552,8 @@
                         "face": "mtn_ex_011.exp3.json",
                         "id": 101100,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-34"
                     }
                 ],
                 "nameLeft": "かえで？",
@@ -514,7 +566,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 101200,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-35"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -526,7 +579,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 101100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-36"
                     }
                 ],
                 "nameLeft": "かえで？",
@@ -538,7 +592,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_040.exp3.json",
                         "id": 101200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-37"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -549,7 +604,8 @@
                     {
                         "eyeClose": 1,
                         "id": 101100,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-38"
                     }
                 ],
                 "nameLeft": "かえで？",
@@ -558,7 +614,8 @@
             {
                 "chara": [
                     {
-                        "id": 101100
+                        "id": 101100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-39"
                     }
                 ],
                 "nameLeft": "かえで？",
@@ -569,7 +626,8 @@
                     {
                         "eyeClose": 0,
                         "id": 101100,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-40"
                     }
                 ],
                 "nameLeft": "かえで？",
@@ -578,7 +636,8 @@
             {
                 "chara": [
                     {
-                        "id": 101100
+                        "id": 101100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-41"
                     }
                 ],
                 "nameLeft": "かえで？",
@@ -588,7 +647,8 @@
                 "chara": [
                     {
                         "id": 101100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-42"
                     }
                 ],
                 "nameLeft": "かえで？",
@@ -597,7 +657,8 @@
             {
                 "chara": [
                     {
-                        "id": 101100
+                        "id": 101100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-43"
                     }
                 ],
                 "nameLeft": "かえで？",
@@ -607,7 +668,8 @@
                 "chara": [
                     {
                         "id": 101100,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-44"
                     }
                 ],
                 "nameLeft": "かえで？",
@@ -620,7 +682,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 101200,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-45"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -633,7 +696,8 @@
                         "face": "mtn_ex_022.exp3.json",
                         "id": 101200,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-46"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -642,7 +706,8 @@
             {
                 "chara": [
                     {
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-47"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -655,14 +720,15 @@
                         "face": "mtn_ex_011.exp3.json",
                         "id": 101100,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-48"
                     }
                 ],
                 "nameLeft": "かえで？",
                 "textLeft": "じゃあ、主に伝えてくるね"
             },
             {
-                "autoTurnLast": 0.2,
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "effect": "fadeout",
@@ -678,7 +744,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 101200,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-49"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -693,8 +760,9 @@
                 "chara": [
                     {
                         "id": 101200,
-                        "lipSynch": 0,
-                        "motion": 400
+                        "lipSynch": 1,
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-50"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -703,7 +771,8 @@
             {
                 "chara": [
                     {
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-51"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -731,7 +800,8 @@
             {
                 "chara": [
                     {
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-52"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -745,7 +815,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 101200,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-53"
                     }
                 ],
                 "nameCenter": "御園 かりん",
@@ -779,7 +850,8 @@
                 "nameNarration": "御園 かりん",
                 "narration": "「アリナ先輩…」",
                 "narrationBg": "",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-1-54"
             },
             {
                 "autoTurnLast": 2,

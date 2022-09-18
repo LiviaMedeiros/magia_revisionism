@@ -23,13 +23,16 @@
                 "nameNarration": "リヴィア",
                 "narration": "自分がこれからどうなるのか@まったく考えられへんかった",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-1"
             },
             {
-                "narration": "せやけど、私は戻りたくなったんや@モノやのうて、ヒトに戻りたいって思ったんや"
+                "narration": "せやけど、私は戻りたくなったんや@モノやのうて、ヒトに戻りたいって思ったんや",
+                "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-2"
             },
             {
-                "narration": "もう、殺されてもかめへんから@明日の朝が来たら@運び出されるよりも前に逃げようって決めた"
+                "narration": "もう、殺されてもかめへんから@明日の朝が来たら@運び出されるよりも前に逃げようって決めた",
+                "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-3"
             },
             {
                 "autoTurnLast": 0.01,
@@ -41,7 +44,8 @@
                 "nameNarration": "リヴィア",
                 "narration": "ただ、そんな気持ちを見通すかのように@私は深い眠りにつかされて@目を覚ました時にいたのは病院やった",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-4"
             },
             {
                 "autoTurnLast": 0.01,
@@ -49,7 +53,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp3.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 104102,
                         "motion": 0,
                         "pos": 1,
@@ -63,26 +67,31 @@
                 "nameNarration": "リヴィア",
                 "narration": "ちゃうな@厳密に言うたら病院やった場所や",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-5"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
-                        "id": 104102
+                        "id": 104102,
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-6"
                     }
                 ],
                 "nameCenter": "リヴィア",
-                "narrationEffect": "out",
                 "textCenter": "は…は…はぁ…"
             },
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp3.json",
                         "id": 104102,
                         "lipSynch": 0,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-7"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -94,8 +103,9 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 104102,
-                        "lipSynch": 0,
-                        "motion": 0
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-8"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -108,7 +118,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_040.exp3.json",
                         "id": 104102,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-9"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -121,11 +132,12 @@
                         "face": "mtn_ex_060.exp3.json",
                         "id": 104102,
                         "motion": 400,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-10"
                     }
                 ],
                 "nameCenter": "リヴィア",
-                "textCenter": "…っ、やっぱ足が変に突っ張る@[chara:104102:lipSynch_0][wait:0.5][chara:104102:cheek_0][chara:104102:face_mtn_ex_030.exp.json][chara:104102:lipSynch_1]最悪やな…"
+                "textCenter": "…っ、やっぱ足が変に突っ張る@最悪やな…"
             },
             {
                 "autoTurnLast": 0.01,
@@ -146,7 +158,8 @@
                 "chara": [
                     {
                         "id": 104102,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-11"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -160,15 +173,19 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "id": 104102,
                         "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-13"
                     }
                 ],
                 "nameCenter": "リヴィア",
-                "narrationEffect": "out",
                 "textCenter": "（何語で喋ってるんかも@わからへんな…）"
             },
             {
@@ -177,8 +194,9 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 104102,
-                        "lipSynch": 0,
-                        "motion": 400
+                        "lipSynch": 1,
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-14"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -187,7 +205,8 @@
             {
                 "chara": [
                     {
-                        "id": 104102
+                        "id": 104102,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-15"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -200,7 +219,8 @@
                         "face": "mtn_ex_052.exp3.json",
                         "id": 104102,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-16"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -209,7 +229,8 @@
             {
                 "chara": [
                     {
-                        "id": 104102
+                        "id": 104102,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-17"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -233,7 +254,8 @@
             {
                 "chara": [
                     {
-                        "id": 800300
+                        "id": 800300,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-18"
                     }
                 ],
                 "nameCenter": "",
@@ -258,7 +280,8 @@
             {
                 "chara": [
                     {
-                        "id": 800400
+                        "id": 800400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-19"
                     }
                 ],
                 "nameCenter": "",
@@ -286,33 +309,46 @@
                 "narration": "面影はどこにも残ってへんのに@目の前に積み上がった屍の中から@ふたりが私を見てるような気がした",
                 "narrationBg": "",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-20"
             },
             {
-                "narration": "窪んだ眼窩の奧から@遣り切れない悔しさを湛えた視線が@私に注がれとるみたいやった"
+                "narration": "窪んだ眼窩の奧から@遣り切れない悔しさを湛えた視線が@私に注がれとるみたいやった",
+                "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-21"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
                         "id": 104102,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-22"
                     }
                 ],
                 "nameCenter": "リヴィア",
-                "narrationEffect": "out",
                 "textCenter": "なんで…みんな…どないしたん…"
             },
             {
                 "nameNarration": "リヴィア",
                 "narration": "他の人たちもそう",
                 "narrationBg": "",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-23"
             },
             {
-                "narration": "今まで私が配置換えだと思って見送ってきた@同じ劇団で同じような不遇から@集められてきたモノたちやった…"
+                "narration": "今まで私が配置換えだと思って見送ってきた@同じ劇団で同じような不遇から@集められてきたモノたちやった…",
+                "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-24"
             },
             {
-                "narration": "気づいたら、モノのように自分を分け与えて@棄てられたヒトの群れが@私を見ながら「生きろ」って言っとった"
+                "narration": "気づいたら、モノのように自分を分け与えて@棄てられたヒトの群れが@私を見ながら「生きろ」って言っとった",
+                "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-25"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
@@ -321,17 +357,18 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 104102,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-26"
                     }
                 ],
                 "nameCenter": "リヴィア",
-                "narrationEffect": "out",
                 "textCenter": "絶対に抜け出したる…"
             },
             {
                 "chara": [
                     {
-                        "id": 104102
+                        "id": 104102,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-27"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -341,7 +378,9 @@
                 "chara": [
                     {
                         "eyeClose": 0,
-                        "id": 104102
+                        "id": 104102,
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-28"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -370,21 +409,25 @@
                 "turnChangeOut": "rollOutFast"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 1,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 104102,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-30"
                     }
                 ],
                 "nameCenter": "リヴィア",
-                "narrationEffect": "out",
                 "textBg": "shout",
                 "textCenter": "日本語でしゃべれやボケ！@絶対に捕まらへんからな！"
             },
             {
-                "autoTurnLast": 0.01,
+                "autoTurnLast": 1,
                 "bg": "bg_adv_21161.jpg",
                 "chara": [
                     {
@@ -401,7 +444,8 @@
             {
                 "chara": [
                     {
-                        "id": 104102
+                        "id": 104102,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-31"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -415,17 +459,21 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 2,
                         "face": "mtn_ex_060.exp3.json",
                         "id": 104102,
-                        "lipSynch": 0,
-                        "motion": 0
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-33"
                     }
                 ],
                 "nameCenter": "リヴィア",
-                "narrationEffect": "out",
                 "textCenter": "[flashEffect:flashRed2][bgEffect:shakeLarge]――っ!?"
             },
             {
@@ -433,7 +481,8 @@
                     {
                         "eyeClose": 1,
                         "id": 104102,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-34"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -443,7 +492,8 @@
                 "chara": [
                     {
                         "id": 104102,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-35"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -456,16 +506,20 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
                         "eyeClose": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 104102
+                        "id": 104102,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-37"
                     }
                 ],
                 "nameCenter": "リヴィア",
-                "narrationEffect": "out",
                 "textCenter": "は…はぁ…"
             },
             {
@@ -473,7 +527,8 @@
                     {
                         "id": 104102,
                         "lipSynch": 0,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-38"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -483,7 +538,8 @@
                 "chara": [
                     {
                         "id": 104102,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-16-39"
                     }
                 ],
                 "nameCenter": "リヴィア",

@@ -33,7 +33,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102300,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-15-2"
                     }
                 ],
                 "nameRight": "アオ",
@@ -45,25 +46,38 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102200,
-                        "motion": 300,
-                        "pos": 0
+                        "motion": 1,
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-15-3"
                     }
                 ],
                 "nameLeft": "ひかる",
                 "textLeft": "ほんと、アオさんは恐怖を求める@マシンみたいだったっす"
             },
             {
+                "autoTurnLast": 2.5,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 102400,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_103202/vo_full_103202-15-4"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "樹里",
-                "textRight": "人間何かが欠けてるヤツってのは@こえーからなぁ、[chara:102400:lipSynch_0][wait:0.5][chara:102400:cheek_0][chara:102400:face_mtn_ex_011.exp.json][chara:102400:lipSynch_1]ニヒッ"
+                "textRight": "人間何かが欠けてるヤツってのは@こえーからなぁ、ニヒッ"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 102400
+                    }
+                ]
             },
             {
                 "chara": [
@@ -72,16 +86,20 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 102100,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-15-5",
+                        "voiceFullStop": "fullvoice/section_103202/vo_full_103202-15-4"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameLeft": "結菜",
                 "textLeft": "だから、これからの私たちは@感情も人も欠けさせないわぁ…"
             },
             {
                 "chara": [
                     {
-                        "id": 102100
+                        "id": 102100,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-15-6"
                     }
                 ],
                 "nameLeft": "結菜",
@@ -94,24 +112,36 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 102400,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-15-7"
                     }
                 ],
                 "nameRight": "樹里",
                 "textRight": "恐怖で支配するのが、@一番楽だったんだけどなぁ"
             },
             {
+                "autoTurnLast": 0.8,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
                         "id": 102300,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_103202/vo_full_103202-15-8"
                     }
                 ],
                 "nameLeft": "アオ",
-                "textLeft": "ダメだよママ！@[chara:102300:lipSynch_0][wait:0.0][chara:102300:cheek_0][chara:102300:face_mtn_ex_051.exp.json][chara:102300:lipSynch_1]あっ！"
+                "textLeft": "ダメだよママ！@あっ！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp3.json",
+                        "id": 102300
+                    }
+                ]
             },
             {
                 "chara": [
@@ -120,7 +150,9 @@
                         "face": "mtn_ex_011.exp3.json",
                         "id": 102400,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-15-9",
+                        "voiceFullStop": "fullvoice/section_103202/vo_full_103202-15-8"
                     }
                 ],
                 "nameRight": "樹里",
@@ -130,10 +162,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp3.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 102200,
-                        "motion": 200,
-                        "pos": 0
+                        "motion": 100,
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-15-10"
                     }
                 ],
                 "nameLeft": "ひかる",

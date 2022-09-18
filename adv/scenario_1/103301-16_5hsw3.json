@@ -27,7 +27,8 @@
                 "chara": [
                     {
                         "id": 101500,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-1"
                     }
                 ],
                 "nameRight": "うい",
@@ -35,10 +36,14 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 0.9,
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 100100,
-                        "motion": 301
+                        "motion": 301,
+                        "voiceFull": "fullvoice/section_103301/vo_full_103301-16-2"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -48,9 +53,18 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp3.json",
+                        "face": "mtn_ex_021.exp3.json",
+                        "id": 100100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
                         "id": 100100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-3",
+                        "voiceFullStop": "fullvoice/section_103301/vo_full_103301-16-2"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -59,11 +73,10 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_021.exp3.json",
                         "id": 100100,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-4"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -100,7 +113,8 @@
                 ],
                 "nameNarration": "いろは",
                 "narration": "「私も藍家さんも、ここにいるみんなも@救いを求めてきた者同士@ようやく手を取り合うことができた」",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-5"
             },
             {
                 "chara": [
@@ -109,7 +123,8 @@
                         "id": 102800
                     }
                 ],
-                "narration": "「だから、こうして立ち向かっていくのは@その未来を諦めていないということ」"
+                "narration": "「だから、こうして立ち向かっていくのは@その未来を諦めていないということ」",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-6"
             },
             {
                 "autoTurnLast": 0.1,
@@ -127,7 +142,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102100,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-7"
                     },
                     {
                         "cheek": 0,
@@ -144,7 +160,8 @@
                 "chara": [
                     {
                         "id": 102500,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-8"
                     }
                 ],
                 "nameLeft": "静香",
@@ -171,10 +188,11 @@
                 "nameNarration": "いろは",
                 "narration": "「勝算があるかどうかはわからない@自分の命をかけた作戦だし@簡単に打ち破れるような数じゃない…」",
                 "narrationEffect": "in",
-                "turnChangeOut": "rollOutFast"
+                "turnChangeOut": "rollOutFast",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-9"
             },
             {
-                "autoTurnLast": 0.01,
+                "autoTurnLast": 0.2,
                 "chara": [
                     {
                         "effect": "fadeout",
@@ -200,18 +218,23 @@
                         "pos": 1
                     }
                 ],
-                "narration": "「それでも、苦しみの中にある仲間たちと@一緒にいることを表すように@藍家さんはみんなの力で逆転を目指してる」"
+                "narration": "「それでも、苦しみの中にある仲間たちと@一緒にいることを表すように@藍家さんはみんなの力で逆転を目指してる」",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-10"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
                         "eyeClose": 0,
                         "id": 102800,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-11"
                     }
                 ],
                 "nameCenter": "ひめな",
-                "narrationEffect": "out",
                 "textCenter": "ふっ、ウェットだけどいいじゃん@これはこれで高まってくる"
             },
             {
@@ -220,7 +243,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 102800,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-12"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -229,13 +253,15 @@
             {
                 "chara": [
                     {
-                        "id": 102800
+                        "id": 102800,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-13"
                     }
                 ],
                 "nameCenter": "ひめな",
                 "textCenter": "どうせ勝負の一発を決めるならさ@みんなにやり返して欲しい"
             },
             {
+                "autoTurnLast": 0.5,
                 "chara": [
                     {
                         "effect": "ef_adv_09",
@@ -243,15 +269,26 @@
                         "motion": 0
                     }
                 ],
-                "nameCenter": "ひめな",
                 "se": "7210_souljem_01",
-                "textCenter": "いくよ"
+                "textClear": 1
             },
             {
                 "chara": [
                     {
+                        "id": 102800,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-14"
+                    }
+                ],
+                "nameCenter": "ひめな",
+                "textCenter": "いくよ"
+            },
+            {
+                "autoTurnLast": 1.8,
+                "chara": [
+                    {
                         "eyeClose": 1,
-                        "id": 102800
+                        "id": 102800,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-15"
                     }
                 ],
                 "flashEffect": "flashWhiteSlow2",
@@ -264,12 +301,13 @@
                     {
                         "eyeClose": 0,
                         "id": 102800,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-16"
                     }
                 ],
                 "nameCenter": "ひめな",
                 "textBg": "shout",
-                "textCenter": "鏡の魔女の下っ端たちは、@ここでみんなが片付けるから！"
+                "textCenter": "鏡の魔女の下っ端たちは、@ここでみんなが片づけるから！"
             },
             {
                 "autoTurnLast": 0.1,
@@ -319,7 +357,8 @@
             {
                 "nameNarration": "いろは",
                 "narration": "「今使ったのは柚希ほとりの“名乗り”@彼女の力が私たちの本気を示すように@使い魔をひるませる」",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-17"
             },
             {
                 "autoTurnLast": 0.1,
@@ -360,18 +399,29 @@
                 "textLeft": "…………"
             },
             {
+                "autoTurnLast": 0.5,
                 "chara": [
                     {
                         "cheek": 0,
                         "effect": "ef_adv_09",
                         "face": "mtn_ex_021.exp3.json",
                         "id": 102800,
-                        "motion": 400,
+                        "motion": 0,
                         "pos": 1
                     }
                 ],
-                "nameCenter": "ひめな",
                 "se": "7210_souljem_01",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102800,
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-19"
+                    }
+                ],
+                "nameCenter": "ひめな",
                 "textCenter": "そして、回りのヤツらもまとめて@ここで押さえ込む！"
             },
             {
@@ -397,7 +447,8 @@
             {
                 "nameNarration": "いろは",
                 "narration": "「続けて使ったのは柚木りおんの“束縛”@敵の動きを完全に封じる魔法は@逃げないことを示すサインに思える」",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-20"
             },
             {
                 "chara": [
@@ -406,7 +457,8 @@
                         "id": 102800
                     }
                 ],
-                "narration": "「だけど、ここまでは覚悟を示しただけで@空に舞い上がった今からが本番」"
+                "narration": "「だけど、ここまでは覚悟を示しただけで@空に舞い上がった今からが本番」",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-21"
             },
             {
                 "autoTurnLast": 0.01,
@@ -476,23 +528,37 @@
                 ],
                 "nameNarration": "いろは",
                 "narration": "「使い魔や魔女を見下ろす藍家さんの中でも@私たちと同じように@大切な仲間を傷つけられた怒りが燃えている」",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-22"
             },
             {
                 "flashEffect": "flashWhiteSlow2",
-                "narration": "「だから、みんなの悲しみと怒りを乗せて@最後の追い打ちをかけるように@悪夢を見るみんなに反撃のチャンスを与える」"
+                "narration": "「だから、みんなの悲しみと怒りを乗せて@最後の追い打ちをかけるように@悪夢を見るみんなに反撃のチャンスを与える」",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-23"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "ef_adv_09",
+                        "id": 102800
+                    }
+                ],
+                "se": "7210_souljem_01"
             },
             {
                 "chara": [
                     {
-                        "effect": "ef_adv_09",
                         "id": 102800,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-24"
                     }
                 ],
                 "nameCenter": "ひめな",
-                "narrationEffect": "out",
-                "se": "7210_souljem_01",
                 "textCenter": "香春ゆうなの“屈服”!!"
             },
             {
@@ -501,7 +567,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_040.exp3.json",
                         "id": 102800,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-25"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -510,7 +577,8 @@
             {
                 "chara": [
                     {
-                        "id": 102800
+                        "id": 102800,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-26"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -518,7 +586,8 @@
             },
             {
                 "nameRight": "いろはの声",
-                "textRight": "敵の力が必要なんですね@わかりました！"
+                "textRight": "敵の力が必要なんですね@わかりました！",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-27"
             },
             {
                 "autoTurnLast": 0.01,
@@ -578,7 +647,8 @@
             {
                 "nameNarration": "いろは",
                 "narration": "「魔法少女の怒りと悲しみを乗せた@眠り続ける少女たちの魔法」",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-28"
             },
             {
                 "chara": [
@@ -593,7 +663,8 @@
                         "name": "sprite_2"
                     }
                 ],
-                "narration": "「それをまともに受けても@魔女たちは粘り強く動き出す」"
+                "narration": "「それをまともに受けても@魔女たちは粘り強く動き出す」",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-29"
             },
             {
                 "chara": [
@@ -613,7 +684,8 @@
                         "name": "sprite_2"
                     }
                 ],
-                "narration": "「この世界を消そうとする者たちを@理解はできないけど@私たちを苦しめる禍々しい存在にも@勝つべき理由があるのかもしれない…！」"
+                "narration": "「この世界を消そうとする者たちを@理解はできないけど@私たちを苦しめる禍々しい存在にも@勝つべき理由があるのかもしれない…！」",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-30"
             },
             {
                 "chara": [
@@ -655,7 +727,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 100100,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-32"
                     },
                     {
                         "cheek": 0,
@@ -672,7 +745,8 @@
                 "chara": [
                     {
                         "id": 102800,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-33"
                     }
                 ],
                 "nameLeft": "ひめな",
@@ -683,11 +757,28 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
-                        "id": 102800
+                        "id": 102800,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-34"
                     }
                 ],
                 "nameLeft": "ひめな",
                 "textLeft": "そうやってパワーアップさせて@解放するのが目的なわけ"
+            },
+            {
+                "autoTurnLast": 2.4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 102800,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_103301/vo_full_103301-16-35"
+                    }
+                ],
+                "enableSkipAutoTurn": 1,
+                "flashEffect": "flashWhiteSlow2",
+                "nameLeft": "ひめな",
+                "textLeft": "相手が力を溜めてる間に@美凪ささらの“挑発”…！"
             },
             {
                 "chara": [
@@ -697,10 +788,7 @@
                         "id": 102800,
                         "motion": 400
                     }
-                ],
-                "flashEffect": "flashWhiteSlow2",
-                "nameLeft": "ひめな",
-                "textLeft": "相手が力を溜めてる間に@美凪ささらの“挑発”…！"
+                ]
             },
             {
                 "chara": [
@@ -709,9 +797,12 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102100,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-36",
+                        "voiceFullStop": "fullvoice/section_103301/vo_full_103301-16-35"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "結菜",
                 "textRight": "まさか、すべての攻撃を@受け止めるつもり!?"
             },
@@ -722,7 +813,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 102500,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-37"
                     }
                 ],
                 "nameRight": "静香",
@@ -732,7 +824,8 @@
                 "chara": [
                     {
                         "id": 102800,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-38"
                     }
                 ],
                 "nameLeft": "ひめな",
@@ -742,7 +835,8 @@
                 "chara": [
                     {
                         "id": 102800,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-39"
                     }
                 ],
                 "nameLeft": "ひめな",
@@ -806,7 +900,8 @@
             {
                 "nameNarration": "いろは",
                 "narration": "「魔法少女たちの魔法で押さえつけられた@魔女と使い魔が、呪いの力で@私たちの魔法を破ろうとしている」",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-41"
             },
             {
                 "autoTurnLast": 0.2,
@@ -830,6 +925,7 @@
                 "narrationEffect": "out"
             },
             {
+                "autoTurnLast": 0.5,
                 "chara": [
                     {
                         "cheek": 0,
@@ -840,15 +936,24 @@
                         "pos": 1
                     }
                 ],
+                "se": "7210_souljem_01"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 102800,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-42"
+                    }
+                ],
                 "nameCenter": "ひめな",
-                "se": "7210_souljem_01",
                 "textCenter": "煌里ひかるの“熱中”…！"
             },
             {
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 102800
+                        "id": 102800,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-43"
                     }
                 ],
                 "nameCenter": "ひめな",
@@ -857,21 +962,27 @@
             {
                 "nameNarration": "いろは",
                 "narration": "「せっかく魔女たちを押さえた力が@私たちの想いが、呪いに負けて破られる…」",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-44"
             },
             {
-                "narration": "「でも、藍家さんは力強く立ってる@まだ、勝つ気でいる…！」"
+                "narration": "「でも、藍家さんは力強く立ってる@まだ、勝つ気でいる…！」",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-45"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
                         "eyeClose": 0,
                         "id": 102800,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-16-46"
                     }
                 ],
                 "nameCenter": "ひめな",
-                "narrationEffect": "out",
                 "textCenter": "いくよ…ヒコ君…！"
             },
             {

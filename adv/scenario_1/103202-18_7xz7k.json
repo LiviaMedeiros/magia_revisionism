@@ -36,7 +36,8 @@
                 "bgm": "bgm24_story01",
                 "chara": [
                     {
-                        "id": 100101
+                        "id": 100101,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-1"
                     }
                 ],
                 "nameCenter": "いろは",
@@ -48,7 +49,8 @@
                     {
                         "eyeClose": 0,
                         "id": 100101,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-2"
                     }
                 ],
                 "nameCenter": "いろは",
@@ -67,29 +69,54 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 100101,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-4"
                     }
                 ],
                 "nameNarration": "いろは",
                 "narration": "「うん、これから私たちが目指すのは@みんなが魔法少女のことを知って@契約しようとする少女の数が減っていく未来」"
             },
             {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-5"
+                    }
+                ],
                 "narration": "「ゼロにはできないかもしれないけど@人の心が少しでも優しくなれば@願いを叶える理由がなくなって減っていく」"
             },
             {
                 "chara": [
                     {
                         "id": 100101,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-6"
                     }
                 ],
                 "narration": "「その優しさは何千年何万年とかけても@変わらなかった人の心の変化で@私たち魔法少女を救うだけじゃなくて@未来の人を沢山救えると思うの」"
             },
             {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-7"
+                    }
+                ],
                 "narration": "「だから、宇宙の意思が邪魔をする話もあるけど@私たちはここまで来た奇跡を信じて進みたい」"
             },
             {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-8"
+                    }
+                ],
                 "narration": "「みんなをヒドい目に遭わせたりしないし@必ず一緒に未来へ連れて行くから」"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
@@ -98,19 +125,19 @@
                         "eyeClose": 0,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 100101,
-                        "motion": 200
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-9"
                     }
                 ],
                 "nameCenter": "いろは",
-                "narrationEffect": "out",
                 "textCenter": "お願い、力を貸して！"
             },
             {
-                "autoTurnLast": 1,
+                "autoTurnLast": 2,
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp3.json",
+                        "face": "mtn_ex_021.exp3.json",
                         "id": 100101,
                         "motion": 0,
                         "pos": 0
@@ -130,8 +157,11 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp3.json",
                         "id": 100101,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-10"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -145,7 +175,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 101501,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-11"
                     }
                 ],
                 "nameRight": "うい",
@@ -158,7 +189,8 @@
                         "face": "mtn_ex_014.exp3.json",
                         "id": 100201,
                         "motion": 301,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-12"
                     }
                 ],
                 "item": [
@@ -173,7 +205,8 @@
             {
                 "chara": [
                     {
-                        "id": 100201
+                        "id": 100201,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-13"
                     }
                 ],
                 "nameLeft": "やちよ",
@@ -188,7 +221,8 @@
                         "motion": 100,
                         "pos": 2,
                         "posX": 40,
-                        "posY": 0
+                        "posY": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-14"
                     }
                 ],
                 "nameRight": "userName",
@@ -201,7 +235,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 100301,
                         "motion": 101,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-15"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -210,7 +245,8 @@
             {
                 "chara": [
                     {
-                        "id": 100300
+                        "id": 100301,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-16"
                     }
                 ],
                 "nameLeft": "鶴乃",
@@ -223,7 +259,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 101501,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-17"
                     }
                 ],
                 "nameRight": "うい",
@@ -232,7 +269,8 @@
             {
                 "chara": [
                     {
-                        "id": 101501
+                        "id": 101501,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-18"
                     }
                 ],
                 "nameRight": "うい",
@@ -245,7 +283,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 100101,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-19"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -254,7 +293,8 @@
             {
                 "chara": [
                     {
-                        "id": 100101
+                        "id": 100101,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-20"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -266,7 +306,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
                         "id": 100101,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-21"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -278,7 +319,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 100101,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-22"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -306,29 +348,36 @@
                 "narrationFontSize": 30,
                 "narrationLineMargin": 35,
                 "narrationLineSpace": 20,
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-23"
             },
             {
-                "narration": "―かごめ―@なんだか場違いな気もしますけど@すごく嬉しいです…！"
+                "narration": "―かごめ―@なんだか場違いな気もしますけど@すごく嬉しいです…！",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-24"
             },
             {
                 "nameNarration": "静香",
-                "narration": "―静香―@私もよ、環さん"
+                "narration": "―静香―@私もよ、環さん",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-25"
             },
             {
-                "narration": "―静香―@一族を代表して立ち会えることを@とても嬉しく思うわ"
+                "narration": "―静香―@一族を代表して立ち会えることを@とても嬉しく思うわ",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-26"
             },
             {
                 "nameNarration": "結菜",
-                "narration": "―結菜―@ふふっ、これもひとつの節目@いい晴れの日になりそうねぇ"
+                "narration": "―結菜―@ふふっ、これもひとつの節目@いい晴れの日になりそうねぇ",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-27"
             },
             {
                 "nameNarration": "ラビ",
-                "narration": "―ラビ―@そして私にとっては最後の観測@何もないことを祈るばかりです"
+                "narration": "―ラビ―@そして私にとっては最後の観測@何もないことを祈るばかりです",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-28"
             },
             {
                 "nameNarration": "ひめな",
-                "narration": "―ひめな―@ていうか、一緒の方が絵になるし@ぶっちゃけアリだよね"
+                "narration": "―ひめな―@ていうか、一緒の方が絵になるし@ぶっちゃけアリだよね",
+                "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-18-29"
             },
             {
                 "autoTurnLast": 2,

@@ -13,27 +13,34 @@
                 "narration": "おとんが死んで施設を飛び出して@自由を手に入れたと思ったら捕まって@ほんま、あの時の私は自分に訪れる不幸の連鎖を@呪い倒しとった",
                 "narrationBg": "",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-1"
             },
             {
-                "narration": "なんで自分ばっか…なんで自分ばっか…@なんでなん？なんでなん？@なんでなんで？って"
+                "narration": "なんで自分ばっか…なんで自分ばっか…@なんでなん？なんでなん？@なんでなんで？って",
+                "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-2"
             },
             {
-                "narration": "自分の境遇を呪ってるところで@ひとつの答えをくれたんが、あの女やった"
+                "narration": "自分の境遇を呪ってるところで@ひとつの答えをくれたんが、あの女やった",
+                "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-3"
             },
             {
+                "autoTurnLast": 0.1,
                 "bgm": "bgm23_puella04",
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
                         "id": 800700,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-4"
                     }
                 ],
                 "nameCenter": "",
-                "narrationEffect": "out",
                 "textCenter": "すんません、失礼します"
             },
             {
@@ -54,7 +61,8 @@
                         "id": 104102,
                         "motion": 1,
                         "pos": 2,
-                        "soulGem": 0
+                        "soulGem": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-5"
                     },
                     {
                         "cheek": 0,
@@ -70,7 +78,8 @@
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-6"
                     }
                 ],
                 "nameLeft": "",
@@ -81,7 +90,8 @@
                 "chara": [
                     {
                         "id": 104102,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-7"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -103,19 +113,24 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
-                        "id": 104102
+                        "id": 104102,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-9"
                     }
                 ],
                 "nameRight": "リヴィア",
-                "narrationEffect": "out",
                 "textRight": "…った！"
             },
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-10"
                     }
                 ],
                 "nameLeft": "",
@@ -128,7 +143,8 @@
                         "face": "mtn_ex_042.exp3.json",
                         "id": 104102,
                         "lipSynch": 0,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-11"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -139,7 +155,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-12"
                     }
                 ],
                 "nameLeft": "",
@@ -148,7 +165,8 @@
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-13"
                     }
                 ],
                 "nameLeft": "",
@@ -159,7 +177,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-14"
                     }
                 ],
                 "nameLeft": "",
@@ -169,7 +188,8 @@
                 "chara": [
                     {
                         "id": 104102,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-15"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -180,7 +200,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-16"
                     }
                 ],
                 "nameLeft": "",
@@ -193,21 +214,26 @@
                 "narrationEffect": "in"
             },
             {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-18"
                     }
                 ],
                 "nameLeft": "",
-                "narrationEffect": "out",
                 "textLeft": "そう、しゃべられへんなら頷く@頭のええ反応や"
             },
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-19"
                     }
                 ],
                 "nameLeft": "",
@@ -216,7 +242,8 @@
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-20"
                     }
                 ],
                 "nameLeft": "",
@@ -228,7 +255,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 104102,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-21"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -237,7 +265,8 @@
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-22"
                     }
                 ],
                 "nameLeft": "",
@@ -246,7 +275,8 @@
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-23"
                     }
                 ],
                 "nameLeft": "",
@@ -257,7 +287,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-24"
                     }
                 ],
                 "nameLeft": "",
@@ -266,7 +297,8 @@
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-25"
                     }
                 ],
                 "nameLeft": "",
@@ -277,7 +309,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-26"
                     },
                     {
                         "cheek": 0,
@@ -292,7 +325,8 @@
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-27"
                     }
                 ],
                 "nameLeft": "",
@@ -303,7 +337,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-28"
                     }
                 ],
                 "nameLeft": "",
@@ -315,7 +350,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_040.exp3.json",
                         "id": 104102,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-29"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -324,7 +360,8 @@
             {
                 "chara": [
                     {
-                        "id": 104102
+                        "id": 104102,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-30"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -335,7 +372,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-31"
                     }
                 ],
                 "nameLeft": "",
@@ -347,7 +385,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 104102,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-32"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -358,7 +397,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-33"
                     }
                 ],
                 "nameLeft": "",
@@ -368,7 +408,8 @@
                 "chara": [
                     {
                         "id": 104102,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-34"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -377,7 +418,8 @@
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-35"
                     }
                 ],
                 "nameLeft": "",
@@ -386,7 +428,8 @@
             {
                 "chara": [
                     {
-                        "id": 104102
+                        "id": 104102,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-36"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -396,7 +439,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 104102
+                        "id": 104102,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-37"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -407,7 +451,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-38"
                     }
                 ],
                 "nameLeft": "",
@@ -418,7 +463,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-39"
                     }
                 ],
                 "nameLeft": "",
@@ -427,7 +473,8 @@
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-40"
                     }
                 ],
                 "nameLeft": "",
@@ -440,7 +487,8 @@
                         "eyeClose": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 104102,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-41"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -451,7 +499,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-42"
                     }
                 ],
                 "nameLeft": "",
@@ -460,7 +509,8 @@
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-43"
                     }
                 ],
                 "nameLeft": "",
@@ -471,7 +521,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-44"
                     }
                 ],
                 "nameLeft": "",
@@ -480,7 +531,8 @@
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-45"
                     }
                 ],
                 "nameLeft": "",
@@ -491,7 +543,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_040.exp3.json",
-                        "id": 104102
+                        "id": 104102,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-46"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -502,7 +555,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-47"
                     }
                 ],
                 "nameLeft": "",
@@ -512,7 +566,8 @@
                 "chara": [
                     {
                         "id": 104102,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-48"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -521,7 +576,8 @@
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-49"
                     }
                 ],
                 "nameLeft": "",
@@ -530,7 +586,8 @@
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-50"
                     }
                 ],
                 "nameLeft": "",
@@ -543,7 +600,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 104102,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-51"
                     }
                 ],
                 "nameRight": "リヴィア",
@@ -552,26 +610,39 @@
             {
                 "chara": [
                     {
-                        "id": 104102
+                        "id": 104102,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-52"
                     }
                 ],
                 "nameRight": "リヴィア",
                 "textRight": "最初から私らを仕入れるために…"
             },
             {
+                "autoTurnLast": 2.5,
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFull": "fullvoice/section_103201/vo_full_103201-14-53"
                     }
                 ],
                 "nameLeft": "",
                 "textLeft": "頭がええのはけっこうやけど、@能ある鷹は爪隠すもんやで"
             },
             {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 801400
+                    }
+                ]
+            },
+            {
                 "autoTurnLast": 0.01,
-                "textClear": 1
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_103201/vo_full_103201-14-53"
             },
             {
                 "autoTurnLast": 0.01,
@@ -631,16 +702,17 @@
                 "chara": [
                     {
                         "id": 104102,
-                        "lipSynch": 0
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-54"
                     }
                 ],
                 "nameRight": "リヴィア",
-                "textRight": "…………@[wait:0.8][chara:104102:lipSynch_1]私はいくらで雇われるん…？"
+                "textRight": "…………@私はいくらで雇われるん…？"
             },
             {
                 "chara": [
                     {
-                        "id": 801400
+                        "id": 801400,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-55"
                     }
                 ],
                 "nameLeft": "",
@@ -653,7 +725,8 @@
                         "eyeClose": 1,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 104102,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-14-56"
                     }
                 ],
                 "nameRight": "リヴィア",

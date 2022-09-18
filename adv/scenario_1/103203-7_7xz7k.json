@@ -26,7 +26,8 @@
                 "bgm": "bgm05_event08",
                 "chara": [
                     {
-                        "id": 832200
+                        "id": 832200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-1"
                     }
                 ],
                 "nameLeft": "千鶴の父",
@@ -36,7 +37,8 @@
             {
                 "chara": [
                     {
-                        "id": 832301
+                        "id": 832301,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-2"
                     }
                 ],
                 "nameRight": "",
@@ -45,7 +47,8 @@
             {
                 "chara": [
                     {
-                        "id": 832200
+                        "id": 832200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-3"
                     }
                 ],
                 "nameLeft": "千鶴の父",
@@ -54,7 +57,8 @@
             {
                 "chara": [
                     {
-                        "id": 832200
+                        "id": 832200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-4"
                     }
                 ],
                 "nameLeft": "千鶴の父",
@@ -63,7 +67,8 @@
             {
                 "chara": [
                     {
-                        "id": 832200
+                        "id": 832200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-5"
                     }
                 ],
                 "nameLeft": "千鶴の父",
@@ -76,7 +81,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 104601,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-6"
                     }
                 ],
                 "nameRight": "千鶴",
@@ -85,19 +91,25 @@
             {
                 "chara": [
                     {
-                        "id": 832200
+                        "id": 832200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-7"
                     }
                 ],
                 "nameLeft": "千鶴の父",
                 "textLeft": "こいつが原因だ"
             },
             {
+                "autoTurnLast": 1.5,
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 104601,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_103203/vo_full_103203-7-8"
                     }
                 ],
+                "enableSkipAutoTurn": 1,
                 "nameRight": "千鶴",
                 "textRight": "書状って…@ああ、露んとこの親父からだろ？"
             },
@@ -108,7 +120,17 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 104601
                     }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 104601,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-9",
+                        "voiceFullStop": "fullvoice/section_103203/vo_full_103203-7-8"
+                    }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "千鶴",
                 "textRight": "ちゃんと土地はくれるんだろ？@今日、露が言ってた"
             },
@@ -119,7 +141,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 832200,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-10"
                     }
                 ],
                 "nameLeft": "千鶴の父",
@@ -132,7 +155,8 @@
                         "face": "mtn_ex_001.exp3.json",
                         "id": 104601,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-11"
                     }
                 ],
                 "nameRight": "千鶴",
@@ -141,7 +165,8 @@
             {
                 "chara": [
                     {
-                        "id": 104601
+                        "id": 104601,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-12"
                     }
                 ],
                 "nameRight": "千鶴",
@@ -151,7 +176,8 @@
                 "chara": [
                     {
                         "id": 832200,
-                        "lipSynch": 0
+                        "lipSynch": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-13"
                     }
                 ],
                 "nameLeft": "千鶴の父",
@@ -164,7 +190,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 832301,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-14"
                     }
                 ],
                 "nameLeft": "",
@@ -173,17 +200,19 @@
             {
                 "chara": [
                     {
-                        "id": 832301
+                        "id": 832301,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-15"
                     }
                 ],
                 "nameLeft": "",
-                "textLeft": "内容は戦での武功を讃えて@家臣として迎え入れたいとの件"
+                "textLeft": "まずは戦での武功を讃えて@家臣として迎え入れたいとの由"
             },
             {
                 "chara": [
                     {
                         "id": 104601,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-16"
                     }
                 ],
                 "nameRight": "千鶴",
@@ -192,16 +221,18 @@
             {
                 "chara": [
                     {
-                        "id": 832301
+                        "id": 832301,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-17"
                     }
                 ],
                 "nameLeft": "",
-                "textLeft": "また治めている地の領主として、@知行を認めるとのこと"
+                "textLeft": "また治めている地の領主として、@知行を認めるが…"
             },
             {
                 "chara": [
                     {
-                        "id": 104601
+                        "id": 104601,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-18"
                     }
                 ],
                 "nameRight": "千鶴",
@@ -210,7 +241,8 @@
             {
                 "chara": [
                     {
-                        "id": 832301
+                        "id": 832301,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-19"
                     }
                 ],
                 "nameLeft": "",
@@ -219,7 +251,8 @@
             {
                 "chara": [
                     {
-                        "id": 832301
+                        "id": 832301,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-20"
                     }
                 ],
                 "nameLeft": "",
@@ -232,7 +265,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 104601,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-21"
                     }
                 ],
                 "nameRight": "千鶴",
@@ -245,7 +279,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 832200,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-22"
                     }
                 ],
                 "nameLeft": "千鶴の父",
@@ -254,7 +289,8 @@
             {
                 "chara": [
                     {
-                        "id": 832200
+                        "id": 832200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-23"
                     }
                 ],
                 "nameLeft": "千鶴の父",
@@ -263,11 +299,10 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp3.json",
                         "id": 104601,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-24"
                     }
                 ],
                 "nameRight": "千鶴",
@@ -276,7 +311,8 @@
             {
                 "chara": [
                     {
-                        "id": 832200
+                        "id": 832200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-25"
                     }
                 ],
                 "nameLeft": "千鶴の父",
@@ -285,7 +321,8 @@
             {
                 "chara": [
                     {
-                        "id": 832200
+                        "id": 832200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-26"
                     }
                 ],
                 "nameLeft": "千鶴の父",
@@ -294,7 +331,8 @@
             {
                 "chara": [
                     {
-                        "id": 832200
+                        "id": 832200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-27"
                     }
                 ],
                 "nameLeft": "千鶴の父",
@@ -303,8 +341,11 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 104601,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-28"
                     }
                 ],
                 "nameRight": "千鶴",
@@ -313,7 +354,8 @@
             {
                 "chara": [
                     {
-                        "id": 832200
+                        "id": 832200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-29"
                     }
                 ],
                 "nameLeft": "千鶴の父",
@@ -322,7 +364,8 @@
             {
                 "chara": [
                     {
-                        "id": 832200
+                        "id": 832200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-30"
                     }
                 ],
                 "nameLeft": "千鶴の父",
@@ -331,7 +374,8 @@
             {
                 "chara": [
                     {
-                        "id": 832200
+                        "id": 832200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-31"
                     }
                 ],
                 "nameLeft": "千鶴の父",
@@ -344,7 +388,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 104601,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-32"
                     }
                 ],
                 "nameRight": "千鶴",
@@ -353,7 +398,8 @@
             {
                 "chara": [
                     {
-                        "id": 104601
+                        "id": 104601,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-33"
                     }
                 ],
                 "nameRight": "千鶴",
@@ -362,17 +408,19 @@
             {
                 "chara": [
                     {
-                        "id": 832200
+                        "id": 832200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-34"
                     }
                 ],
                 "nameLeft": "千鶴の父",
-                "textLeft": "差し伸べた手を振り払ったのは@水名の野郎だ"
+                "textLeft": "台無しにしたのは水名の野郎だ"
             },
             {
                 "chara": [
                     {
                         "id": 104601,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-35"
                     }
                 ],
                 "nameRight": "千鶴",
@@ -402,7 +450,8 @@
             {
                 "chara": [
                     {
-                        "id": 104501
+                        "id": 104501,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-36"
                     }
                 ],
                 "nameRight": "露",
@@ -416,18 +465,20 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 104501,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-37"
                     }
                 ],
                 "nameRight": "露",
-                "textRight": "父は水名の地を取られて、@その眼を曇らせておいでです"
+                "textRight": "父上は水名の地を取られて、@その眼を曇らせておいでです"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 832100
+                        "id": 832100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-38"
                     }
                 ],
                 "nameLeft": "露の父",
@@ -438,7 +489,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
-                        "id": 832100
+                        "id": 832100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-39"
                     }
                 ],
                 "nameLeft": "露の父",
@@ -450,7 +502,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 104501,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-40"
                     }
                 ],
                 "nameRight": "露",
@@ -459,16 +512,18 @@
             {
                 "chara": [
                     {
-                        "id": 832100
+                        "id": 832100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-41"
                     }
                 ],
                 "nameLeft": "露の父",
-                "textLeft": "目の前に金をぶら下げれば@飛びついて取ろうとする連中だ"
+                "textLeft": "目の前に銭をぶら下げれば@飛びついて取ろうとする連中だ"
             },
             {
                 "chara": [
                     {
-                        "id": 832100
+                        "id": 832100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-42"
                     }
                 ],
                 "nameLeft": "露の父",
@@ -480,7 +535,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
                         "id": 104501,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-43"
                     }
                 ],
                 "nameRight": "露",
@@ -489,7 +545,8 @@
             {
                 "chara": [
                     {
-                        "id": 104501
+                        "id": 104501,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-44"
                     }
                 ],
                 "nameRight": "露",
@@ -498,16 +555,18 @@
             {
                 "chara": [
                     {
-                        "id": 104501
+                        "id": 104501,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-45"
                     }
                 ],
                 "nameRight": "露",
-                "textRight": "彼らも生き抜いてきた土地の中で@胸を張って生きたかったのです"
+                "textRight": "彼らも父祖の地を守り抜いて@胸を張って生きたかったのです"
             },
             {
                 "chara": [
                     {
-                        "id": 832100
+                        "id": 832100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-46"
                     }
                 ],
                 "nameLeft": "露の父",
@@ -519,7 +578,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 104501,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-47"
                     }
                 ],
                 "nameRight": "露",
@@ -528,7 +588,8 @@
             {
                 "chara": [
                     {
-                        "id": 832100
+                        "id": 832100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-48"
                     }
                 ],
                 "nameLeft": "露の父",
@@ -539,7 +600,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 832100
+                        "id": 832100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-49"
                     }
                 ],
                 "nameLeft": "露の父",
@@ -552,7 +614,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 832300,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-50"
                     }
                 ],
                 "nameRight": "",
@@ -565,7 +628,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 832100,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-51"
                     }
                 ],
                 "nameLeft": "露の父",
@@ -574,11 +638,12 @@
             {
                 "chara": [
                     {
-                        "id": 832300
+                        "id": 832300,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-52"
                     }
                 ],
                 "nameRight": "",
-                "textRight": "使者は返事を持たずに帰参@書状は切られたとのことです"
+                "textRight": "使者は返事を持たずに帰城@書状は切られたとのことです"
             },
             {
                 "chara": [
@@ -586,9 +651,10 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 104501,
-                        "lipSynch": 0,
+                        "lipSynch": 1,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-53"
                     }
                 ],
                 "nameRight": "露",
@@ -597,7 +663,8 @@
             {
                 "chara": [
                     {
-                        "id": 832100
+                        "id": 832100,
+                        "voiceFullAuto": "fullvoice/section_103203/vo_full_103203-7-54"
                     }
                 ],
                 "nameLeft": "露の父",

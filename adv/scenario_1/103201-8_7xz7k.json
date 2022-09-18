@@ -19,7 +19,8 @@
             {
                 "chara": [
                     {
-                        "id": 104101
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-1"
                     }
                 ],
                 "nameCenter": "リヴィア",
@@ -44,7 +45,8 @@
                         "id": 103901,
                         "lipSynch": 0,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-2"
                     },
                     {
                         "cheek": 0,
@@ -61,7 +63,8 @@
                 "chara": [
                     {
                         "id": 104001,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-3"
                     }
                 ],
                 "nameRight": "ヨヅル",
@@ -70,17 +73,19 @@
             {
                 "chara": [
                     {
-                        "id": 104001
+                        "id": 104001,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-4"
                     }
                 ],
                 "nameRight": "ヨヅル",
-                "textRight": "ただ、先生の中が見えた時、@キュゥべえの姿が見えました"
+                "textRight": "ただ、先生の中が見えた時、@キュゥべえの姿がありました"
             },
             {
                 "chara": [
                     {
                         "id": 104001,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-5"
                     }
                 ],
                 "nameRight": "ヨヅル",
@@ -89,7 +94,8 @@
             {
                 "chara": [
                     {
-                        "id": 104001
+                        "id": 104001,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-6"
                     }
                 ],
                 "nameRight": "ヨヅル",
@@ -102,7 +108,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 103901,
                         "lipSynch": 0,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-7"
                     }
                 ],
                 "nameLeft": "月出里",
@@ -115,7 +122,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 104101,
                         "motion": 1,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-8"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -124,7 +132,8 @@
             {
                 "chara": [
                     {
-                        "id": 104101
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-9"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -136,17 +145,28 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
                         "id": 104101,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-10"
                     }
                 ],
                 "nameLeft": "リヴィア",
                 "textLeft": "なんせ私は"
             },
             {
+                "chara": [
+                    {
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-11"
+                    }
+                ],
                 "nameNarration": "リヴィア",
                 "narration": "「[textRed:キュゥべえの目的を果たすことで]@[textRed:魔法少女を救おうとしとるんやから…]」",
                 "narrationBg": "",
                 "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
@@ -156,11 +176,11 @@
                         "id": 103901,
                         "lipSynch": 0,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-12"
                     }
                 ],
                 "nameRight": "月出里",
-                "narrationEffect": "out",
                 "textRight": "ふっむむ"
             },
             {
@@ -170,7 +190,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 104001,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-13"
                     }
                 ],
                 "nameRight": "ヨヅル",
@@ -183,7 +204,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 104101,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-14"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -192,7 +214,8 @@
             {
                 "chara": [
                     {
-                        "id": 104101
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-15"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -202,7 +225,8 @@
                 "chara": [
                     {
                         "id": 104101,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-16"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -211,7 +235,8 @@
             {
                 "chara": [
                     {
-                        "id": 104101
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-17"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -225,7 +250,8 @@
                         "id": 103901,
                         "lipSynch": 0,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-18"
                     }
                 ],
                 "nameRight": "月出里",
@@ -238,7 +264,8 @@
                         "face": "mtn_ex_051.exp3.json",
                         "id": 104001,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-19"
                     }
                 ],
                 "nameRight": "ヨヅル",
@@ -247,7 +274,8 @@
             {
                 "chara": [
                     {
-                        "id": 104001
+                        "id": 104001,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-20"
                     }
                 ],
                 "nameRight": "ヨヅル",
@@ -257,52 +285,92 @@
                 "chara": [
                     {
                         "id": 104101,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-21"
                     }
                 ],
                 "nameLeft": "リヴィア",
                 "textLeft": "やから、かごめちゃんと@神浜市に注目したんや"
             },
             {
+                "chara": [
+                    {
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-22"
+                    }
+                ],
                 "nameNarration": "リヴィア",
                 "narration": "「[textRed:魔法少女を取材する普通の少女]なんて@今まで聞いたこともあれへんかった」",
                 "narrationBg": "",
                 "narrationEffect": "in"
             },
             {
+                "chara": [
+                    {
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-23"
+                    }
+                ],
                 "narration": "「それに色んな地域の魔法少女たちが@何十人も入り乱れて衝突するなんて動きも@初めて聞くような現象やったし@ドッペルなんて話も初めて聞いた」"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
                         "id": 104101,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-24"
                     }
                 ],
                 "nameLeft": "リヴィア",
-                "narrationEffect": "out",
                 "textLeft": "やけど、できると思った"
             },
             {
+                "chara": [
+                    {
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-25"
+                    }
+                ],
                 "nameNarration": "リヴィア",
                 "narration": "「ひとつは死なへんように魔法少女を助けつつ@争いを激化させてドッペル化を促す」",
                 "narrationBg": "",
                 "narrationEffect": "in"
             },
             {
+                "chara": [
+                    {
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-26"
+                    }
+                ],
                 "narration": "「繰り返しエネルギーを得られる環境やったら@回収効率が上がるかもしれへんし@その考えはキュゥべえとも合致しとった」"
             },
             {
                 "chara": [
                     {
                         "id": 104101,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-27"
                     }
                 ],
                 "narration": "「もうひとつはかごめちゃんを成長させて@抱える因果を育て続けるということ」"
             },
             {
+                "chara": [
+                    {
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-28"
+                    }
+                ],
                 "narration": "「あの子が繋がっとる関係を広げていって@途方もない力をつけさせた時@莫大なエネルギーを生み出す魔法少女になる@それもキュゥべえの意見と合致しとった」"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
@@ -311,19 +379,20 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 104001,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-29"
                     }
                 ],
                 "nameRight": "ヨヅル",
-                "narrationEffect": "out",
-                "textRight": "つまり、佐鳥様を魔女にすれば@ノルマを達成に大きく近づく"
+                "textRight": "つまり、佐鳥様を魔女にすれば@ノルマの達成に大きく近づく"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_040.exp3.json",
-                        "id": 104001
+                        "id": 104001,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-30"
                     }
                 ],
                 "nameRight": "ヨヅル",
@@ -332,7 +401,8 @@
             {
                 "chara": [
                     {
-                        "id": 104001
+                        "id": 104001,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-31"
                     }
                 ],
                 "nameRight": "ヨヅル",
@@ -345,7 +415,8 @@
                         "face": "mtn_ex_040.exp3.json",
                         "id": 104101,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-32"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -357,7 +428,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 104101,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-33"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -366,7 +438,8 @@
             {
                 "chara": [
                     {
-                        "id": 104101
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-34"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -380,7 +453,8 @@
                         "id": 103901,
                         "lipSynch": 0,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-35"
                     }
                 ],
                 "nameRight": "月出里",
@@ -393,7 +467,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 104001,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-36"
                     }
                 ],
                 "nameRight": "ヨヅル",
@@ -406,7 +481,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 104101,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-37"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -415,7 +491,8 @@
             {
                 "chara": [
                     {
-                        "id": 104101
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-38"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -424,7 +501,8 @@
             {
                 "chara": [
                     {
-                        "id": 104101
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-39"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -438,7 +516,8 @@
                         "id": 103901,
                         "lipSynch": 0,
                         "motion": 300,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-40"
                     }
                 ],
                 "nameRight": "月出里",
@@ -451,7 +530,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 104001,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-41"
                     }
                 ],
                 "nameRight": "ヨヅル",
@@ -461,7 +541,8 @@
                 "chara": [
                     {
                         "id": 104101,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-42"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -470,7 +551,8 @@
             {
                 "chara": [
                     {
-                        "id": 104101
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-43"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -480,7 +562,8 @@
                 "chara": [
                     {
                         "id": 104101,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-44"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -491,7 +574,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 104101
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-45"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -505,7 +589,8 @@
                         "id": 103901,
                         "lipSynch": 0,
                         "motion": 1,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-46"
                     }
                 ],
                 "nameRight": "月出里",
@@ -518,7 +603,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 104001,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-47"
                     }
                 ],
                 "nameRight": "ヨヅル",
@@ -531,7 +617,8 @@
                         "face": "mtn_ex_010.exp3.json",
                         "id": 104101,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-48"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -541,7 +628,8 @@
                 "chara": [
                     {
                         "id": 104101,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-49"
                     }
                 ],
                 "nameLeft": "リヴィア",
@@ -554,30 +642,47 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 104101,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-50"
                     }
                 ],
                 "nameLeft": "リヴィア",
                 "textLeft": "言うとくで"
             },
             {
+                "chara": [
+                    {
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-51"
+                    }
+                ],
                 "nameNarration": "リヴィア",
                 "narration": "「私は宇宙のために生きることしかでけへん」",
                 "narrationBg": "",
                 "narrationEffect": "in"
             },
             {
+                "chara": [
+                    {
+                        "id": 104101,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-52"
+                    }
+                ],
                 "narration": "「ヨヅルと月出里に優しくしとるのも@あんたらのためちゃう@全部は宇宙のためなんや」"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
                         "id": 104001,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-53"
                     }
                 ],
                 "nameRight": "ヨヅル",
-                "narrationEffect": "out",
                 "textRight": "先生の中を覗いた今となっては@理解しています"
             },
             {
@@ -588,7 +693,8 @@
                         "id": 103901,
                         "lipSynch": 0,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103201/vo_full_103201-8-54"
                     }
                 ],
                 "nameLeft": "月出里",

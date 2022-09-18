@@ -25,25 +25,32 @@
                 "nameNarration": "いろは",
                 "narration": "「最後にやり返すために残っているのは@アシュリー・テイラーの“スイッチ”だけ」",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-17-1"
             },
             {
-                "narration": "「これで何を切り替えようって言うの…？」"
+                "narration": "「これで何を切り替えようって言うの…？」",
+                "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-17-2"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
             },
             {
                 "chara": [
                     {
-                        "id": 102800
+                        "id": 102800,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-17-3"
                     }
                 ],
                 "nameRight": "ひめな",
-                "narrationEffect": "out",
                 "textRight": "この能力は受け止めた力を@逆転させる力"
             },
             {
                 "chara": [
                     {
-                        "id": 102800
+                        "id": 102800,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-17-4"
                     }
                 ],
                 "nameRight": "ひめな",
@@ -53,7 +60,8 @@
                 "chara": [
                     {
                         "id": 102800,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-17-5"
                     }
                 ],
                 "nameRight": "ひめな",
@@ -70,15 +78,25 @@
                 "textLeft": "…………!!"
             },
             {
+                "autoTurnLast": 1,
                 "chara": [
                     {
                         "effect": "ef_adv_09",
+                        "id": 102800
+                    }
+                ],
+                "se": "7210_souljem_01",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
                         "id": 102800,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103301/vo_full_103301-17-7"
                     }
                 ],
                 "nameRight": "ひめな",
-                "se": "7210_souljem_01",
                 "textBg": "shout",
                 "textRight": "やぁああああッ!!"
             },

@@ -36,7 +36,8 @@
                 "chara": [
                     {
                         "id": 303500,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-1"
                     }
                 ],
                 "nameRight": "千秋 理子？",
@@ -47,28 +48,32 @@
                 "chara": [
                     {
                         "id": 103800,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-2"
                     }
                 ],
                 "nameLeft": "みかげ？",
                 "textLeft": "あくよーされたら困るもんね"
             },
             {
+                "autoTurnLast": 0.9,
                 "chara": [
                     {
                         "id": 103800,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-3_mikage"
                     },
                     {
                         "id": 303500,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-3_riko"
                     }
                 ],
                 "nameCenter": "理子？＆みかげ？",
                 "textCenter": "[flashEffect:flashWhite2][surround:1038A01][surround:3035A02]せーのっ！"
             },
             {
-                "autoTurnLast": 0.01,
+                "autoTurnLast": 0.1,
                 "item": [
                     {
                         "action": {
@@ -189,13 +194,26 @@
                 ],
                 "nameNarration": "いろは",
                 "narration": "あぁ…やちよさんも鶴乃ちゃんも…@魔女になっていく…",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-4"
             },
             {
-                "narration": "穢れを回収されず@ドッペルを出すことなく@託された希望を使い果たして…"
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "narration": "穢れを回収されず@ドッペルを出すことなく@託された希望を使い果たして…",
+                "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-5"
             },
             {
-                "narration": "フェリシアちゃんもさなちゃんも…"
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "narration": "フェリシアちゃんもさなちゃんも…",
+                "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-6"
             },
             {
                 "chara": [
@@ -204,7 +222,8 @@
                         "id": 100100
                     }
                 ],
-                "narration": "そして、私とかごめちゃんも…"
+                "narration": "そして、私とかごめちゃんも…",
+                "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-7"
             },
             {
                 "autoTurnLast": 0.5,
@@ -220,10 +239,12 @@
                 "nameNarration": "いろは",
                 "narration": "あぁ…悔しいなぁ…",
                 "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-8"
             },
             {
-                "narration": "みんながここまで命をかけてくれたのに…@私に未来を託してくれたのに…@本当に私はなにひとつ残せていない…"
+                "narration": "みんながここまで命をかけてくれたのに…@私に未来を託してくれたのに…@本当に私はなにひとつ残せていない…",
+                "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-9"
             },
             {
                 "autoTurnLast": 0.5,
@@ -247,32 +268,40 @@
                 "narrationFontSize": 30,
                 "narrationLineMargin": 35,
                 "narrationLineSpace": 20,
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-10"
             },
             {
                 "nameNarration": "かごめ",
-                "narration": "―かごめ―@…………"
+                "narration": "―かごめ―@…………",
+                "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-11"
             },
             {
                 "nameNarration": "いろは",
-                "narration": "―いろは―@アルちゃん…"
+                "narration": "―いろは―@アルちゃん…",
+                "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-12"
             },
             {
                 "nameNarration": "アルちゃん",
-                "narration": "―アルちゃん―@…………"
+                "narration": "―アルちゃん―@…………",
+                "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-13"
             },
             {
                 "nameNarration": "いろは",
-                "narration": "―いろは―@もう、祈ることしかできない…"
+                "narration": "―いろは―@もう、祈ることしかできない…",
+                "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-14"
             },
             {
-                "narration": "―いろは―@お願い…どうか未来を幸せに…@誰か…お願いです…"
+                "narration": "―いろは―@お願い…どうか未来を幸せに…@誰か…お願いです…",
+                "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-15"
             },
             {
-                "narration": "―いろは―@この…絶望から…希望、を…"
+                "narration": "―いろは―@この…絶望から…希望、を…",
+                "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-16"
             },
             {
-                "narration": "―いろは―@…………"
+                "narration": "―いろは―@…………",
+                "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-17"
             },
             {
                 "autoTurnLast": 1.5,
@@ -315,7 +344,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-18"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -325,7 +355,8 @@
             {
                 "chara": [
                     {
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-19"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -336,7 +367,8 @@
                     {
                         "eyeClose": 1,
                         "id": 100800,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-20"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -345,18 +377,22 @@
             {
                 "chara": [
                     {
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-21"
                     }
                 ],
                 "nameLeft": "アリナ",
                 "textLeft": "最後まで生きようとする@ブリリアントな命…"
             },
             {
+                "autoTurnLast": 0.2,
                 "chara": [
                     {
                         "eyeClose": 1,
                         "id": 101200,
-                        "motion": 300
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "voiceFull": "fullvoice/section_103303/vo_full_103303-21-22"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -365,11 +401,21 @@
             {
                 "chara": [
                     {
+                        "id": 101200,
+                        "lipSynch": 1
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
                         "cheek": 2,
                         "eyeClose": 0,
                         "face": "mtn_ex_013.exp3.json",
                         "id": 100800,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-23",
+                        "voiceFullStop": "fullvoice/section_103303/vo_full_103303-21-22"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -378,7 +424,8 @@
             {
                 "chara": [
                     {
-                        "id": 100800
+                        "id": 100800,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-24"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -388,7 +435,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-25"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -411,7 +459,8 @@
                         "eyeClose": 0,
                         "face": "mtn_ex_040.exp3.json",
                         "id": 101200,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-26"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -424,7 +473,8 @@
                         "face": "mtn_ex_014.exp3.json",
                         "id": 100800,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-27"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -437,7 +487,8 @@
                         "face": "mtn_ex_021.exp3.json",
                         "id": 101200,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-28"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -448,7 +499,8 @@
                     {
                         "cheek": 1,
                         "face": "mtn_ex_010.exp3.json",
-                        "id": 101200
+                        "id": 101200,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-29"
                     }
                 ],
                 "nameRight": "御園 かりん",
@@ -461,7 +513,8 @@
                         "face": "mtn_ex_013.exp3.json",
                         "id": 100800,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-30"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -471,7 +524,8 @@
                 "chara": [
                     {
                         "id": 100800,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-31"
                     }
                 ],
                 "nameLeft": "アリナ",
@@ -483,14 +537,15 @@
                         "cheek": 2,
                         "face": "mtn_ex_014.exp3.json",
                         "id": 100800,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103303/vo_full_103303-21-32"
                     }
                 ],
                 "nameLeft": "アリナ",
                 "textLeft": "ラストバトルスタート"
             },
             {
-                "autoTurnLast": 0.01,
+                "autoTurnLast": 0.1,
                 "textClear": 1
             },
             {

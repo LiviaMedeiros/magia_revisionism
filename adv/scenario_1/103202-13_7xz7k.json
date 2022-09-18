@@ -27,17 +27,29 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 101000,
+                        "motion": 200,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_103202/vo_full_103202-13-2"
+                    }
+                ],
+                "enableSkipAutoTurn": 1,
+                "nameRight": "ももこ",
+                "textRight": "アタシが怒りに囚われるなんて@有り得ないよ、大丈夫"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
-                        "id": 101000,
-                        "motion": 200,
-                        "pos": 2
+                        "id": 101000
                     }
-                ],
-                "nameRight": "ももこ",
-                "textRight": "アタシが怒りに囚われるなんて@有り得ないよ、大丈夫"
+                ]
             },
             {
                 "chara": [
@@ -46,16 +58,20 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 100900,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-13-3",
+                        "voiceFullStop": "fullvoice/section_103202/vo_full_103202-13-2"
                     }
                 ],
+                "enableSkipAutoTurn": 0,
                 "nameRight": "レナ",
                 "textRight": "ていうか、東西のことで@これだけひっかき回されても"
             },
             {
                 "chara": [
                     {
-                        "id": 100900
+                        "id": 100900,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-13-4"
                     }
                 ],
                 "nameRight": "レナ",
@@ -68,7 +84,8 @@
                         "face": "mtn_ex_011.exp3.json",
                         "id": 100900,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-13-5"
                     }
                 ],
                 "nameRight": "レナ",
@@ -81,7 +98,8 @@
                         "face": "mtn_ex_050.exp3.json",
                         "id": 101100,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-13-6"
                     }
                 ],
                 "nameRight": "かえで",
@@ -94,7 +112,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 100900,
                         "motion": 201,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-13-7"
                     }
                 ],
                 "nameLeft": "レナ",
@@ -107,7 +126,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 101100,
                         "motion": 200,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-13-8"
                     }
                 ],
                 "nameRight": "かえで",
@@ -116,7 +136,8 @@
             {
                 "chara": [
                     {
-                        "id": 101100
+                        "id": 101100,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-13-9"
                     }
                 ],
                 "nameRight": "かえで",
@@ -137,10 +158,11 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp3.json",
+                        "face": "mtn_ex_041.exp3.json",
                         "id": 101000,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103202/vo_full_103202-13-11"
                     }
                 ],
                 "nameRight": "ももこ",

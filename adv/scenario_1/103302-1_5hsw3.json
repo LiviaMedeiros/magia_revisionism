@@ -17,24 +17,29 @@
                 "narrationLineMargin": 10,
                 "narrationLineSpace": 20,
                 "surround": "7003_wind",
-                "turnChangeOut": "fadeOut"
+                "turnChangeOut": "fadeOut",
+                "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-1"
             },
             {
                 "nameNarration": "アルちゃん",
-                "narration": "―アルちゃん―@＜あとは大きい鏡の中に入って@鏡の魔女を倒せばいいんだよね？＞"
+                "narration": "―アルちゃん―@＜あとは大きい鏡の中に入って@鏡の魔女を倒せばいいんだよね？＞",
+                "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-2"
             },
             {
                 "nameNarration": "かごめ",
-                "narration": "―かごめ―@うん、そうだよ"
+                "narration": "―かごめ―@うん、そうだよ",
+                "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-3"
             },
             {
-                "narration": "―かごめ―@ういちゃんが広げた自動浄化システムの被膜に@干渉している結界がなくなれば"
+                "narration": "―かごめ―@ういちゃんが広げた自動浄化システムの被膜に@干渉している結界がなくなれば",
+                "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-4"
             },
             {
-                "narration": "―かごめ―@眠ってるみんなも魔女にならずに済むからね"
+                "narration": "―かごめ―@眠ってるみんなも魔女にならずに済むからね",
+                "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-5"
             },
             {
-                "autoTurnLast": 0.01,
+                "autoTurnLast": 0.2,
                 "bg": "bg_adv_21574.jpg",
                 "chara": [
                     {
@@ -54,7 +59,8 @@
                 "chara": [
                     {
                         "id": 102000,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-6"
                     }
                 ],
                 "nameCenter": "かごめ",
@@ -64,7 +70,8 @@
             {
                 "chara": [
                     {
-                        "id": 102000
+                        "id": 102000,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-7"
                     }
                 ],
                 "nameCenter": "かごめ",
@@ -74,7 +81,8 @@
                 "chara": [
                     {
                         "id": 102000,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-8"
                     }
                 ],
                 "nameCenter": "かごめ",
@@ -85,7 +93,8 @@
                     {
                         "id": 102000,
                         "lipSynch": 0,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-9"
                     }
                 ],
                 "nameCenter": "アルちゃん",
@@ -96,7 +105,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_100.exp3.json",
-                        "id": 102000
+                        "id": 102000,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-10"
                     }
                 ],
                 "nameCenter": "かごめ",
@@ -127,7 +137,8 @@
                 "chara": [
                     {
                         "id": 100100,
-                        "motion": 301
+                        "motion": 301,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-11"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -137,7 +148,8 @@
             {
                 "chara": [
                     {
-                        "id": 100100
+                        "id": 100100,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-12"
                     }
                 ],
                 "nameLeft": "いろは",
@@ -150,7 +162,8 @@
                         "face": "mtn_ex_330.exp3.json",
                         "id": 102000,
                         "motion": 400,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-13"
                     }
                 ],
                 "nameRight": "かごめ",
@@ -166,7 +179,8 @@
                 "chara": [
                     {
                         "id": 100100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-15"
                     },
                     {
                         "cheek": 0,
@@ -176,6 +190,7 @@
                     }
                 ],
                 "nameLeft": "いろは",
+                "narrationEffect": "out",
                 "textLeft": "氷室さんから…"
             },
             {
@@ -203,7 +218,8 @@
                 "chara": [
                     {
                         "id": 103300,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-16"
                     }
                 ],
                 "nameNarration": "ラビ",
@@ -219,7 +235,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 103300,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-17"
                     }
                 ],
                 "narration": "ただ、薄らとだけど@大きな鏡を守るバリアがもう１枚見えてる"
@@ -228,7 +245,8 @@
                 "chara": [
                     {
                         "id": 100100,
-                        "motion": 401
+                        "motion": 401,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-18"
                     }
                 ],
                 "nameNarration": "いろは",
@@ -240,7 +258,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_000.exp3.json",
                         "id": 103300,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-19"
                     },
                     {
                         "id": 100100,
@@ -254,7 +273,8 @@
                 "chara": [
                     {
                         "id": 103300,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-20"
                     }
                 ],
                 "narration": "悪夢の中にいる魔法少女が@魔女になるまでのタイムリミットもあるから@私はそのまま鏡のある南に向かう"
@@ -263,7 +283,8 @@
                 "chara": [
                     {
                         "id": 103300,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-21"
                     }
                 ],
                 "narration": "何か続報があれば連絡するから"
@@ -274,7 +295,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 100100,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-22"
                     }
                 ],
                 "nameNarration": "いろは",
@@ -287,7 +309,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 104000,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-23"
                     }
                 ],
                 "nameNarration": "ヨヅル",
@@ -299,7 +322,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_050.exp3.json",
                         "id": 100100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-24"
                     }
                 ],
                 "nameNarration": "いろは",
@@ -309,13 +333,20 @@
                 "chara": [
                     {
                         "id": 104000,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-25"
                     }
                 ],
                 "nameNarration": "ヨヅル",
                 "narration": "エネルギーを運んでいる使い魔を追いかけて@鏡屋敷まで行ったものの@コピーから情報を聞き出すのは失敗しました"
             },
             {
+                "chara": [
+                    {
+                        "id": 104000,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-26"
+                    }
+                ],
                 "narration": "ですが、鏡屋敷には依然として@果てなしのミラーズへの入口が残ってまして@巨大な鏡は魔女のいる最奥部への入口ではない@恐れが浮上してきたんです"
             },
             {
@@ -324,7 +355,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
                         "id": 100100,
-                        "motion": 301
+                        "motion": 301,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-27"
                     }
                 ],
                 "nameNarration": "いろは",
@@ -334,7 +366,8 @@
                 "chara": [
                     {
                         "id": 104000,
-                        "motion": 200
+                        "motion": 200,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-28"
                     }
                 ],
                 "nameNarration": "ヨヅル",
@@ -344,7 +377,8 @@
                 "chara": [
                     {
                         "id": 104000,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-29"
                     }
                 ],
                 "narration": "そう考えると@エネルギーの回収能力を欲していたからこそ@うい様は狙われた恐れがあります"
@@ -355,7 +389,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_021.exp3.json",
                         "id": 100100,
-                        "motion": 100
+                        "motion": 100,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-30"
                     }
                 ],
                 "nameNarration": "いろは",
@@ -365,7 +400,8 @@
                 "chara": [
                     {
                         "id": 104000,
-                        "motion": 1
+                        "motion": 1,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-31"
                     }
                 ],
                 "nameNarration": "ヨヅル",
@@ -375,7 +411,8 @@
                 "chara": [
                     {
                         "id": 100100,
-                        "motion": 0
+                        "motion": 0,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-32"
                     }
                 ],
                 "nameNarration": "いろは",
@@ -388,7 +425,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 102100,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-33"
                     }
                 ],
                 "nameNarration": "結菜",
@@ -401,7 +439,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 104000,
                         "motion": 100,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-34"
                     }
                 ],
                 "nameNarration": "ヨヅル",
@@ -496,7 +535,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 101500,
                         "motion": 300,
-                        "pos": 1
+                        "pos": 1,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-35"
                     }
                 ],
                 "nameCenter": "うい",
@@ -506,7 +546,8 @@
                 "chara": [
                     {
                         "eyeClose": 1,
-                        "id": 101500
+                        "id": 101500,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-36"
                     }
                 ],
                 "nameCenter": "うい",
@@ -547,17 +588,21 @@
             {
                 "nameNarration": "うい",
                 "narration": "「少しずつ上っていって@ようやくつかめそうだった希望の光なのに」",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-37"
             },
             {
-                "narration": "「こんなところでダメになるの…？」"
+                "narration": "「こんなところでダメになるの…？」",
+                "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-38"
             },
             {
                 "nameNarration": "いろは",
-                "narration": "『諦めて本当に魔女になるまで@私たちは救われる未来に手を伸ばし続ける』"
+                "narration": "『諦めて本当に魔女になるまで@私たちは救われる未来に手を伸ばし続ける』",
+                "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-39"
             },
             {
-                "narration": "『だから、その手を下ろすまでは@ダメになったとは言えないよ』"
+                "narration": "『だから、その手を下ろすまでは@ダメになったとは言えないよ』",
+                "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-40"
             },
             {
                 "autoTurnLast": 0.5,
@@ -585,7 +630,8 @@
                 "chara": [
                     {
                         "id": 102000,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-41"
                     }
                 ],
                 "nameRight": "かごめ",
@@ -597,7 +643,8 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_200.exp3.json",
-                        "id": 102000
+                        "id": 102000,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-42"
                     }
                 ],
                 "nameRight": "かごめ",
@@ -610,7 +657,8 @@
                         "face": "mtn_ex_110.exp3.json",
                         "id": 102000,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-43"
                     }
                 ],
                 "nameRight": "かごめ",
@@ -623,7 +671,8 @@
                         "face": "mtn_ex_020.exp3.json",
                         "id": 101500,
                         "motion": 200,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-44"
                     }
                 ],
                 "nameLeft": "うい",
@@ -649,11 +698,12 @@
                 "chara": [
                     {
                         "id": 820400,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-45"
                     }
                 ],
                 "nameCenter": "アルちゃん",
-                "textCenter": "＜だ、誰か助けててぇ！＞",
+                "textCenter": "＜だ、誰か助けてぇ！＞",
                 "turnChangeOut": "fadeOut"
             },
             {
@@ -662,7 +712,13 @@
                     {
                         "id": 820400,
                         "pos": 0
-                    },
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
                     {
                         "cheek": 0,
                         "face": "mtn_ex_011.exp3.json",
@@ -670,8 +726,7 @@
                         "motion": 0,
                         "pos": 2
                     }
-                ],
-                "textClear": 1
+                ]
             },
             {
                 "chara": [
@@ -679,7 +734,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_060.exp3.json",
                         "id": 820400,
-                        "motion": 300
+                        "motion": 300,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-46"
                     }
                 ],
                 "nameLeft": "アルちゃん",
@@ -729,7 +785,8 @@
                         "face": "mtn_ex_051.exp3.json",
                         "id": 103300,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-47"
                     }
                 ],
                 "nameRight": "ラビ",
@@ -742,7 +799,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 820400,
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-48"
                     }
                 ],
                 "nameLeft": "アルちゃん",
@@ -751,7 +809,8 @@
             {
                 "chara": [
                     {
-                        "id": 820400
+                        "id": 820400,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-49"
                     }
                 ],
                 "nameLeft": "アルちゃん",
@@ -764,7 +823,8 @@
                         "face": "mtn_ex_030.exp3.json",
                         "id": 820400,
                         "motion": 300,
-                        "pos": 0
+                        "pos": 0,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-50"
                     }
                 ],
                 "nameLeft": "アルちゃん",
@@ -776,7 +836,8 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
                         "id": 820400,
-                        "motion": 400
+                        "motion": 400,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-51"
                     }
                 ],
                 "nameLeft": "アルちゃん",
@@ -789,7 +850,8 @@
                         "face": "mtn_ex_000.exp3.json",
                         "id": 103300,
                         "motion": 100,
-                        "pos": 2
+                        "pos": 2,
+                        "voiceFullAuto": "fullvoice/section_103302/vo_full_103302-1-52"
                     }
                 ],
                 "nameRight": "ラビ",

@@ -14,22 +14,12 @@
                 ],
                 "autoTurnLast": 0.01,
                 "bg": "bg_adv_21251.jpg",
-                "chara": [
-                    {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp3.json",
-                        "id": 100101,
-                        "motion": 0,
-                        "pos": 1
-                    }
-                ],
                 "turnChangeIn": "fadeIn"
             },
             {
                 "bgm": "bgm03_story12",
                 "nameNarration": "",
                 "narration": "Kuroe’s doppel story  for application",
-                "narrationBg": "bg_adv_21251.jpg",
                 "narrationEffect": "in",
                 "turnChangeOut": "fadeOut"
             },
@@ -49,8 +39,11 @@
             {
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 100101,
-                        "motion": 100
+                        "motion": 100,
+                        "pos": 1
                     }
                 ],
                 "nameCenter": "いろは",

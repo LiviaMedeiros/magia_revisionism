@@ -9,7 +9,7 @@
                         ],
                         "armatureId": 2,
                         "filePath": "resource/image_native/effect/story/general/3010_vista_16_9.ExportJson",
-                        "zOrder": "messageBack"
+                        "zOrder": "messageFront"
                     }
                 ],
                 "autoTurnLast": 0.01,
@@ -40,8 +40,7 @@
                     }
                 ],
                 "se": "3102_enemy_dead",
-                "textClear": 1,
-                "turnEffect": "stop"
+                "textClear": 1
             },
             {
                 "autoTurnLast": 1.5,
@@ -119,10 +118,15 @@
                 "textLeft": "先週から魔女も@見かけなくなったし…"
             },
             {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21073.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
                 "nameNarration": "黒江",
                 "narration": "その頃から、魔女の数が減り始めた",
-                "narrationBg": "bg_adv_21073.jpg",
-                "narrationEffect": "in"
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
             },
             {
                 "narration": "グリーフシードの不安はあったけど@魔女が増えるよりはずっとよかった"
@@ -180,7 +184,6 @@
             {
                 "nameNarration": "黒江",
                 "narration": "魔法少女になってから、頻繁に同じ夢を見る",
-                "narrationBg": "bg_adv_21071.jpg",
                 "narrationEffect": "in",
                 "turnChangeOut": "fadeOut"
             },

@@ -14,6 +14,16 @@
                 ],
                 "autoTurnLast": 0.01,
                 "bg": "bg_adv_21025.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm01_anime02",
+                "nameNarration": "",
+                "narration": "堅雪かんこ、凍み雪しんこ@狐こんこん狐の子、狐の団子は兎のくそ",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
@@ -29,23 +39,6 @@
                         "motion": 0,
                         "pos": 0,
                         "soulGem": 0
-                    }
-                ],
-                "turnChangeIn": "fadeIn"
-            },
-            {
-                "bgm": "bgm01_anime02",
-                "nameNarration": "",
-                "narration": "堅雪かんこ、凍み雪しんこ@狐こんこん狐の子、狐の団子は兎のくそ",
-                "narrationBg": "bg_adv_21025.jpg",
-                "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
-            },
-            {
-                "chara": [
-                    {
-                        "id": 800400,
-                        "motion": 0
                     }
                 ],
                 "nameRight": "",
@@ -351,9 +344,18 @@
                 "textRight": "推薦希望だったわよね？"
             },
             {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 104301
+                    }
+                ],
                 "nameNarration": "黒江",
                 "narration": "私は、次の春には　中学３年生になって@その次の年には受験があって、高校生になる",
-                "narrationBg": "bg_adv_21021.jpg",
                 "narrationEffect": "in"
             },
             {
@@ -368,7 +370,19 @@
             {
                 "chara": [
                     {
-                        "id": 800600
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 104301,
+                        "motion": 1,
+                        "pos": 0,
+                        "soulGem": 0
                     }
                 ],
                 "nameRight": "",

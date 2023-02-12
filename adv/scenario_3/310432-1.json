@@ -275,6 +275,12 @@
             },
             {
                 "bgm": "bgm03_story06",
+                "nameNarration": "黒江",
+                "narration": "私が魔法少女になる時の願い事は@彼を恋人にすること",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
@@ -284,18 +290,6 @@
                         "pos": 1
                     }
                 ],
-                "nameNarration": "黒江",
-                "narration": "私が魔法少女になる時の願い事は@彼を恋人にすること",
-                "narrationBg": "bg_adv_21025.jpg",
-                "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
-            },
-            {
-                "chara": [
-                    {
-                        "id": 800400
-                    }
-                ],
                 "nameCenter": "",
                 "narrationEffect": "out",
                 "textCenter": "おはよう@黒江"
@@ -303,7 +297,6 @@
             {
                 "nameNarration": "黒江",
                 "narration": "恋人同士がどういったものかは@よく分からないけど",
-                "narrationBg": "bg_adv_21025.jpg",
                 "narrationEffect": "in"
             },
             {
@@ -397,10 +390,30 @@
                 "textCenter": "もっと早く、@黒江と話せてればよかった"
             },
             {
+                "nameNarration": "黒江",
+                "narration": "彼の声を通して私のことを聞くたびに@ぼやけていた私の輪郭に@すこしずつピントが合うようで",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "恐ろしい魔女のことも@魔女に襲われる人たちすらも@その瞬間だけは忘れられるような気がした"
+            },
+            {
+                "autoTurnLast": 0.2,
                 "chara": [
                     {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 800400,
+                        "motion": 0,
                         "pos": 2
+                    }
+                ],
+                "narrationEffect": "out"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800400
                     },
                     {
                         "cheek": 0,
@@ -410,24 +423,7 @@
                         "pos": 0
                     }
                 ],
-                "nameNarration": "黒江",
-                "narration": "彼の声を通して私のことを聞くたびに@ぼやけていた私の輪郭に@すこしずつピントが合うようで",
-                "narrationBg": "bg_adv_21025.jpg",
-                "narrationEffect": "in"
-            },
-            {
-                "narration": "恐ろしい魔女のことも@魔女に襲われる人たちすらも@その瞬間だけは忘れられるような気がした"
-            },
-            {
-                "chara": [
-                    {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp3.json",
-                        "id": 800400
-                    }
-                ],
                 "nameRight": "",
-                "narrationEffect": "out",
                 "textRight": "明日、部活休みに@なったんだけど…"
             },
             {
@@ -481,7 +477,6 @@
             {
                 "nameNarration": "黒江",
                 "narration": "その日私は彼と二人で電車に乗って@少し離れた映画館へ行った",
-                "narrationBg": "bg_adv_20021.jpg",
                 "narrationEffect": "in",
                 "turnChangeOut": "fadeOut"
             },
@@ -526,7 +521,6 @@
             {
                 "nameNarration": "黒江",
                 "narration": "映画の中では主人公が多くの人たちを救っていた",
-                "narrationBg": "bg_adv_20022.jpg",
                 "narrationEffect": "in"
             },
             {

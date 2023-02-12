@@ -13,10 +13,10 @@
                     }
                 ],
                 "autoTurnLast": 0.01,
-                "bg": "bg_adv_46001.jpg",
+                "bg": "bg_adv_46120.jpg",
                 "chara": [
                     {
-                        "id": 6001,
+                        "id": 6120,
                         "name": "sprite_0",
                         "pos": 1
                     }
@@ -24,22 +24,23 @@
                 "turnChangeIn": "fadeIn"
             },
             {
-                "autoTurnLast": 0.8,
                 "nameCenter": "",
                 "textCenter": "――っ！",
                 "turnChangeOut": "fadeOut"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 1,
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 1.5,
                 "chara": [
                     {
                         "effect": "fadeout",
-                        "id": 6001,
+                        "id": 6120,
                         "name": "sprite_0"
                     }
-                ],
-                "textClear": 1,
-                "turnEffect": "stop"
+                ]
             },
             {
                 "autoTurnLast": 2,
@@ -612,13 +613,13 @@
                         "effect": "fadeout",
                         "id": 104700
                     }
-                ]
+                ],
+                "textClear": 1
             },
             {
                 "autoTurnLast": 1,
                 "bg": "bg_adv_20813.jpg",
-                "bgChangeEffect": "fade",
-                "textClear": 1
+                "bgChangeEffect": "fade"
             },
             {
                 "chara": [
@@ -760,9 +761,14 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 104301
+                    }
+                ],
                 "nameNarration": "黒江",
                 "narration": "彼から教えてもらった動画配信@知らない町を　電車に乗って紹介してる",
-                "narrationBg": "bg_adv_21073.jpg",
                 "narrationEffect": "in"
             },
             {

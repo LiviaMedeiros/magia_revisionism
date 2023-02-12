@@ -543,172 +543,143 @@
                         "id": 200600
                     }
                 ],
+                "se": "7107_arrivalone",
                 "textClear": 1
             },
             {
-                "autoTurnLast": 1.5,
-                "chara": [
+                "autoTurnLast": 1,
+                "item": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_021.exp3.json",
-                        "id": 200600,
-                        "motion": 200,
-                        "pos": 0,
-                        "posX": 75
-                    },
-                    {
-                        "cheek": 0,
-                        "effect": "ef_adv_08",
-                        "face": "mtn_ex_051.exp3.json",
-                        "id": 200603,
-                        "motion": 0,
-                        "pos": 2,
-                        "posX": -75
+                        "path": "resource/scenario/img/51157_tower_kyoko/memoria_1866.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
                     }
                 ],
-                "turnChangeIn": "rollInFast"
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1.3
             },
             {
-                "autoTurnLast": 2.2,
-                "chara": [
-                    {
-                        "effect": "shake",
-                        "id": 200603
-                    }
-                ],
-                "turnChangeOut": "rollOutFast"
+                "autoTurnLast": 2,
+                "bg": "black",
+                "se": "3222_move"
             },
             {
-                "autoTurnLast": 0.25,
-                "chara": [
-                    {
-                        "effect": "fadeout",
-                        "id": 200600
-                    },
-                    {
-                        "effect": "fadeout",
-                        "id": 200603
-                    }
-                ],
-                "textClear": 1
+                "autoTurnLast": 0.1,
+                "deleteArmatureList": [
+                    1
+                ]
             },
             {
+                "autoTurnLast": 0.1,
+                "deleteArmatureList": [
+                    2
+                ]
+            },
+            {
+                "autoTurnLast": 1,
                 "bgm": "bgm02_anime16",
+                "nameNarration": "？？？",
+                "narration": "―？？？―@なんで助けたの？",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 150,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 15,
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.5
+            },
+            {
+                "nameNarration": "？？？",
+                "narration": "―？？？―@あたしは@あたしを捨てたんじゃないの？"
+            },
+            {
+                "nameNarration": "杏子",
+                "narration": "―杏子―@…捨ててなんかない！@捨てたりなんかしない！"
+            },
+            {
+                "nameNarration": "？？？",
+                "narration": "―？？？―@…？"
+            },
+            {
+                "nameNarration": "杏子",
+                "narration": "―杏子―@…あたしは生きてるからさ"
+            },
+            {
+                "nameNarration": "杏子",
+                "narration": "―杏子―@アンタのことも@ちょっと古くなっちゃって"
+            },
+            {
+                "nameNarration": "杏子",
+                "narration": "―杏子―@もしかしてこのまま…"
+            },
+            {
+                "nameNarration": "杏子",
+                "narration": "―杏子―@忘れたまま生きていけるかも@なんて思ってた"
+            },
+            {
+                "nameNarration": "？？？",
+                "narration": "―？？？―@…………"
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_21503.jpg",
                 "chara": [
                     {
                         "cheek": 0,
                         "effect": "ef_adv_08",
-                        "face": "mtn_ex_051.exp3.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 200603,
                         "motion": 0,
                         "pos": 2
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp3.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 200600,
                         "motion": 0,
                         "pos": 0
                     }
                 ],
-                "nameRight": "？？？",
-                "textRight": "なんで助けたの？"
-            },
-            {
-                "chara": [
+                "item": [
                     {
-                        "id": 200603
+                        "path": "resource/scenario/img/51157_tower_kyoko/memoria_1866.jpg",
+                        "visible": "hide"
                     }
                 ],
-                "nameRight": "？？？",
-                "textRight": "あたしは@あたしを捨てたんじゃないの？"
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 1
             },
             {
-                "autoTurnLast": 0.2,
-                "chara": [
+                "armatureList": [
                     {
-                        "id": 200600,
-                        "pos": 0
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_act_picture.ExportJson",
+                        "zOrder": "messageBack"
                     }
                 ],
-                "textClear": 1
+                "autoTurnLast": 0.1
             },
             {
-                "chara": [
+                "armatureList": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_021.exp3.json",
-                        "id": 200600,
-                        "motion": 100
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/3002_mind_purple.ExportJson",
+                        "zOrder": "bgFront"
                     }
                 ],
-                "nameLeft": "杏子",
-                "textLeft": "…捨ててなんかない！@捨てたりなんかしない！"
-            },
-            {
-                "chara": [
-                    {
-                        "cheek": 0,
-                        "face": "mtn_ex_051.exp3.json",
-                        "id": 200603,
-                        "lipSynch": 0
-                    }
-                ],
-                "nameRight": "？？？",
-                "textRight": "…？"
-            },
-            {
-                "chara": [
-                    {
-                        "cheek": 0,
-                        "face": "mtn_ex_000.exp3.json",
-                        "id": 200600,
-                        "motion": 1
-                    }
-                ],
-                "nameLeft": "杏子",
-                "textLeft": "…あたしは生きてるからさ"
-            },
-            {
-                "chara": [
-                    {
-                        "id": 200600
-                    }
-                ],
-                "nameLeft": "杏子",
-                "textLeft": "アンタのことも@ちょっと古くなっちゃって"
-            },
-            {
-                "chara": [
-                    {
-                        "eyeClose": 1,
-                        "id": 200600,
-                        "motion": 0
-                    }
-                ],
-                "nameLeft": "杏子",
-                "textLeft": "もしかしてこのまま…"
-            },
-            {
-                "chara": [
-                    {
-                        "id": 200600
-                    }
-                ],
-                "nameLeft": "杏子",
-                "textLeft": "忘れたまま生きていけるかも@なんて思ってた"
-            },
-            {
-                "chara": [
-                    {
-                        "cheek": 0,
-                        "face": "mtn_ex_000.exp3.json",
-                        "id": 200603,
-                        "lipSynch": 0
-                    }
-                ],
-                "nameRight": "？？？",
-                "textRight": "…………"
+                "autoTurnLast": 0.1
             },
             {
                 "chara": [
@@ -721,7 +692,9 @@
                     }
                 ],
                 "nameLeft": "杏子",
-                "textLeft": "でも、そうじゃないんだ"
+                "textLeft": "でも、そうじゃないんだ",
+                "turnChangeOut": "fadeOut",
+                "turnChangeOutTime": 1
             },
             {
                 "chara": [

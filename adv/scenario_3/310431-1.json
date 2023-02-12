@@ -20,6 +20,7 @@
                 "bgm": "bgm03_story12",
                 "nameNarration": "",
                 "narration": "序文",
+                "narrationCoverOpacity": 100,
                 "narrationEffect": "in",
                 "turnChangeOut": "fadeOut"
             },
@@ -201,24 +202,12 @@
                 "autoTurnLast": 1.5,
                 "bg": "bg_adv_21025.jpg",
                 "bgm": "stop",
-                "chara": [
-                    {
-                        "cheek": 0,
-                        "eyeClose": 1,
-                        "face": "mtn_ex_000.exp3.json",
-                        "id": 104301,
-                        "motion": 0,
-                        "pos": 1,
-                        "soulGem": 0
-                    }
-                ],
                 "narrationEffect": "out",
                 "turnChangeIn": "fadeIn"
             },
             {
                 "nameNarration": "黒江",
                 "narration": "昨日はよく眠れなかったけど@いつも通りの時間に起きて@いつも通りに学校へ行く",
-                "narrationBg": "bg_adv_21025.jpg",
                 "narrationEffect": "in",
                 "turnChangeOut": "fadeOut"
             },
@@ -226,9 +215,14 @@
                 "bgm": "bgm03_story02",
                 "chara": [
                     {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 104301,
                         "lipSynch": 0,
-                        "motion": 300
+                        "motion": 300,
+                        "pos": 1,
+                        "soulGem": 0
                     }
                 ],
                 "nameCenter": "黒江",

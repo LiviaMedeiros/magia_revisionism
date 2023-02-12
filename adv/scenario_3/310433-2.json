@@ -40,8 +40,7 @@
                     }
                 ],
                 "se": "3102_enemy_dead",
-                "textClear": 1,
-                "turnEffect": "stop"
+                "textClear": 1
             },
             {
                 "bgm": "bgm03_story06",
@@ -291,7 +290,6 @@
             {
                 "nameNarration": "黒江",
                 "narration": "同じ魔法少女なのに、彼女はそう言って笑った",
-                "narrationBg": "bg_adv_46114.jpg",
                 "narrationEffect": "in"
             },
             {
@@ -382,18 +380,21 @@
                 "turnChangeOut": "fadeOut"
             },
             {
-                "nameNarration": "黒江",
-                "narration": "彼から教えてもらった動画配信@知らない町を紹介してる",
-                "narrationBg": "bg_adv_21073.jpg",
-                "narrationEffect": "in"
-            },
-            {
+                "autoTurnLast": 0.2,
                 "chara": [
                     {
-                        "eyeClose": 1,
+                        "effect": "fadeout",
                         "id": 104301
                     }
                 ],
+                "textClear": 1
+            },
+            {
+                "nameNarration": "黒江",
+                "narration": "彼から教えてもらった動画配信@知らない町を紹介してる",
+                "narrationEffect": "in"
+            },
+            {
                 "narration": "電車に乗って@私はいつの間にか夢の中…"
             },
             {

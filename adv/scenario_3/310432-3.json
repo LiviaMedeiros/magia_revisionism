@@ -51,7 +51,7 @@
             },
             {
                 "autoTurnLast": 1.5,
-                "bgEffect": "shakeSmall",
+                "bgEffect": "shakeLarge",
                 "chara": [
                     {
                         "effect": "7002_damage01",
@@ -59,7 +59,6 @@
                         "name": "sprite_0"
                     }
                 ],
-                "flashEffect": "flashRed2",
                 "surround": "1043A02"
             },
             {
@@ -71,21 +70,22 @@
                         "name": "sprite_0"
                     }
                 ],
-                "se": "3102_enemy_dead",
-                "textClear": 1
+                "se": "3102_enemy_dead"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 104300
+                    }
+                ]
             },
             {
                 "bgm": "bgm03_story12",
-                "chara": [
-                    {
-                        "id": 104300
-                    }
-                ],
                 "nameNarration": "黒江",
                 "narration": "倒しても倒しても　魔女は現れる",
-                "narrationBg": "bg_adv_46001.jpg",
-                "narrationEffect": "in",
-                "surround": "stop"
+                "narrationEffect": "in"
             },
             {
                 "autoTurnLast": 0.01,
@@ -114,7 +114,6 @@
             {
                 "nameNarration": "黒江",
                 "narration": "私はそのたびに　死にかけて",
-                "narrationBg": "bg_adv_46000.jpg",
                 "narrationEffect": "in"
             },
             {
@@ -142,9 +141,22 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 6106,
+                        "name": "sprite_0"
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 104300
+                    }
+                ]
+            },
+            {
                 "nameNarration": "黒江",
                 "narration": "私が殺されかけているうちに",
-                "narrationBg": "bg_adv_46106.jpg",
                 "narrationEffect": "in"
             },
             {
@@ -172,9 +184,22 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 6107,
+                        "name": "sprite_0"
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 104300
+                    }
+                ]
+            },
+            {
                 "nameNarration": "黒江",
                 "narration": "他の誰かが死んでいる",
-                "narrationBg": "bg_adv_46107.jpg",
                 "narrationEffect": "in"
             },
             {
@@ -249,6 +274,16 @@
             {
                 "autoTurnLast": 2,
                 "bg": "bg_adv_21026.jpg",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "黒江",
+                "narration": "気がつけば、私はもう３年生になっていた",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
                 "chara": [
                     {
                         "cheek": 0,
@@ -263,22 +298,6 @@
                         "id": 104301,
                         "motion": 1,
                         "pos": 0
-                    }
-                ],
-                "narrationEffect": "out",
-                "turnChangeIn": "fadeIn"
-            },
-            {
-                "nameNarration": "黒江",
-                "narration": "気がつけば、私はもう３年生になっていた",
-                "narrationBg": "bg_adv_21026.jpg",
-                "narrationEffect": "in",
-                "turnChangeOut": "fadeOut"
-            },
-            {
-                "chara": [
-                    {
-                        "id": 800400
                     }
                 ],
                 "nameRight": "",

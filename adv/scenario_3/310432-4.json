@@ -44,7 +44,6 @@
                 ],
                 "nameNarration": "黒江",
                 "narration": "神様@魔女と戦わなくてもいい生活@私のせいで誰かが死なない生活",
-                "narrationBg": "",
                 "narrationEffect": "in",
                 "turnChangeOut": "fadeOut"
             },
@@ -93,15 +92,39 @@
                 "textLeft": "…他の誰かのために、@命ってかけられる？"
             },
             {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 104301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
                 "nameNarration": "黒江",
                 "narration": "●●●●が噛み砕かれるときの音は？",
-                "narrationBg": "bg_adv_21025.jpg",
                 "narrationEffect": "in"
             },
             {
                 "chara": [
                     {
-                        "id": 800400
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 800400,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 104301,
+                        "motion": 1,
+                        "pos": 0
                     }
                 ],
                 "nameRight": "",
@@ -121,9 +144,22 @@
                 "textLeft": "そうじゃないの@知らない誰か"
             },
             {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 104301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
                 "nameNarration": "黒江",
                 "narration": "皮膚の下の●●●●の色は？",
-                "narrationBg": "bg_adv_21025.jpg",
                 "narrationEffect": "in"
             },
             {
@@ -131,7 +167,16 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 800400
+                        "id": 800400,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 104301,
+                        "motion": 0,
+                        "pos": 0
                     }
                 ],
                 "nameRight": "",
@@ -219,9 +264,22 @@
                 "textLeft": "どれくらいの罰を@受けなきゃいけないと思う？"
             },
             {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 104301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
                 "nameNarration": "黒江",
                 "narration": "潰されて飛び散った●●●●の匂いは？",
-                "narrationBg": "bg_adv_21025.jpg",
                 "narrationEffect": "in"
             },
             {
@@ -229,7 +287,16 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 800400
+                        "id": 800400,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 104301,
+                        "motion": 1,
+                        "pos": 0
                     }
                 ],
                 "nameRight": "",
@@ -267,9 +334,22 @@
                 "textLeft": "出来るはずのことを@やらなかったら？"
             },
             {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 104301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
                 "nameNarration": "黒江",
                 "narration": "もう助からない●●●●の温もりは？",
-                "narrationBg": "bg_adv_21025.jpg",
                 "narrationEffect": "in"
             },
             {
@@ -277,7 +357,16 @@
                     {
                         "cheek": 0,
                         "face": "mtn_ex_030.exp3.json",
-                        "id": 800400
+                        "id": 800400,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 104301,
+                        "motion": 0,
+                        "pos": 0
                     }
                 ],
                 "nameRight": "",

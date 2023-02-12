@@ -432,7 +432,6 @@
                 "bgm": "bgm03_story12",
                 "nameNarration": "黒江",
                 "narration": "たこ焼きが焼かれているところを@見てるのが好き",
-                "narrationBg": "bg_adv_20021.jpg",
                 "narrationEffect": "in",
                 "turnChangeOut": "fadeOut"
             },
@@ -457,10 +456,17 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_000.exp3.json",
-                        "id": 801500,
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 800400,
                         "motion": 0,
-                        "pos": 1
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 104301,
+                        "motion": 0,
+                        "pos": 0
                     }
                 ],
                 "narrationEffect": "out",
@@ -469,7 +475,6 @@
             {
                 "nameNarration": "黒江",
                 "narration": "私も誰かと付き合ったりしたら@何か変わるのかな？",
-                "narrationBg": "bg_adv_21025.jpg",
                 "narrationEffect": "in",
                 "turnChangeOut": "fadeOut"
             },
@@ -494,9 +499,18 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 810000
+                    }
+                ],
+                "textClear": 1
+            },
+            {
                 "nameNarration": "黒江",
                 "narration": "私は、生まれて初めて　大切なことを@誰かに反対されるかもしれないことを@自分自身で決めた",
-                "narrationBg": "bg_adv_21142.jpg",
                 "narrationEffect": "in"
             },
             {

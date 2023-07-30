@@ -52,7 +52,8 @@
                         "setVisible": 1,
                         "zOrder": "bgFront"
                     }
-                ]
+                ],
+                "narrationEffect": "out"
             },
             {
                 "item": [
@@ -61,7 +62,10 @@
                         "visible": "hide"
                     }
                 ],
-                "narration": "[textBlack:――っ!?]"
+                "nameNarration": "ひめな",
+                "narration": "[textBlack:――っ!?]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in"
             },
             {
                 "narration": "[textBlack:頭の中に…]@[textBlack:誰かの記憶が…]"

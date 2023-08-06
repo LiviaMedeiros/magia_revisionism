@@ -1115,6 +1115,10 @@
                 "narration": "―アマリュリス―@こんな大荒れを@ものともせずに…！"
             },
             {
+                "autoTurnLast": 2,
+                "narrationEffect": "out"
+            },
+            {
                 "autoTurnLast": 1,
                 "bg": "bg_adv_20314.jpg",
                 "chara": [
@@ -1126,11 +1130,10 @@
                         "pos": 1
                     }
                 ],
-                "narrationEffect": "out",
                 "turnChangeIn": "fadeIn"
             },
             {
-                "autoTurnLast": 0.1,
+                "autoTurnLast": 0.5,
                 "turnChangeOut": "fadeOut"
             },
             {
@@ -1161,6 +1164,7 @@
                     }
                 ],
                 "nameCenter": "副官",
+                "textBg": "shout",
                 "textCenter": "[bgEffect:shakeLarge]『恐れるな！@幸運は勇者に味方する！』"
             },
             {

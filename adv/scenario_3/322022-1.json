@@ -437,14 +437,7 @@
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp3.json",
-                        "id": 200401,
-                        "motion": 0,
-                        "pos": 1
-                    },
-                    {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp3.json",
+                        "face": "mtn_ex_000.exp3.json",
                         "id": 200201,
                         "motion": 0,
                         "pos": 2
@@ -456,10 +449,6 @@
             {
                 "autoTurnLast": 0.25,
                 "chara": [
-                    {
-                        "effect": "fadeout",
-                        "id": 200401
-                    },
                     {
                         "effect": "fadeout",
                         "id": 200201
@@ -914,7 +903,7 @@
                 "chara": [
                     {
                         "id": 200501,
-                        "pos": 0
+                        "pos": 2
                     }
                 ],
                 "textClear": 1
@@ -927,11 +916,11 @@
                         "face": "mtn_ex_011.exp3.json",
                         "id": 200201,
                         "motion": 0,
-                        "pos": 2
+                        "pos": 0
                     }
                 ],
-                "nameRight": "ほむら",
-                "textRight": "巴さん、お茶のおかわり@いただけますか？"
+                "nameLeft": "ほむら",
+                "textLeft": "巴さん、お茶のおかわり@いただけますか？"
             },
             {
                 "chara": [
@@ -942,8 +931,8 @@
                         "motion": 0
                     }
                 ],
-                "nameLeft": "マミ",
-                "textLeft": "あら"
+                "nameRight": "マミ",
+                "textRight": "あら"
             },
             {
                 "autoTurnLast": 0.2,

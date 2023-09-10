@@ -215,8 +215,19 @@
                         "cheek": 0,
                         "face": "mtn_ex_020.exp3.json",
                         "id": 834900,
+                        "live2dName": "live2d_0",
                         "motion": 0,
-                        "pos": 0
+                        "pos": 0,
+                        "zOrder": -1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 834900,
+                        "live2dName": "live2d_1",
+                        "motion": 0,
+                        "pos": 1,
+                        "zOrder": 1
                     },
                     {
                         "cheek": 0,
@@ -233,11 +244,12 @@
                     {
                         "id": 834900,
                         "lipSynch": 0,
-                        "pos": 0
+                        "live2dName": "live2d_1",
+                        "pos": 1
                     }
                 ],
-                "nameLeft": "",
-                "textLeft": "…………",
+                "nameCenter": "",
+                "textCenter": "…………",
                 "turnChangeOut": "fadeOut"
             },
             {
@@ -252,6 +264,22 @@
                 ],
                 "nameRight": "コルネリア",
                 "textRight": "[chara:833600:effect_shake]きゃ…"
+            },
+            {
+                "autoTurnLast": 0.25,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 834900,
+                        "live2dName": "live2d_0"
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 834900,
+                        "live2dName": "live2d_1"
+                    }
+                ],
+                "textClear": 1
             },
             {
                 "chara": [

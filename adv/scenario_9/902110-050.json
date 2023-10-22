@@ -15,10 +15,10 @@
                 ],
                 "item": [
                     {
-                        "anchor": "top",
+                        "anchor": "skip",
                         "path": "resource/scenario/img/scene0/calender_day10.png",
-                        "posX": 420,
-                        "posY": -84,
+                        "posX": -4,
+                        "posY": -50,
                         "visible": "appear",
                         "zOrder": "messageFront"
                     }
@@ -30,6 +30,7 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "FnarrationAnchor": "top",
                 "FnarrationCoverColor": "textBlack",
                 "FnarrationCoverOpacity": 110,
                 "FnarrationEffect": "in",
@@ -41,8 +42,8 @@
                 "FnarrationOutlineWeight": 2,
                 "FnarrationTextColor": "textMabayu",
                 "FnarrationWidth": 350,
-                "FnarrationX": -190,
-                "FnarrationY": 150,
+                "FnarrationX": -180,
+                "FnarrationY": -80,
                 "bgm": "bgm01_anime03",
                 "chara": [
                     {

@@ -22,10 +22,10 @@
                 ],
                 "item": [
                     {
-                        "anchor": "top",
+                        "anchor": "skip",
                         "path": "resource/scenario/img/scene0/calender_day01.png",
-                        "posX": 420,
-                        "posY": -84,
+                        "posX": -4,
+                        "posY": -50,
                         "visible": "appear",
                         "zOrder": "messageFront"
                     }
@@ -211,10 +211,10 @@
                 ],
                 "item": [
                     {
-                        "anchor": "top",
+                        "anchor": "skip",
                         "path": "resource/scenario/img/scene0/calender_day01.png",
-                        "posX": 420,
-                        "posY": -84,
+                        "posX": -4,
+                        "posY": -50,
                         "visible": "appear",
                         "zOrder": "messageFront"
                     }
@@ -227,6 +227,7 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "FnarrationAnchor": "top",
                 "FnarrationCoverColor": "textBlack",
                 "FnarrationCoverOpacity": 110,
                 "FnarrationEffect": "in",
@@ -238,8 +239,8 @@
                 "FnarrationOutlineWeight": 2,
                 "FnarrationTextColor": "textMabayu",
                 "FnarrationWidth": 350,
-                "FnarrationX": 150,
-                "FnarrationY": 150,
+                "FnarrationX": 160,
+                "FnarrationY": -70,
                 "chara": [
                     {
                         "id": 200912,
@@ -342,6 +343,7 @@
                 "textAvClear": 1
             },
             {
+                "FnarrationAnchor": "center",
                 "FnarrationCoverColor": "textBlack",
                 "FnarrationCoverOpacity": 110,
                 "FnarrationEffect": "in",
@@ -353,7 +355,7 @@
                 "FnarrationOutlineWeight": 2,
                 "FnarrationTextColor": "textMabayu",
                 "FnarrationWidth": 330,
-                "FnarrationX": 190,
+                "FnarrationX": 200,
                 "FnarrationY": 160,
                 "chara": [
                     {

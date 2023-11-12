@@ -297,6 +297,14 @@
                         ],
                         "armatureId": 2,
                         "filePath": "resource/image_native/effect/story/general/3506_Prophecy.ExportJson",
+                        "zOrder": "charaFront"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 3,
+                        "filePath": "resource/image_native/effect/story/general/3509_black_film_frame.ExportJson",
                         "zOrder": "messageBack"
                     }
                 ],
@@ -342,11 +350,15 @@
                 "textAvColor": "textMabayu",
                 "turnChangeOut": "whiteOut",
                 "turnChangeOutTime": 0.01,
-                "voiceFullAuto": "fullvoice/section_104202/vo_full_902103-040-16b"
+                "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-040-16b"
             },
             {
                 "progressFnarration": "(このままじゃ@エイミーが轢かれちゃう！)",
-                "voiceFullAuto": "fullvoice/section_104202/vo_full_902103-040-16c"
+                "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-040-16c"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "surround": "8096_prophecy_end"
             },
             {
                 "FnarrationEffect": "out",
@@ -369,7 +381,8 @@
                     }
                 ],
                 "deleteArmatureList": [
-                    2
+                    2,
+                    3
                 ],
                 "item": [
                     {
@@ -719,7 +732,7 @@
             {
                 "nameNarration": "エイミー",
                 "narration": "[bgEffect:shakeSmall]「フギャッ…」",
-                "voiceFullAuto": "fullvoice/section_104202/vo_full_902103-040-30"
+                "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-040-30"
             },
             {
                 "autoTurnLast": 0.5,

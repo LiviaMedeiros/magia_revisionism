@@ -72,9 +72,30 @@
                 "turnEffect": "ef_adv_02"
             },
             {
-                "nameAvRight": "マミの声",
-                "textAvColor": "textMami",
-                "textAvRight": "ええ、聞こえるわ"
+                "autoTurnLast": 0.01,
+                "textAvClear": 1
+            },
+            {
+                "Fnarration": "ええ、聞こえるわ",
+                "FnarrationAnchor": "center",
+                "FnarrationCoverColor": "textBlack",
+                "FnarrationCoverOpacity": 110,
+                "FnarrationEffect": "in",
+                "FnarrationFontSize": 23,
+                "FnarrationHeight": 100,
+                "FnarrationLineMargin": 30,
+                "FnarrationLineSpace": 20,
+                "FnarrationOutlineColor": "textBlack",
+                "FnarrationOutlineWeight": 2,
+                "FnarrationTextColor": "textMami",
+                "FnarrationWidth": 300,
+                "FnarrationX": 0,
+                "FnarrationY": -50,
+                "nameFnarration": "マミ"
+            },
+            {
+                "FnarrationEffect": "out",
+                "autoTurnLast": 0.01
             },
             {
                 "chara": [
@@ -88,14 +109,33 @@
                 "textAvColor": "textMadoka"
             },
             {
-                "nameAvRight": "マミの声",
-                "textAvColor": "textMami",
-                "textAvRight": "ごめんなさい！"
+                "autoTurnLast": 0.01,
+                "textAvClear": 1
             },
             {
-                "nameAvRight": "マミの声",
-                "textAvColor": "textMami",
-                "textAvRight": "少し待っていて@すぐに向かうから！"
+                "Fnarration": "ごめんなさい！",
+                "FnarrationAnchor": "center",
+                "FnarrationCoverColor": "textBlack",
+                "FnarrationCoverOpacity": 110,
+                "FnarrationEffect": "in",
+                "FnarrationFontSize": 23,
+                "FnarrationHeight": 100,
+                "FnarrationLineMargin": 30,
+                "FnarrationLineSpace": 20,
+                "FnarrationOutlineColor": "textBlack",
+                "FnarrationOutlineWeight": 2,
+                "FnarrationTextColor": "textMami",
+                "FnarrationWidth": 300,
+                "FnarrationX": 0,
+                "FnarrationY": -50,
+                "nameFnarration": "マミ"
+            },
+            {
+                "Fnarration": "少し待っていて@すぐに向かうから！"
+            },
+            {
+                "FnarrationEffect": "out",
+                "autoTurnLast": 0.01
             },
             {
                 "chara": [

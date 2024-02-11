@@ -181,14 +181,9 @@
                 "textAvClear": 1
             },
             {
-                "chara": [
-                    {
-                        "id": 200901,
-                        "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-010-9"
-                    }
-                ],
                 "nameAvCenter": "まばゆ",
-                "textAvCenter": "…………"
+                "textAvCenter": "…………",
+                "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-010-9"
             },
             {
                 "nameNarration": "",
@@ -298,6 +293,7 @@
             },
             {
                 "autoTurnFirst": 3.8,
+                "autoTurnNoDelay": 1,
                 "chara": [
                     {
                         "id": 200901,

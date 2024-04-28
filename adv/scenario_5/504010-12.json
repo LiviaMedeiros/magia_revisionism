@@ -12,8 +12,8 @@
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
-                        "id": 802201,
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 390100,
                         "motion": 0,
                         "pos": 2
                     }
@@ -22,15 +22,21 @@
             },
             {
                 "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "id": 390100,
+                        "motion": 200
+                    }
+                ],
                 "turnChangeOut": "fadeOut"
             },
             {
                 "autoTurnLast": 1,
                 "flashEffect": "flashWhite2",
-                "se": "6017_hit_shooting_11_h"
+                "surround": "3901A04"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 0.8,
                 "bgEffect": "shakeLarge",
                 "chara": [
                     {
@@ -40,7 +46,7 @@
                     }
                 ],
                 "flashEffect": "flashRed2",
-                "se": "6077_hit_strike_18a_s"
+                "surround": "3901A07"
             },
             {
                 "autoTurnLast": 0.5,
@@ -54,17 +60,27 @@
                 "se": "3102_enemy_dead"
             },
             {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 390100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
                 "autoTurnLast": 0.5,
                 "bg": "bg_adv_20221.jpg",
                 "bgChangeEffect": "exitWitchSpace",
                 "se": "7209_gate_close"
             },
             {
-                "autoTurnLast": 0.5,
+                "autoTurnLast": 0.2,
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_051.exp.json",
+                        "face": "mtn_ex_051.exp3.json",
                         "id": 200701,
                         "motion": 0,
                         "pos": 0,
@@ -72,9 +88,21 @@
                     },
                     {
                         "cheek": 0,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 390100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
                         "effect": "ef_adv_05",
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200,
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 390101,
                         "live2dParam": {
                             "name": "PARAM_MASK",
                             "value": 1
@@ -89,10 +117,9 @@
                 "bgm": "bgm03_story02",
                 "chara": [
                     {
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
-                "nameLeft": "なぎさ",
                 "nameRight": "？？？",
                 "textRight": "お嬢ちゃん、怪我はなかった？"
             },
@@ -100,19 +127,21 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
+                        "face": "mtn_ex_010.exp3.json",
                         "id": 200701,
                         "motion": 100
                     }
                 ],
+                "nameLeft": "なぎさ",
                 "textLeft": "助けてくれてありがとうなのです"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_014.exp3.json",
+                        "id": 390101,
+                        "motion": 100
                     }
                 ],
                 "textRight": "いいのいいの@困っちゃった時はお互い様だよ！"
@@ -121,7 +150,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_033.exp.json",
+                        "face": "mtn_ex_033.exp3.json",
                         "id": 200701,
                         "motion": 0
                     }
@@ -132,8 +161,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 390101,
+                        "motion": 1
                     }
                 ],
                 "nameRight": "ユゥ",
@@ -143,8 +173,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "ユゥって呼んでよ"
@@ -153,8 +183,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "キュゥべえと一緒に居る@ってことは、君も魔法少女なの？"
@@ -184,8 +214,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 390101,
+                        "motion": 200
                     }
                 ],
                 "textRight": "そっかー"
@@ -194,7 +225,7 @@
                 "chara": [
                     {
                         "cheek": 1,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 200701,
                         "motion": 0,
                         "pos": 0,
@@ -217,11 +248,12 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101,
+                        "motion": 400
                     }
                 ],
-                "textRight": "[chara:802200:effect_emotion_surprise_0][se:7226_shock]え？ワ、ワタシ!?"
+                "textRight": "[chara:390101:effect_emotion_surprise_0][se:7226_shock]え？ワ、ワタシ!?"
             },
             {
                 "chara": [
@@ -251,13 +283,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200,
-                        "live2dParam": {
-                            "name": "PARAM_MASK",
-                            "value": 1
-                        },
-                        "motion": 0,
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 390101,
+                        "motion": 300,
                         "pos": 2
                     }
                 ],
@@ -267,9 +295,8 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "eyeClose": 1,
+                        "id": 390101
                     }
                 ],
                 "textRight": "ワタシ、@魔法少女になんのが遅くてさ"
@@ -278,8 +305,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "見た目ほどベテラン@って訳でもないし"
@@ -287,9 +314,8 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "eyeClose": 0,
+                        "id": 390101
                     }
                 ],
                 "textRight": "たぶん他の人に聞いたほうが@良いと思うんだよねぇ"
@@ -298,8 +324,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101,
+                        "motion": 0
                     }
                 ],
                 "textRight": "なぎさちゃんは何が知りたいの？@魔女のこと？魔法のこと？"
@@ -308,7 +335,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 200701,
                         "motion": 1
                     }
@@ -362,7 +389,7 @@
                     {
                         "cheek": 0,
                         "eyeClose": 0,
-                        "face": "mtn_ex_033.exp.json",
+                        "face": "mtn_ex_033.exp3.json",
                         "id": 200701,
                         "motion": 0
                     }
@@ -381,18 +408,17 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 390101,
+                        "motion": 200
                     }
                 ],
-                "textRight": "[chara:802200:effect_emotion_sad_0][se:7224_fall_into]ううぇえ、困ったなぁ…"
+                "textRight": "[chara:390101:effect_emotion_sad_0][se:7224_fall_into]ううぇえ、困ったなぁ…"
             },
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "ワタシ、実は魔法少女になる前の@記憶もなくってさ"
@@ -400,9 +426,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "なった理由とかも@憶えてないんだよね"
@@ -410,9 +434,8 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "id": 390101,
+                        "motion": 1
                     }
                 ],
                 "textRight": "それにワタシ、リストがないと"
@@ -420,9 +443,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "善い人と悪い人の@区別もつかないから"
@@ -430,9 +451,8 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "eyeClose": 1,
+                        "id": 390101
                     }
                 ],
                 "textRight": "人に物を教えるなんて@とてもとても…"
@@ -441,18 +461,20 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101,
+                        "motion": 400
                     }
                 ],
-                "textRight": "[chara:802200:effect_emotion_surprise_0][se:7226_shock]あ！そういえば忘れてた！"
+                "textRight": "[chara:390101:effect_emotion_surprise_0][se:7226_shock]あ！そういえば忘れてた！"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "キミの名字！@キミの名字は？"
@@ -469,8 +491,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 390101,
+                        "motion": 100
                     }
                 ],
                 "textRight": "はいはい、百江なぎさちゃんね～"
@@ -479,18 +502,19 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 390101
                     }
                 ],
-                "textRight": "百江なぎさ…[chara:802200:lipSynch_0][wait:1.5][chara:802200:lipSynch_1]うん"
+                "textRight": "百江なぎさ…[chara:390101:lipSynch_0][wait:1.5][chara:390101:lipSynch_1]うん"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 390101,
+                        "motion": 1
                     }
                 ],
                 "textRight": "リストには載ってないから、@なぎさちゃんは善い人だね"
@@ -499,7 +523,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_051.exp.json",
+                        "face": "mtn_ex_051.exp3.json",
                         "id": 200701
                     }
                 ],
@@ -508,9 +532,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "そう"
@@ -518,9 +540,8 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "id": 390101,
+                        "motion": 200
                     }
                 ],
                 "textRight": "これはね、@悪い人だけが載ってるリストなの"
@@ -528,9 +549,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "ちょうどこの辺に住んでる@悪い人の名前が書いてあんだよ？"
@@ -539,8 +558,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_014.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "なぎさちゃんは載ってないから、@きっと善い人！"
@@ -549,7 +568,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_033.exp.json",
+                        "face": "mtn_ex_033.exp3.json",
                         "id": 200701,
                         "motion": 300
                     }
@@ -560,8 +579,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101,
+                        "motion": 0
                     }
                 ],
                 "textRight": "そーなのですよ？"
@@ -571,8 +591,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "ワタシはこのリストに載ってる@悪い人を殺して回ってんの"
@@ -580,9 +600,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "なぎさちゃんは善い人だから@殺さないよ？"
@@ -592,7 +610,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_051.exp.json",
+                        "face": "mtn_ex_051.exp3.json",
                         "id": 200701,
                         "motion": 400
                     }
@@ -603,8 +621,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101,
+                        "motion": 400
                     }
                 ],
                 "textRight": "あ、なぎさちゃんは@載ってないんだけど"
@@ -612,9 +631,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "そういやおんなじ@百江って名字の人いたわ"
@@ -623,12 +640,13 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 390101,
+                        "motion": 1
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_033.exp.json",
+                        "face": "mtn_ex_033.exp3.json",
                         "id": 200701,
                         "motion": 0
                     }
@@ -638,14 +656,10 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_051.exp.json",
-                        "id": 802200
+                        "id": 390101
                     },
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "この人、知んない？"
@@ -654,8 +668,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 390101,
+                        "motion": 300
                     }
                 ],
                 "textRight": "さっきこの人の家に@行ってみたんだけど"
@@ -663,9 +678,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "誰も居なかったんだよね"
@@ -673,9 +686,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "家ん中も真っ暗で@ゴミばっかだったし…"
@@ -684,7 +695,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_033.exp.json",
+                        "face": "mtn_ex_033.exp3.json",
                         "id": 200701,
                         "motion": 0
                     }
@@ -704,8 +715,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101,
+                        "motion": 0
                     }
                 ],
                 "textRight": "無いよ？会ったこともないし"
@@ -714,8 +726,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "あ、ワタシは無いってだけ@他の人に恨まれてるかは知んない"
@@ -727,9 +739,7 @@
                         "motion": 0
                     },
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "えっとね、この人は…"
@@ -737,9 +747,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "ぎゃくたい？してる？@とか何とか？"
@@ -747,9 +755,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "うん"
@@ -758,8 +764,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 390101,
+                        "motion": 100
                     }
                 ],
                 "textRight": "あんま詳しくは@知んないんだけど"
@@ -768,8 +775,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "ちゃんとリストに載ってるから@悪い人だよ！"
@@ -779,6 +786,10 @@
                     {
                         "id": 200701,
                         "motion": 1
+                    },
+                    {
+                        "id": 390101,
+                        "motion": 0
                     }
                 ],
                 "textLeft": "…その人は、知らない人なのです"
@@ -795,7 +806,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
+                        "face": "mtn_ex_020.exp3.json",
                         "id": 200701,
                         "motion": 200
                     }
@@ -806,8 +817,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101,
+                        "motion": 300
                     }
                 ],
                 "textRight": "うーん@そーかなぁ？そうなのかも？"
@@ -816,7 +828,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_033.exp.json",
+                        "face": "mtn_ex_033.exp3.json",
                         "id": 200701,
                         "motion": 0
                     }
@@ -827,7 +839,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 200701
                     }
                 ],
@@ -837,8 +849,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 390101,
+                        "motion": 1
                     }
                 ],
                 "textRight": "ワタシね"
@@ -846,9 +859,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "魔法少女になる前の記憶が@ないんだけどさ"
@@ -856,9 +867,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "何か大切な約束が、@あったような気がすんの…"
@@ -867,8 +876,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 390101,
+                        "motion": 200
                     }
                 ],
                 "textRight": "きっと魔法少女の使命を@全うすることで"
@@ -876,9 +886,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "そういったのとかも、@いつか思い出せんじゃないかって"
@@ -886,9 +894,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "で、今は魔女とか悪い人だとかを@退治して回ってんだ"
@@ -906,8 +912,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101,
+                        "motion": 100
                     }
                 ],
                 "textRight": "そうそう@ちゃんと魔女も倒すよ？"
@@ -916,7 +923,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 200701,
                         "motion": 0
                     }
@@ -926,9 +933,8 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "id": 390101,
+                        "motion": 0
                     }
                 ],
                 "textRight": "え？違う？違うかな？"
@@ -937,8 +943,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "あ！@もしかして心配してくれてんの？"
@@ -947,8 +953,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 390101,
+                        "motion": 400
                     }
                 ],
                 "textRight": "大丈夫大丈夫！"
@@ -956,9 +963,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "間違えて善い人まで@殺しちゃったりとかしないって！"
@@ -966,9 +971,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "殺す前にいろいろ@本人確認だってしてんだから！"
@@ -977,8 +980,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101,
+                        "motion": 100
                     }
                 ],
                 "textRight": "あ、死体だってちゃんと"
@@ -986,9 +990,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "魔女の結界に捨てる前に@使えるとこは売っちゃうから"
@@ -996,9 +998,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "自然にも優しいんだよ？"
@@ -1010,6 +1010,10 @@
                         "pos": 0,
                         "posX": -50,
                         "posY": 0
+                    },
+                    {
+                        "id": 390101,
+                        "motion": 1
                     }
                 ],
                 "nameLeft": "キュゥべえ",
@@ -1025,8 +1029,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 390101,
+                        "motion": 200
                     }
                 ],
                 "textRight": "もー！"
@@ -1034,9 +1039,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "相変わらずキュゥべえは@宇宙人だなぁ！"
@@ -1045,16 +1048,15 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_051.exp.json",
+                        "face": "mtn_ex_051.exp3.json",
                         "id": 200701,
                         "motion": 0,
                         "pos": 0,
                         "soulGem": 0
                     },
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
-                        "id": 802200
+                        "id": 390101,
+                        "motion": 1
                     }
                 ],
                 "nameLeft": "なぎさ",
@@ -1064,8 +1066,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "ワタシ難しいこと@よく分かんないけどさ"
@@ -1074,8 +1076,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "せっかく魔法も使えてどこで@野垂れ死ぬかも分かんないんだし"
@@ -1084,8 +1086,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "自分でやろうって思ったことに@正直になることにしたんだ！"
@@ -1094,8 +1096,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "なぎさちゃんも、@もし魔法少女になったら"
@@ -1103,9 +1105,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "我慢するのとか、@やめちゃっていいと思うよ？"
@@ -1114,7 +1114,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_033.exp.json",
+                        "face": "mtn_ex_033.exp3.json",
                         "id": 200701
                     }
                 ],
@@ -1124,8 +1124,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 390101,
+                        "motion": 100
                     }
                 ],
                 "textRight": "うん"
@@ -1134,8 +1135,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_011.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "自由になっちゃおうよ！@フリーダム！"
@@ -1144,8 +1145,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_030.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "なんとなくだけど、なぎさちゃん@すごいしっかりしてるし"
@@ -1153,9 +1154,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "もしかして、いっぱい悩んだり、@たくさん我慢してるから"
@@ -1163,9 +1162,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "初対面のワタシなんかにまで@一生懸命質問するのかなって"
@@ -1174,8 +1171,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 390101,
+                        "motion": 300
                     }
                 ],
                 "textRight": "ワタシも全然えらそーなこと@言えないんだけどさ"
@@ -1183,9 +1181,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "どーせ@命がけで悪い奴と戦わされて"
@@ -1193,9 +1189,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "せっかく魔法なんていう@トンデモパワーが使えるんだし"
@@ -1204,8 +1198,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "もっと自由でもって思う訳よ？"
@@ -1214,8 +1208,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_011.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 390101,
+                        "motion": 1
                     }
                 ],
                 "textRight": "我慢とか大変なだけだし、@自由って大事！"
@@ -1248,8 +1243,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_020.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_020.exp3.json",
+                        "id": 390101,
+                        "motion": 200
                     }
                 ],
                 "textRight": "うっさい宇宙人！"
@@ -1258,7 +1254,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_033.exp.json",
+                        "face": "mtn_ex_033.exp3.json",
                         "id": 200701,
                         "motion": 0,
                         "pos": 0,
@@ -1266,19 +1262,20 @@
                     },
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 390101,
+                        "motion": 0
                     }
                 ],
-                "nameLeft": "なぎさ",
+                "nameRight": "ユゥ",
                 "textRight": "そんじゃ、ワタシも@もう行かなきゃ"
             },
             {
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_01１.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_000.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "またね"
@@ -1287,8 +1284,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "先生にはなれないけど"
@@ -1297,8 +1294,8 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_010.exp3.json",
+                        "id": 390101
                     }
                 ],
                 "textRight": "困ったことがあったら@ワタシも助けに来るからさ！"
@@ -1307,8 +1304,9 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_010.exp.json",
-                        "id": 802200
+                        "face": "mtn_ex_014.exp3.json",
+                        "id": 390101,
+                        "motion": 100
                     }
                 ],
                 "textRight": "良い先輩魔法少女が@見つかるといいね！"
@@ -1318,7 +1316,7 @@
                 "chara": [
                     {
                         "effect": "fadeout",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textClear": 1
@@ -1327,7 +1325,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_051.exp.json",
+                        "face": "mtn_ex_051.exp3.json",
                         "id": 200701,
                         "motion": 200
                     }
@@ -1339,13 +1337,9 @@
                 "chara": [
                     {
                         "cheek": 2,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200,
+                        "face": "mtn_ex_050.exp3.json",
+                        "id": 390101,
                         "lipSynch": 0,
-                        "live2dParam": {
-                            "name": "PARAM_MASK",
-                            "value": 1
-                        },
                         "motion": 0,
                         "pos": 2
                     }
@@ -1356,7 +1350,7 @@
                 "chara": [
                     {
                         "cheek": 0,
-                        "face": "mtn_ex_030.exp.json",
+                        "face": "mtn_ex_030.exp3.json",
                         "id": 200701,
                         "motion": 300
                     }
@@ -1366,9 +1360,7 @@
             {
                 "chara": [
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_050.exp.json",
-                        "id": 802200
+                        "id": 390101
                     }
                 ],
                 "textRight": "え？@違うと思うよ？"

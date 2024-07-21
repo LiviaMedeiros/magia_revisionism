@@ -1265,7 +1265,7 @@
                             "spawn": [
                                 {
                                     "moveTo": {
-                                        "duration": 10,
+                                        "duration": 11,
                                         "posX": 0,
                                         "posY": -125
                                     }
@@ -1276,6 +1276,9 @@
                     }
                 ],
                 "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1
             },
             {
                 "nameNarration": "入名 クシュ",
@@ -1296,6 +1299,9 @@
                 "narration": "―郁美―@いまさらそんなの言いっこなしだよっ！"
             },
             {
+                "autoTurnLast": 0.5
+            },
+            {
                 "nameNarration": "七瀬 ゆきか",
                 "narration": "―ゆきか―@その通りですっ@お城に乗り込んで、アネカさんを連れ戻さないと"
             },
@@ -1304,6 +1310,7 @@
                 "narration": "―ゆきか―@この面倒事から解放されても@後味が悪すぎますのでっ"
             },
             {
+                "autoTurnLast": 1.5,
                 "narrationEffect": "out"
             },
             {

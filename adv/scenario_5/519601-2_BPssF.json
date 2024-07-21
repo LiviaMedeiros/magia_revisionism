@@ -394,26 +394,28 @@
                         "pos": 2
                     },
                     {
-                        "cheek": 0,
-                        "face": "mtn_ex_060.exp3.json",
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp3.json",
                         "id": 103000,
                         "motion": 0,
                         "pos": 0
                     }
                 ],
                 "nameRight": "三輪 みつね",
-                "textRight": "[flashEffect:flashRed2][se:3001_chara_damage][chara:103000:effect_shake][chara:305400:effect_shake]――っ!?"
+                "textRight": "[flashEffect:flashRed2][se:3001_chara_damage][chara:305400:effect_shake]――っ!?"
             },
             {
                 "chara": [
                     {
+                        "cheek": 2,
+                        "face": "mtn_ex_060.exp3.json",
                         "id": 103000,
                         "motion": 300,
                         "pos": 0
                     }
                 ],
                 "nameLeft": "はぐむ",
-                "textLeft": "きゃうっ！"
+                "textLeft": "[flashEffect:flashRed2][se:3001_chara_damage][chara:103000:effect_shake]きゃうっ！"
             },
             {
                 "autoTurnLast": 0.2,

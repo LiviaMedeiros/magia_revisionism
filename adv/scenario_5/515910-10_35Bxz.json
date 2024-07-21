@@ -307,6 +307,9 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 1
+            },
+            {
                 "nameNarration": "タルト",
                 "narration": "すべてを壊そうとするあなたたちを@もう許すことはできない",
                 "narrationAnchor": "bottom",
@@ -318,6 +321,10 @@
             },
             {
                 "narration": "私はすべてを救ってみせる！"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "narrationEffect": "out"
             },
             {
                 "armatureList": [
@@ -332,7 +339,7 @@
                     }
                 ],
                 "autoTurnLast": 1,
-                "bg": "bg_adv_20091.jpg",
+                "bg": "white",
                 "chara": [
                     {
                         "cheek": 0,
@@ -356,11 +363,15 @@
                         "pos": 2
                     }
                 ],
-                "narrationEffect": "out",
-                "turnChangeIn": "whiteIn"
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1.2
             },
             {
-                "autoTurnLast": 0.01,
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_20091.jpg"
+            },
+            {
+                "autoTurnLast": 0.1,
                 "turnChangeOut": "whiteOut",
                 "turnChangeOutTime": 2
             },

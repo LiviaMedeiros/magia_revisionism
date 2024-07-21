@@ -1368,7 +1368,7 @@
                             "spawn": [
                                 {
                                     "moveTo": {
-                                        "duration": 12,
+                                        "duration": 18,
                                         "posX": 0,
                                         "posY": -125
                                     }
@@ -1379,6 +1379,9 @@
                     }
                 ],
                 "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1
             },
             {
                 "nameNarration": "エリザ・ツェリスカ",
@@ -1398,11 +1401,21 @@
                 "narration": "―メリッサ―@それに、以前の私たちとは違うんです"
             },
             {
+                "autoTurnLast": 0.5
+            },
+            {
                 "narration": "―メリッサ―@あれから10年近くのあいだ@ヨーロッパを守ってきたんですから…！"
+            },
+            {
+                "autoTurnLast": 0.5
             },
             {
                 "nameNarration": "エリザ・ツェリスカ",
                 "narration": "―エリザ―@ふっ…そうでしたわね@ひと味違うところを、見せてあげますわ"
+            },
+            {
+                "autoTurnLast": 1,
+                "narrationEffect": "out"
             },
             {
                 "autoTurnLast": 1,
@@ -1425,7 +1438,6 @@
                         "soulGem": 0
                     }
                 ],
-                "narrationEffect": "out",
                 "turnChangeIn": "fadeIn"
             },
             {

@@ -52,6 +52,9 @@
                 "turnChangeOut": "fadeOut"
             },
             {
+                "autoTurnLast": 1
+            },
+            {
                 "nameNarration": "タルト",
                 "narration": "―タルト―@この世界を闇の中へ落とそうとする者…",
                 "narrationAnchor": "bottom",
@@ -65,6 +68,7 @@
                 "narration": "―タルト―@イザボー・ド・バヴィエール"
             },
             {
+                "autoTurnLast": 2,
                 "narrationEffect": "out"
             },
             {
@@ -294,6 +298,9 @@
                 "turnChangeOutTime": 1
             },
             {
+                "autoTurnLast": 1
+            },
+            {
                 "nameNarration": "ラ・イル",
                 "narration": "―ラ・イル―@あのお嬢ちゃんは…@“乙女”は俺たちの戦友なんだ！",
                 "narrationAnchor": "bottom",
@@ -308,6 +315,9 @@
             },
             {
                 "narration": "ラ・ピュセル！ ラ・ピュセル!!@ラ・ピュセル！ ラ・ピュセル!!"
+            },
+            {
+                "autoTurnLast": 1
             },
             {
                 "autoTurnLast": 1,
@@ -374,7 +384,7 @@
                 ],
                 "nameCenter": "タルト",
                 "textCenter": "…………",
-                "turnChangeOut": "rollOutFast"
+                "turnChangeOut": "fadeOut"
             },
             {
                 "autoTurnLast": 0.2,

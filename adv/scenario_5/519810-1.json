@@ -995,7 +995,7 @@
                             "spawn": [
                                 {
                                     "moveTo": {
-                                        "duration": 10,
+                                        "duration": 14,
                                         "posX": 0,
                                         "posY": -350
                                     }
@@ -1006,6 +1006,9 @@
                     }
                 ],
                 "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 1
             },
             {
                 "nameNarration": "やちよ",
@@ -1028,6 +1031,9 @@
             {
                 "nameNarration": "さな",
                 "narration": "―さな―@さながらギリシャ神話のアテナです…！"
+            },
+            {
+                "autoTurnLast": 0.5
             },
             {
                 "nameNarration": "やちよ",
@@ -1104,6 +1110,10 @@
                 "narration": "―ねむ―@相手がより強力な魔女を繰り出したとしても@対処が可能になりそうだね"
             },
             {
+                "autoTurnLast": 1,
+                "narrationEffect": "out"
+            },
+            {
                 "autoTurnLast": 0.01,
                 "bg": "black",
                 "chara": [
@@ -1139,7 +1149,6 @@
                         "zOrder": "bgFront"
                     }
                 ],
-                "narrationEffect": "out",
                 "turnChangeIn": "fadeIn"
             },
             {

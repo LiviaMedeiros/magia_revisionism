@@ -1453,7 +1453,7 @@
                             "spawn": [
                                 {
                                     "moveTo": {
-                                        "duration": 14,
+                                        "duration": 20,
                                         "posX": 0,
                                         "posY": -125
                                     }
@@ -1463,6 +1463,12 @@
                         "path": "resource/scenario/img/51170_storyselect_kuroe/memoria_1791.jpg"
                     }
                 ],
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1
+            },
+            {
                 "nameNarration": "時雨",
                 "narration": "―時雨―@――っ!?",
                 "narrationAnchor": "bottom",
@@ -1470,8 +1476,7 @@
                 "narrationEffect": "in",
                 "narrationFontSize": 30,
                 "narrationLineMargin": 35,
-                "narrationLineSpace": 20,
-                "turnChangeOut": "fadeOut"
+                "narrationLineSpace": 20
             },
             {
                 "autoTurnLast": 0.1,
@@ -1501,7 +1506,7 @@
                 "narration": "―はぐむ―@天使の世界の流れ星を@ほんとに届けてくれたんだ…！"
             },
             {
-                "autoTurnLast": 2,
+                "autoTurnLast": 1,
                 "narrationEffect": "out"
             },
             {

@@ -257,7 +257,10 @@
                 "turnChangeOut": "fadeOut"
             },
             {
-                "autoTurnFirst": 0.4,
+                "narration": "『そのとき…』"
+            },
+            {
+                "autoTurnLast": 0.4,
                 "item": [
                     {
                         "action": {
@@ -272,18 +275,26 @@
                         "scale": 1,
                         "setVisible": 1
                     }
-                ],
-                "narration": "[se:3001_chara_damage]『そのとき…』"
+                ]
             },
             {
+                "autoTurnLast": 0.5,
                 "chara": [
                     {
                         "effect": "shake",
                         "id": 301051
                     }
-                ]
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51170_storyselect_kuroe/51170_suika.png",
+                        "setVisible": 0
+                    }
+                ],
+                "se": "3001_chara_damage"
             },
             {
+                "autoTurnLast": 2,
                 "chara": [
                     {
                         "effect": "fadeout",
@@ -298,7 +309,7 @@
                 "narration": "『窓の外から飛んできたスイカが額に当たって@莉愛ちゃんは気を失いました』"
             },
             {
-                "autoTurnLast": 0.01,
+                "autoTurnLast": 0.6,
                 "bg": "black",
                 "narrationEffect": "out",
                 "turnChangeIn": "fadeIn",
